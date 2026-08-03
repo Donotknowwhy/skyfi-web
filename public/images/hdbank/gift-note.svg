@@ -1,0 +1,26 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- soft circle backdrop -->
+  <circle cx="200" cy="100" r="72" fill="#FBF1DE"/>
+
+  <!-- gift box -->
+  <rect x="167" y="100" width="66" height="50" rx="3" fill="#F7B733"/>
+  <rect x="206" y="100" width="27" height="50" rx="3" fill="#F4A11E"/>
+  <rect x="161" y="89" width="78" height="16" rx="3" fill="#FBC93B"/>
+  <rect x="191" y="100" width="18" height="50" fill="#E5202E"/>
+  <rect x="191" y="89" width="18" height="16" fill="#F0333F"/>
+
+  <!-- bow -->
+  <path d="M200 86C190 72 168 70 172 83C175 93 192 91 200 87Z" fill="#F0333F"/>
+  <path d="M200 86C210 72 232 70 228 83C225 93 208 91 200 87Z" fill="#F0333F"/>
+  <path d="M200 86C194 76 182 74 184 84C186 90 196 89 200 87Z" fill="#E5202E"/>
+  <path d="M200 86C206 76 218 74 216 84C214 90 204 89 200 87Z" fill="#E5202E"/>
+  <circle cx="200" cy="86" r="6" fill="#E5202E"/>
+
+  <!-- stars -->
+  <g fill="#FFD400">
+    <g transform="translate(50,38) scale(1.5)"><path d="M12 1.5l3.09 6.26 6.91 1-5 4.87 1.18 6.88L12 17.27 5.82 20.5 7 13.62l-5-4.87 6.91-1z"/></g>
+    <g transform="translate(320,40) scale(1.3)"><path d="M12 1.5l3.09 6.26 6.91 1-5 4.87 1.18 6.88L12 17.27 5.82 20.5 7 13.62l-5-4.87 6.91-1z"/></g>
+    <g transform="translate(38,106) scale(1.2)"><path d="M12 1.5l3.09 6.26 6.91 1-5 4.87 1.18 6.88L12 17.27 5.82 20.5 7 13.62l-5-4.87 6.91-1z"/></g>
+    <g transform="translate(336,110) scale(1.4)"><path d="M12 1.5l3.09 6.26 6.91 1-5 4.87 1.18 6.88L12 17.27 5.82 20.5 7 13.62l-5-4.87 6.91-1z"/></g>
+  </g>
+</svg>

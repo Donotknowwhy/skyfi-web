@@ -1,0 +1,249 @@
+{
+	"info": {
+		"_postman_id": "866f1f6a-bac6-42a2-8463-0ebf65fc20a9",
+		"name": "News",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26189462"
+	},
+	"item": [
+		{
+			"name": "list news Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/api/bss/app/news?language=vi&page=1&pageSize=5&is_featured=true&category=3&tag=1&publish_sort=asc&search=bài viết",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"bss",
+						"app",
+						"news"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "vi"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "pageSize",
+							"value": "5"
+						},
+						{
+							"key": "is_featured",
+							"value": "true"
+						},
+						{
+							"key": "category",
+							"value": "3"
+						},
+						{
+							"key": "tag",
+							"value": "1"
+						},
+						{
+							"key": "publish_sort",
+							"value": "asc"
+						},
+						{
+							"key": "search",
+							"value": "bài viết"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "news detail Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/api/bss/app/news/news-1?language=en",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"bss",
+						"app",
+						"news",
+						"news-1"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "en"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "master-data Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/api/bss/app/news/master-data?language=en",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"bss",
+						"app",
+						"news",
+						"master-data"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "en"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "languages Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/api/bss/app/news/languages",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"bss",
+						"app",
+						"news",
+						"languages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sitemap Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/api/bss/app/news/sitemap?language=en",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"bss",
+						"app",
+						"news",
+						"sitemap"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "en"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "most-viewed Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/api/bss/app/news/most-viewed?language=vi&limit=10&days=7",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"bss",
+						"app",
+						"news",
+						"most-viewed"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "vi"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "days",
+							"value": "7"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

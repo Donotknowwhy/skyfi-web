@@ -1,0 +1,41 @@
+{
+    "customerName": "TRUNG HIEU NGUYEN",
+    "customerEmail": "hieuwl@gmail.com",
+    "customerPhone": "+84902791176",
+    "customerTitle": "Mr",
+    "bookingDate": "2024-11-07 02:19:00Z",
+    "gender": "Male",
+    "dateOfBirth": "1976-02-07",
+    "numberOfPassengers": 1,
+    "ticketClass": {
+        "0": [
+            "E1_ECO"
+        ]
+    },
+    "flightDirection": "ONE_WAY",
+    "appCode": "VJA",
+    "agentCode": "VJAPIWEB",
+    "price": 0,
+    "orderCode": "2V2G89_1751342485423",
+    "flights": [
+        {
+            "departureCode": "KUL",
+            "destinationCode": "HNI",
+            "destinationScheduledTime": "2024-11-25 05:30:00Z",
+            "departureScheduledTime": "2024-11-25 03:40:00Z",
+            "countryCode": "VNM",
+            "flightNumber": [
+                "VJ825"
+            ],
+            "packages": [
+                {
+                    "quantity": 1,
+                    "packageId": "FREEMIUM",
+                    "price": 0
+                }
+            ]
+        }
+    ],
+    "currency": "VND",
+    "language": "vi"
+}

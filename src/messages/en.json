@@ -1,0 +1,666 @@
+{
+  "common": {
+    "title": "SkyFi",
+    "description": "SkyFi is a provider of high-speed global eSIM (4G, 5G) services, connecting with utilities: aviation, dining, entertainment, shopping...",
+    "login": "Login",
+    "cart": "Cart",
+    "logout": "Logout",
+    "loading": "Loading..."
+  },
+  "navigation": {
+    "home": "Home",
+    "simData": "eSIM Data",
+    "travelESim": "Travel eSIM",
+    "plans": "Plans",
+    "about": "About SkyFi",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Stay connected\nanywhere",
+      "subtitle": "With SkyFi, enjoy internet connection during all your adventures, wherever you go."
+    },
+    "whyChoose": {
+      "title": "Why Choose SkyFi",
+      "reason1": "Smooth Experience",
+      "reason1Description": "Stable, high-speed internet connection wherever you go.",
+      "reason2": "24/7 Support",
+      "reason2Description": "Our customer support team is always ready to help you.",
+      "reason3": "Cost Savings",
+      "reason3Description": "Optimal solution, saving costs when traveling internationally."
+    },
+    "plans": {
+      "title": "Attractive Plans",
+      "viewAll": "View All Plans",
+      "pricePerMonth": "/ MONTH",
+      "plan1": {
+        "data": "2GB/day",
+        "feature1": "After high-speed data is used, access is stopped",
+        "feature2": "Plan automatically renews"
+      },
+      "plan2": {
+        "data": "2GB/day",
+        "feature1": "After high-speed data is used, access is stopped",
+        "feature2": "Plan automatically renews"
+      },
+      "plan3": {
+        "data": "2GB/day",
+        "feature1": "After high-speed data is used, access is stopped",
+        "feature2": "Plan automatically renews"
+      },
+      "plan4": {
+        "data": "2GB/day",
+        "feature1": "After high-speed data is used, access is stopped",
+        "feature2": "Plan automatically renews"
+      }
+    },
+    "discovery": {
+      "title": "Discover SkyFi through",
+      "titleHighlight": "the app",
+      "subtitle": "With many utilities and exclusive features",
+      "qrText": "Scan QR code to download app",
+      "downloadFrom": "Download from",
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "features": {
+        "feature1": "Easy eSIM management",
+        "feature2": "Real-time data tracking",
+        "feature3": "Safe & fast payment",
+        "feature4": "24/7 support"
+      }
+    },
+    "feedback": {
+      "title": "Customers Trust Us",
+      "customers": {
+        "customer1": {
+          "name": "- Dung Phung -",
+          "content": "I'm a first-time eSIM user. Everything was so smooth with SkyFi, great prices and clear instructions"
+        },
+        "customer2": {
+          "name": "- Nguyen Van A -",
+          "content": "Great service, stable connection when traveling. Quick and attentive customer support. Will continue to use!"
+        },
+        "customer3": {
+          "name": "- Tran Thi B -",
+          "content": "I've tried many services, but SkyFi is truly different. No more worries about networks when abroad!"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to experience SkyFi?",
+      "subtitle": "Sign up now to enjoy unlimited connectivity!",
+      "button": "Buy SIM"
+    },
+    "trustedBy": {
+      "title": "WE'RE TRUSTED BY",
+      "logoAlt": "Partner Logo {number}"
+    }
+  },
+  "countryPlansPage": {
+    "bannerTitle": "Explore Plans",
+    "searchPlaceholder": "Search by country",
+    "bestOffer": "Best Offer",
+    "data": "Data",
+    "unlimitedData": "Unlimited",
+    "validityLabel": "Validity",
+    "validity": "{duration} {unit}",
+    "timeUnits": {
+      "days": "days",
+      "months": "months",
+      "years": "years"
+    },
+    "yourSelectedPlan": "Your Selected Plan",
+    "validityValue": "days",
+    "quantity": "Quantity",
+    "decreaseQuantity": "Decrease quantity",
+    "increaseQuantity": "Increase quantity",
+    "selectPlanButton": "Select Plan",
+    "closePopup": "Close",
+    "note": "Note",
+    "esimDeviceCompatNote": "eSIM can only be used on supported mobile devices. See device list",
+    "description": "Description",
+    "provider": "Provided by",
+    "activateOnInstall": "Validity period will start upon installation",
+    "activationPolicy": "Activation Policy",
+    "planType": "Plan Type",
+    "dataOnly": "Data Only",
+    "ekyc": "eKYC (Identity Verification)",
+    "required": "Required",
+    "notRequired": "Not Required",
+    "supportedCountries": "Supported Countries",
+    "eSIMCompatibleDevices": "eSIM Compatible Mobile Devices",
+    "eSIMNotePhysical": "Note: eSIM is an electronic SIM (uses QR code) and not a physical SIM card inserted into the phone. eSIM is not for smartwatches.",
+    "searchDevicePlaceholder": "Enter device name (e.g., Iphone 15, SS Galaxy Fold,...)",
+    "yourPlan": "Your Plan",
+    "price": "Price",
+    "addToCartButton": "Add to Cart",
+    "buyNowButton": "Buy Now"
+  },
+  "simData": {
+    "title": "Choose your data plan",
+    "steps": {
+      "step1": "Choose SIM and Plan",
+      "step2": "Checkout and Payment"
+    },
+    "simSection": {
+      "numberLabel": "Your selected phone number",
+      "selectButton": "Change number",
+      "physicalSim": "Physical SIM",
+      "deliveryNoteUSIM": "We will deliver the physical SIM to your address",
+      "deliveryNoteESIM": "eSIM is an electronic SIM, sent via customer email. eSIM can only be used on supported mobile devices."
+    },
+    "totalSection": {
+      "sim": "SIM",
+      "plan": "Plan",
+      "title": "Total payment",
+      "addToCartButton": "ADD TO CART",
+      "buyNowButton": "Buy now"
+    }
+  },
+  "phoneNumberModal": {
+    "title": "Choose another number",
+    "searchHint": "Fill in the blank with your desired digits",
+    "cancelButton": "Cancel",
+    "confirmButton": "Confirm",
+    "noResults": "Sorry, the number you are looking for is no longer available. You may like these numbers:"
+  },
+  "cart": {
+    "addedSuccessfully": "Added to cart successfully",
+    "total": "Total",
+    "viewCart": "View cart",
+    "checkout": "Checkout",
+    "page": {
+      "title": "Shopping Cart",
+      "continueShopping": "Continue shopping",
+      "emptyCartMessage": "Your cart is empty",
+      "emptyCartDescription": "You can visit our store and shop.",
+      "buySim": "Buy SIM",
+      "productColumn": "Product",
+      "quantityColumn": "Quantity",
+      "priceColumn": "Price",
+      "orderSummary": "Order Summary",
+      "products": "products",
+      "taxAndService": "Tax & Service Fee",
+      "included": "Included",
+      "totalAmount": "Total amount"
+    }
+  },
+  "checkout": {
+    "title": "Checkout",
+    "steps": {
+      "step1": "Choose SIM and Plan",
+      "step2": "Payment"
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "description": "We will contact and send you eSIM activation information through the contact information below.",
+      "email": "Email",
+      "phone": "Phone Number",
+      "fullName": "Full Name",
+      "emailPlaceholder": "Enter your email",
+      "phonePlaceholder": "Enter your phone number",
+      "namePlaceholder": "Enter your name"
+    },
+    "shippingAddress": {
+      "title": "SIM Delivery Address",
+      "province": "Province/City",
+      "district": "District",
+      "ward": "Ward",
+      "address": "Detailed address",
+      "provincePlaceholder": "Select province/city",
+      "districtPlaceholder": "Select district",
+      "wardPlaceholder": "Select ward",
+      "addressPlaceholder": "Enter detailed address"
+    },
+    "paymentMethod": {
+      "title": "Payment Method",
+      "international": "International Payment Card",
+      "domestic": "Domestic Payment Card"
+    },
+    "discountCode": "Enter discount code",
+    "terms": "I agree to SkyFi's Terms & Conditions",
+    "completeOrder": "Complete Order",
+    "orderSummary": {
+      "title": "Your Order",
+      "products": "products",
+      "taxAndService": "Tax & Service Fee",
+      "included": "Included",
+      "total": "Total"
+    },
+    "titleMessage": "Order Confirmation"
+  },
+  "refundPolicy": {
+    "title": "Refund Policy",
+    "intro": "If you are unable to install and use eSIM due to technical issues that are the fault of skyfi.vn, you have the right to request a refund or modification.",
+    "section1": {
+      "title": "1. REFUNDS AND CANCELLATIONS",
+      "subtitle1": "1.1. POLICIES AND GUIDELINES",
+      "content1": "1.1.2. When activation is no longer possible after thorough troubleshooting, a refund request may be made within thirty (30) days of the purchase date.\n\n1.1.3. If the eSIM has been activated and there is an issue for which skyfi.vn is responsible and/or the mobile operator has acknowledged cannot be quickly resolved, you may be refunded for the remaining data.\n\n1.1.4. Early customer cooperation in problem resolution is extremely important for receiving a refund.\n\n1.1.5. Each data package has its own validity period. Remaining data will not be eligible for refund in any form after expiration.\n\n1.1.6. Compensation: No refunds or payments of any kind will be made for additional telephone charges, additional SIM cards, or additional hotel telephone charges.\n\n1.1.7. Fraudulent Purchases: If there are any signs of misuse, violation of our terms and conditions, or any fraudulent actions related to the use of skyfi.vn products and services, skyfi.vn reserves the right to refuse any form of refund.\n\n1.1.8. Unauthorized Purchases: Before processing any refund, the issue will be investigated and approved. Any orders related to fraud may be suspended by skyfi.vn at its discretion.\n\n1.1.9. Incorrect Charges: If a customer reasonably and in good faith disputes an invoice or a portion of an invoice, the customer must notify skyfi.vn of the dispute within 10 business days of receiving the invoice. The notification must include information about why the customer believes the amount charged is incorrect as well as, if possible, the amount that the customer believes is owed.\n\n1.1.10. skyfi.vn will not accept refund requests in the following cases:\nThe customer has deleted the eSIM and wants to reinstall it.\nThe customer's device does not support eSIM.\nThe customer's phone is network locked.\nThe eSIM has expired (The expiration date is stated in the order confirmation email).\nThe country you are visiting has force majeure circumstances (including but not limited to natural disasters, earthquakes, epidemics, fires, wars, strikes, riots, changes in local legal policies, changes in government...).\nThe network infrastructure of the travel countries has issues, is not yet stable.\nThe customer does not proactively contact skyfi.vn when an eSIM issue occurs.\n\n1.1.11. Other Reasons: If the refund request does not fall under one of the categories mentioned above, we will consider each request separately. If a refund is granted, there may be a processing fee. The maximum credit or refund that a consumer can request must be equal to or less than their total purchase price."
+    },
+    "section2": {
+      "title": "1.2. REFUND PROCESS",
+      "content": "Customers contact the skyfi.vn support team via hotline: 1900 6605 or send an email to support@skyfi.vn to make a refund request.\n\nRefund Deadline: skyfi.vn will only refund Customers when skyfi.vn confirms that it is not possible to install and use eSIM due to technical issues that are the fault of skyfi.vn and the customer has the right to request a refund.\n\nHow to get your money back: Depending on the case, the refund will be transferred to the Customer's designated credit card/bank account or by the method agreed upon by both parties.\n\nPlease note that the above refund policy will apply. Customers may be required to provide additional information to support their refund request, depending on the nature of the issue, such as screenshots of device settings for technical issues, an explanation of why the amount billed is incorrect and if possible, an estimate of how much the customer believes is owed."
+    },
+    "section3": {
+      "title": "2. MODIFICATIONS",
+      "content": "Once obtained, eSIM data packages from skyfi.vn cannot be changed or customized based on specific requests; they are provided as is.\n\nFor more detailed information, please contact the skyfi.vn Customer Care Department or please contact: 1900 6605 for assistance. Thank you!"
+    }
+  },
+  "paymentPolicy": {
+    "title": "Payment Policy",
+    "mainTitle": "PAYMENT REGULATIONS AND METHODS",
+    "section1": {
+      "title": "I. PAYMENT REGULATIONS",
+      "subtitle1": "Review and Confirmation of Payment Terms",
+      "content1": "Skyfi.vn has a mechanism that allows customers to review, supplement, modify, and confirm transaction content before using the payment function to send a payment agreement proposal. This review and confirmation mechanism meets the following conditions:\n\nDisplays the following information to customers:\n\na) Name of goods or services, quantity, brand, and price;\n\nb) Method and deadline for delivery of goods or provision of services;\n\nc) Total contract value and details related to the payment method chosen by the customer.\n\nThis information can be stored, printed from the customer's information system, and displayed later.\n\nDisplays to customers information about how to respond accepting the contract proposal and the deadline for responding to the contract proposal through confirmation contact via hotline.\n\nAllows customers, after reviewing the above information, to choose to cancel the transaction or confirm the proposal to enter into a contract through the website or hotline.",
+      "subtitle2": "Information on General Transaction Terms",
+      "content2": "Skyfi.vn has a mechanism for customers to read and express their separate agreement with the general transaction terms before sending a payment contract proposal.\n\nThe general transaction terms include:\n\nReturn policy, including return period, method of returning or exchanging purchased goods, how to get money back, costs for returns (Published publicly on the website);\n\nProduct warranty policy (Published publicly on the website);\n\nService standards, service provision processes, fee schedules, and other terms related to service provision, including conditions and limitations (if any) (Published publicly on the website);\n\nObligations of the seller and obligations of the customer in each transaction (Published publicly on the website);",
+      "subtitle3": "Information on Payment Methods",
+      "content3": "Skyfi.vn has published all payment methods applicable to goods so that customers can understand and choose the appropriate payment method in the Payment Policy section.\n\nSkyfi.vn has established a mechanism for customers using the online payment function to review and confirm detailed information about each payment transaction before making the payment.\n\nSkyfi.vn ensures the safety and security of customer payment transactions, handles complaints, and compensates for damages in case the customer's payment information through the website is changed, deleted, canceled, copied, disclosed, illegally moved, or appropriated causing damage to the customer."
+    },
+    "section2": {
+      "title": "II. PAYMENT METHODS",
+      "content": "**Advance payment method:**\n\nCurrently, Skyfi accepts payment forms: International VISA card, domestic Napas card. You can completely check the goods before paying.\n\n**Note:** Before proceeding with the order, customers please carefully check the information about the products to be purchased along with the amount to be paid, which is clearly displayed in the order information form on the website interface.\n\nYou can also pay when shopping at SKYFI.VN by:\n\n- Payment via international VISA card, domestic Napas card is applied to orders nationwide. Customers enter their card information to confirm and pay directly. Money will be transferred to the bank account of GALAXY DIGITAL HOLDINGS LLC:\n\nImmediately after receiving confirmation notification from the bank, SKYFI.VN will notify the customer and proceed with delivery.\n\nCustomers can order through the website: https://Skyfi.vn / or via Hotline: 1900 6605. Our staff will call to confirm with customers about products and shipping methods."
+    }
+  },
+  "footer": {
+    "description": "SkyFi is a provider of high-speed global eSIM (4G, 5G) services, connecting with utilities: aviation, dining, entertainment, shopping...",
+    "connectWithUs": "CONNECT WITH US",
+    "popularCountries": {
+      "title": "POPULAR COUNTRIES",
+      "korea": "South Korea",
+      "china": "China",
+      "thailand": "Thailand",
+      "australia": "Australia"
+    },
+    "about": {
+      "title": "ABOUT",
+      "aboutSkyFi": "About SkyFi"
+    },
+    "terms": {
+      "title": "TERMS",
+      "refundPolicy": "Refund Policy",
+      "paymentPolicy": "Payment Policy",
+      "generalTerms": "General Terms and Conditions",
+      "privacyPolicy": "Privacy Policy and Cookies"
+    },
+    "otherInfo": {
+      "title": "OTHER INFO",
+      "supportCenter": "Support Center",
+      "news": "News",
+      "contactUs": "Contact Us",
+      "esimGuide": "eSIM Setup Guide"
+    },
+    "contact": {
+      "title": "CONTACT",
+      "phone": "1900 6605",
+      "email": "customercare@skyfi.vn"
+    },
+    "companyInfo": {
+      "title": "Galaxy Digital Holdings LLC",
+      "info": "Business registration certificate number 0316951481 issued by the Department of Planning and Investment of Ho Chi Minh City on August 13, 2021\\nAddress: PV Gas Building, 673 Nguyen Huu Tho, Phuoc Kien, Nha Be, HCMC, Vietnam - Phone: 028 7300 6555\\nLegal representative: Tran Thanh Hai - Position: General Director"
+    },
+    "copyright": "Copyright © 2024"
+  },
+  "TermsAndConditions": {
+    "mainTitle": "GENERAL TRANSACTION TERMS AND CONDITIONS",
+    "welcomeMessage": {
+      "paragraph1": "Welcome to the skyfi.vn website - established and owned by GALAXY DIGITAL HOLDINGS LLC. When you access our website, it means you agree to these terms.",
+      "paragraph2": "The website may change, amend, or adjust any content in the Rules and Terms of Use, which will take effect after 5 days when the changes are fully announced and posted on the website.",
+      "paragraph3": "Please read these Terms and Conditions of transaction carefully before ordering any products or services on skyfi.vn."
+    },
+    "supplyConditions": {
+      "title": "Conditions or limitations in the provision of goods or services",
+      "paragraph1": "- To ensure fairness and benefits for Customers as end consumers, skyfi.vn has the right to apply restrictive conditions in implementing promotional programs: unlimited, limited maximum number of products in each promotional program that a Customer can purchase, limitations on the purpose of purchasing product packages (only for consumption, not for business, resale...), or other limitations (if any) detailed in each Promotional Program. These restrictive conditions are hereinafter referred to as the Promotion Policy.",
+      "paragraph2": "Therefore, skyfi.vn has the right not to confirm, refuse, cancel, or recover products that have been delivered in violation of any content in the Promotion Policy.",
+      "paragraph3": "- skyfi.vn has the right not to confirm, refuse, or cancel, reclaim products that have been delivered to Customers in some other cases as decided by skyfi.vn without notification to Customers."
+    },
+    "inspectionPolicy": {
+      "title": "Inspection Policy",
+      "paragraph1": "eSIM products are guaranteed to match the detailed description on the website. After purchasing eSIM and successful payment, Users will receive notification from the Company via email about the purchased eSIM information. When receiving the information, Users please check the eSIM information.",
+      "paragraph2": "Products are not delivered directly, so there is no inspection policy."
+    },
+    "refundPolicy": {
+      "title": "Refund / Cancellation / Modification Policy",
+      "refundAndCancellation": {
+        "title": "3.1. Refunds and cancellations",
+        "policyAndGuidance": {
+          "title": "3.1.1. Policy and guidance",
+          "point1": "- When activation is no longer possible after thorough troubleshooting, a refund request may be made within thirty (30) days of the purchase date.",
+          "point2": "- If the eSIM has been activated and there is an issue for which Skyfi.vn is responsible and/or the mobile operator has acknowledged cannot be quickly resolved, you may be refunded for the remaining data.",
+          "point3": "- Early customer cooperation in problem resolution is extremely important for receiving a refund.",
+          "point4": "- Each data package has its own validity period. Remaining data will not be eligible for refund in any form after expiration.",
+          "point5": "- Compensation: No refunds or payments of any kind will be made for additional telephone charges, additional SIM cards, or additional hotel telephone charges.",
+          "point6": "- Fraudulent Purchases: If there are any signs of misuse, violation of our terms and conditions, or any fraudulent actions related to the use of Skyfi.vn products and services, Skyfi.vn reserves the right to refuse any form of refund.",
+          "point7": "- Unauthorized Purchases: Before processing any refund, the issue will be investigated and approved. Any orders related to fraud may be suspended by Skyfi.vn at its discretion.",
+          "point8": "- Incorrect Charges: If a customer reasonably and in good faith disputes an invoice or a portion of an invoice, the customer must notify Skyfi.vn of the dispute within 10 business days of receiving the invoice. The notification must include information about why the customer believes the amount charged is incorrect as well as, if possible, the amount that the customer believes is owed.",
+          "nonRefundableCases": {
+            "intro": "- Skyfi.vn will not accept refund requests in the following cases:",
+            "case1": "+ The customer has deleted the eSIM and wants to reinstall it.",
+            "case2": "+ The customer's device does not support eSIM.",
+            "case3": "+ The customer's phone is network locked.",
+            "case4": "+ The eSIM has expired (The expiration date is stated in the order confirmation email).",
+            "case5": "+ The country you are visiting has force majeure circumstances (including but not limited to natural disasters, earthquakes, epidemics, fires, wars, strikes, riots, changes in local legal policies, changes in government...).",
+            "case6": "+ The network infrastructure of the travel countries has issues, is not yet stable.",
+            "case7": "+ The customer does not proactively contact Skyfi.vn when an eSIM issue occurs."
+          },
+          "otherReasons": "- Other Reasons: If the refund request does not fall under one of the categories mentioned above, we will consider each request separately. If a refund is granted, there may be a processing fee. The maximum credit or refund that a consumer can request must be equal to or less than their total purchase price."
+        },
+        "refundProcess": {
+          "title": "3.1.2. Refund process",
+          "paragraph1": "Customers contact the Skyfi.vn support team via hotline: 1900 6605 or send an email to support@skyfi.vn to make a refund request.",
+          "paragraph2": "Refund Deadline: skyfi.vn will only refund Customers when skyfi.vn confirms that it is not possible to install and use eSIM due to technical issues that are the fault of Skyfi.vn and the customer has the right to request a refund.",
+          "paragraph3": "How to get your money back: Depending on the case, the refund will be transferred to the Customer's designated credit card/bank account or by the method agreed upon by both parties.",
+          "paragraph4": "Please note that the above refund policy will apply. Customers may be required to provide additional information to support their refund request, depending on the nature of the issue, such as screenshots of device settings for technical issues, an explanation of why the amount billed is incorrect and if possible, an estimate of how much the customer believes is owed."
+        }
+      },
+      "modification": {
+        "title": "3.2. Modifications",
+        "paragraph1": "Once obtained, eSIM data packages from Skyfi.vn cannot be changed or customized based on specific requests; they are provided as is.",
+        "paragraph2": "For more detailed information, please contact the skyfi.vn Customer Care Department or please contact: 1900 6605 for assistance. Thank you!"
+      }
+    },
+    "productWarranty": {
+      "title": "Product Warranty Policy",
+      "status": "Warranty Policy       🗹 Yes   ❑ No"
+    },
+    "shippingPolicy": {
+      "title": "Shipping and Delivery Policy",
+      "paragraph1": "After receiving confirmation of your order, within 30 minutes - 3 hours, we will quickly contact the customer as soon as possible to confirm information about the order and your payment information. In order to facilitate sending the QR code from the system to the customer as soon as possible, please provide detailed and accurate Email information. We have the right to cancel unclear orders or are not responsible for cases where Email information is incorrect due to inaccurate information provided by you.",
+      "paragraph2": "After users successfully purchase eSIM, the QR code will be sent from the system to the customer's registered Gmail mailbox and will also be in the customer's mailbox on our website system.",
+      "paragraph3": "Products are not delivered directly, so there is no shipping and delivery policy."
+    },
+    "serviceStandards": {
+      "title": "Service standards, service provision processes, fee schedules, and other terms related to service provision",
+      "realSalesNoAdvertising": {
+        "title": "Real sales, no advertising",
+        "paragraph1": "skyfi.vn is a website that supports buyers to use SKYFI products, not a platform to advertise products or stores of other seller parties."
+      },
+      "mutualRespect": {
+        "title": "Mutual respect",
+        "paragraph1": "We want to build a safe and civilized customer base so that everyone can enjoy the joy of shopping on mobile (No need to go directly to SKYFI store)."
+      },
+      "goodPurchaseHistory": {
+        "title": "Maintain a good \"purchase history\"",
+        "paragraph1": "To receive many promotions for loyal customers, don't forget to maintain regular buying and selling, don't \"bomb\" goods, receive goods on time and minimize unnecessary order cancellations, returns and refunds."
+      },
+      "noFakeGoods": {
+        "title": "Say no to selling counterfeit goods",
+        "paragraph1": "skyfi.vn is committed to only listing genuine items for sale because selling counterfeit goods is a violation of the law. In case the customer has feedback, SKYFI will review and in case the feedback is verified to be correct, there will be compensation for the customer, correction posting and removal of these items from the system."
+      },
+      "serviceProvisionProcess": "Service provision process (Detailed in the website usage guide section)",
+      "companyInformation": {
+        "paragraph1": "GALAXY DIGITAL HOLDINGS LLC – is the owner of the website directly selling goods",
+        "paragraph2": "Other suppliers are not allowed to participate in providing services on the website",
+        "paragraph3": "Form/method of participation: Through signing a cooperation contract with the network operator for eSIM with Goods Suppliers, SKYFI directly provides eSIM products to buyers/service users.",
+        "paragraph4": "SKYFI directly collects the price of goods from the buyer/service user and is responsible for issuing invoices to the buyer/service user.",
+        "paragraph5": "Goods suppliers are not allowed to participate in pricing or working with, charging from the user, not directly participating in posting or creating stores on the system. The products are completely posted by SKYFI because the goods have been imported into the warehouse.",
+        "feeScheduleTitle": "Fee schedule",
+        "feeScheduleParagraph": "The fee schedule for each item will be publicized on the website, buyers can directly see the product price and decide \"Yes\" or not agree to buy and put in the order."
+      }
+    },
+    "otherTerms": {
+      "title": "Other terms",
+      "acceptance": {
+        "title": "Acceptance of Terms of Use",
+        "paragraph1": "When using SKYFI's skyfi.vn website, you have implicitly accepted the terms and conditions of use (hereinafter referred to as \"Terms of Use\") set forth below. To know the latest amendments, you should regularly check the \"Terms of Use\". skyfi.vn has the right to change, adjust, add or remove the contents of the \"Terms of Use\" at any time. If you continue to use the website after such changes, it means that you have accepted those changes."
+      },
+      "natureOfInformation": {
+        "title": "Nature of displayed information",
+        "paragraph1": "The content displayed on the Website is intended to provide information about eSIM-related products about SKYFI's promotional program."
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "paragraph1": "Information displayed on this Website does not come with any guarantees or commitments of responsibility in any form from SKYFI, official or implied, including but not limited to the suitability of the product or service that the buyer has chosen.",
+        "paragraph2": "SKYFI also disclaims responsibility or guarantees that the website will be error-free, safe, uninterrupted, or any guarantees about the accuracy, completeness, and timeliness of the information displayed.",
+        "paragraph3": {
+          "intro": "When accessing this Website, you implicitly agree that SKYFI is not responsible for any errors arising from or related to:",
+          "point1": "(1) using the information on this website;",
+          "point2": "(2) connections from this website;",
+          "point3": "(3) Registering to receive emails;",
+          "point4": "(4) whether SKYFI performs the service provision or not, even in cases where there has been a warning about the possibility of damage;",
+          "point5": "(5) limitations related to online ordering described herein."
+        },
+        "paragraph4": "The conditions and limitations mentioned above are only effective within the framework of current law."
+      },
+      "intellectualProperty": {
+        "title": "Intellectual property rights",
+        "paragraph1": {
+          "intro": "This website and all arranged, displayed content belong to and are the exclusive property of SKYFI. All uses, citations must not cause damage to SKYFI and must comply with the following conditions:",
+          "point1": "(1) Only use for personal, non-commercial purposes;",
+          "point2": "(2) All copies or citations must retain the original copyright markings or intellectual property rights declarations as shown in the original version;",
+          "point3": "(3) Any products, technologies, or processes used or displayed on this Website may be related to copyright or other intellectual property of SKYFI."
+        }
+      },
+      "adjustmentAndModification": {
+        "title": "Adjustment and modification",
+        "paragraph1": "SKYFI reserves the right to change, amend, or terminate the operation of this Website at any time."
+      },
+      "governingLaw": {
+        "title": "Governing law and dispute resolution body",
+        "paragraph1": "These Terms of Use are governed by the laws of the Socialist Republic of Vietnam. The courts of the Socialist Republic of Vietnam are the only bodies with authority to resolve all related disputes."
+      },
+      "scopeOfApplication": {
+        "title": "Scope of application",
+        "paragraph1": "The conditions below apply specifically to the online ordering function on the Website. When using the function to place an order, you have implicitly accepted and complied with all instructions, terms, conditions, and notes posted on the website, including but not limited to the Terms of Use set forth here. If you do not intend to buy online or do not agree with any terms or conditions stated in the Terms of Use, please STOP USING this function."
+      },
+      "onlineOrderingConditions": {
+        "title": "Conditions for using the online ordering feature",
+        "paragraph1": "The online ordering feature is only used for personal and non-commercial purposes. You are not allowed to modify, copy, distribute, move, display, operate, reproduce, publish, license, create links, transfer, or conduct business from information, software, products, or services obtained from the online shopping feature.",
+        "paragraph2": "The online shopping feature will help you look up information and complete the operations of purchasing products and services in a valid way. However, if you abuse this feature, you may be denied access or use.",
+        "paragraph3": "You must affirm and ensure that you are of sufficient age when using the online shopping function to ensure compliance with the Terms of Use set forth herein and have sufficient rights and capacity under the law to execute the acts related to the use of this feature. You accept financial obligations for all use of the Website by yourself or any individual or organization using your book ordering information."
+      },
+      "priceAndFees": {
+        "title": "Price and fee regulations",
+        "paragraph1": "The total payment amount includes all taxes and fees that customers must pay"
+      }
+    },
+    "obligations": {
+      "title": "Obligations of the seller (SKYFI) and obligations of the customer in each transaction",
+      "seller": {
+        "title": "Obligations of SKYFI",
+        "paragraph1": "Notify the Ministry of Industry and Trade of the website providing e-commerce services; Build and publish on the website information about: Company information; Website usage guide; Information on general transaction conditions; Privacy policy; Information on payment methods; Complaint resolution policy; Delivery and shipping policy; ... Require buyers using the website to provide minimum related information when registering an account. Store registration information of members using the website and regularly update changed, supplemented related information; Prevent and remove from the website information belonging to the list of prohibited goods and services according to legal regulations; Remove from the website information that violates the website's regulations/other laws when detected or received a report with authentic grounds about this information; Provide information, support state management agencies to investigate business activities that violate the law using their website; Provide information about their business situation when requested by authorized state agencies for statistical activities of e-commerce, inspection, checking and handling violations."
+      },
+      "customer": {
+        "title": "Obligations of the customer (buyer)",
+        "paragraph1": "Provide complete and accurate minimum information: Full name, Phone number, email, address to be able to order online at the website. Read and understand clearly the operating regulations, terms, conditions of using skyfi.vn website service and services provided through the website before registering an account and using the service, and read and understand the terms, conditions of using the service when receiving notification of changes, adjustments to these operating regulations, terms, conditions of service use. The fact that members use the service or continue to use the service is considered that members have read, understood and agreed to the operating regulations, terms, conditions of using the Website service and services provided through skyfi.vn; Be responsible for security, storage and all activities using the service under their registered name, password; Promptly notify SKYFI about unauthorized use, abuse, security violations, storage of payment information and ordering of themselves so that both parties can cooperate to handle; Commit that the information provided to SKYFI is accurate and complete and keep their information on Website skyfi.vn updated, accurate and complete; Be responsible for the content, images, personal information and other information, as well as the entire transaction process through Website skyfi.vn; Cooperate and provide necessary information for skyfi.vn to serve the resolution of arising disputes; Provide transaction information when requested by authorized state agencies; Comply with legal regulations on payment, advertising, promotion, protection of intellectual property rights, protection of consumer rights and other relevant legal regulations when operating on Website skyfi.vn; Commit, agree not to use the services of Website skyfi.vn for illegal, unreasonable, fraudulent, threatening, information investigation illegal, destructive, creating and spreading viruses damaging to the system, configuration, transmission of information of skyfi.vn or using SKYFI's services for the purpose of speculation, creating fake service orders, market manipulation, including serving the judgment of market demand. In case of violation, members must be responsible for their actions before the Law; Commit not to change, edit, copy, transmit, distribute and provide and create similar tools of the service provided by SKYFI to a third party without the consent of the Company; Not act to damage the reputation of Website skyfi.vn in any form, including but not limited to, causing disunity among members by using a second registration name, through a third party, or propagating, disseminating information not beneficial to the reputation of the Company; Provide their personal information when requested by authorized state agencies to serve the statistical activities of e-commerce."
+      }
+    }
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "We are always ready to support you with any questions or concerns.",
+    "phone": "Phone",
+    "phoneNumber": "1900 6605",
+    "email": "Email",
+    "emailAddress": "customercare@skyfi.vn",
+    "address": "Address",
+    "addressDetails": "PV Gas Building, 673 Nguyen Huu Tho, Phuoc Kien, Nha Be, HCMC, Vietnam",
+    "formName": "Name",
+    "formNamePlaceholder": "Enter name",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "Enter email",
+    "formPhone": "Phone Number",
+    "formPhonePlaceholder": "Enter phone number",
+    "formSubject": "Subject",
+    "formSubjectPlaceholder": "Select subject",
+    "formMessage": "Message",
+    "formMessagePlaceholder": "Enter message",
+    "formSendButton": "Send"
+  },
+  "travelESimPage": {
+    "bannerTitle": "Choose your eSIM plan",
+    "searchPlaceholder": "Search by country",
+    "tabNational": "National eSIM",
+    "tabRegional": "Regional eSIM",
+    "tabGlobal": "Global eSIM",
+    "notice": "Note: eSIM is an electronic SIM, sent via customer email. eSIM can only be used on supported mobile devices. <link>See device list</link>",
+    "countriesTitle": "Countries",
+    "regionalTitle": "Regional Plans",
+    "globalTitle": "Global Plans",
+    "loadingMessage": "Loading...",
+    "noItemsFound": "No items found",
+    "noSearchResults": "No results found for",
+    "clearSearch": "Clear search",
+    "regionalComingSoon": "Regional eSIM content coming soon!",
+    "globalComingSoon": "Global eSIM content coming soon!",
+    "singapore": "Singapore",
+    "cambodia": "Cambodia",
+    "china": "China",
+    "australia": "Australia",
+    "southKorea": "South Korea",
+    "taiwan": "Taiwan",
+    "kazakhstan": "Kazakhstan",
+    "vietnam": "Vietnam",
+    "india": "India",
+    "japan": "Japan",
+    "malaysia": "Malaysia",
+    "indonesia": "Indonesia"
+  },
+  "deviceCompatibilityModal": {
+    "title": "eSIM Compatible Devices",
+    "closeButton": "Close",
+    "intro": "To use an eSIM, your device must be carrier-unlocked and support eSIM technology. Below is a reference list of popular devices:",
+    "generalRequirements": {
+      "title": "General Requirements",
+      "unlocked": "Your phone must be an international version and network-unlocked.",
+      "esimSupport": "Your phone must support the eSIM feature."
+    },
+    "apple": {
+      "title": "Apple iPhone",
+      "models": "iPhone XR, XS, XS Max, 11, 11 Pro, 11 Pro Max, SE (2020), 12, 12 Mini, 12 Pro, 12 Pro Max, 13, 13 Mini, 13 Pro, 13 Pro Max, SE (2022), 14, 14 Plus, 14 Pro, 14 Pro Max, 15, 15 Plus, 15 Pro, 15 Pro Max. iPad Air (3rd gen and later), iPad Pro (1st gen and later), iPad Mini (5th gen and later)."
+    },
+    "samsung": {
+      "title": "Samsung Galaxy",
+      "models": "Galaxy S20 series, S21 series, S22 series, S23 series, Note20 series, Z Flip series, Z Fold series. Google Pixel models (Pixel 3 and later)."
+    },
+    "google": {
+      "title": "Google Pixel",
+      "models": "Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, 4a 5G, 5, 5a, 6, 6 Pro, 6a, 7, 7 Pro, 7a, 8, 8 Pro, Fold."
+    },
+    "note": "This list is not exhaustive and may change. Some versions for specific markets (e.g., China, Hong Kong for iPhone; US for Samsung) may not support eSIM or may only support one physical SIM.",
+    "checkOfficialSite": "Please check the <link>manufacturer's official website</link> or your device settings to confirm eSIM compatibility."
+  },
+  "countryEsimPage": {
+    "days": "days"
+  },
+  "travelSim": {
+    "modalRegions": {
+      "title": "Select Region",
+      "searchPlaceholder": "Search for a country...",
+      "loading": "Loading...",
+      "noResults": "No results found"
+    },
+    "modalVerify": {
+      "title": "NOTICE",
+      "warningMessage": "When purchasing a new package, remaining data from the old package will be cancelled. Please ensure the remaining data is nearly exhausted to avoid waste.",
+      "packageTitle": "Additional Package",
+      "defaultPackageName": "VJ70/1GB - 7 days package",
+      "defaultPrice": "70,000 VND",
+      "instructionText": "Please check your email to install the SIM and use it",
+      "skipButton": "Skip",
+      "continueButton": "Continue Payment"
+    }
+  },
+  "vikki": {
+    "cart": {
+      "title": "Your Cart",
+      "close": "Close",
+      "physicalSim": "Physical SIM",
+      "esim": "eSIM",
+      "quantity": "Quantity",
+      "package": "Package",
+      "total": "Total",
+      "viewCart": "View Cart",
+      "checkout": "Checkout"
+    },
+    "modalChangeSim": {
+      "title": "Choose Another Number",
+      "searchPrefix": "x",
+      "searchHint": "Fill in the blank with your desired digits",
+      "noResultsMessage": "Sorry, the number you are looking for is no longer available. You may like these numbers:",
+      "confirmButton": "Confirm"
+    },
+    "modals": {
+      "activateSim": {
+        "title": "Notification",
+        "description": "Please purchase and activate a SkyFi SIM to use this feature",
+        "closeButton": "Close",
+        "buySim": "Buy SIM"
+      },
+      "overNumber": {
+        "title": "Notification",
+        "description": "You have activated {count} subscribers. Please go to a SkyFi service point or contact customer support for assistance.",
+        "emailLabel": "Email: ",
+        "emailValue": "customercare@skyfi.vn",
+        "emailUrl": "mailto:customercare@skyfi.vn",
+        "zaloLabel": "Zalo OA: ",
+        "zaloValue": "https://zalo.me/4027302975952039719",
+        "zaloUrl": "https://zalo.me/4027302975952039719",
+        "hotlineLabel": "Hotline: ",
+        "hotlineValue": "19006605 (1000d/min)",
+        "hotlineUrl": "tel:19006605",
+        "closeButton": "Close"
+      }
+    }
+  },
+  "Login": {
+    "title": "Login",
+    "welcome": "Welcome back to SkyFi!",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "rememberMe": "Remember me",
+    "loginButton": "Login",
+    "processingLogin": "Processing...",
+    "noAccount": "Don't have an account?",
+    "registerNow": "Register now",
+    "orLoginWith": "Or login with",
+    "invalidEmail": "Invalid email",
+    "enterEmail": "Please enter your email",
+    "enterPassword": "Please enter your password",
+    "passwordLength": "Password must be at least 6 characters"
+  },
+  "hdbank": {
+    "cart": {
+      "title": "Your Cart",
+      "close": "Close",
+      "physicalSim": "Physical SIM",
+      "esim": "eSIM",
+      "quantity": "Quantity",
+      "package": "Package",
+      "total": "Total",
+      "viewCart": "View Cart",
+      "checkout": "Checkout"
+    },
+    "modalChangeSim": {
+      "title": "Choose Another Number",
+      "searchPrefix": "x",
+      "searchHint": "Fill in the blank with your desired digits",
+      "noResultsMessage": "Sorry, the number you are looking for is no longer available. You may like these numbers:",
+      "confirmButton": "Confirm"
+    },
+    "modals": {
+      "activateSim": {
+        "title": "Notification",
+        "description": "Please purchase and activate a SkyFi SIM to use this feature",
+        "closeButton": "Close",
+        "buySim": "Buy SIM"
+      },
+      "overNumber": {
+        "title": "Notification",
+        "description": "You have activated {count} subscribers. Please go to a SkyFi service point or contact customer support for assistance.",
+        "emailLabel": "Email: ",
+        "emailValue": "customercare@skyfi.vn",
+        "emailUrl": "mailto:customercare@skyfi.vn",
+        "zaloLabel": "Zalo OA: ",
+        "zaloValue": "https://zalo.me/4027302975952039719",
+        "zaloUrl": "https://zalo.me/4027302975952039719",
+        "hotlineLabel": "Hotline: ",
+        "hotlineValue": "19006605 (1000d/min)",
+        "hotlineUrl": "tel:19006605",
+        "closeButton": "Close"
+      }
+    }
+  }
+}

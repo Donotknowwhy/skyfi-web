@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(lsof:*)",
+      "Bash(git log:*)",
+      "Bash(cat:*)",
+      "Bash(crontab:*)",
+      "Bash(npm run:*)",
+      "Bash(find /Users/nguyendong/ANPHATTECH/Galaxy/glx-front-web/src/app/[locale]/hdbank-app -type f -name \"*.jsx\" -o -name \"*.tsx\" -o -name \"*.js\" -o -name \"*.ts\")",
+      "Bash(ls:*)",
+      "Bash(gh api *)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(find /Users/nguyendong/ANPHATTECH/Galaxy/glx-front-web/src/app/[locale]/app-vikki -type f -name \"*.jsx\" -o -name \"*.tsx\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

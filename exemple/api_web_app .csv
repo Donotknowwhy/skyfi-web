@@ -1,0 +1,461 @@
+Tên,Danh mục,method,endpoint,body,header,resp,resp k thành công,note
+Gửi OTP login,,POST,https://bss-api.skyfi.network/api/bss/app/send-otp-login,"{
+    ""msisdn"": ""0772402457""
+}",,,,Em có resp ra otp để a debug nhé
+Login bằng otp,,POST,https://bss-api.skyfi.network/api/bss/app/login-with-otp,"{
+    ""msisdn"": ""0772402457"",
+    ""otp"": ""1991""
+}",,,,
+Login bằng password,,POST,/api/bss/app/login-with-password,"{
+    ""msisdn"": ""0772402457"",
+    ""password"": ""123456""
+}",,,,
+Cập nhật mật khẩu,,POST,/api/bss/app/update-password,"{
+    ""password"": ""123456""
+}","Authorization:""""",,,
+Kiểm tra xem user đã có mật khẩu hay chưa,,POST,/api/bss/app/check-user-password,"{
+    ""msisdn"": ""0787654321""
+}",,,,
+Kiểm tra email,WEB,POST,/api/bss/web/check-email,"{
+    ""email"": ""tranduyanh001@gmail.com""
+}",,"{
+    ""requestId"": null,
+    ""code"": 200,
+    ""message"": ""Email đã tồn tại, chưa có password"",
+    ""totalRecords"": 0,
+    ""result"": {
+        ""check"": false,
+        ""listActive"": [
+            ""04"",
+            ""63"",
+            ""86""
+        ]
+    },
+    ""extra"": null
+}
+=> tự động gửi mã xác thực về email, chuyển bước check mã xác thực 
+=> check đúng tự động login
+hoặc
+{
+    ""requestId"": null,
+    ""code"": 200,
+    ""message"": ""Email đã tồn tại, đã có password"",
+    ""totalRecords"": 0,
+    ""result"": {
+        ""check"": true
+    },
+    ""extra"": null
+}
+=> chuyển bước login","{
+    ""requestId"": null,
+    ""code"": 400,
+    ""message"": ""Email chưa tồn tại trong hệ thống"",
+    ""totalRecords"": 0,
+    ""result"": null,
+    ""extra"": null
+}",
+Xác thực Active code,WEB,POST,/api/bss/web/verify-active-code,"{
+    ""email"": ""tranduyanh001@gmail.com"",
+    ""active_code"": ""50""
+}",,"{
+    ""requestId"": null,
+    ""code"": 200,
+    ""message"": ""Mã xác thực hợp lệ"",
+    ""totalRecords"": 0,
+    ""result"": null,
+    ""extra"": null
+}","{
+    ""requestId"": null,
+    ""code"": 400,
+    ""message"": ""Mã xác thực không hợp lệ"",
+    ""totalRecords"": 0,
+    ""result"": null,
+    ""extra"": null
+}",
+Tạo mật khẩu,WEB,POST,/api/bss/web/create-password,"{
+    ""email"": ""tranduyanh001@gmail.com"",
+    ""active_code"": ""86"",
+    ""password"": ""123456"",
+    ""confirm_password"": ""123456""
+}",,"{
+    ""requestId"": null,
+    ""code"": 200,
+    ""message"": ""Tạo mật khẩu thành công"",
+    ""totalRecords"": 0,
+    ""result"": {
+        ""token"": ""eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0cmFuZHV5YW5oMDAxQGdtYWlsLmNvbSIsImlhdCI6MTc0Nzc0MDM0OCwiZXhwIjoxNzQ4MzQ1MTQ4LCJ1c2VySWQiOiJ0cmFuZHV5YW5oMDAxQGdtYWlsLmNvbSIsImVtYWlsIjoidHJhbmR1eWFuaDAwMUBnbWFpbC5jb20ifQ.ARKYxfzN0OYPzHqIpgU9__Zm29QnP6uDzXNcYJjaPfU"",
+        ""refresh_token"": ""eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0cmFuZHV5YW5oMDAxQGdtYWlsLmNvbSIsImlhdCI6MTc0Nzc0MDM0OCwiZXhwIjoxNzUwMzMyMzQ4LCJ1c2VySWQiOiJ0cmFuZHV5YW5oMDAxQGdtYWlsLmNvbSIsImVtYWlsIjoidHJhbmR1eWFuaDAwMUBnbWFpbC5jb20iLCJ0eXBlIjoicmVmcmVzaCJ9.8kyWA2bJrCQ7Biuz36pVRAoFG5E0ihazIN_ML82CQ8w"",
+        ""email"": ""tranduyanh001@gmail.com"",
+        ""expires_at"": ""2025-05-27T11:25:48.183Z"",
+        ""refresh_expires_at"": ""2025-06-19T11:25:48.183Z""
+    },
+    ""extra"": null
+}",,
+Đăng nhập,WEB,POST,/api/bss/web/login-with-password,"{
+    ""email"": ""tranduyanh001@gmail.com"",
+    ""password"": ""123456""
+}",,"{
+    ""requestId"": null,
+    ""code"": 200,
+    ""message"": ""Đăng nhập thành công"",
+    ""totalRecords"": 0,
+    ""result"": {
+        ""token"": ""eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0cmFuZHV5YW5oMDAxQGdtYWlsLmNvbSIsImlhdCI6MTc0Nzc0MDE0OCwiZXhwIjoxNzQ4MzQ0OTQ4LCJ1c2VySWQiOiJ0cmFuZHV5YW5oMDAxQGdtYWlsLmNvbSIsImVtYWlsIjoidHJhbmR1eWFuaDAwMUBnbWFpbC5jb20ifQ.sNKPK0_SJ7NJrGcWvaHpLmQ4eUsqckUcTzJzazrv930"",
+        ""refresh_token"": ""eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0cmFuZHV5YW5oMDAxQGdtYWlsLmNvbSIsImlhdCI6MTc0Nzc0MDE0OCwiZXhwIjoxNzUwMzMyMTQ4LCJ1c2VySWQiOiJ0cmFuZHV5YW5oMDAxQGdtYWlsLmNvbSIsImVtYWlsIjoidHJhbmR1eWFuaDAwMUBnbWFpbC5jb20iLCJ0eXBlIjoicmVmcmVzaCJ9.fCv-4ktPAN12dR8-3fgrkIl8N_EEDzxlWRsc3H_T8OA"",
+        ""email"": ""tranduyanh001@gmail.com"",
+        ""expires_at"": ""2025-05-27T11:22:28.698Z"",
+        ""refresh_expires_at"": ""2025-06-19T11:22:28.698Z""
+    },
+    ""extra"": null
+}",,
+Cập nhật mật khẩu,WEB,POST,/api/bss/web/update-password,"{
+    ""password"": ""123456""
+}","Authorization:""""",,,
+Lấy thông tin thuê bao,,GET,/get-subscriber-info/{msisdn},,"Authorization:""""","{
+        ""msisdn"": ""0772574115"",
+        ""full_name"": ""HÀ TÀI ĐỨC"",
+        ""address"": ""Tổ 2A Phường Định Công, Quận Hoàng Mai, Thành Phố Hà Nội"",
+        ""active_date"": ""26/04/2025 15:17:27"",
+        ""balace"": ""3415"",
+        ""id_number"": ""033087007827"",
+        ""id_issue_place"": ""BCA"",
+        ""id_issue_date"": ""25/04/2021 00:00:00"",
+        ""gender"": null,
+        ""email"": """"
+    }",,
+Lấy thông tin gói cước đang sử dụng,,GET,/get-current-package/{msisdn},,"Authorization:""""","{
+            ""packageName"": ""SF89"",
+            ""fromDate"": ""26/04/2025 22:18:01"",
+            ""toDate"": ""26/05/2025 22:18:00"",
+            ""remainData"": ""3619"",
+            ""totalData"": ""4096""
+        }",,
+Lấy gói cước nổi bật,TOPUP,GET,/app/get-outstanding-package,,"Authorization:"""""," [
+        {
+            ""code"": ""SF89"",
+            ""name"": ""SF89"",
+            ""description"": ""- Miễn phí 4GB/ngày (tối đa 120GB/tháng data tốc độ cao, hết lưu lượng ngắt kết nối). <br>- Miễn phí cuộc gọi nội mạng iTel và VinaPhone dưới 20 phút, tối đa 1.000 phút.<br>- Miễn phí 60 SMS nội mạng."",
+            ""cycle"": ""M"",
+            ""is_main"": 1,
+            ""price"": 89000.0000,
+            ""brief"": ""- Miễn phí 4GB/ngày (tối đa 120GB/tháng data tốc độ cao, hết lưu lượng ngắt kết nối). <br>- Miễn phí cuộc gọi nội mạng iTel và VinaPhone dưới 20 phút, tối đa 1.000 phút.<br>- Miễn phí 60 SMS nội mạng."",
+            ""data_per_day"": 4.00,
+            ""data_per_month"": 120.00,
+            ""is_outstanding"": 1,
+            ""index"": 1
+        }]",,
+Lấy danh sách nhà mạng,TOPUP,GET,/app/get-topup-network,,"Authorization:""""","[
+        {
+            ""id"": 1,
+            ""code"": ""SKYFY"",
+            ""name"": ""SKYFY"",
+            ""status"": 1
+        },
+        {
+            ""id"": 2,
+            ""code"": ""VIETTEL"",
+            ""name"": ""VIETTEL"",
+            ""status"": 1
+        }]",,
+Lấy iá trị thẻ nạp,TOPUP,GET,app/get-topup-value/{networkId},,"Authorization:""""","[
+        {
+            ""id"": 1,
+            ""value"": 10000.00,
+            ""status"": 1,
+            ""network_id"": 1
+        },
+        {
+            ""id"": 2,
+            ""value"": 20000.00,
+            ""status"": 1,
+            ""network_id"": 1
+        }]",,
+Lấy lịch sử nạp thẻ,TOPUP,GET,app/get-topup-history,,"Authorization:""""",,,
+Lịch sử đăng ký gói cước,package,GET,app/get-package-history,,"Authorization:""""","[
+        {
+            ""id"": 1,
+            ""msisdn"": ""0772402457"",
+            ""pack_code"": ""SF89"",
+            ""price"": 89000.00,
+            ""transaction_date"": ""2025-05-12T12:04:29.081Z"",
+            ""description"": ""Mua gói cước SF89""
+        }
+    ]",,
+Lấy số ngẫu nhiên,Số,GET,get-random-msisdn,,,,,
+Lấy danh sách số,Số,POST,get-phone-numbers,"{
+    ""filters"": {
+        ""search"": ""0772xxxx02""
+    },
+    ""page"": 1,
+    ""pageSize"": 20
+}",,"[
+        {
+            ""msisdn"": ""0772100002"",
+            ""name"": ""Số thường"",
+            ""base_price"": 50000.00,
+            ""sale_price"": 50000.00
+        }
+    ",,
+Lấy dánh sách gói cước theo số,Số,GET,get-package-by-msisdn/{msisdn},,,,,
+Lấy danh sách gói cước,,POST,/api/bss/app/get-packages,"{
+    ""page"": 1,
+    ""pageSize"": 10,
+    ""filters"": {
+        ""search"": ""SF89"",
+        ""is_main"":1,
+        ""cycle"":""D""
+    }
+}",,,,
+ESIMDL - Lấy các khu vực ESIM,Esim du lịch,GET,"get-regions-by-type/{type}
+
+GLOBAL - toàn cầu
+REGIONAL - khu vực
+COUNTRY - Quốc gia",,public,"[{
+            ""id"": 2,
+            ""code"": ""ASIA"",
+            ""name"": ""Asia"",
+            ""type"": ""REGIONAL"",
+            ""iso_code"": null,
+            ""description"": ""Regional data packages for Asia"",
+            ""icon"": null
+        }]",,
+ESIMDL - Lấy gói cước theo vùng,Esim du lịch,GET,get-esim-package-by-region/210,,public,"[
+        {
+            ""name"": ""5 GB - 30 Days"",
+            ""region_id"": 210,
+            ""selling_price"": 448500.00,
+            ""currency"": ""VND"",
+            ""data_amount"": 5.00,
+            ""data_unit"": ""GB"",
+            ""validity_days"": 30,
+            ""id"": 905
+        }]",,
+ESIMDL - Lấy quốc gia theo gói cước,Esim du lịch,GET,/get-countries/{packageId},,public,"[
+        {
+            ""code"": ""KH"",
+            ""name"": ""Cambodia""
+        },
+        {
+            ""code"": ""CN"",
+            ""name"": ""China""
+        },
+        {
+            ""code"": ""HK"",
+            ""name"": ""Hong Kong""
+        },
+        {
+            ""code"": ""ID"",
+            ""name"": ""Indonesia""
+        },
+        {
+            ""code"": ""JP"",
+            ""name"": ""Japan""
+        },
+        {
+            ""code"": ""LA"",
+            ""name"": ""Laos""
+        },
+        {
+            ""code"": ""MO"",
+            ""name"": ""Macau""
+        },
+        {
+            ""code"": ""MY"",
+            ""name"": ""Malaysia""
+        },
+        {
+            ""code"": ""PH"",
+            ""name"": ""Philippines""
+        },
+        {
+            ""code"": ""SG"",
+            ""name"": ""Singapore""
+        },
+        {
+            ""code"": ""KR"",
+            ""name"": ""South Korea""
+        },
+        {
+            ""code"": ""TW"",
+            ""name"": ""Taiwan""
+        },
+        {
+            ""code"": ""TH"",
+            ""name"": ""Thailand""
+        },
+        {
+            ""code"": ""VN"",
+            ""name"": ""Vietnam""
+        }
+    ]
+",,
+ESIMDL - Lấy danh sách thiết bị,Esim du lịch,GET,/get-compatible-devices,,public,"[
+	{
+		""brand"": ""Hammer"",
+		""devices"": [
+			{
+				""id"": 3678,
+				""brand"": ""Hammer"",
+				""name"": ""Hammer Blade 3"",
+				""os"": ""android""
+			},
+			{
+				""id"": 3679,
+				""brand"": ""Hammer"",
+				""name"": ""Hammer Blade 5G"",
+				""os"": ""android""
+			},
+			{
+				""id"": 3680,
+				""brand"": ""Hammer"",
+				""name"": ""Hammer Construction"",
+				""os"": ""android""
+			},
+			{
+				""id"": 3681,
+				""brand"": ""Hammer"",
+				""name"": ""Hammer Explorer Pro"",
+				""os"": ""android""
+			}
+		]
+	},
+	{
+		""brand"": ""Teclast"",
+		""devices"": [
+			{
+				""id"": 3917,
+				""brand"": ""Teclast"",
+				""name"": ""X_EEA"",
+				""os"": ""android""
+			}
+		]
+	}
+]",,
+ESIMDL - Lấy danh sách esim du lịch đã mua,Esim du lịch,GET,/api/bss/travel-esim/my-travel-esim,,"Authorization:""""",,,
+ESIMDL - Lấy danh sách esim du lịch đã mua,Esim du lịch,GET,/api/bss/travel-esim/my-travel-esim,,,,,
+Thêm sản phẩm vào giỏ hàng,giỏ hàng,POST,add-to-cart,,public,"{
+    ""customer_id"": ""0912345678"",
+    ""product_id"": 850,
+    ""variant_id"": 850,
+    ""msisdn_id"": null,
+    ""quantity"": 1,
+    ""pack_code"": null,
+    ""sim_type"":""ESIM_TRAVEL""
+}",,
+Tăng số lượng sản phẩm trong giỏ hàng,giỏ hàng,POST,increase-quantity,,public,"{
+    ""customer_id"": ""0912345678"",
+    ""item_id"": 32,
+    ""increment_by"": 5
+}",,
+Lấy giỏ hàng theo user nếu chưa đăng nhập theo device_id,giỏ hàng,POST,get-cart,,public,"{
+    ""customer_id"": ""0912345678""
+}",,
+Xóa sản phẩm khỏi giỏ hàng,giỏ hàng,POST,api/bss/app/remove-from-cart,"{
+    ""item_id"": 123,
+    ""customer_id"": ""0879999221""
+}",public,,,
+Tạo đơn hàng,Đơn Hàng,POST,/api/bss/app/create-order,"{
+    ""delivery_address"": ""123 Đường A, Quận B"",
+    ""payment_method"": ""COD"", // GALAXYPAY
+    ""discount_amount"": 0,
+    ""shipping_amount"": 22000,
+    ""contact_phone"": ""0901234567"",
+    ""email"": ""test@example.com"",
+    ""city_id"": 1,
+    ""district_id"": 2,
+    ""ward_id"": 3,
+    ""created_by"": ""admin"",
+    ""customer_name"": ""Nguyễn Văn A"",
+    ""total_amount"": 87000,
+    ""items"": [
+        {
+            ""product_id"": 291,
+            ""variant_id"": null,
+            ""msisdn_id"": 26,
+            ""pack_price"": 20000,
+            ""sim_price"": 15000,
+            ""sale_price"": 30000,
+            ""quantity"": 1,
+            ""sim_type"": ""USIM"", // ESIM // ESIM_TRAVEL
+            ""pack_code"": ""SF89""
+        }
+    ]
+}",,"{
+    ""requestId"": null,
+    ""code"": 200,
+    ""message"": ""Đơn hàng đã được tạo thành công"",
+    ""totalRecords"": 0,
+    ""result"": {
+        ""order_code"": ""25051539807560""
+    },
+    ""extra"": null
+}",,
+Lấy thông tin đơn hàng,Đơn Hàng,GET,/api/bss/app/get-order/25052152530449,,,,,
+Lấy phường xã,Đơn Hàng,GET,/api/bss/app/get-wards,,public,,,
+Lấy quận huyện,Đơn Hàng,GET,/api/bss/app/get-districts,,public,,,
+Lấy tỉnh thành phố,Đơn Hàng,GET,/api/bss/app/get-cities,,public,,,
+Lấy phí ship,Đơn Hàng,POST,/api/bss/app/get-shipping-fee,"{
+    ""city_id"":1,
+    ""district_id"":10,
+    ""ward_id"":100,
+    ""delivery_address"":""285 đội cấn""
+}",,"{
+    ""requestId"": null,
+    ""code"": 200,
+    ""message"": ""Lấy phí vận chuyển thành công"",
+    ""totalRecords"": 0,
+    ""result"": {
+        ""shipping_fee"": 22000,
+        ""currency"": ""VND""
+    },
+    ""extra"": null
+}",,
+Lấy link thanh toán,Thanh toán,POST,/api/bss/payment/gateways/GALAXYPAY/redirect,"{
+    ""orderNumber"": ""ORD-12345678""
+}",public,"{
+    ""requestId"": null,
+    ""code"": 200,
+    ""message"": ""Payment URL generated successfully"",
+    ""totalRecords"": 0,
+    ""result"": {
+        ""redirectUrl"": ""https://uat-paymentv2.galaxypay.vn/payment/2505155205259202109921985/20250515112517/81ec7443718d26b5ddf44f8b942ce527ac09abea03ae4149ec0c023860d2666d/vi"",
+        ""orderNumber"": ""ORD-12345678"",
+        ""orderAmount"": 150000.0
+    },
+    ""extra"": null
+}",,
+Lấy danh sách phương thức thanh toán,Thanh toán,GET,/api/bss/payment/gateways/GALAXYPAY/methods,,public,,,
+Lấy danh sách ảnh banner,Banner,GET,/api/bss/cms/banners,,public,,,
+Lấy gó cước có thể đăng ký theo số thuê bao,Số,POST,/api/bss/app/get-available-package,"{
+    ""msisdn"":""0772402457""
+}",,,,
+Kiểm tra tài khoản chính khi đăng ký gói,Gói cước,POST,/api/bss/app/check-package-register,"{
+    ""msisdn"":""0772402457"",
+    ""packageCode"":""SF89""
+}",,,,
+Đăng ký gói cước,Gói cước,POST,/api/bss/app/register-package,"{
+    ""msisdn"": ""0772402457"", 
+    ""packageCode"": ""6VJ12"",
+    ""otp"":""1121"" // là option nếu k truyền otp thì phải gửi token
+}",,,,
+Gửi OTP đăng ký gói cước,Gói cước,POST,/api/bss/app/send-otp-register-package,"{
+    ""msisdn"":""0772402457""
+}",,,,
+Lấy danh sách đơn hàng,Don hang,POST,/api/bss/crm/order/orders,"{
+  ""filters"": {
+    
+  },
+  ""page"": 1,
+  ""pageSize"": 10
+}",Authorization,,,
+Lấy chi tiết đơn hàng,Don hang,GET,/api/bss/crm/order/order-detail/25051946253666,,Authorization,,,
+Gán sim vào đơn hàng,Don hang,POST,/api/bss/crm/order/update-sim-msisdn,"{
+  ""orderId"": ""25051970560628"",
+  ""orderItemId"": 24,
+  ""serial"": ""8984012503120000456""
+}",Authorization,,,
+Tạo đơn topup,Topup,POST,/api/bss/app/create-order-topup,"{
+    ""product_id"": 1,
+    ""total_amount"": 50000,
+    ""contact_phone"": ""0987654321""
+  }",,,,

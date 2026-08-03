@@ -1,0 +1,38 @@
+{
+  "supportCenter": {
+    "title": "Support Center",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1": {
+      "question": "How to use eSIM",
+      "answer": "Step 1: Choose the plan as required.\\nStep 2: Install eSIM.\\nStep 3: Activate eSIM."
+    },
+    "faq2": {
+      "question": "Before installing eSIM",
+      "answer": "Users need to check if their phone supports eSIM.\\nCheck the latest updated list of phone models that support eSIM at the link below:\\nhttps://skyfi.vn/buy-esim/nations\\nUsers need to check the eSIM activation policy. Most eSIMs will activate for use in the destination country upon first connecting to the local network. However, some eSIMs will activate immediately upon installation on the phone anywhere. It is recommended that users install"
+    },
+    "faq3": {
+      "question": "How to install eSIM?"
+    },
+    "faq4": {
+      "question": "After installing eSIM"
+    },
+    "faq5": {
+      "question": "How to check installed ICCID?"
+    },
+    "faq6": {
+      "question": "How to check APN settings and change APN?"
+    },
+    "faq7": {
+      "question": "Troubleshooting"
+    },
+    "faq8": {
+      "question": "iMessage and Facetime"
+    },
+    "faq9": {
+      "question": "Wifi Hotspot /mobile data sharing"
+    },
+    "faq10": {
+      "question": "When can eSIM be removed from the phone?"
+    }
+  }
+}

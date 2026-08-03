@@ -1,0 +1,897 @@
+{
+  "common": {
+    "title": "SkyFi",
+    "description": "SkyFi是全球高速eSIM（4G, 5G）服务提供商，连接航空、餐饮、娱乐、购物等各种便利设施。",
+    "login": "登录",
+    "cart": "购物车",
+    "myEssim": "我的eSIM",
+    "logout": "退出",
+    "errorOccurred": "发生错误",
+    "loading": "正在加载...",
+    "notification": "通知",
+    "maxQuantity": "最大数量为 {quantity} 个，请重新输入。",
+    "minQuantity": "最小数量是{quantity}个产品，请重新输入。",
+    "distributedBy": "分销方",
+    "close": "关闭",
+    "perDay": "/天"
+  },
+  "loginPage": {
+    "title": "登录",
+    "subtitle": "登录以管理旅行eSIM",
+    "emailTab": "电子邮件",
+    "qrCodeTab": "二维码",
+    "emailLabel": "电子邮件",
+    "emailRequired": "*",
+    "emailPlaceholder": "输入购买SkyFi旅行eSIM时使用的邮箱",
+    "emailNote": "您还没有旅行eSIM吗？",
+    "buyEsim": "购买eSIM",
+    "now": "现在就买。",
+    "continueButton": "继续",
+    "invalidEmail": "无效的电子邮件"
+  },
+  "navigation": {
+    "home": "首页",
+    "simData": "购买SIM卡",
+    "travelESim": "购买旅行eSIM",
+    "plans": "套餐",
+    "about": "关于SkyFi",
+    "contact": "联系我们",
+    "topUp": "充值"
+  },
+  "home": {
+    "hero": {
+      "title": "随时随地\n保持连接",
+      "subtitle": "使用SkyFi，在您的每一次冒险中，随时随地享受互联网连接。"
+    },
+    "whyChoose": {
+      "title": "为什么选择SkyFi",
+      "reason1": "流畅体验",
+      "reason1Description": "无论您身在何处，都能享受稳定、高速的互联网连接。",
+      "reason2": "24/7支持",
+      "reason2Description": "我们的客户支持团队随时准备为您提供帮助。",
+      "reason3": "节省费用",
+      "reason3Description": "国际旅行时的最佳、最省钱的解决方案。"
+    },
+    "menuBuySim": {
+      "domesticSim": {
+        "title": "购买\n国内SIM卡",
+        "buyButton": "立即购买"
+      },
+      "travelEsim": {
+        "title": "购买\n旅行eSIM",
+        "buyButton": "立即购买"
+      }
+    },
+    "plans": {
+      "title": "诱人的\n套餐",
+      "viewAll": "查看全部",
+      "register": "注册",
+      "pricePerMonth": "/ 月",
+      "pricePerDay": "/ 日",
+      "plan1": {
+        "data": "2GB/天",
+        "feature1": "高速流量用尽后停止访问",
+        "feature2": "套餐自动续订"
+      },
+      "plan2": {
+        "data": "2GB/天",
+        "feature1": "高速流量用尽后停止访问",
+        "feature2": "套餐自动续订"
+      },
+      "plan3": {
+        "data": "2GB/天",
+        "feature1": "高速流量用尽后停止访问",
+        "feature2": "套餐自动续订"
+      },
+      "plan4": {
+        "data": "2GB/天",
+        "feature1": "高速流量用尽后停止访问",
+        "feature2": "套餐自动续订"
+      }
+    },
+    "packageHome": {
+      "hotTitle": "套餐",
+      "hotHighlight": "热门",
+      "validityDescription": "套餐周期为 {days} 天",
+      "dataLabel": "无限流量",
+      "dataUnit": "GB/天",
+      "priceLabel": "套餐价格",
+      "dayUnit": "天",
+      "detailButton": "详情",
+      "buyNowButton": "立即购买",
+      "dataIcon": "数据图标",
+      "priceIcon": "价格图标",
+      "packageImage": "套餐图片"
+    },
+    "discovery": {
+      "title": "通过",
+      "title1": "应用",
+      "titleHighlight": "SkyFi ",
+      "subtitle": "伴随许多独家功能和实用程序",
+      "qrText": "扫描二维码下载应用",
+      "downloadFrom": "从这里下载",
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "features": {
+        "feature1": "轻松管理eSIM",
+        "feature2": "实时跟踪数据用量",
+        "feature3": "安全快捷的支付",
+        "feature4": "24/7支持"
+      }
+    },
+    "feedback": {
+      "title": "客户的关注与信赖",
+      "customers": {
+        "customer1": {
+          "name": "- Dũng Phùng -",
+          "content": "我是eSIM的初次用户。使用SkyFi一切都很顺利，价格优惠，指导清晰。"
+        },
+        "customer2": {
+          "name": "- Nguyễn Văn A -",
+          "content": "服务太棒了，旅行时连接稳定。客户支持快速而热心。我会继续使用！"
+        },
+        "customer3": {
+          "name": "- Trần Thị B -",
+          "content": "我尝试过很多服务，但SkyFi确实与众不同。出国旅行再也不用担心网络了！"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备好体验SkyFi了吗？",
+      "subtitle": "立即注册，享受无限连接！",
+      "button": "购买SIM卡"
+    },
+    "trustedBy": {
+      "title": "受到以下机构信赖",
+      "logoAlt": "合作伙伴徽标 {number}"
+    },
+    "powered": {
+      "title": "由 SkyFi 提供支持",
+      "gdpr": {
+        "title": "符合GDPR",
+        "description": "我们完全遵守通用数据保护条例，以确保您的隐私和数据安全。"
+      },
+      "secure": {
+        "title": "安全服务器",
+        "description": "我们的基础设施采用企业级安全措施，以保护数据并确保服务的可靠性。"
+      },
+      "privacy": {
+        "title": "隐私保护",
+        "description": "我们通过先进的加密技术和严格的数据保护政策来优先保护您的隐私。"
+      }
+    },
+    "listSim": {
+      "title": "选择\nSkyFi号码",
+      "exploreSims": "探索SIM卡库",
+      "price": "价格",
+      "originalPrice": "原价",
+      "salePrice": "促销价",
+      "loading": "正在加载SIM卡号码...",
+      "error": "加载SIM卡号码错误",
+      "noSims": "没有SIM卡号码"
+    }
+  },
+  "countryPlansPage": {
+    "bannerTitle": "探索套餐",
+    "nationality": "国家",
+    "coverage": "覆盖范围",
+    "searchPlaceholder": "按国家/地区搜索",
+    "bestOffer": "最佳优惠",
+    "data": "流量",
+    "unlimitedData": "无限",
+    "validityLabel": "有效期",
+    "validity": "{duration} {unit}",
+    "timeUnits": {
+      "days": "天",
+      "months": "月",
+      "years": "年"
+    },
+    "yourSelectedPlan": "您选择的套餐",
+    "quantity": "数量",
+    "decreaseQuantity": "减少数量",
+    "increaseQuantity": "增加数量",
+    "selectPlanButton": "选择购买",
+    "closePopup": "关闭",
+    "note": "注意",
+    "validityValue": "{number} 天",
+    "day": "天",
+    "esimDeviceCompatNote": "eSIM只能在支持的移动设备上使用。查看设备列表",
+    "description": "描述",
+    "provider": "提供方",
+    "activateOnInstall": "有效期从安装时开始",
+    "activationPolicy": "激活政策",
+    "planType": "套餐类型",
+    "dataOnly": "仅数据",
+    "ekyc": "eKYC (身份验证)",
+    "required": "必需",
+    "notRequired": "非必需",
+    "supportedCountries": "支持的国家/地区",
+    "eSIMCompatibleDevices": "支持eSIM的移动设备",
+    "eSIMNotePhysical": "注意：eSIM是一种电子SIM卡（使用二维码），而不是插入手机的实体SIM卡，eSIM不适用于智能手表。",
+    "searchDevicePlaceholder": "输入设备名称 (例如 Iphone 15, SS Galaxy Fold,...)",
+    "yourPlan": "您的套餐",
+    "price": "价格",
+    "addToCartButton": "添加到购物车",
+    "buyNowButton": "立即购买",
+    "noteTitle": "注意",
+    "esimDeviceCompatNotePopup": "eSIM只能在支持的移动设备上使用。查看设备列表",
+    "eSIMNotePhysicalPopup": "注意：eSIM是一种电子SIM卡（使用二维码），而不是插入手机的实体SIM卡，eSIM不适用于智能手表"
+  },
+  "simData": {
+    "title": "选择号码和套餐",
+    "package": "套餐",
+    "quantity": "数量",
+    "steps": {
+      "step1": "选择号码和套餐",
+      "step2": "付款"
+    },
+    "choosePackage": "选择套餐",
+    "simSection": {
+      "numberLabel": "您的专属号码",
+      "selectButton": "选择其他号码",
+      "physicalSim": "实体SIM卡",
+      "deliveryNoteUSIM": "*SIM卡送货上门 - 需支付运费",
+      "deliveryNoteESIM": "eSIM是电子SIM卡，将通过电子邮件发送给客户。eSIM只能在支持的移动设备上使用。",
+      "deviceCompatibility": "查看设备列表",
+      "includeFee": "价格包含SIM卡费、激活费和号码费"
+    },
+    "totalSection": {
+      "sim": "SIM卡",
+      "plan": "套餐",
+      "title": "总计",
+      "addToCartButton": "添加到购物车",
+      "buyNowButton": "结算"
+    },
+    "itemPackage": {
+      "day": "天",
+      "detail": "查看详情",
+      "month": "月",
+      "register": "注册",
+      "free_call_minute": "通话分钟数: {minute} 分钟跨网络通话"
+    }
+  },
+  "phoneNumberModal": {
+    "title": "选择其他号码",
+    "searchHint": "在空白处填写您想要的数字",
+    "cancelButton": "取消",
+    "confirmButton": "确认",
+    "noResults": "!!! 很抱歉，您要找的号码已售罄。您可能会喜欢以下号码："
+  },
+  "cart": {
+    "addedSuccessfully": "成功加入购物车",
+    "total": "总计",
+    "viewCart": "查看购物车",
+    "checkout": "结算",
+    "empty": "您的购物车是空的",
+    "continueShopping": "请添加产品以继续购物",
+    "closeButton": "关闭",
+    "page": {
+      "title": "购物车",
+      "continueShopping": "继续购物",
+      "emptyCartMessage": "购物车中没有商品",
+      "emptyCartDescription": "您可以访问我们的商店进行购物。",
+      "buySim": "购买SIM卡",
+      "productColumn": "产品",
+      "quantityColumn": "数量",
+      "priceColumn": "价格",
+      "orderSummary": "订单摘要",
+      "products": "产品",
+      "taxAndService": "税费和服务费",
+      "included": "已包含",
+      "totalAmount": "总金额"
+    }
+  },
+  "checkout": {
+    "title": "结算",
+    "back": "返回",
+    "steps": {
+      "step1": "选择号码和套餐",
+      "step2": "付款"
+    },
+    "discountSection": {
+      "inputPlaceholder": "输入折扣码",
+      "applyButton": "应用折扣码",
+      "processing": "正在检查...",
+      "applied": "折扣码已应用",
+      "remove": "删除折扣码",
+      "discount": "折扣",
+      "description": "SF69、SF79、SF89激活套件和运费享受15%折扣",
+      "validationError": "请输入折扣码",
+      "applySuccess": "成功应用折扣码！您已获得折扣",
+      "successTitle": "成功",
+      "referralPlaceholder": "输入推荐码（可选）"
+    },
+    "contactInfo": {
+      "title": "联系信息",
+      "description": "我们将通过以下联系信息与您联系并发送eSIM激活信息。",
+      "email": "电子邮件",
+      "phone": "电话号码",
+      "fullName": "姓名",
+      "emailPlaceholder": "输入电子邮件",
+      "phonePlaceholder": "输入电话号码",
+      "namePlaceholder": "输入姓名"
+    },
+    "shippingAddress": {
+      "title": "SIM卡接收地址",
+      "province": "省/市",
+      "district": "区/县",
+      "ward": "坊/社",
+      "address": "详细地址",
+      "provincePlaceholder": "选择省/市",
+      "districtPlaceholder": "选择区/县",
+      "wardPlaceholder": "选择坊/社",
+      "addressPlaceholder": "输入详细地址"
+    },
+    "paymentMethod": {
+      "title": "支付方式",
+      "galaxypay": "在线支付（二维码、信用卡、电子钱包等）",
+      "domestic": "国内支付卡"
+    },
+    "discountCode": "输入折扣码",
+    "terms": "我的设备与eSIM兼容。我同意条款与条件。",
+    "devicePrefix": "我的设备是",
+    "deviceCompatibility": "与eSIM兼容",
+    "agreeWith": "我同意",
+    "termsAndConditions": "条款与条件",
+    "completeOrder": "完成订单",
+    "agreeTermsPhysical": "我同意SkyFi实体SIM卡的通用交易条款与条件",
+    "agreeTermsPhysicalPrefix": "我同意",
+    "agreeTermsPhysicalLink": "SkyFi通用交易条款与条件",
+    "agreeTermsEsim": "eSIM",
+    "validationErrorTermsPhysical": "请同意实体SIM卡的条款",
+    "validationErrorTermsEsim": "请同意eSIM的条款",
+    "validationErrorTermsBoth": "请同意实体SIM卡和eSIM的条款",
+    "orderSummary": {
+      "title": "您的订单",
+      "products": "产品",
+      "productsCount": "个产品",
+      "taxAndFees": "税费和服务费",
+      "included": "已包含",
+      "total": "总计",
+      "quantity": "数量",
+      "feeShipping": "运费",
+      "taxAndService": "税费"
+    },
+    "titleMessage": "通知",
+    "noSims": "没有SIM卡！",
+    "noSimsTitle": "没有可供结算的SIM卡",
+    "noSimsDescription": "您可以返回并选择您想要的SIM卡或套餐。",
+    "buyButton": "立即购买"
+  },
+  "refundPolicy": {
+    "title": "退款政策",
+    "intro": "如果由于skyfi.vn的技术故障导致无法安装和使用eSIM，客户有权要求退款或修改。",
+    "section1": {
+      "title": "1. 退款与取消",
+      "subtitle1": "1.1. 政策和指南",
+      "content1": "1.1.2. 经过彻底故障排除后仍无法激活时，可在购买之日起三十（30）天内提出退款请求。\n\n1.1.3. 如果eSIM已激活，但发生skyfi.vn应负责和/或移动运营商承认无法快速解决的问题，您可获得剩余数据量的退款。\n\n1.1.4. 客户在解决问题方面的早期合作对于获得退款至关重要。\n\n1.1.5. 每个数据套餐都有自己的有效期。有效期结束后，剩余数据将不符合任何形式的退款条件。\n\n1.1.6. 赔偿：对于因额外电话费、额外SIM卡费或额外酒店电话费而产生的任何费用，将不予退款或支付任何形式的赔偿。\n\n1.1.7. 欺诈性购买：如果出现任何滥用、违反我们的条款和条件或与使用skyfi.vn产品和服务相关的任何欺诈行为的迹象，skyfi.vn保留拒绝任何形式退款的权利。\n\n1.1.8. 未经授权的购买：在处理任何退款之前，问题将经过调查和批准。skyfi.vn可自行决定暂停任何涉及欺诈的订单。\n\n1.1.9. 不正确的费用：如果客户合理且善意地对账单或账单的一部分提出争议，客户必须在收到账单之日起10个工作日内通知skyfi.vn该争议。通知必须包括客户认为收费不正确的原因信息，以及（如果可能）客户认为应支付的金额。\n\n1.1.10. skyfi.vn在以下情况下不接受退款请求：\n客户已删除eSIM并想重新安装。\n客户的设备不支持eSIM。\n客户的手机已被网络锁定。\neSIM已超过有效期（有效期记录在订单确认邮件中）。\n您所访问的国家/地区发生不可抗力事件（包括但不限于自然灾害、地震、流行病、火灾、战争、罢工、暴乱、当地法律政策变更、政府变更等）。\n旅游国家的网络基础设施出现问题，不稳定。\neSIM出现问题时，客户未主动联系skyfi.vn。\n\n1.1.11. 其他原因：如果退款请求不属于上述任何类别，我们将单独审查每个请求。如果获得退款，可能会收取手续费。消费者可以要求的最高信用额度或退款额必须等于或低于其购买总价。"
+    },
+    "section2": {
+      "title": "1.2. 退款流程",
+      "content": "客户可通过热线：1900 6605 或发送电子邮件至 support@skyfi.vn 联系skyfi.vn支持团队提出退款请求。\n\n退款期限：skyfi.vn只有在确认由于skyfi.vn的技术故障导致eSIM无法安装和使用，并且客户有权要求退款时，才会向客户退款。\n\n退款方式：根据具体情况，退款将转入买方指定的信用卡/银行账户，或通过双方同意的方式进行。\n\n请注意，上述退款政策将适用。根据问题的性质，客户可能需要提供额外信息来支持他们的退款请求，例如技术问题方面的设备设置截图、解释为什么账单金额不正确，以及（如果可能）估计客户认为应支付的金额。"
+    },
+    "section3": {
+      "title": "2. 修改",
+      "content": "一旦购买，skyfi.vn的eSIM数据套餐不能根据具体要求进行更改或定制；它们按原样提供。\n\n欲了解更多详情，请联系skyfi.vn客户服务部门或拨打：1900 6605寻求帮助。谢谢！"
+    }
+  },
+  "paymentPolicy": {
+    "title": "支付政策",
+    "mainTitle": "支付规定和方式",
+    "section1": {
+      "title": "一、支付规定",
+      "subtitle1": "审查并确认支付交易内容",
+      "content1": "Skyfi.vn设有机制，允许客户在使用支付功能提交支付交易请求之前，审查、补充、修改和确认交易内容。此审查和确认机制已满足以下条件：\n\n向客户显示以下信息：\n\na) 商品或服务的名称、数量、品牌和价格；\n\nb) 交付或服务提供的方式和期限；\n\nc) 合同总价值以及客户选择的支付方式的详细信息。\n\n这些信息能够在客户的信息系统上存储、打印并可在以后显示。\n\n通过热线联系确认的方式，向客户显示关于接受合同请求的回复方式和回复合同请求的期限。\n\n允许客户在审查上述信息后，通过网站或热线选择取消交易或确认合同请求。",
+      "subtitle2": "通用交易条件信息",
+      "content2": "Skyfi.vn设有机制，允许客户在提交支付合同请求之前阅读并明确表示同意通用交易条件。\n\n通用交易条件包括：\n\n退货政策，包括退货期限、退货或换货方式、退款方式、退货费用（在网站上公开）。\n\n产品保修政策（在网站上公开）。\n\n服务标准、服务提供流程、费用表以及与服务提供相关的其他条款，包括（如果存在）条件和限制（在网站上公开）。\n\n卖方和客户在每笔交易中的义务（在网站上公开）。",
+      "subtitle3": "支付方式信息",
+      "content3": "Skyfi.vn已在支付政策部分公布适用于商品的所有支付方式，以便客户了解并选择合适的支付方式。\n\nSkyfi.vn已建立机制，允许客户在使用在线支付功能进行支付之前，审查和确认每笔支付交易的详细信息。\n\nSkyfi.vn确保客户支付交易的安全和保密，并在客户通过网站的支付信息被未经授权地更改、删除、取消、复制、披露、移动或盗用而给客户造成损害的情况下，处理投诉并赔偿损失。"
+    },
+    "section2": {
+      "title": "二、支付方式",
+      "content": "**预先支付方式：**\n\n目前，Skyfi接受以下支付方式：国际VISA卡、国内Napas卡。您可以在付款前检查商品。\n\n**注意：**在下单前，请客户仔细核对订单信息填写界面上清晰显示的产品信息以及应支付的商品金额。\n\n您也可以通过以下方式在SKYFI.VN购物时付款：\n\n- 国际VISA卡、国内Napas卡支付适用于全国范围内的订单。客户输入自己的卡信息进行确认并直接支付。款项将转入 GALAXY DIGITAL HOLDINGS 有限责任公司的银行账户：\n\nSKYFI.VN收到银行确认通知后，将立即通知客户并安排发货。\n\n客户可以通过网站：https://Skyfi.vn / 或热线：1900 6605 下单。我们的工作人员将致电客户确认产品和运输方式。"
+    }
+  },
+  "TermsAndConditions": {
+    "mainTitle": "通用交易条件",
+    "welcomeMessage": {
+      "paragraph1": "欢迎来到skyfi.vn网站 – 由 CÔNG TY TNHH GALAXY DIGITAL HOLDINGS 建立和拥有。当您访问我们的网站时，即表示您同意这些条款。",
+      "paragraph2": "本网站的使用规定和条件中的任何内容可能会被更改、修改或调整，并在更改通知和完整发布在网站上后的5天生效。",
+      "paragraph3": "在通过skyfi.vn订购任何产品或服务之前，请仔细阅读本交易条款和条件。"
+    },
+    "supplyConditions": {
+      "title": "商品或服务提供的条件或限制",
+      "paragraph1": "- 为确保作为最终消费者的客户的公平性和权益，skyfi.vn有权在实施促销计划时适用限制条件：不限于单个客户在每个促销计划中可购买的最大产品数量、购买产品包的目的限制（仅用于消费，不得用于商业、转售等），或在每个促销计划中详细规定的其他限制（如果存在）。这些限制条件在此后称为促销政策。",
+      "paragraph2": "因此，skyfi.vn有权不确认、拒绝、取消或收回违反促销政策任何内容的已交付产品。",
+      "paragraph3": "- skyfi.vn有权根据自己的决定，在某些其他情况下，不确认、拒绝、取消或收回已交付给客户的产品，而无需通知客户。"
+    },
+    "inspectionPolicy": {
+      "title": "验货政策",
+      "paragraph1": "eSIM产品承诺与网站上的详细描述一致。成功购买和支付eSIM后，用户将通过电子邮件收到公司关于已购买eSIM信息的通知。收到信息后，用户请检查eSIM信息。",
+      "paragraph2": "产品不直接交付，因此没有验货政策。"
+    },
+    "refundPolicy": {
+      "title": "退款 / 取消 / 修改政策",
+      "refundAndCancellation": {
+        "title": "3.1. 退款与取消",
+        "policyAndGuidance": {
+          "title": "3.1.1. 政策和指南",
+          "point1": "- 经过彻底故障排除后仍无法激活时，可在购买之日起三十（30）天内提出退款请求。",
+          "point2": "- 如果eSIM已激活，但发生Skyfi.vn应负责和/或移动运营商承认无法快速解决的问题，您可获得剩余数据量的退款。",
+          "point3": "- 客户在解决问题方面的早期合作对于获得退款至关重要。",
+          "point4": "- 每个数据套餐都有自己的有效期。有效期结束后，剩余数据将不符合任何形式的退款条件。",
+          "point5": "- 赔偿：对于因额外电话费、额外SIM卡费或额外酒店电话费而产生的任何费用，将不予退款或支付任何形式的赔偿。",
+          "point6": "- 欺诈性购买：如果出现任何滥用、违反我们的条款和条件或与使用Skyfi.vn产品和服务相关的任何欺诈行为的迹象，Skyfi.vn保留拒绝任何形式退款的权利。",
+          "point7": "- 未经授权的购买：在处理任何退款之前，问题将经过调查和批准。Skyfi.vn可自行决定暂停任何涉及欺诈的订单。",
+          "point8": "- 不正确的费用：如果客户合理且善意地对账单或账单的一部分提出争议，客户必须在收到账单之日起10个工作日内通知Skyfi.vn该争议。通知必须包括客户认为收费不正确的原因信息，以及（如果可能）客户认为应支付的金额。",
+          "nonRefundableCases": {
+            "intro": "- Skyfi.vn在以下情况下不接受退款请求：",
+            "case1": "+ 客户已删除eSIM并想重新安装。",
+            "case2": "+ 客户的设备不支持eSIM。",
+            "case3": "+ 客户的手机已被网络锁定。",
+            "case4": "+ eSIM已超过有效期（有效期记录在订单确认邮件中）。",
+            "case5": "+ 您所访问的国家/地区发生不可抗力事件（包括但不限于自然灾害、地震、流行病、火灾、战争、罢工、暴乱、当地法律政策变更、政府变更等）。",
+            "case6": "+ 旅游国家的网络基础设施出现问题，不稳定。",
+            "case7": "+ eSIM出现问题时，客户未主动联系Skyfi.vn。"
+          },
+          "otherReasons": "- 其他原因：如果退款请求不属于上述任何类别，我们将单独审查每个请求。如果获得退款，可能会收取手续费。消费者可以要求的最高信用额度或退款额必须等于或低于其购买总价。"
+        },
+        "refundProcess": {
+          "title": "3.1.2. 退款流程",
+          "paragraph1": "客户可通过热线：1900 6605 或发送电子邮件至 support@skyfi.vn 联系Skyfi.vn支持团队提出退款请求。",
+          "paragraph2": "退款期限：skyfi.vn只有在确认由于Skyfi.vn的技术故障导致eSIM无法安装和使用，并且客户有权要求退款时，才会向客户退款。",
+          "paragraph3": "退款方式：根据具体情况，退款将转入买方指定的信用卡/银行账户，或通过双方同意的方式进行。",
+          "paragraph4": "请注意，上述退款政策将适用。根据问题的性质，客户可能需要提供额外信息来支持他们的退款请求，例如技术问题方面的设备设置截图、解释为什么账单金额不正确，以及（如果可能）估计客户认为应支付的金额。"
+        }
+      },
+      "modification": {
+        "title": "3.2. 修改",
+        "paragraph1": "一旦购买，Skyfi.vn的eSIM数据套餐不能根据具体要求进行更改或定制；它们按原样提供。",
+        "paragraph2": "欲了解更多详情，请联系skyfi.vn客户服务部门或拨打：1900 6605寻求帮助。谢谢！"
+      }
+    },
+    "productWarranty": {
+      "title": "产品保修政策",
+      "status": "产品保修政策       🗹 有   ❑ 无"
+    },
+    "shippingPolicy": {
+      "title": "运输和交付政策",
+      "paragraph1": "收到您的订单确认后，我们将在30分钟至3小时内尽快与客户联系，以确认订单信息和付款信息。为了方便系统尽快将二维码发送给客户，请您提供准确详细的电子邮件信息。我们有权取消不明确的订单，或不对因您提供的电子邮件信息不准确而导致的错误负责。",
+      "paragraph2": "用户成功购买eSIM后，二维码将从系统发送到客户注册的邮箱，同时也会出现在我们网站系统上的客户收件箱中。",
+      "paragraph3": "产品不直接交付，因此没有运输和交付政策。"
+    },
+    "serviceStandards": {
+      "title": "服务标准、服务提供流程、费用表和与服务提供相关的其他条款",
+      "realSalesNoAdvertising": {
+        "title": "真实销售，无广告",
+        "paragraph1": "skyfi.vn是一个支持买家使用SKYFI产品的网站，而不是为其他卖家的产品或商店做广告的平台。"
+      },
+      "mutualRespect": {
+        "title": "互相尊重",
+        "paragraph1": "我们希望建立一个安全文明的客户群，让每个人都能享受移动购物的乐趣（无需亲自前往SKYFI的商店）。"
+      },
+      "goodPurchaseHistory": {
+        "title": "保持良好的 \"购买记录\"",
+        "paragraph1": "为了获得更多忠实客户的促销优惠，请不要忘记保持经常性的购买，不要 \"恶意\" 订购、准时收货，并尽量减少不必要的取消、退货和退款情况。"
+      },
+      "noFakeGoods": {
+        "title": "对销售假冒伪劣产品说不",
+        "paragraph1": "skyfi.vn承诺只发布正品销售，因为销售假冒伪劣产品是违法行为。如果客户提出反馈，SKYFI将进行审查，如果确认反馈属实，将对客户进行赔偿，发布更正声明并将这些产品从系统中删除。"
+      },
+      "serviceProvisionProcess": "服务提供流程 (在网站使用指南中有具体说明)",
+      "companyInformation": {
+        "paragraph1": "CÔNG TY TNHH GALAXY DIGITAL HOLDINGS – 是直接销售商品的网站所有者",
+        "paragraph2": "其他供应商不得参与在本网站上提供服务",
+        "paragraph3": "参与形式/方式：通过与网络运营商和商品供应商签订合作合同，SKYFI直接向买家/服务用户提供eSIM产品。",
+        "paragraph4": "SKYFI直接向买家/服务用户收取商品价格，并负责向买家/服务用户开具发票。",
+        "paragraph5": "商品供应商不得参与定价或向用户收费，不得直接参与在系统上发布或创建商店。所有产品均由SKYFI发布，因为货物已入库。",
+        "feeScheduleTitle": "费用表",
+        "feeScheduleParagraph": "每件商品的费用表将在网站上公开，买家可以直接看到产品价格，并决定是否同意购买并加入订单。"
+      }
+    },
+    "otherTerms": {
+      "title": "其他条款",
+      "acceptance": {
+        "title": "接受使用条件",
+        "paragraph1": "当您使用SKYFI的skyfi.vn网站时，即表示您默认接受以下规定的使用条款和条件（以下简称 \"使用条件\"）。为了了解最新的修改，您应经常查看 \"使用条件\"。skyfi.vn有权在任何时候更改、调整、添加或删除 \"使用条件\" 的内容。如果您在进行此类更改后继续使用本网站，则表示您已接受这些更改。"
+      },
+      "natureOfInformation": {
+        "title": "显示信息的性质",
+        "paragraph1": "本网站上显示的内容旨在提供与eSIM相关的产品信息和SKYFI的促销活动信息。"
+      },
+      "disclaimer": {
+        "title": "免责声明",
+        "paragraph1": "本网站上显示的信息不附带SKYFI的任何形式的明示或暗示的保证或责任承诺，包括但不限于买方所选产品和服务的适用性。",
+        "paragraph2": "SKYFI也拒绝承担责任或保证本网站不会出现操作错误、安全、不会中断，或对所显示信息的准确性、完整性和及时性做出任何保证。",
+        "paragraph3": {
+          "intro": "当您访问本网站时，即默认同意SKYFI对因以下情况引起或与之相关的任何错误不承担任何责任：",
+          "point1": "(1) 使用本网站上的信息；",
+          "point2": "(2) 从本网站进行的连接访问；",
+          "point3": "(3) 订阅电子邮件；",
+          "point4": "(4) SKYFI是否提供服务，即使已被警告可能发生损害；",
+          "point5": "(5) 此处描述的与在线订购相关的限制。"
+        },
+        "paragraph4": "上述条件和限制仅在现行法律框架内有效。"
+      },
+      "intellectualProperty": {
+        "title": "知识产权",
+        "paragraph1": {
+          "intro": "本网站及其所有布局和显示内容均为SKYFI所有，并是其独家运营资产。所有使用、引用不得对SKYFI造成损害，并必须遵守以下条件：",
+          "point1": "(1) 仅用于个人、非商业目的；",
+          "point2": "(2) 所有复制或引用都必须保留原始版本中所示的版权标志或知识产权声明；",
+          "point3": "(3) 在本网站上使用或显示的任何产品、技术或流程都可能与SKYFI的其他版权或知识产权相关。"
+        }
+      },
+      "adjustmentAndModification": {
+        "title": "调整与修改",
+        "paragraph1": "SKYFI保留在任何时候更改、修改或终止本网站运营的权利。"
+      },
+      "governingLaw": {
+        "title": "管辖法律和争议解决机构",
+        "paragraph1": "本使用条件受越南社会主义共和国法律管辖。越南社会主义共和国法院是解决所有相关争议的唯一有管辖权的机构。"
+      },
+      "scopeOfApplication": {
+        "title": "适用范围",
+        "paragraph1": "以下条件专门适用于本网站的在线订购功能。当使用此功能进行订购时，您即默认接受并遵守网站上发布的所有指南、条款、条件和注意事项，包括但不限于此处列出的使用条件。如果您无意在线购物或不同意使用条件中列出的任何条款或条件，请停止使用此功能。"
+      },
+      "onlineOrderingConditions": {
+        "title": "使用在线订购功能的条件",
+        "paragraph1": "在线订购功能仅供个人和非商业用途使用。您不得修改、复制、传播、转移、显示、操作、复制、公布、授权、创建链接、转让或组织从在线购物功能获得的任何信息、软件、产品或服务的业务。",
+        "paragraph2": "在线购物功能将帮助您查找信息并有效完成产品服务购买操作。但是，如果滥用此功能，您可能会被拒绝访问或使用。",
+        "paragraph3": "您必须声明并保证在使用在线购物功能时已达到法定年龄，确保遵守此处列出的使用条件，并具有法律规定的足够权利和能力来执行与使用此功能相关的行为。您接受对自己或任何使用预订信息的人或组织使用本网站的所有行为承担财务责任。",
+        "priceAndFees": {
+          "title": "价格和费用规定",
+          "paragraph1": "总付款金额已包含客户必须支付的所有税费和费用"
+        }
+      },
+      "obligations": {
+        "title": "卖方 (SKYFI) 和客户在每笔交易中的义务",
+        "seller": {
+          "title": "SKYFI的义务",
+          "paragraph1": "向工业和贸易部报告网站为电子商务服务提供网站；在网站上建立和公布以下信息：单位信息；网站使用指南；通用交易条件信息；隐私政策；支付方式信息；投诉解决政策；交付和运输政策；… 要求使用网站的买方在注册账户时提供最少的相关信息。存储网站用户的注册信息并定期更新相关更改和补充信息；防止并从网站上删除属于法律禁止经营的商品、服务目录的信息；在发现或收到有关这些信息的可靠反馈时，从网站上删除违反网站/其他法律规定的信息；提供信息，协助国家管理机构调查利用其网站的违法商业行为；在有权国家机关要求时提供有关其业务状况的信息，以服务于电子商务统计活动、检查和处理违规行为"
+        },
+        "customer": {
+          "title": "客户（买方）的义务",
+          "paragraph1": "必须提供至少以下一项信息：全名、电话号码、电子邮件、地址，才能在网站上在线订购。在注册账户和使用服务之前，阅读并充分理解skyfi.vn网站服务和通过网站提供的服务的运营规章、条款和条件，并在收到关于运营规章、条款和条件变更或调整的通知时阅读并理解。成员使用或继续使用服务即视为该成员已阅读、理解并同意网站服务和通过skyfi.vn提供的服务的运营规章、条款和条件；自行负责维护、存储和以自己的注册名称、密码使用服务的所有活动；及时通知SKYFI任何未经授权的使用、滥用、违反保密、存储支付和订购信息的行为，以便双方合作处理；承诺提供给SKYFI的信息准确完整，并保持其在skyfi.vn网站上的信息更新、准确和完整；对内容、图像、个人信息和其他信息以及通过skyfi.vn网站进行的整个交易过程承担全部责任；与skyfi.vn合作并提供必要的信息，以协助解决发生的争议；在有权国家机关要求时提供交易信息；在skyfi.vn网站上活动时，遵守有关支付、广告、促销、知识产权保护、消费者权益保护及其他相关法律法规；承诺并同意不将skyfi.vn网站的服务用于非法、不合理、欺诈、威胁、非法信息探测、破坏、创建和传播损害skyfi.vn系统、配置、信息传输的病毒，或将SKYFI的服务用于投机、创建虚假服务订单、操纵市场，包括服务于市场需求预测的目的。如果发生违规行为，成员必须对自己的行为承担法律责任；承诺未经公司同意，不更改、编辑、复制、传播、分发、提供和创建SKYFI向第三方提供的类似服务工具；不得以任何形式损害skyfi.vn网站的声誉，包括但不限于通过使用第二个注册名称、通过第三方或传播、散布不利于公司声誉的信息来在成员之间制造不团结；在有权国家机关要求时提供其个人信息，以服务于电子商务统计活动。"
+        }
+      }
+    }
+  },
+  "contactPage": {
+    "title": "联系我们",
+    "subtitle": "我们随时准备为您提供任何问题或疑问的支持。",
+    "phone": "电话",
+    "phoneNumber": "1900 6605",
+    "email": "电子邮件",
+    "emailAddress": "customercare@skyfi.vn",
+    "address": "地址",
+    "addressDetails": "越南胡志明市芽皮县福坚坊阮 hữu寿路673号PV Gas大厦",
+    "formName": "姓名",
+    "formNamePlaceholder": "输入姓名",
+    "formEmail": "电子邮件",
+    "formEmailPlaceholder": "输入电子邮件",
+    "formPhone": "电话号码",
+    "formPhonePlaceholder": "输入电话号码",
+    "formSubject": "主题",
+    "formSubjectPlaceholder": "选择主题",
+    "formMessage": "消息",
+    "formMessagePlaceholder": "输入消息",
+    "formSendButton": "发送"
+  },
+  "travelESimPage": {
+    "bannerTitle": "选择您的eSIM套餐",
+    "searchPlaceholder": "按国家/地区搜索",
+    "tabNational": "国家eSIM",
+    "tabRegional": "区域eSIM",
+    "tabGlobal": "全球eSIM",
+    "notice": "注意：eSIM是电子SIM卡，将通过电子邮件发送给客户。eSIM只能在支持的移动设备上使用。<link>查看设备列表</link>",
+    "countriesTitle": "国家/地区",
+    "regionalComingSoon": "区域eSIM内容即将推出！",
+    "globalComingSoon": "全球eSIM内容即将推出！",
+    "singapore": "新加坡",
+    "cambodia": "柬埔寨",
+    "china": "中国",
+    "australia": "澳大利亚",
+    "southKorea": "韩国",
+    "taiwan": "台湾",
+    "kazakhstan": "哈萨克斯坦",
+    "vietnam": "越南",
+    "india": "印度",
+    "japan": "日本",
+    "malaysia": "马来西亚",
+    "indonesia": "印度尼西亚",
+    "noItemsFound": "未找到任何产品",
+    "loadingMessage": "正在加载...",
+    "globalTitle": "全球数据套餐",
+    "regionalTitle": "地区"
+  },
+  "deviceCompatibilityModal": {
+    "title": "eSIM兼容设备",
+    "closeButton": "关闭",
+    "intro": "要使用eSIM，您的设备需要解锁网络并支持eSIM技术。以下是常见设备的参考列表：",
+    "generalRequirements": {
+      "title": "一般要求",
+      "unlocked": "您的手机必须是国际版，且未被网络锁定 (network-unlocked)。",
+      "esimSupport": "手机支持eSIM功能。"
+    },
+    "apple": {
+      "title": "苹果 iPhone",
+      "models": "iPhone XR, XS, XS Max, 11, 11 Pro, 11 Pro Max, SE (2020), 12, 12 Mini, 12 Pro, 12 Pro Max, 13, 13 Mini, 13 Pro, 13 Pro Max, SE (2022), 14, 14 Plus, 14 Pro, 14 Pro Max, 15, 15 Plus, 15 Pro, 15 Pro Max。iPad Air (第3代及以上), iPad Pro (第1代及以上), iPad Mini (第5代及以上)。"
+    },
+    "samsung": {
+      "title": "三星 Galaxy",
+      "models": "Galaxy S20 系列, S21 系列, S22 系列, S23 系列, Note20 系列, Z Flip 系列, Z Fold 系列。Google Pixel 机型 (Pixel 3 及以上)。"
+    },
+    "google": {
+      "title": "谷歌 Pixel",
+      "models": "Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, 4a 5G, 5, 5a, 6, 6 Pro, 6a, 7, 7 Pro, 7a, 8, 8 Pro, Fold。"
+    },
+    "note": "此列表不完整，可能会有变动。某些特定市场版本（例如：iPhone的中国、香港版；三星的美国版）可能不支持eSIM或仅支持一个实体SIM卡。",
+    "checkOfficialSite": "请检查<link>制造商的官方网站</link>或您的设备设置以确认eSIM兼容性。"
+  },
+  "countryEsimPage": {
+    "days": "天",
+    "countryNotFound": "未找到该地区的 eSIM 信息。",
+    "noResultFor": "未找到与 \"{searchTerm}\" 匹配的国家。",
+    "clearSearch": "清除搜索",
+    "noCountryFound": "未找到任何国家",
+    "loading": "加载中..."
+  },
+  "footer": {
+    "description": "SkyFi是全球高速eSIM（4G, 5G）服务提供商，连接航空、餐饮、娱乐、购物等各种便利设施。",
+    "connectWithUs": "联系我们",
+    "popularCountries": {
+      "title": "热门国家",
+      "korea": "韩国",
+      "china": "中国",
+      "thailand": "泰国",
+      "australia": "澳大利亚"
+    },
+    "about": {
+      "title": "关于",
+      "aboutSkyFi": "关于SkyFi"
+    },
+    "terms": {
+      "title": "条款",
+      "refundPolicy": "退款政策",
+      "paymentPolicy": "支付政策",
+      "generalTerms": "通用交易条件",
+      "privacyPolicy": "隐私和Cookies政策",
+      "personalDataProtectionPolicy": "个人数据保护政策",
+      "sampleContract": "合同模板",
+      "serviceQualityManagement": "服务质量管理"
+    },
+    "otherInfo": {
+      "title": "其他信息",
+      "supportCenter": "支持中心",
+      "news": "新闻",
+      "contactUs": "联系我们",
+      "esimGuide": "eSIM安装指南"
+    },
+    "contact": {
+      "title": "联系方式",
+      "phone": "1900 6605",
+      "email": "customercare@skyfi.vn"
+    },
+    "companyInfo": {
+      "title": "Galaxy Digital Holdings 有限责任公司",
+      "info": "电信服务许可证号41/GP-CVT，由信息通信部于2025年2月6日颁发。\\L企业注册证书号0316951481，由胡志明市计划投资部于2021年8月13日颁发。\\L地址：越南胡志明市芽皮县阮 hữu寿路673号PV Gas大厦 - 电话：028 38273795 \\L法定代表人：Huynh Kim Tuoc - 职务：总经理"
+    },
+    "copyright": "版权所有 © 2024"
+  },
+  "verification": {
+    "title": "安全码验证",
+    "description": "我们已将安全码发送到电子邮件地址 {email}。请检查您的邮箱以获取代码。此代码将在 1 分钟后过期。",
+    "continueButton": "继续",
+    "noCodeReceived": "您没有收到代码？",
+    "resendCode": "重新发送代码",
+    "resending": "正在重新发送...",
+    "titleMadal": "安全码不正确",
+    "tryAgainButton": "重试",
+    "errorMessage": "请选择重新发送代码。安全码将发送到您的电子邮件。"
+  },
+  "password": {
+    "passwordLabel": "输入密码",
+    "forgotPassword": "忘记密码",
+    "loginButton": "登录",
+    "loading": "正在登录...",
+    "passwordTooShort": "请输入完整的 6 位密码",
+    "passwordIncorrect": "您输入的密码不正确。请重试。",
+    "forgotPasswordTitle": "忘记密码",
+    "forgotPasswordDescription": "输入您的电子邮件，我们将向您发送重置密码的链接。",
+    "emailLabel": "电子邮件",
+    "emailPlaceholder": "输入您的电子邮件",
+    "resetPasswordButton": "重置密码",
+    "sending": "正在发送...",
+    "emailRequired": "电子邮件是必填项",
+    "invalidEmail": "请输入有效的电子邮件地址",
+    "resetError": "无法发送重置电子邮件。请重试。",
+    "emailSent": "电子邮件已发送",
+    "checkEmailInstructions": "我们已将重置密码链接发送到 {email}。请检查您的收件箱并按照说明操作。",
+    "backToLogin": "返回登录",
+    "resetPasswordTitle": "重置密码",
+    "tooltip": {
+      "title": "密码要求",
+      "requirements": "密码必须是 6 位数字，不得包含连续数字（例如 123456 或 345678 或类似），不得包含相同数字（例如 111111 或 222222 或类似）"
+    },
+    "consecutiveNumbers": "密码不能包含连续数字（例如：123456, 345678）",
+    "repeatedDigits": "密码不能包含相同数字（例如：111111, 222222）",
+    "resetPasswordDescription": "请为您的账户创建一个新密码。",
+    "newPasswordLabel": "新密码",
+    "newPasswordPlaceholder": "输入您的新密码",
+    "confirmPasswordLabel": "确认密码",
+    "confirmPasswordPlaceholder": "确认您的新密码"
+  },
+  "myEsim": {
+    "myEsimTitle": "我的eSIM",
+    "titleEmpty": "没有eSIM",
+    "descriptionEmpty": "请购买eSIM或联系客服（如果已购买）",
+    "buyEsimButton": "购买eSIM",
+    "contactSupport": "联系支持",
+    "activeEsims": "活动eSIM",
+    "expiredEsims": "已过期eSIM",
+    "totalData": "总流量",
+    "remainingData": "剩余流量",
+    "validity": "有效期",
+    "expireDate": "过期日期",
+    "detailButton": "详情",
+    "viewAll": "查看全部",
+    "headers": {
+      "data": "流量",
+      "validity": "有效期",
+      "buyMore": "购买更多"
+    },
+    "buyMorePackage": "购买更多套餐",
+    "country": "国家/地区",
+    "note": "注意",
+    "dataUsage": "已使用 {used}/{total}",
+    "installDate": "安装日期",
+    "total": "总计",
+    "days": "天",
+    "errorLoadPackages": "加载套餐错误",
+    "noMorePackages": "没有合适的套餐",
+    "packageType": "套餐类型",
+    "validityTitle": "期限",
+    "selectButton": "选择",
+    "searchPlaceholder": "按套餐搜索",
+    "expiredSimsTitle": "已过期eSIM",
+    "expiredSimsDescription": "以下是已过期eSIM的列表。",
+    "allEsims": "所有eSIM",
+    "activeEsimsTitle": "活动eSIM",
+    "activeEsimsDescription": "以下是活动eSIM的列表。"
+  },
+  "countries": {
+    "title": "可用国家/地区",
+    "close": "关闭",
+    "closeAriaLabel": "关闭弹窗",
+    "searchPlaceholder": "搜索国家/地区...",
+    "flagAlt": "{country} 国旗",
+    "noResults": "未找到匹配的国家/地区",
+    "totalCount": "总计: {count} 个国家/地区"
+  },
+  "privacyPolicyPopup": {
+    "message": "请仔细阅读“个人数据保护政策” HERE，并确认您已阅读、理解并同意政策的全部内容。",
+    "messageHere": "HERE",
+    "acceptButton": "同意",
+    "skipButton": "跳过"
+  },
+  "devicesEsim": {
+    "title": "支持eSIM的设备列表",
+    "notice": "注意：eSIM是一种电子SIM（使用二维码），不是插入手机的物理SIM卡。eSIM不适用于智能手表。",
+    "searchPlaceholder": "输入设备名称 (例如 Iphone 15, SS Galaxy Fold,...)",
+    "noResults": "未找到与 “{searchTerm}” 匹配的设备",
+    "closeButton": "关闭",
+    "searchIcon": "搜索",
+    "expandIcon": "展开"
+  },
+  "warning": {
+    "title": "警告",
+    "message": "这是 SkyFi 的测试网站。网站上的所有交易均无效。请您前往 SkyFi 的官方网站，链接如下：",
+    "linkText": "点此",
+    "closeButton": "我知道了"
+  },
+  "payment-result": {
+    "thankYou": "感谢您信任并选择SkyFi！",
+    "homeButton": "返回主页",
+    "error": {
+      "title": "支付失败！",
+      "message": "交易处理过程中发生错误。"
+    },
+    "success": {
+      "title": "支付成功！",
+      "message": "您的交易已成功处理。"
+    },
+    "orderDetails": {
+      "label": "订单详情",
+      "orderId": "订单编号",
+      "purchaseDate": "购买日期",
+      "esimQuantity": "eSIM数量",
+      "esimQuantityTravel": "旅游eSIM数量",
+      "usimQuantity": "实体SIM数量",
+      "total": "总金额"
+    },
+    "title": "eSIM详情",
+    "data": {
+      "using": "使用中",
+      "waiting": "等待激活",
+      "dataLeft": "剩余流量",
+      "coverage": "覆盖范围",
+      "provider": "提供方",
+      "dataAmount": "流量容量",
+      "planType": "套餐类型",
+      "validity": "有效期",
+      "ekyc": "eKYC（身份验证）",
+      "iccid": "ICCID",
+      "dataOnly": "仅数据",
+      "notRequired": "非必需",
+      "remainingValidity": "剩余有效期",
+      "days": "天",
+      "remainingData": "剩余流量"
+    },
+    "notification": {
+      "title": "低流量通知",
+      "message": "是否允许SkyFi在流量即将耗尽时显示通知？",
+      "allow": "允许"
+    },
+    "buyMore": {
+      "title": "购买更多流量",
+      "button": "立即购买"
+    },
+    "warning": {
+      "title": "警告",
+      "message": "大多数eSIM只能安装一次。如果您移除它，将无法重新安装。"
+    }
+  },
+  "manager-esim": {
+    "pageTitle": "管理已购买的旅行eSIM",
+    "tabs": {
+      "activeEsim": "使用中的eSIM",
+      "notInstalledEsim": "未安装的eSIM"
+    },
+    "status": {
+      "active": "使用中",
+      "notInstalled": "未安装",
+      "expired": "已过期"
+    },
+    "coverage": "覆盖范围",
+    "remainingTime": "剩余时间",
+    "days": "天",
+    "dataPackage": "数据套餐",
+    "remaining": "剩余",
+    "viewDetail": "查看详情",
+    "buyMoreData": "购买更多数据",
+    "installEsim": "安装eSIM",
+    "noActiveEsim": "您没有正在使用的eSIM",
+    "noNotInstalledEsim": "您没有未安装的eSIM"
+  },
+  "esim-detail": {
+    "pageTitle": "eSIM详情",
+    "remaining": "剩余",
+    "coverage": "覆盖范围",
+    "provider": "提供商",
+    "dataCapacity": "数据容量",
+    "planType": "套餐类型",
+    "validity": "有效期",
+    "days": "天",
+    "ekyc": "eKYC（身份验证）",
+    "yourPackage": "您的套餐",
+    "buyMoreData": "购买更多数据",
+    "remainingTime": "剩余时间",
+    "viewDetail": "查看详情",
+    "register": "注册",
+    "callMinutes": "通话分钟",
+    "status": {
+      "active": "使用中",
+      "notInstalled": "未安装",
+      "expired": "已过期"
+    },
+    "planTypes": {
+      "dataOnly": "仅数据",
+      "dataAndCall": "数据和通话"
+    },
+    "ekycStatus": {
+      "required": "必需",
+      "notRequired": "非必需"
+    }
+  }
+}

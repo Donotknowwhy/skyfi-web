@@ -1,0 +1,3164 @@
+{
+  "common": {
+    "title": "SkyFi",
+    "description": "SkyFi là nhà cung cấp dịch vụ eSIM (4G, 5G) tốc độ cao toàn cầu, kết nối với các tiện ích: hàng không, ăn uống, vui chơi, giải trí, mua sắm...",
+    "login": "Đăng nhập",
+    "cart": "Giỏ hàng",
+    "myEssim": "eSIM của tôi",
+    "logout": "Đăng xuất",
+    "errorOccurred": "Đã xảy ra lỗi",
+    "loading": "Đang tải...",
+    "notification": "Thông báo",
+    "maxQuantity": "Số lượng tối đa là {quantity} sản phẩm, vui lòng nhập lại.",
+    "minQuantity": "Số lượng tối thiểu là {quantity} sản phẩm, vui lòng nhập lại.",
+    "distributedBy": "Phân phối bởi",
+    "close": "Đóng",
+    "perDay": "/ngày"
+  },
+  "loginPage": {
+    "title": "Đăng nhập",
+    "subtitle": "Đăng nhập để quản lý eSIM du lịch",
+    "emailTab": "Email",
+    "qrCodeTab": "QR code",
+    "emailLabel": "Email",
+    "emailRequired": "*",
+    "emailPlaceholder": "Nhập email đã mua eSIM du lịch SkyFi",
+    "emailNote": "Bạn chưa có eSIM du lịch?",
+    "buyEsim": "Mua eSIM",
+    "now": "ngay nhé.",
+    "continueButton": "Tiếp tục",
+    "invalidEmail": "Email không hợp lệ"
+  },
+  "navigation": {
+    "home": "Trang chủ",
+    "simData": "Mua SIM",
+    "travelESim": "Mua eSIM du lịch",
+    "plans": "Gói cước",
+    "about": "Giới thiệu về SkyFi",
+    "contact": "Liên hệ",
+    "topUp": "Nạp tiền"
+  },
+  "home": {
+    "hero": {
+      "title": "Luôn kết nối\nbất kỳ nơi đâu",
+      "subtitle": "Với SkyFi hãy tận hưởng kết nối internet trong mọi chuyến phiêu lưu của bạn bất cứ đâu."
+    },
+    "whyChoose": {
+      "title": "Vì sao chọn SkyFi",
+      "reason1": "Trải Nghiệm Mượt Mà",
+      "reason1Description": "Kết nối internet ổn định, tốc độ cao ở mọi nơi bạn đến.",
+      "reason2": "Hỗ Trợ 24/7",
+      "reason2Description": "Đội ngũ hỗ trợ khách hàng luôn sẵn sàng giúp đỡ bạn mọi lúc.",
+      "reason3": "Tiết Kiệm Chi Phí",
+      "reason3Description": "Giải pháp tối ưu, tiết kiệm chi phí khi du lịch quốc tế."
+    },
+    "menuBuySim": {
+      "domesticSim": {
+        "title": "MUA SIM\nTRONG NƯỚC",
+        "buyButton": "Mua ngay"
+      },
+      "travelEsim": {
+        "title": "MUA ESIM\nDU LỊCH",
+        "buyButton": "Mua ngay"
+      }
+    },
+    "plans": {
+      "title": "Gói cước\nhấp dẫn",
+      "viewAll": "Xem thêm",
+      "register": "Đăng ký",
+      "pricePerMonth": "/ THÁNG",
+      "pricePerDay": "/ NGÀY",
+      "plan1": {
+        "data": "2GB/ngày",
+        "feature1": "Hết data tốc độ cao dừng truy cập",
+        "feature2": "Gói cước tự động gia hạn"
+      },
+      "plan2": {
+        "data": "2GB/ngày",
+        "feature1": "Hết data tốc độ cao dừng truy cập",
+        "feature2": "Gói cước tự động gia hạn"
+      },
+      "plan3": {
+        "data": "2GB/ngày",
+        "feature1": "Hết data tốc độ cao dừng truy cập",
+        "feature2": "Gói cước tự động gia hạn"
+      },
+      "plan4": {
+        "data": "2GB/ngày",
+        "feature1": "Hết data tốc độ cao dừng truy cập",
+        "feature2": "Gói cước tự động gia hạn"
+      }
+    },
+    "packageHome": {
+      "hotTitle": "Gói cước",
+      "hotHighlight": "HOT",
+      "validityDescription": "Gói cước có chu kỳ {days} ngày",
+      "dataLabel": "Data thả ga",
+      "dataUnit": "GB/ngày",
+      "priceLabel": "Giá gói",
+      "dayUnit": "ngày",
+      "detailButton": "Chi tiết",
+      "buyNowButton": "MUA NGAY",
+      "dataIcon": "Biểu tượng dữ liệu",
+      "priceIcon": "Biểu tượng giá",
+      "packageImage": "Hình ảnh gói cước"
+    },
+    "discovery": {
+      "title": "Khám phá  ",
+      "title1": "qua ứng dụng",
+      "titleHighlight": "SkyFi ",
+      "subtitle": "Cùng nhiều tiện ích và tính năng độc quyền",
+      "qrText": "Quét mã QR để tải ứng dụng",
+      "downloadFrom": "Tải về từ",
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "features": {
+        "feature1": "Quản lý eSIM dễ dàng",
+        "feature2": "Theo dõi dung lượng realtime",
+        "feature3": "Thanh toán an toàn & nhanh chóng",
+        "feature4": "Hỗ trợ 24/7"
+      }
+    },
+    "feedback": {
+      "title": "Khách hàng quan tâm và tin cậy",
+      "customers": {
+        "customer1": {
+          "name": "- Dũng Phùng -",
+          "content": "Tôi là người sử dụng eSIM lần đầu. Mọi thứ đều thật suôn sẻ với SkyFi giá cá tuyệt vời, chỉ dẫn rõ ràng"
+        },
+        "customer2": {
+          "name": "- Nguyễn Văn A -",
+          "content": "Dịch vụ tuyệt vời, kết nối ổn định khi đi du lịch. Hỗ trợ khách hàng nhanh chóng và tận tâm. Sẽ tiếp tục sử dụng!"
+        },
+        "customer3": {
+          "name": "- Trần Thị B -",
+          "content": "Tôi đã thử nhiều dịch vụ, nhưng SkyFi thực sự khác biệt. Không còn lo lắng về mạng khi ra nước ngoài nữa!"
+        }
+      }
+    },
+    "cta": {
+      "title": "Sẵn sàng trải nghiệm SkyFi?",
+      "subtitle": "Đăng ký ngay để tận hưởng kết nối không giới hạn!",
+      "button": "Mua sim"
+    },
+    "trustedBy": {
+      "title": "ĐƯỢC TIN TƯỞNG BỞI",
+      "logoAlt": "Đối tác logo {number}"
+    },
+    "powered": {
+      "title": "Powered by SkyFi",
+      "gdpr": {
+        "title": "Tuân thủ GDPR",
+        "description": "Chúng tôi hoàn toàn tuân thủ Quy định bảo vệ dữ liệu chung để đảm bảo quyền riêng tư và bảo mật dữ liệu của bạn."
+      },
+      "secure": {
+        "title": "Máy chủ bảo mật",
+        "description": "Hạ tầng của chúng tôi sử dụng các biện pháp bảo mật cấp doanh nghiệp để bảo vệ dữ liệu và đảm bảo dịch vụ đáng tin cậy."
+      },
+      "privacy": {
+        "title": "Bảo vệ riêng tư",
+        "description": "Chúng tôi ưu tiên quyền riêng tư của bạn với mã hóa tiên tiến và chính sách bảo vệ dữ liệu nghiêm ngặt."
+      }
+    },
+    "listSim": {
+      "title": "Chọn số \nSkyFi",
+      "exploreSims": "Khám phá kho SIM",
+      "price": "Giá",
+      "originalPrice": "Giá gốc",
+      "salePrice": "Giá khuyến mãi",
+      "loading": "Đang tải số SIM...",
+      "error": "Lỗi tải số SIM",
+      "noSims": "Không có số SIM nào"
+    }
+  },
+  "countryPlansPage": {
+    "bannerTitle": "Khám phá các gói cước",
+    "nationality": "Quốc gia",
+    "coverage": "Phạm vi phủ sóng",
+    "searchPlaceholder": "Tìm kiếm theo quốc gia",
+    "bestOffer": "Ưu đãi nhất",
+    "data": "Dung lượng",
+    "unlimitedData": "Không giới hạn",
+    "validityLabel": "Hiệu lực",
+    "validity": "{duration} {unit}",
+    "timeUnits": {
+      "days": "ngày",
+      "months": "tháng",
+      "years": "năm"
+    },
+    "yourSelectedPlan": "Gói cước của bạn",
+    "quantity": "Số lượng",
+    "decreaseQuantity": "Giảm số lượng",
+    "increaseQuantity": "Tăng số lượng",
+    "selectPlanButton": "Chọn mua",
+    "closePopup": "Đóng",
+    "note": "Lưu ý",
+    "validityValue": "{number} ngày",
+    "day": "Ngày",
+    "esimDeviceCompatNote": "eSIM chỉ sử dụng được trên các thiết bị di động có hỗ trợ. Xem danh sách thiết bị",
+    "description": "Mô tả",
+    "provider": "Cung cấp bởi",
+    "activateOnInstall": "Thời hạn hiệu lực sẽ bắt đầu lúc cài đặt",
+    "activationPolicy": "Chính sách kích hoạt",
+    "planType": "Loại gói",
+    "dataOnly": "Chỉ dữ liệu",
+    "ekyc": "eKYC (Xác minh danh tính)",
+    "required": "Bắt buộc",
+    "notRequired": "Không bắt buộc",
+    "supportedCountries": "Quốc gia được hỗ trợ",
+    "eSIMCompatibleDevices": "Thiết bị di động có hỗ trợ eSIM",
+    "eSIMNotePhysical": "Lưu ý: eSIM là một loại sim điện tử (sử dụng mã QR) và không phải là thẻ sim vật lý lắp vào điện thoại , eSIM không dùng cho các loại đồng hồ thông minh",
+    "searchDevicePlaceholder": "Nhập tên máy (ví dụ Iphone 15, SS Galaxy Fold,...)",
+    "yourPlan": "Gói cước của bạn",
+    "price": "Giá",
+    "addToCartButton": "Thêm vào giỏ hàng",
+    "buyNowButton": "Mua ngay",
+    "noteTitle": "Lưu ý",
+    "esimDeviceCompatNotePopup": "eSIM chỉ sử dụng được trên các thiết bị di động có hỗ trợ. Xem danh sách thiết bị",
+    "eSIMNotePhysicalPopup": "Lưu ý: eSIM là một loại sim điện tử (sử dụng mã QR) và không phải là thẻ sim vật lý lắp vào điện thoại , eSIM không dùng cho các loại đồng hồ thông minh"
+  },
+  "simData": {
+    "title": "Chọn số và Gói cước",
+    "package": "Gói",
+    "quantity": "Số lượng",
+    "steps": {
+      "step1": "Chọn số và Gói cước",
+      "step2": "Thanh toán"
+    },
+    "choosePackage": "Chọn gói cước",
+    "simSection": {
+      "numberLabel": "Số dành cho bạn",
+      "selectButton": "Chọn số khác",
+      "physicalSim": "SIM vật lý",
+      "deliveryNoteUSIM": "*Giao SIM tại nhà - Có tính phí vận chuyển",
+      "deliveryNoteESIM": "eSIM là SIM điện tử, được gửi qua email khách hàng. eSIM chỉ sử dụng được trên các thiết bị di động có hỗ trợ.",
+      "deviceCompatibility": "Xem danh sách thiết bị",
+      "includeFee": "Giá bao gồm tiền SIM, Phí hòa mạng và số"
+    },
+    "totalSection": {
+      "sim": "SIM",
+      "plan": "Gói cước",
+      "title": "Tổng thanh toán",
+      "addToCartButton": "Thêm vào giỏ hàng",
+      "buyNowButton": "Thanh toán"
+    },
+    "itemPackage": {
+      "day": "ngày",
+      "detail": "Xem chi tiết",
+      "month": "tháng",
+      "register": "Đăng ký",
+      "free_call_minute": "Phút gọi: {minute} phút gọi liên mạng"
+    }
+  },
+  "phoneNumberModal": {
+    "title": "Chọn số khác",
+    "searchHint": "Điền vào ô trống chữ số mong muốn",
+    "cancelButton": "Hủy bỏ",
+    "confirmButton": "Xác nhận",
+    "noResults": "!!! Rất tiếc, số bạn đang tìm hiện không còn. Có thể bạn sẽ thích những số sau:"
+  },
+  "cart": {
+    "addedSuccessfully": "Thêm giỏ hàng thành công",
+    "total": "Tổng cộng",
+    "viewCart": "Xem giỏ hàng",
+    "checkout": "Thanh toán",
+    "empty": "Giỏ hàng của bạn đang trống",
+    "continueShopping": "Hãy thêm sản phẩm để tiếp tục mua sắm",
+    "closeButton": "Đóng",
+    "page": {
+      "title": "Giỏ hàng",
+      "continueShopping": "Tiếp tục mua sắm",
+      "emptyCartMessage": "Chưa có sản phẩm nào trong giỏ",
+      "emptyCartDescription": "Bạn có thể ghé thăm cửa hàng của chúng tôi và mua sắm.",
+      "buySim": "Mua SIM",
+      "productColumn": "Sản Phẩm",
+      "quantityColumn": "Số lượng",
+      "priceColumn": "Giá",
+      "orderSummary": "Tóm tắt đơn hàng",
+      "products": "sản phẩm",
+      "taxAndService": "Thuế & Phí dịch vụ",
+      "included": "Đã bao gồm",
+      "totalAmount": "Tổng cộng"
+    }
+  },
+  "checkout": {
+    "title": "Thanh toán",
+    "back": "Quay lại",
+    "steps": {
+      "step1": "Chọn số và Gói cước",
+      "step2": "Thanh toán"
+    },
+    "discountSection": {
+      "inputPlaceholder": "Nhập mã giảm giá",
+      "applyButton": "Áp dụng mã giảm giá",
+      "processing": "Đang kiểm tra...",
+      "applied": "Mã giảm giá đã được áp dụng",
+      "remove": "Xóa mã giảm giá",
+      "discount": "Giảm giá",
+      "description": "Giảm giá 15% trên bộ hòa mạng SF69, SF79, SF89 và phí vận chuyển",
+      "validationError": "Vui lòng nhập mã giảm giá",
+      "applySuccess": "Áp dụng mã giảm giá thành công! Bạn được giảm",
+      "successTitle": "Thành công",
+      "referralPlaceholder": "Nhập mã giới thiệu (nếu có)"
+    },
+    "contactInfo": {
+      "title": "Thông tin liên hệ",
+      "description": "Chúng tôi sẽ liên hệ và gửi thông tin kích hoạt eSIM đến bạn qua thông tin liên hệ dưới đây.",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "fullName": "Tên",
+      "emailPlaceholder": "Nhập email",
+      "phonePlaceholder": "Nhập số điện thoại",
+      "namePlaceholder": "Nhập tên"
+    },
+    "shippingAddress": {
+      "title": "Địa chỉ nhận SIM",
+      "province": "Tỉnh/Thành phố",
+      "district": "Quận/Huyện",
+      "ward": "Phường/Xã",
+      "address": "Địa chỉ chi tiết",
+      "provincePlaceholder": "Chọn tỉnh thành phố",
+      "districtPlaceholder": "Chọn quận/huyện",
+      "wardPlaceholder": "Chọn Phường/Xã",
+      "addressPlaceholder": "Nhập địa chỉ chi tiết"
+    },
+    "paymentMethod": {
+      "title": "Phương thức thanh toán",
+      "galaxypay": "Thanh toán Online (QR, Thẻ tín dụng, Ví điện tử...)",
+      "domestic": "Thẻ thanh toán nội địa"
+    },
+    "discountCode": "Nhập mã giảm giá",
+    "terms": "Thiết bị của tôi là tương thích với eSIM. Tôi đồng ý với Điều kiện & Điều khoản.",
+    "devicePrefix": "Thiết bị của tôi là",
+    "deviceCompatibility": "tương thích với eSIM",
+    "agreeWith": "Tôi đồng ý với",
+    "termsAndConditions": "Điều kiện & Điều khoản",
+    "completeOrder": "Hoàn tất đơn hàng",
+    "agreeTermsPhysical": "Tôi đồng ý với Điều khoản & Điều kiện giao dịch chung của SkyFi cho sim vật lý",
+    "agreeTermsPhysicalPrefix": "Tôi đồng ý với",
+    "agreeTermsPhysicalLink": "Điều khoản & Điều kiện giao dịch chung của SkyFi",
+    "agreeTermsEsim": "cho eSIM",
+    "validationErrorTermsPhysical": "Vui lòng đồng ý với điều khoản cho sim vật lý",
+    "validationErrorTermsEsim": "Vui lòng đồng ý với điều khoản eSIM",
+    "validationErrorTermsBoth": "Vui lòng đồng ý với điều khoản cho cả sim vật lý và eSIM",
+    "orderSummary": {
+      "title": "Đơn hàng của bạn",
+      "products": "Sản phẩm",
+      "productsCount": "sản phẩm",
+      "taxAndFees": "Thuế & Phí dịch vụ",
+      "included": "Đã bao gồm",
+      "total": "Tổng cộng",
+      "quantity": "Số lượng",
+      "feeShipping": "Phí vận chuyển",
+      "taxAndService": "Thuế phí"
+    },
+    "titleMessage": "Thông báo",
+    "noSims": "Không có SIM nào!",
+    "noSimsTitle": "Chưa có SIM nào để thanh toán",
+    "noSimsDescription": "Bạn có thể quay lại và chọn SIM hoặc gói cước mà bạn muốn.",
+    "buyButton": "Mua ngay"
+  },
+  "refundPolicy": {
+    "title": "Chính sách hoàn tiền",
+    "intro": "Nếu không thể cài đặt và sử dụng eSIM do sự cố kỹ thuật thuộc lỗi của skyfi.vn, khách hàng có quyền yêu cầu hoàn lại tiền hoặc sửa đổi.",
+    "section1": {
+      "title": "1. HOÀN TIỀN VÀ HỦY BỎ",
+      "subtitle1": "1.1. CHÍNH SÁCH VÀ HƯỚNG DẪN",
+      "content1": "1.1.2. Khi không thể kích hoạt được nữa sau khi khắc phục sự cố kỹ lưỡng, yêu cầu hoàn lại tiền có thể được thực hiện trong vòng ba mươi (30) ngày sau ngày mua.\n\n1.1.3. Nếu eSIM đã được kích hoạt và xảy ra sự cố mà skyfi.vn phải chịu trách nhiệm và/hoặc nhà điều hành di động đã thừa nhận rằng không thể khắc phục nhanh chóng, thì bạn có thể được hoàn lại tiền cho dữ liệu còn lại.\n\n1.1.4. Sự hợp tác sớm của khách hàng trong việc giải quyết vấn đề là vô cùng quan trọng để được hoàn tiền.\n\n1.1.5. Mỗi gói dữ liệu có thời hạn sử dụng riêng. Dữ liệu còn lại sẽ không đủ điều kiện để được hoàn lại tiền dưới bất kỳ hình thức nào khi hết thời hạn hiệu lực.\n\n1.1.6. Bồi thường: Sẽ không có khoản hoàn trả hoặc khoản thanh toán nào dưới bất kỳ hình thức nào được thực hiện do các khoản phí từ điện thoại bổ sung, thẻ SIM bổ sung hoặc điện thoại bổ sung của khách sạn\n\n1.1.7. Mua hàng gian lận: Nếu có bất kỳ dấu hiệu sử dụng sai mục đích, vi phạm các điều khoản và điều kiện của chúng tôi hoặc bất kỳ hành động gian lận nào liên quan đến việc sử dụng các sản phẩm và dịch vụ của skyfi.vn, skyfi.vn có quyền từ chối bất kỳ hình thức hoàn tiền nào.\n\n1.1.8. Mua hàng trái phép: Trước khi xử lý bất kỳ khoản hoàn trả nào, vấn đề sẽ được điều tra và phê duyệt. Bất kỳ đơn đặt hàng nào liên quan đến gian lận có thể bị skyfi.vn tạm ngưng theo quyết định của mình.\n\n1.1.9. Các khoản phí không chính xác: Nếu khách hàng tranh chấp một cách hợp lý và thiện chí một hóa đơn hoặc một phần của hóa đơn, khách hàng phải thông báo cho skyfi.vn về tranh chấp trong vòng 10 ngày làm việc kể từ ngày nhận được hóa đơn. Thông báo phải bao gồm thông tin về lý do tại sao khách hàng tin rằng số tiền bị tính là không chính xác cũng như, nếu có thể, số tiền mà khách hàng tin là nợ.\n\n1.1.10. skyfi.vn sẽ không chấp nhận yêu cầu hoàn tiền trong các trường hợp sau:\nKhách hàng đã xóa eSIM và muốn cài đặt lại.\nThiết bị của khách hàng không hỗ trợ eSIM.\nĐiện thoại của khách hàng bị khóa mạng.\neSIM đã quá ngày hết hạn (Ngày hết hạn được ghi trong email xác nhận đơn hàng).\nQuốc gia bạn đến có những trường hợp bất khả kháng (bao gồm nhưng không giới hạn các trường hợp thiên tai, động đất, dịch bệnh, hỏa hoạn, chiến tranh, đình công, bạo loạn, thay đổi chính sách pháp luật địa phương, thay đổi chính quyền…).\nHạ tầng mạng của các nước du lịch gặp vấn đề, chưa ổn định.\nKhách hàng không chủ động liên hệ với skyfi.vn khi xảy ra sự cố eSIM.\n\n1.1.11. Các lý do khác: Nếu yêu cầu hoàn tiền không thuộc một trong các danh mục đã nói ở trên, chúng tôi sẽ xem xét riêng từng yêu cầu đó. Nếu được hoàn lại tiền, có thể có một khoản phí xử lý. Khoản tín dụng hoặc khoản hoàn lại cao nhất mà người tiêu dùng có thể yêu cầu phải bằng hoặc thấp hơn toàn bộ giá mua hàng của họ."
+    },
+    "section2": {
+      "title": "1.2. QUY TRÌNH HOÀN TIỀN",
+      "content": "Khách hàng liên hệ với nhóm hỗ trợ skyfi.vn qua hotline: 1900 6605 hoặc gửi email tới support@skyfi.vn để thực hiện yêu cầu hoàn lại tiền.\n\nThời hạn hoàn trả: skyfi.vn sẽ chỉ hoàn tiền cho Khách hàng khi skyfi.vn xác nhận không thể cài đặt và sử dụng eSIM do sự cố kỹ thuật thuộc lỗi của skyfi.vn và khách hàng có quyền yêu cầu hoàn lại tiền.\n\nCách thức lấy lại tiền: Tùy từng trường hợp, tiền hoàn trả sẽ được chuyển vào thẻ tín dụng/tài khoản ngân hàng được chỉ định của Người mua hoặc bằng phương thức do thỏa thuận của 02 bên.\n\nXin lưu ý rằng chính sách hoàn tiền nói trên sẽ được áp dụng. Khách hàng có thể được yêu cầu cung cấp thêm thông tin để hỗ trợ yêu cầu hoàn tiền của họ, tùy thuộc vào bản chất của sự cố, chẳng hạn như ảnh chụp màn hình cài đặt thiết bị đối với sự cố kỹ thuật, giải thích lý do tại sao số tiền được lập hoá đơn không chính xác và nếu có thể, ước tính mức độ nhiều thứ mà khách hàng tin là còn nợ."
+    },
+    "section3": {
+      "title": "2. SỬA ĐỔI",
+      "content": "Sau khi có được, các gói dữ liệu eSIM từ skyfi.vn không thể thay đổi hoặc tùy chỉnh dựa trên các yêu cầu cụ thể; chúng được cung cấp nguyên trạng.\n\nĐể biết thêm thông tin chi tiết, quý khách vui lòng liên hệ Bộ phận chăm sóc khách hàng skyfi.vn hoặc vui lòng liên hệ: 1900 6605 để được trợ giúp. Xin cảm ơn!"
+    }
+  },
+  "paymentPolicy": {
+    "title": "Chính sách thanh toán",
+    "mainTitle": "QUY ĐỊNH VÀ HÌNH THỨC THANH TOÁN",
+    "section1": {
+      "title": "I. QUY ĐỊNH THANH TOÁN",
+      "subtitle1": "Rà soát và xác nhận nội dung giao kết thanh toán",
+      "content1": "Skyfi.vn có cơ chế cho phép khách hàng rà soát, bổ sung, sửa đổi và xác nhận nội dung giao dịch trước khi sử dụng chức năng thanh toán để gửi đề nghị giao kết thanh toán. Cơ chế rà soát và xác nhận này đã đáp ứng các điều kiện sau:\n\nHiển thị cho khách hàng những thông tin sau:\n\na) Tên hàng hóa hoặc dịch vụ, số lượng, thương hiệu và giá cả;\n\nb) Phương thức và thời hạn giao hàng hoặc cung ứng dịch vụ;\n\nc) Tổng giá trị của hợp đồng và các chi tiết liên quan đến phương thức thanh toán được khách hàng lựa chọn.\n\nNhững thông tin này có khả năng lưu trữ, in ấn được trên hệ thống thông tin của khách hàng và hiển thị được về sau.\n\nHiển thị cho khách hàng những thông tin về cách thức trả lời chấp nhận đề nghị giao kết hợp đồng và thời hạn trả lời đề nghị giao kết hợp đồng thông qua việc liên hệ xác nhận bằng hotline.\n\nCho phép khách hàng sau khi rà soát những thông tin nói trên được lựa chọn hủy giao dịch hoặc xác nhận việc đề nghị giao kết hợp đồng thông qua website hoặc hotline.",
+      "subtitle2": "Thông tin về điều kiện giao dịch chung",
+      "content2": "Skyfi.vn cơ chế để khách hàng đọc và bày tỏ sự đồng ý riêng với các điều kiện giao dịch chung trước khi gửi đề nghị giao kết hợp đồng thanh toán.\n\nĐiều kiện giao dịch chung bao gồm:\n\nChính sách hoàn trả, bao gồm thời hạn hoàn trả, phương thức trả hoặc đổi hàng đã mua, cách thức lấy lại tiền, chi phí cho việc hoàn trả (Được công bố công khai trên website);\n\nChính sách bảo hành sản phẩm (Được công bố công khai trên website);\n\nCác tiêu chuẩn dịch vụ, quy trình cung cấp dịch vụ, biểu phí và các điều khoản khác liên quan đến việc cung cấp dịch vụ, bao gồm cả những điều kiện và hạn chế (nếu có) (Được công bố công khai trên website);\n\nNghĩa vụ của người bán và nghĩa vụ của khách hàng trong mỗi giao dịch (Được công bố công khai trên website);",
+      "subtitle3": "Thông tin về các phương thức thanh toán",
+      "content3": "Skyfi.vn đã công bố toàn bộ các phương thức thanh toán áp dụng cho hàng hóa để khách hàng có thể hiểu và lựa chọn phương thức thanh toán phù hợp trong mục Chính sách thanh toán.\n\nSkyfi.vn đã thiết lập cơ chế để khách hàng sử dụng chức năng thanh toán trực tuyến được rà soát và xác nhận thông tin chi tiết về từng giao dịch thanh toán trước khi thực hiện việc thanh toán.\n\nSkyfi.vn đảm bảo an toàn, bảo mật giao dịch thanh toán của khách hàng, xử lý khiếu nại và đền bù thiệt hại trong trường hợp thông tin thanh toán của khách hàng qua website bị thay đổi, xóa, hủy, sao chép, tiết lộ, di chuyển trái phép hoặc bị chiếm đoạt gây thiệt hại cho khách hàng."
+    },
+    "section2": {
+      "title": "II. HÌNH THỨC THANH TOÁN",
+      "content": "**Phương thức thanh toán trước:**\n\nHiện tại, Skyfi chấp nhận hình thức thanh toán là: Thẻ quốc tế VISA, thẻ nội địa Napas. Quý khách hoàn toàn có thể kiểm tra hàng trước khi thanh toán tiền.\n\n**Lưu ý:** Trước khi tiến hành đặt hàng, Quý khách hàng vui lòng kiểm tra kỹ các thông tin về sản phẩm đặt mua cùng với số tiền hàng phải thanh toán đã được hiển thị rõ trong form khai thông tin đơn hàng trên giao diện trang website.\n\nQuý khách cũng có thể thanh toán khi mua hàng tại SKYFI.VN bằng hình thức:\n\n- Thanh toán qua thẻ quốc tế VISA, thẻ nội địa Napas được áp dụng đối với các đơn hàng trên toàn quốc. Khách hàng nhập thông tin thẻ của mình để xác nhận và thanh toán trực tiếp. Tiền sẽ được chuyển vào tài khoản ngân hàng của CÔNG TY TNHH GALAXY DIGITAL HOLDINGS:\n\nNgay sau khi nhận được thông báo xác nhận từ phía ngân hàng SKYFI.VN sẽ thông báo lại cho khách hàng đồng thời tiến hành giao hàng cho quý khách.\n\nKhách hàng có thể đặt hàng qua website: https://Skyfi.vn / hoặc qua Hotine: 1900 6605. Nhân viên của chúng tôi sẽ gọi điện xác nhận với khách hàng về sản phẩm và phương thức vận chuyển."
+    }
+  },
+  "TermsAndConditions": {
+    "mainTitle": "ĐIỀU KIỆN GIAO DỊCH CHUNG",
+    "welcomeMessage": {
+      "paragraph1": "Chào mừng Quý khách đến với website skyfi.vn – được thiết lập và thuộc sở hữu của CÔNG TY TNHH GALAXY DIGITAL HOLDINGS. Khi Quý khách truy cập vào website của chúng tôi đồng nghĩa với việc quý khách đã đồng ý với các điều khoản này.",
+      "paragraph2": "Website có thể được thay đổi, chỉnh sửa hoặc điều chỉnh bất kỳ nội dung nào trong Quy định và Điều kiện sử dụng và có hiệu lực sau 5 ngày, khi những thay đổi được thông báo và đăng tải đầy đủ trên website.",
+      "paragraph3": "Quý khách vui lòng đọc kỹ Điều khoản và Điều kiện giao dịch này trước khi đặt mua bất kỳ sản phẩm, dịch vụ nào trên skyfi.vn."
+    },
+    "supplyConditions": {
+      "title": "Các điều kiện hoặc hạn chế trong việc cung cấp hàng hóa hoặc dịch vụ",
+      "paragraph1": "- Để đảm bảo tính công bằng và quyền lợi của Khách hàng là người tiêu dùng cuối cùng, skyfi.vn có quyền áp dụng các điều kiện hạn chế trong việc triển khai các chương trình khuyến mại: không giới hạn, giới hạn về số lượng sản phẩm tối đa trong mỗi chương trình khuyến mại mà một Khách hàng được mua, giới hạn về mục đích mua gói sản phẩm (chỉ sử dụng cho tiêu dùng, không được kinh doanh, mua đi bán lại…), hoặc các giới hạn khác (nếu có) được quy định chi tiết trong từng Chương trình khuyến mại. Các điều kiện hạn chế này sau đây được gọi là Chính sách khuyến mại.",
+      "paragraph2": "Vì vậy, skyfi.vn có quyền không xác nhận, từ chối, hủy hoặc thu hồi lại các sản phẩm đã bàn giao vi phạm bất kỳ nội dung nào trong Chính sách khuyến mại.",
+      "paragraph3": "- skyfi.vn có quyền không xác nhận, từ chối hoặc hủy, thu hồi các sản phẩm đã bàn giao của Khách hàng trong một số trường hợp khác theo quyết định của skyfi.vn mà không cần thông báo đến Khách hàng."
+    },
+    "inspectionPolicy": {
+      "title": "Chính sách kiểm hàng",
+      "paragraph1": "Các sản phẩm eSIM cam kết đúng với mô tả chi tiết trên website. Sau khi mua eSIM và thanh toán thành công, Người dùng sẽ nhận được thông báo của Công ty qua email về thông tin eSIM đã mua. Khi tiếp nhận thông tin, Người dùng vui lòng kiểm tra thông tin eSIM.",
+      "paragraph2": "Các sản phẩm không giao hàng trực tiếp, nên không có chính sách kiểm hàng."
+    },
+    "refundPolicy": {
+      "title": "Chính Sách Hoàn Tiền / Hủy Bỏ / Sửa Đổi",
+      "refundAndCancellation": {
+        "title": "3.1. Hoàn tiền và hủy bỏ",
+        "policyAndGuidance": {
+          "title": "3.1.1. Chính sách và hướng dẫn",
+          "point1": "- Khi không thể kích hoạt được nữa sau khi khắc phục sự cố kỹ lưỡng, yêu cầu hoàn lại tiền có thể được thực hiện trong vòng ba mươi (30) ngày sau ngày mua.",
+          "point2": "- Nếu eSIM đã được kích hoạt và xảy ra sự cố mà Skyfi.vn phải chịu trách nhiệm và/hoặc nhà điều hành di động đã thừa nhận rằng không thể khắc phục nhanh chóng, thì bạn có thể được hoàn lại tiền cho dữ liệu còn lại.",
+          "point3": "- Sự hợp tác sớm của khách hàng trong việc giải quyết vấn đề là vô cùng quan trọng để được hoàn tiền.",
+          "point4": "- Mỗi gói dữ liệu có thời hạn sử dụng riêng. Dữ liệu còn lại sẽ không đủ điều kiện để được hoàn lại tiền dưới bất kỳ hình thức nào khi hết thời hạn hiệu lực.",
+          "point5": "- Bồi thường: Sẽ không có khoản hoàn trả hoặc khoản thanh toán nào dưới bất kỳ hình thức nào được thực hiện do các khoản phí từ điện thoại bổ sung, thẻ SIM bổ sung hoặc điện thoại bổ sung của khách sạn",
+          "point6": "- Mua hàng gian lận: Nếu có bất kỳ dấu hiệu sử dụng sai mục đích, vi phạm các điều khoản và điều kiện của chúng tôi hoặc bất kỳ hành động gian lận nào liên quan đến việc sử dụng các sản phẩm và dịch vụ của Skyfi.vn, Skyfi.vn có quyền từ chối bất kỳ hình thức hoàn tiền nào.",
+          "point7": "- Mua hàng trái phép: Trước khi xử lý bất kỳ khoản hoàn trả nào, vấn đề sẽ được điều tra và phê duyệt. Bất kỳ đơn đặt hàng nào liên quan đến gian lận có thể bị Skyfi.vn tạm ngưng theo quyết định của mình.",
+          "point8": "- Các khoản phí không chính xác: Nếu khách hàng tranh chấp một cách hợp lý và thiện chí một hóa đơn hoặc một phần của hóa đơn, khách hàng phải thông báo cho Skyfi.vn về tranh chấp trong vòng 10 ngày làm việc kể từ ngày nhận được hóa đơn. Thông báo phải bao gồm thông tin về lý do tại sao khách hàng tin rằng số tiền bị tính là không chính xác cũng như, nếu có thể, số tiền mà khách hàng tin là nợ.",
+          "nonRefundableCases": {
+            "intro": "- Skyfi.vn sẽ không chấp nhận yêu cầu hoàn tiền trong các trường hợp sau:",
+            "case1": "+ Khách hàng đã xóa eSIM và muốn cài đặt lại.",
+            "case2": "+ Thiết bị của khách hàng không hỗ trợ eSIM.",
+            "case3": "+ Điện thoại của khách hàng bị khóa mạng.",
+            "case4": "+ eSIM đã quá ngày hết hạn (Ngày hết hạn được ghi trong email xác nhận đơn hàng).",
+            "case5": "+ Quốc gia bạn đến có những trường hợp bất khả kháng (bao gồm nhưng không giới hạn các trường hợp thiên tai, động đất, dịch bệnh, hỏa hoạn, chiến tranh, đình công, bạo loạn, thay đổi chính sách pháp luật địa phương, thay đổi chính quyền…).",
+            "case6": "+ Hạ tầng mạng của các nước du lịch gặp vấn đề, chưa ổn định.",
+            "case7": "+ Khách hàng không chủ động liên hệ với Skyfi.vn khi xảy ra sự cố eSIM."
+          },
+          "otherReasons": "- Các lý do khác: Nếu yêu cầu hoàn tiền không thuộc một trong các danh mục đã nói ở trên, chúng tôi sẽ xem xét riêng từng yêu cầu đó. Nếu được hoàn lại tiền, có thể có một khoản phí xử lý. Khoản tín dụng hoặc khoản hoàn lại cao nhất mà người tiêu dùng có thể yêu cầu phải bằng hoặc thấp hơn toàn bộ giá mua hàng của họ."
+        },
+        "refundProcess": {
+          "title": "3.1.2. Quy trình hoàn tiền",
+          "paragraph1": "Khách hàng liên hệ với nhóm hỗ trợ Skyfi.vn qua hotline: 1900 6605 hoặc gửi email tới support@skyfi.vn để thực hiện yêu cầu hoàn lại tiền.",
+          "paragraph2": "Thời hạn hoàn trả: skyfi.vn sẽ chỉ hoàn tiền cho Khách hàng khi skyfi.vn xác nhận không thể cài đặt và sử dụng eSIM do sự cố kỹ thuật thuộc lỗi của Skyfi.vn và khách hàng có quyền yêu cầu hoàn lại tiền.",
+          "paragraph3": "Cách thức lấy lại tiền: Tùy từng trường hợp, tiền hoàn trả sẽ được chuyển vào thẻ tín dụng/tài khoản ngân hàng được chỉ định của Người mua hoặc bằng phương thức do thỏa thuận của 02 bên.",
+          "paragraph4": "Xin lưu ý rằng chính sách hoàn tiền nói trên sẽ được áp dụng. Khách hàng có thể được yêu cầu cung cấp thêm thông tin để hỗ trợ yêu cầu hoàn tiền của họ, tùy thuộc vào bản chất của sự cố, chẳng hạn như ảnh chụp màn hình cài đặt thiết bị đối với sự cố kỹ thuật, giải thích lý do tại sao số tiền được lập hoá đơn không chính xác và nếu có thể, ước tính mức độ nhiều thứ mà khách hàng tin là còn nợ."
+        }
+      },
+      "modification": {
+        "title": "3.2. Sửa đổi",
+        "paragraph1": "Sau khi có được, các gói dữ liệu eSIM từ Skyfi.vn không thể thay đổi hoặc tùy chỉnh dựa trên các yêu cầu cụ thể; chúng được cung cấp nguyên trạng.",
+        "paragraph2": "Để biết thêm thông tin chi tiết, quý khách vui lòng liên hệ Bộ phận chăm sóc khách hàng skyfi.vn hoặc vui lòng liên hệ: 1900 6605 để được trợ giúp. Xin cảm ơn!"
+      }
+    },
+    "productWarranty": {
+      "title": "Chính sách bảo hành sản phẩm",
+      "status": "Chính sách bảo hành       🗹 Có   ❑ Không"
+    },
+    "shippingPolicy": {
+      "title": "Chính sách vận chuyển và giao hàng",
+      "paragraph1": "Sau khi nhận xác nhận được đơn hàng của quý khách, trong vòng 30 phút - 3 giờ, chúng tôi sẽ nhanh chóng liên hệ lại khách hàng trong thời gian sớm nhất có thể để xác nhận thông tin về đơn hàng, thông tin thanh toán của quý khách. Nhằm tạo điều kiện thuận lợi cho việc gửi mã QR từ hệ thống đến khách hàng sớm nhất, quý khách vui lòng cung cấp thông tin Email một cách chi tiết và chính xác. Chúng tôi có quyền hủy bỏ các đơn đặt hàng không rõ ràng hoặc không chịu trách nhiệm đối với những trường hợp thông tin Email bị sai sót do Quý khách cung cấp thông tin không chính xác",
+      "paragraph2": "Sau khi người dùng đặt mua eSIM thành công, mã QR sẽ được gửi từ hệ thống đến hòm thư gmail khách hàng đăng kí và tài đồng thời cũng sẽ có trong hòm thư của khách hàng trên hệ thống website của chúng tôi.",
+      "paragraph3": "Các sản phẩm không giao hàng trực tiếp, nên không có chính sách vận chuyển và giao hàng."
+    },
+    "serviceStandards": {
+      "title": "Các tiêu chuẩn dịch vụ, quy trình cung cấp dịch vụ, biểu phí và các điều khoản khác liên quan đến việc cung cấp dịch vụ",
+      "realSalesNoAdvertising": {
+        "title": "Bán hàng thật, không quảng cáo",
+        "paragraph1": "skyfi.vn là website hỗ trợ người mua có thể sử dụng các sản phẩm của SKYFI chứ không phải là nền tảng để quảng cáo cho các sản phẩm hay gian hàng của các bên người bán khác."
+      },
+      "mutualRespect": {
+        "title": "Tôn trọng lẫn nhau",
+        "paragraph1": "Chúng tôi muốn xây dựng một lượng khách hàng an toàn và văn minh để mọi người cùng tận hưởng niềm vui mua sắm trên di động (Không cần phải đến trực tiếp cửa hàng của SKYFI)."
+      },
+      "goodPurchaseHistory": {
+        "title": "Giữ \\\"lịch sử mua hàng\\\" tốt",
+        "paragraph1": "Để nhận được nhiều khuyến mại cho khách hàng thân thiết, đừng quên duy trì sự mua bán thường xuyên, không \\\"bom\\\" hàng, nhận hàng đúng hẹn và giảm thiểu các trường hợp hủy, trả đơn hàng và hoàn tiền không cần thiết."
+      },
+      "noFakeGoods": {
+        "title": "Nói không với bán hàng giả, hàng nhái",
+        "paragraph1": "skyfi.vn cam kết chỉ đăng bán các mặt hàng chính hãng vì việc đăng bán hàng giả, hàng nhái là hành vi vi phạm pháp luật. Trong trường hợp khách hàng có phản hồi lại, SKYFI sẽ có sự tra soát lại và trong trường hợp xác minh phản hồi là đúng thì sẽ có sự bồi thường cho khách hàng, lên bài đính chính và xóa các mặt hàng này ra khỏi hệ thống."
+      },
+      "serviceProvisionProcess": "Quy trình cung cấp dịch vụ (Được cụ thể trong phần hướng dẫn sử dụng website)",
+      "companyInformation": {
+        "paragraph1": "CÔNG TY TNHH GALAXY DIGITAL HOLDINGS – là chủ sở hữu website trực tiếp bán hàng hóa",
+        "paragraph2": "Các nhà cung cấp khác không được tham gia cung cấp dịch vụ trên website",
+        "paragraph3": "Hình thức/cách thức tham gia: Thông qua việc ký kết hợp đồng hợp tác với nhà mạng để eSIM với các Nhà cung cấp hàng hóa, SKYFI trực tiếp cung cấp sản phẩm eSIM cho người mua/sử dụng dịch vụ.",
+        "paragraph4": "SKYFI trực tiếp thu giá hàng hóa từ phía người mua/sử dụng dịch vụ và chịu trách nhiệm xuất hóa đơn cho người mua/sử dụng dịch vụ.",
+        "paragraph5": "Nhà cung cấp hàng hóa không được tham gia vào việc định giá hay làm việc, thu phí từ phía người sử dụng, không tham gia trực tiếp đăng tải hay tạo gian hàng trên hệ thống. Các sản phẩm hoàn toàn do SKYFI đăng tải do hàng đã nhập về kho.",
+        "feeScheduleTitle": "Biểu phí",
+        "feeScheduleParagraph": "Biểu phí của từng mặt hàng sẽ được công khai trên website, người mua có thể trực tiếp nhìn thấy giá sản phẩm và quyết định \\\"Có\\\" hay không đồng ý mua và cho vào đơn hàng."
+      }
+    },
+    "otherTerms": {
+      "title": "Các điều khoản khác",
+      "acceptance": {
+        "title": "Chấp thuận các Điều kiện Sử dụng",
+        "paragraph1": "Khi sử dụng website skyfi.vn của SKYFI, Quý khách đã mặc nhiên chấp thuận các điều khoản và điều kiện sử dụng (sau đây gọi tắt là \\\"Điều kiện Sử dụng\\\") được quy định dưới đây. Để biết được các sửa đổi mới nhất, Quý khách nên thường xuyên kiểm tra lại \\\"Điều kiện Sử dụng\\\". skyfi.vn có quyền thay đổi, điều chỉnh, thêm hay bớt các nội dung của \\\"Điều kiện Sử dụng\\\" tại bất kỳ thời điểm nào. Nếu Quý khách vẫn tiếp tục sử dụng website sau khi có các thay đổi như vậy thì có nghĩa là Quý khách đã chấp thuận các thay đổi đó."
+      },
+      "natureOfInformation": {
+        "title": "Tính chất của thông tin hiển thị",
+        "paragraph1": "Các nội dung hiển thị trên Website nhằm mục đích cung cấp thông tin các sản phẩm liên quan đến eSIM về chương trình khuyến mãi của SKYFI."
+      },
+      "disclaimer": {
+        "title": "Miễn trừ trách nhiệm",
+        "paragraph1": "Thông tin hiển thị tại Website này không đi kèm bất kỳ đảm bảo hay cam kết trách nhiệm dưới bất kỳ hình thức nào từ phía SKYFI, chính thức hay hàm ý, bao gồm nhưng không giới hạn về sự phù hợp của sản phẩm, dịch vụ mà người mua đã lựa chọn.",
+        "paragraph2": "SKYFI cũng từ chối trách nhiệm hay đưa ra đảm bảo rằng website sẽ không có lỗi vận hành, an toàn, không bị gián đoạn hay bất cứ đảm bảo nào về tính chính xác, đầy đủ và đúng hạn của các thông tin hiển thị.",
+        "paragraph3": {
+          "intro": "Khi truy cập vào Website này, quý khách mặc nhiên đồng ý rằng SKYFI không chịu bất cứ trách nhiệm nào liên quan đến lỗi nào phát sinh từ hay có liên quan đến việc:",
+          "point1": "(1) sử dụng các thông tin trên website này;",
+          "point2": "(2) các truy cập kết nối từ website này;",
+          "point3": "(3) Đăng ký nhận thư điện tử;",
+          "point4": "(4) SKYFI có thực hiện việc cung cấp dịch vụ hay không thậm chí trong trường hợp đã được cảnh báo về khả năng xảy ra thiệt hại;",
+          "point5": "(5) các hạn chế liên quan đến đặt hàng trực tuyến mô tả tại đây."
+        },
+        "paragraph4": "Các điều kiện và hạn chế nêu trên chỉ có hiệu lực trong khuôn khổ pháp luật hiện hành."
+      },
+      "intellectualProperty": {
+        "title": "Quyền sở hữu trí tuệ",
+        "paragraph1": {
+          "intro": "Website này và mọi nội dung xếp đặt, hiển thị đều thuộc sở hữu và là tài sản độc quyền khai thác của SKYFI. Mọi sử dụng, trích dẫn phải không gây thiệt hại cho SKYFI và đều phải tuân thủ các điều kiện sau:",
+          "point1": "(1) Chỉ sử dụng cho mục đích cá nhân, phi thương mại;",
+          "point2": "(2) Các sao chép hoặc trích dẫn đều phải giữ nguyên dấu hiệu bản quyền hoặc các yết thị về quyền sở hữu trí tuệ như đã thể hiện trong phiên bản gốc;",
+          "point3": "(3) Mọi sản phẩm, công nghệ hay quy trình được sử dụng hay hiển thị tại Website này đều có thể liên đới đến bản quyền hay sở hữu trí tuệ khác của SKYFI."
+        }
+      },
+      "adjustmentAndModification": {
+        "title": "Điều chỉnh và sửa đổi",
+        "paragraph1": "SKYFI bảo lưu quyền thay đổi, chỉnh sửa hoặc chấm dứt hoạt động của Website này vào bất cứ thời điểm nào."
+      },
+      "governingLaw": {
+        "title": "Luật điều chỉnh và cơ quan giải quyết tranh chấp",
+        "paragraph1": "Điều kiện Sử dụng này được điều chỉnh bởi luật của nước Cộng hoà Xã hội Chủ Nghĩa Việt nam. Tòa án nước Cộng hòa Xã hội Chủ nghĩa Việt Nam là cơ quan duy nhất có thẩm quyền giải quyết tất cả các tranh chấp có liên quan."
+      },
+      "scopeOfApplication": {
+        "title": "Phạm vi áp dụng",
+        "paragraph1": "Điều kiện dưới đây áp dụng riêng cho chức năng đặt hàng trực tuyến tại Website. Khi sử dụng chức năng để đặt hàng, Quý khách mặc nhiên đã chấp thuận và tuân thủ tất cả các chỉ dẫn, điều khoản, điều kiện và lưu ý đăng tải trên website, bao gồm nhưng không giới hạn bởi Điều kiện Sử dụng nêu ở đây. Nếu Quý khách không có ý định mua hàng trực tuyến hay không đồng ý với bất kỳ điều khoản hay điều kiện nào nêu trong Điều kiện Sử dụng, xin hãy DỪNG VIỆC SỬ DỤNG chức năng này."
+      },
+      "onlineOrderingConditions": {
+        "title": "Điều kiện sử dụng tính năng đặt hàng trực tuyến",
+        "paragraph1": "Tính năng đặt hàng trực tuyến chỉ sử dụng cho mục đích cá nhân và phi thương mại. Quý khách không được phép sửa đổi, sao chép, phổ biến, dịch chuyển, hiển thị, vận hành, nhân bản, công bố, nhượng quyền, tạo các liên kết, chuyển giao hoặc tổ chức kinh doanh từ các thông tin, phần mềm, sản phẩm hay dịch vụ có được từ tính năng mua hàng trực tuyến.",
+        "paragraph2": "Tính năng mua hàng trực tuyến sẽ trợ giúp Quý khách tra cứu thông tin và hoàn tất các thao tác mua sản phẩm dịch vụ một cách hợp lệ. Tuy nhiên nếu lạm dụng tính năng này, Quý khách có thể sẽ bị từ chối truy cập hoặc sử dụng.",
+        "paragraph3": "Quý khách phải khẳng định và bảo đảm rằng quý khách đã đủ tuổi khi sử dụng chức năng mua hàng trực tuyến đảm bảo việc tuân thủ Điều kiện Sử dụng nêu ra ở đây và có đủ quyền và năng lực theo quy định của pháp luật để thực thi các hành vi liên quan đến việc sử dụng tính năng này. Quý khách chấp nhận nghĩa vụ về mặt tài chính đối với mọi hành vi sử dụng Website của chính mình hoặc bất cứ cá nhân hay tổ chức nào sử dụng thông tin đặt sách."
+      },
+      "priceAndFees": {
+        "title": "Quy định về giá và phí",
+        "paragraph1": "Tổng số tiền thanh toán đã bao gồm tất cả các khoản thuế, phí mà khách hàng phải trả"
+      }
+    },
+    "obligations": {
+      "title": "Nghĩa vụ của người bán (SKYFI) và nghĩa vụ của khách hàng trong mỗi giao dịch",
+      "seller": {
+        "title": "Nghĩa vụ của SKYFI",
+        "paragraph1": "Thông báo website với Bộ Công Thương website cung cấp dịch vụ thương mại điện tử; Xây dựng và công bố trên website những thông tin: Thông tin đơn vị; Hướng dẫn sử dụng website; Thông tin về điều kiện giao dịch chung; Chính sách bảo mật; Thông tin về các phương thức thanh toán; Chính sách giải quyết khiếu nại; Chính sách giao hàng và vận chuyển; … Yêu cầu người mua sử dụng website cung cấp tối thiểu các thông tin có liên quan khi đăng ký tài khoản. Lưu trữ thông tin đăng ký của các thành viên sử dụng website và thường xuyên cập nhật những thông tin thay đổi, bổ sung có liên quan; Ngăn chặn và loại bỏ khỏi website các thông tin thuộc danh mục hàng hóa, dịch vụ cấm kinh doanh theo quy định của pháp luật; Loại bỏ khỏi website những thông tin vi phạm quy chế của website/pháp luật khác khi phát hiện hoặc nhận được phản ánh có căn cứ xác thực về những thông tin này; Cung cấp thông tin, hỗ trợ cơ quan quản lý nhà nước điều tra các hành vi kinh doanh vi phạm pháp luật sử dụng website của mình; Cung cấp thông tin về tình hình kinh doanh của mình khi có yêu cầu của cơ quan nhà nước có thẩm quyền để phục vụ hoạt động thống kê thương mại điện tử, hoạt động thanh tra, kiểm tra và xử lý vi phạm"
+      },
+      "customer": {
+        "title": "Nghĩa vụ của khách hàng (người mua)",
+        "paragraph1": "Cung cấp đầy đủ và chính xác tối thiểu một trong các thông tin: Họ và tên, Số điện thoại, email, địa chỉ thì mới đặt hàng trực tuyến được tại website Đọc và hiểu rõ quy chế hoạt động, điều khoản, điều kiện sử dụng dịch vụ website skyfi.vn và dịch vụ được cung cấp qua website trước khi đăng ký tài khoản và sử dụng dịch vụ, và đọc và hiểu các điều khoản, điều kiện sử dụng dịch vụ khi nhận được thông báo về thay đổi, điều chỉnh quy chế hoạt động, điều khoản, điều kiện sử dụng dịch vụ này. Việc thành viên sử dụng dịch vụ hoặc tiếp tục sử dụng dịch vụ được coi là thành viên đã đọc, hiểu và đồng ý với quy chế hoạt động, điều khoản, điều kiện sử dụng dịch vụ Website và dịch vụ được cung cấp qua skyfi.vn; Tự chịu trách nhiệm về bảo mật, lưu giữ và mọi hoạt động sử dụng dịch vụ dưới tên đăng ký, mật khẩu của mình; Thông báo kịp thời cho SKYFI về những hành vi sử dụng trái phép, lạm dụng, vi phạm bảo mật, lưu giữ thông tin thanh toán và đặt hàng của mình để hai bên cùng hợp tác xử lý; Cam kết những thông tin cung cấp cho SKYFI là chính xác và hoàn chỉnh và giữ cho thông tin của mình trên Website skyfi.vn được cập nhật, chính xác và hoàn chỉnh; Tự chịu trách nhiệm về nội dung, hình ảnh, thông tin cá nhân và các thông tin khác, cũng như toàn bộ quá trình giao dịch thông qua Website skyfi.vn; Hợp tác và cung cấp thông tin cần thiết cho skyfi.vn để phục vụ việc giải quyết tranh chấp phát sinh; Cung cấp thông tin về giao dịch khi có yêu cầu của cơ quan nhà nước có thẩm quyền; Tuân thủ quy định pháp luật về thanh toán, quảng cáo, khuyến mại, bảo vệ quyền sở hữu trí tuệ, bảo vệ quyền lợi người tiêu dùng và các quy định pháp luật có liên quan khác khi hoạt động trên Website skyfi.vn; Cam kết, đồng ý không sử dụng dịch vụ của Website skyfi.vn cho những mục đích bất hợp pháp, không hợp lý, lừa đảo, đe dọa, thăm dò thông tin bất hợp pháp, phá hoại, tạo ra và phát tán vi-rút gây hư hại tới hệ thống, cấu hình, truyền tải thông tin của skyfi.vn hay sử dụng dịch vụ của SKYFI cho mục đích đầu cơ, tạo lệnh đặt dịch vụ giả, lũng đoạn thị trường, bao gồm phục vụ cho việc phán đoán nhu cầu thị trường. Trong trường hợp vi phạm thì thành viên phải chịu trách nhiệm về các hành vi của mình trước Pháp luật; Cam kết không thay đổi, chỉnh sửa, sao chép, truyền bá, phân phối, cung cấp và tạo những công cụ tương tự của dịch vụ do SKYFI cung cấp cho một bên thứ ba nếu không được sự đồng ý của Công ty; Không được hành động gây mất uy tín của Website skyfi.vn dưới mọi hình thức, bao gồm nhưng không giới hạn, việc gây mất đoàn kết giữa các thành viên bằng cách sử dụng tên đăng ký thứ hai, thông qua một bên thứ ba, hoặc tuyên truyền, phổ biến những thông tin không có lợi cho uy tín của Công ty; Cung cấp thông tin cá nhân của mình khi có yêu cầu của cơ quan nhà nước có thẩm quyền để phục vụ hoạt động thống kê thương mại điện tử."
+      }
+    }
+  },
+  "contactPage": {
+    "title": "Liên hệ với chúng tôi",
+    "subtitle": "Chúng tôi luôn sẵn sàng hỗ trợ bạn với bất kỳ câu hỏi hoặc thắc mắc nào.",
+    "phone": "Điện thoại",
+    "phoneNumber": "1900 6605",
+    "email": "Email",
+    "emailAddress": "customercare@skyfi.vn",
+    "address": "Địa chỉ",
+    "addressDetails": "Tòa nhà PV Gas, 673 Nguyễn Hữu Thọ, Phước Kiển, Nhà Bè, TP. HCM, Việt Nam",
+    "formName": "Tên",
+    "formNamePlaceholder": "Nhập tên",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "Nhập email",
+    "formPhone": "Số điện thoại",
+    "formPhonePlaceholder": "Nhập số điện thoại",
+    "formSubject": "Chủ đề",
+    "formSubjectPlaceholder": "Chọn chủ đề",
+    "formMessage": "Tin nhắn",
+    "formMessagePlaceholder": "Nhập tin nhắn",
+    "formSendButton": "Gửi"
+  },
+  "travelESimPage": {
+    "bannerTitle": "Chọn gói eSIM của bạn",
+    "searchPlaceholder": "Tìm kiếm theo quốc gia",
+    "tabNational": "eSIM quốc gia",
+    "tabRegional": "eSIM khu vực",
+    "tabGlobal": "eSIM toàn cầu",
+    "notice": "Lưu ý: eSIM là SIM điện tử, được gửi qua email khách hàng. eSIM chỉ sử dụng được trên các thiết bị di động có hỗ trợ. <link>Xem danh sách thiết bị</link>",
+    "countriesTitle": "Các quốc gia",
+    "regionalComingSoon": "Nội dung eSIM Khu vực sắp ra mắt!",
+    "globalComingSoon": "Nội dung eSIM Toàn cầu sắp ra mắt!",
+    "singapore": "Singapore",
+    "cambodia": "Campuchia",
+    "china": "Trung Quốc",
+    "australia": "Úc",
+    "southKorea": "Hàn Quốc",
+    "taiwan": "Đài Loan",
+    "kazakhstan": "Kazakhstan",
+    "vietnam": "Việt Nam",
+    "india": "Ấn Độ",
+    "japan": "Nhật Bản",
+    "malaysia": "Malaysia",
+    "indonesia": "Indonesia",
+    "noItemsFound": "Không tìm thấy sản phẩm nào",
+    "loadingMessage": "Đang tải...",
+    "globalTitle": "Gói dữ liệu toàn cầu",
+    "regionalTitle": "Các khu vực"
+  },
+  "deviceCompatibilityModal": {
+    "title": "Thiết bị tương thích eSIM",
+    "closeButton": "Đóng",
+    "intro": "Để sử dụng eSIM, thiết bị của bạn cần được mở khóa mạng và hỗ trợ công nghệ eSIM. Dưới đây là danh sách tham khảo các thiết bị phổ biến:",
+    "generalRequirements": {
+      "title": "Yêu cầu chung",
+      "unlocked": "Điện thoại của bạn phải là phiên bản quốc tế, không bị khóa mạng (network-unlocked).",
+      "esimSupport": "Điện thoại có hỗ trợ tính năng eSIM."
+    },
+    "apple": {
+      "title": "Apple iPhone",
+      "models": "iPhone XR, XS, XS Max, 11, 11 Pro, 11 Pro Max, SE (2020), 12, 12 Mini, 12 Pro, 12 Pro Max, 13, 13 Mini, 13 Pro, 13 Pro Max, SE (2022), 14, 14 Plus, 14 Pro, 14 Pro Max, 15, 15 Plus, 15 Pro, 15 Pro Max. iPad Air (thế hệ 3 trở lên), iPad Pro (thế hệ 1 trở lên), iPad Mini (thế hệ 5 trở lên)."
+    },
+    "samsung": {
+      "title": "Samsung Galaxy",
+      "models": "Galaxy S20 series, S21 series, S22 series, S23 series, Note20 series, Z Flip series, Z Fold series. Các model Google Pixel (từ Pixel 3 trở lên)."
+    },
+    "google": {
+      "title": "Google Pixel",
+      "models": "Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, 4a 5G, 5, 5a, 6, 6 Pro, 6a, 7, 7 Pro, 7a, 8, 8 Pro, Fold."
+    },
+    "note": "Danh sách này không đầy đủ và có thể thay đổi. Một số phiên bản cho các thị trường cụ thể (ví dụ: Trung Quốc, Hồng Kông đối với iPhone; Mỹ đối với Samsung) có thể không hỗ trợ eSIM hoặc chỉ hỗ trợ một SIM vật lý.",
+    "checkOfficialSite": "Vui lòng kiểm tra <link>trang web chính thức của nhà sản xuất</link> hoặc cài đặt thiết bị của bạn để xác nhận khả năng tương thích eSIM."
+  },
+  "countryEsimPage": {
+    "days": "ngày",
+    "countryNotFound": "Không tìm thấy thông tin eSIM cho khu vực này.",
+    "noResultFor": "Không tìm thấy quốc gia nào cho \"{searchTerm}\"",
+    "clearSearch": "Xóa tìm kiếm",
+    "noCountryFound": "Không tìm thấy quốc gia nào",
+    "loading": "Đang tải..."
+  },
+  "footer": {
+    "description": "SkyFi là nhà cung cấp dịch vụ eSIM (4G, 5G) tốc độ cao toàn cầu, kết nối với các tiện ích: hàng không, ăn uống, vui chơi, giải trí, mua sắm...",
+    "connectWithUs": "KẾT NỐI VỚI CHÚNG TÔI",
+    "popularCountries": {
+      "title": "CÁC QUỐC GIA PHỔ BIẾN",
+      "korea": "Hàn Quốc",
+      "china": "Trung Quốc",
+      "thailand": "Thái Lan",
+      "australia": "Úc"
+    },
+    "about": {
+      "title": "Giới thiệu",
+      "aboutSkyFi": "Giới thiệu về SkyFi"
+    },
+    "terms": {
+      "title": "Điều khoản",
+      "refundPolicy": "Chính sách hoàn tiền",
+      "paymentPolicy": "Chính sách thanh toán",
+      "generalTerms": "Điều kiện giao dịch chung",
+      "privacyPolicy": "Chính sách bảo mật và Cookies",
+      "personalDataProtectionPolicy": "Chính sách bảo vệ dữ liệu cá nhân",
+      "sampleContract": "Hợp đồng mẫu",
+      "serviceQualityManagement": "Quản lý chất lượng dịch vụ"
+    },
+    "otherInfo": {
+      "title": "Thông tin khác",
+      "supportCenter": "Trung tâm hỗ trợ",
+      "news": "Tin tức",
+      "contactUs": "Liên hệ với chúng tôi",
+      "esimGuide": "Hướng dẫn cài đặt eSIM"
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "phone": "1900 6605",
+      "email": "customercare@skyfi.vn"
+    },
+    "companyInfo": {
+      "title": "Công Ty TNHH Galaxy Digital Holdings",
+      "info": "Giấy phép cung cấp dịch vụ viễn thông số 41/GP-CVT do Bộ Thông tin và Truyền thông cấp ngày 06/02/2025. \\LGiấy chứng nhận đăng ký kinh doanh số 0316951481 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 13 tháng 08 năm 2021.\\LĐịa chỉ: Tòa nhà PV Gas, 673 Nguyễn Hữu Thọ, Xã Nhà Bè, Thành phố Hồ Chí Minh, Việt Nam - Điện thoại: 028 38273795 \\LĐại diện theo pháp luật: Huynh Kim Tuoc - Chức danh: Tổng Giám Đốc "
+    },
+    "copyright": "Copyright © 2024"
+  },
+  "verification": {
+    "title": "Xác nhận mã bảo mật",
+    "description": "Chúng tôi đã gửi mã bảo mật đến địa chỉ email {email}. Vui lòng kiểm tra email này để nhận mã tại đó. Mã này sẽ hết hạn sau 1 phút.",
+    "continueButton": "Tiếp tục",
+    "noCodeReceived": "Bạn không nhận được mã?",
+    "resendCode": "Gửi lại mã",
+    "resending": "Đang gửi lại...",
+    "titleMadal": "Mã bảo mật không chính xác",
+    "tryAgainButton": "Thử lại",
+    "errorMessage": "Vui lòng chọn Gửi lại mã. Mã bảo mật sẽ được gửi về email của bạn."
+  },
+  "password": {
+    "passwordLabel": "Nhập mật khẩu",
+    "forgotPassword": "Quên mật khẩu",
+    "loginButton": "Đăng nhập",
+    "loading": "Đang đăng nhập...",
+    "passwordTooShort": "Vui lòng nhập đủ 6 ký tự mật khẩu",
+    "passwordIncorrect": "Mật khẩu bạn nhập không chính xác. Vui lòng thử lại.",
+    "forgotPasswordTitle": "Quên Mật Khẩu",
+    "forgotPasswordDescription": "Nhập email của bạn và chúng tôi sẽ gửi cho bạn liên kết để đặt lại mật khẩu.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Nhập email của bạn",
+    "resetPasswordButton": "Đặt Lại Mật Khẩu",
+    "sending": "Đang gửi...",
+    "emailRequired": "Email là bắt buộc",
+    "invalidEmail": "Vui lòng nhập một địa chỉ email hợp lệ",
+    "resetError": "Không thể gửi email đặt lại. Vui lòng thử lại.",
+    "emailSent": "Email Đã Gửi",
+    "checkEmailInstructions": "Chúng tôi đã gửi liên kết đặt lại mật khẩu đến {email}. Vui lòng kiểm tra hộp thư đến và làm theo hướng dẫn.",
+    "backToLogin": "Quay lại Đăng nhập",
+    "resetPasswordTitle": "Đặt Lại Mật Khẩu",
+    "tooltip": {
+      "title": "Yêu cầu mật khẩu",
+      "requirements": "Mật khẩu phải có 6 số,Không chứa số liên tiếp (ví dụ 123456 hoặc 345678 hoặc tương tự),Không chứa các số giống nhau (ví dụ 111111 hoặc 222222 hoặc tương tự)"
+    },
+    "consecutiveNumbers": "Mật khẩu không được chứa số liên tiếp (ví dụ: 123456, 345678)",
+    "repeatedDigits": "Mật khẩu không được chứa các số giống nhau (ví dụ: 111111, 222222)",
+    "resetPasswordDescription": "Vui lòng tạo mật khẩu mới cho tài khoản của bạn.",
+    "newPasswordLabel": "Mật Khẩu Mới",
+    "newPasswordPlaceholder": "Nhập mật khẩu mới của bạn",
+    "confirmPasswordLabel": "Xác Nhận Mật Khẩu",
+    "confirmPasswordPlaceholder": "Xác nhận mật khẩu mới của bạn",
+    "setNewPasswordButton": "Đặt Mật Khẩu Mới",
+    "title": "Cài đặt mật khẩu",
+    "description": "Mật khẩu được dùng để đăng nhập SkyFi và xem quản lý eSIM của bạn.",
+    "newPassword": "Nhập mật khẩu",
+    "confirmPassword": "Nhập lại mật khẩu",
+    "passwordMinLength": "Mật khẩu phải có ít nhất 6 ký tự",
+    "passwordsDontMatch": "Mật khẩu không khớp",
+    "resetPasswordError": "Không thể đặt lại mật khẩu. Vui lòng thử lại.",
+    "updating": "Đang cập nhật...",
+    "confirm": "Xác nhận",
+    "passwordResetSuccess": "Đặt lại mật khẩu thành công",
+    "redirectingToLogin": "Đang chuyển hướng đến trang đăng nhập...",
+    "validatingToken": "Đang xác thực liên kết đặt lại của bạn...",
+    "invalidToken": "Liên Kết Không Hợp Lệ hoặc Đã Hết Hạn",
+    "invalidTokenDescription": "Liên kết đặt lại mật khẩu không hợp lệ hoặc đã hết hạn. Vui lòng yêu cầu liên kết mới.",
+    "requestNewLink": "Yêu Cầu Liên Kết Đặt Lại Mới",
+    "passwordMismatch": "Mật khẩu không khớp",
+    "titleMadal": "Có lỗi xảy ra",
+    "tryAgainButton": "Thử lại"
+  },
+  "my-esim": {
+    "pageTitle": "Quản lý eSIM",
+    "tabs": {
+      "activeEsim": "eSIM đang sử dụng",
+      "notInstalledEsim": "eSIM chưa cài",
+      "expiredEsim": "eSIM hết hạn"
+    },
+    "esimCard": {
+      "planName": "Tên gói cước",
+      "coverage": "Phạm vi phủ sóng",
+      "timeLeft": "Thời hạn còn",
+      "iccid": "ICCID",
+      "dataRemaining": "Còn lại",
+      "days": "{days} ngày",
+      "viewDetails": "Xem chi tiết",
+      "buyMoreData": "Mua thêm dung lượng"
+    },
+    "cta": {
+      "title": "Trải nghiệm dịch vụ của chúng tôi ngay hôm nay!",
+      "description": "Khám phá SkyFi để mua, quản lý eSIM của bạn bất cứ lúc nào, ở bất cứ đâu!",
+      "buyEsim": "Mua eSIM"
+    },
+    "modalCodeAndroid": {
+      "title": "Thiết bị Android",
+      "smdpAddressTitle": "Địa chỉ SM-DP và mã kích hoạt",
+      "copyCodeButton": "Sao chép mã",
+      "note": "LƯU Ý: Sao chép thông tin này và nhập chi tiết theo cách thủ công để cài đặt eSIM của bạn. * Đảm bảo thiết bị của bạn có kết nối internet ổn định trước khi cài đặt."
+    },
+    "modalCodeIos": {
+      "title": "Thiết bị IOS",
+      "smdpAddressTitle": "Địa chỉ SM-DP",
+      "activationCodeTitle": "Mã kích hoạt",
+      "copyCodeButton": "Sao chép mã",
+      "note": "LƯU Ý: Sao chép thông tin này và nhập chi tiết theo cách thủ công để cài đặt eSIM của bạn. * Đảm bảo thiết bị của bạn có kết nối internet ổn định trước khi cài đặt."
+    },
+    "guideEsim": {
+      "title": "Hướng dẫn cài đặt eSIM",
+      "tabs": {
+        "ios": "Thiết bị IOS",
+        "android": "Thiết bị Android"
+      },
+      "methods": {
+        "qrCode": "Qua QR code",
+        "manual": "Thủ công"
+      },
+      "sections": {
+        "installationSteps": "Các bước cài đặt eSIM",
+        "enableNetwork": "Bật dữ liệu mạng"
+      },
+      "iosInstructions": {
+        "installation": "1. Vào Cài đặt > Dữ liệu di động > Thêm eSIM hoặc Thiết lập dịch vụ di động > Sử dụng mã QR trên thiết bị của bạn.\n\n2. Quét mã QR hoặc chụp ảnh chụp màn hình (khả dụng đến iOS 17.3), chạm vào \"Mở ảnh\", chọn mã này từ cuộn camera, chạm vào \"Tiếp theo\", sau đó chạm vào \"Tiếp tục\" hai lần và chờ một chút. eSIM của bạn sẽ kết nối với mạng, việc này có thể cần một vài phút, sau đó chạm vào \"Hoàn tất\".\n\n3. Chọn một nhãn cho gói eSIM mới của bạn.\n\n4. Chọn \"Chính\" cho sim mặc định của bạn, sau đó chạm vào \"Tiếp tục\".\n\n5. Chọn sim \"Chính\" mà bạn muốn dùng với iMessage và FaceTime cho Apple ID, sau đó chạm vào \"Tiếp tục\".\n\n6. Chọn gói eSIM mới cho dữ liệu di động, sau đó chạm vào \"Tiếp tục\".",
+        "manualInstallation": "1. Vào Cài đặt > Dữ liệu di động > Thêm eSIM hoặc Thiết lập dịch vụ di động > Nhập chi tiết thủ công.\n\n2. Nhập địa chỉ SM-DP+ và mã kích hoạt được cung cấp bởi nhà mạng của bạn.\n\n3. Chạm vào \"Tiếp theo\" và chờ eSIM tải xuống và kích hoạt.\n\n4. Chọn một nhãn cho gói eSIM mới của bạn.\n\n5. Chọn \"Chính\" cho sim mặc định của bạn, sau đó chạm vào \"Tiếp tục\".\n\n6. Chọn sim \"Chính\" mà bạn muốn dùng với iMessage và FaceTime cho Apple ID, sau đó chạm vào \"Tiếp tục\".\n\n7. Chọn gói eSIM mới cho dữ liệu di động, sau đó chạm vào \"Tiếp tục\".",
+        "networkEnable": "1. Vào \"Dữ liệu di động\", sau đó chọn eSIM vừa được tải về thiết bị của bạn. Bật công tắc \"Bật sim này\", sau đó chọn gói eSIM mới của bạn cho dữ liệu di động.\n\n2. Chạm vào \"Chọn mạng\", vô hiệu công tắc \"Tự động\", sau đó chọn thủ công mạng lưới được hỗ trợ nếu eSIM của bạn đã kết nối với nhầm mạng.\n\n3. Bật công tắc \"Chuyển vùng dữ liệu\" cho gói eSIM mới của bạn."
+      },
+      "androidInstructions": {
+        "installation": "1. Vào Cài đặt > Mạng & Internet > Mạng Di động > Thêm Nhà mạng hoặc Thẻ SIM > Tải xuống SIM thay thế.\n\n2. Quét mã QR hoặc nhập thông tin kích hoạt theo cách thủ công.\n\n3. Chờ eSIM tải xuống và kích hoạt trên thiết bị của bạn.\n\n4. Chọn tên cho đường dây eSIM mới của bạn.\n\n5. Chọn SIM nào để sử dụng cho cuộc gọi, SMS và dữ liệu di động.",
+        "manualInstallation": "1. Vào Cài đặt > Mạng & Internet > Mạng Di động > Thêm Nhà mạng hoặc Thẻ SIM > Nhập chi tiết thủ công.\n\n2. Nhập địa chỉ máy chủ SM-DP+ và mã kích hoạt được cung cấp bởi nhà mạng của bạn.\n\n3. Chạm vào \"Thêm\" và chờ eSIM tải xuống và kích hoạt.\n\n4. Chọn tên cho đường dây eSIM mới của bạn.\n\n5. Chọn SIM nào để sử dụng cho cuộc gọi, SMS và dữ liệu di động.",
+        "networkEnable": "1. Vào Cài đặt > Mạng & Internet > Mạng Di động và chọn eSIM mới của bạn.\n\n2. Bật \"Sử dụng SIM\" và chọn nó cho dữ liệu di động nếu cần.\n\n3. Bật \"Chuyển vùng\" cho eSIM mới của bạn khi đi du lịch.\n\n4. Chọn mạng thủ công nếu kết nối tự động thất bại."
+      },
+      "warning": {
+        "title": "Quan trọng",
+        "message": "Sau khi cài đặt eSIM, để tránh bị trừ dung lượng không mong muốn, hãy tắt dữ liệu 4G của eSIM mới trên thiết bị và chỉ mở lại khi bạn đã đến quốc gia cần sử dụng."
+      }
+    }
+  },
+  "esim": {
+    "noInstall": {
+      "days": "Ngày",
+      "title": "Các quốc gia",
+      "coverage": "Phạm vi phủ sóng",
+      "dataLimit": "Dung lượng",
+      "activationPolicy": "Chính sách kích hoạt",
+      "activationPolicyDesc": "Thời hạn hiệu lực sẽ bắt đầu lúc cài",
+      "validity": "Hiệu lực",
+      "installNow": "Cài đặt ngay",
+      "qrInstallTitle": "Mã QR cài đặt eSIM",
+      "qrInstallDescription": "Quét mã QR trên để cài đặt eSIM trên điện thoại",
+      "installGuideButton": "Xem hướng dẫn cài đặt eSIM",
+      "deviceCompatibility": "Khả năng tương thích thiết bị",
+      "provider": "Nhà cung cấp",
+      "dataCapacity": "Dung lượng data",
+      "price": "Giá",
+      "packageType": "Loại gói",
+      "activateOnInstall": "Thời hạn sử dụng sẽ bắt đầu khi cài đặt",
+      "dataOnly": "Chỉ Data",
+      "ios": "iOS",
+      "android": "Android"
+    },
+    "endDate": {
+      "title": "Các quốc gia",
+      "coverage": "Phạm vi phủ sóng",
+      "dataLimit": "Dung lượng",
+      "remainingTime": "Thời hạn còn",
+      "expired": "Hết hạn",
+      "iccid": "ICCID"
+    },
+    "empty": {
+      "title": "Bạn có muốn mua eSIM mới không?",
+      "description": "Bạn có thể ghé thăm cửa hàng của chúng tôi và mua sắm.",
+      "buyButton": "Mua eSIM"
+    }
+  },
+  "defaultEsim": {
+    "title": "Chi tiết eSIM",
+    "currentPlan": "Gói đang sử dụng",
+    "dataRemaining": "Còn lại",
+    "usage": {
+      "title": "Current Usage",
+      "inUse": "Đang sử dụng",
+      "pending": "Chờ kích hoạt",
+      "remainingValidity": "Thời hạn còn",
+      "days": "{days} ngày",
+      "capacity": "Dung lượng"
+    },
+    "esimInfo": {
+      "coverage": "Phạm vi phủ sóng",
+      "provider": "Cung cấp bởi",
+      "dataCapacity": "Dung lượng",
+      "packageType": "Loại gói",
+      "dataOnly": "Chỉ dữ liệu",
+      "validity": "Hiệu lực",
+      "daysValidity": "{days} ngày",
+      "eKYC": "eKYC (Xác minh danh tính)",
+      "notRequired": "Không bắt buộc",
+      "iccid": "ICCID",
+      "price": "Giá"
+    },
+    "lowDataAlert": {
+      "title": "THÔNG BÁO DỮ LIỆU THẤP",
+      "message": "Bạn có cho phép SkyFi hiện thông báo khi sắp hết dữ liệu?",
+      "allow": "Cho phép"
+    },
+    "additionalData": {
+      "title": "Mua thêm dung lượng",
+      "noPackages": "Không có gói nào để mua",
+      "package": {
+        "name": "Gói dung lượng {number}",
+        "capacity": "{capacity}",
+        "validity": "{days} ngày",
+        "price": "{price} VND",
+        "buyNow": "Mua ngay"
+      }
+    },
+    "warning": {
+      "title": "Cảnh báo",
+      "message": "Hầu hết eSIM chỉ có thể được cài đặt một lần. Nếu bạn tháo eSIM khỏi thiết bị, bạn sẽ không thể cài đặt lại"
+    },
+    "currentPackage": {
+      "title": "Gói cước của bạn",
+      "name": "Tên gói",
+      "limitData": "Giới hạn dữ liệu",
+      "countdown": "Thời hạn còn",
+      "price": "Giá",
+      "effectiveness": "Hiệu lực",
+      "days": " ngày"
+    }
+  },
+  "payment-result": {
+    "thankYou": "Cám ơn Bạn đã tin tưởng và lựa chọn SkyFi!",
+    "homeButton": "Về trang chủ",
+    "error": {
+      "title": "Thanh toán thất bại!",
+      "message": "Đã có lỗi xảy ra trong quá trình xử lý giao dịch. Vui lòng gọi đến Hotline 1900 6605 để được hỗ trợ."
+    },
+    "success": {
+      "title": "Thanh toán thành công!",
+      "message": "Giao dịch của bạn đã được xử lý thành công."
+    },
+    "orderDetails": {
+      "label": "Chi tiết đơn hàng",
+      "orderId": "Mã đơn hàng",
+      "purchaseDate": "Ngày mua",
+      "esimQuantity": "Số lượng eSIM",
+      "esimQuantityTravel": "Số lượng eSIM du lịch",
+      "usimQuantity": "Số lượng sim vật lý",
+      "package": "Gói cước",
+      "total": "Tổng tiền"
+    },
+    "title": "Chi tiết eSIM",
+    "data": {
+      "using": "Đang sử dụng",
+      "waiting": "Chờ kích hoạt",
+      "dataLeft": "Còn lại",
+      "coverage": "Phạm vi phủ sóng",
+      "provider": "Cung cấp bởi",
+      "dataAmount": "Dung lượng",
+      "planType": "Loại gói",
+      "validity": "Hiệu lực",
+      "ekyc": "eKYC (Xác minh danh tính)",
+      "iccid": "ICCID",
+      "dataOnly": "Chỉ dữ liệu",
+      "notRequired": "Không bắt buộc",
+      "remainingValidity": "Thời hạn còn",
+      "days": "ngày",
+      "remainingData": "Dung lượng còn lại"
+    },
+    "notification": {
+      "title": "THÔNG BÁO DỮ LIỆU THẤP",
+      "message": "Bạn có cho phép SkyFi hiện thông báo khi sắp hết dữ liệu?",
+      "allow": "Cho phép"
+    },
+    "buyMore": {
+      "title": "Mua thêm dung lượng",
+      "button": "Mua ngay"
+    },
+    "warning": {
+      "title": "Cảnh báo",
+      "message": "Hầu hết eSIM chỉ có thể được cài đặt một lần. Nếu bạn tháo eSIM khỏi thiết bị, bạn sẽ không thể cài đặt lại"
+    }
+  },
+  "package": {
+    "title": "Danh sách gói cước",
+    "subtitle": "Lựa chọn gói cước dữ liệu hoàn hảo cho nhu cầu của bạn",
+    "buySuccess": "Gói cước đã được mua thành công",
+    "tabs": {
+      "domestic": "Gói nội địa",
+      "roaming": "Gói roaming"
+    },
+    "selectType": {
+      "monthly": "Gói tháng",
+      "daily": "Gói ngày",
+      "all": "Tất cả gói",
+      "cbnv": "Gói CBNV"
+    },
+    "notFound": {
+      "title": "Không tìm thấy gói cước",
+      "description": "Thử thay đổi từ khóa tìm kiếm hoặc bộ lọc"
+    },
+    "clearFilter": "Xóa bộ lọc",
+    "steps": {
+      "step1": "Chọn gói cước",
+      "step2": "Thanh toán"
+    },
+    "filterSection": {
+      "searchPlaceholder": "Tìm kiếm theo quốc gia",
+      "allCountries": "Tất cả quốc gia",
+      "popularCountries": "Quốc gia phổ biến"
+    },
+    "packageCard": {
+      "data": "Dung lượng",
+      "validity": "Hiệu lực",
+      "days": "ngày",
+      "unlimited": "Không giới hạn",
+      "bestOffer": "Ưu đãi nhất",
+      "selectButton": "Chọn gói cước"
+    },
+    "selectedPackage": {
+      "title": "Gói cước của bạn",
+      "country": "Quốc gia",
+      "data": "Dung lượng",
+      "validity": "Hiệu lực",
+      "price": "Giá",
+      "quantity": "Số lượng",
+      "decreaseQuantity": "Giảm số lượng",
+      "increaseQuantity": "Tăng số lượng",
+      "totalPrice": "Tổng giá"
+    },
+    "actionButtons": {
+      "addToCart": "Thêm vào giỏ hàng",
+      "buyNow": "Mua ngay"
+    },
+    "noPackages": "Không có gói cước nào",
+    "loadingPackages": "Đang tải gói cước...",
+    "pagination": {
+      "showing": "Hiển thị {from}-{to} trong tổng số {total} gói cước"
+    }
+  },
+  "modalCheckPackage": {
+    "title": "Thông tin thuê bao",
+    "subtitle": "Vui lòng nhập số điện thoại muốn đăng ký gói cước.",
+    "phoneLabel": "Số điện thoại",
+    "phonePlaceholder": "Nhập số điện thoại",
+    "phoneRequired": "Số điện thoại là bắt buộc",
+    "phoneInvalid": "Vui lòng nhập số điện thoại hợp lệ",
+    "phoneNotSupported": "Số điện thoại không được hỗ trợ. Vui lòng kiểm tra lại",
+    "continueButton": "Tiếp tục",
+    "noSimMessage": "Bạn chưa có Sim? \nMua SIM\n với gói cước ngay nhé.",
+    "closeButton": "Đóng",
+    "paymentMethodLabel": "Hình thức thanh toán",
+    "paymentMainAccount": "Tài khoản chính",
+    "paymentBankTransfer": "Thanh toán ngân hàng",
+    "customerNameLabel": "Họ và tên",
+    "customerNamePlaceholder": "Nhập họ và tên",
+    "selectBankMethod": "Chọn phương thức thanh toán",
+    "selectBankMethodError": "Vui lòng chọn phương thức thanh toán"
+  },
+  "confirmChangePackageModal": {
+    "title": "Đổi gói cước",
+    "description": "Thuê bao {phoneNumber} đang sử dụng gói cước {currentPackage} (HSD đến {remainingDays}). Bằng việc nhấn đồng ý bạn xác nhận hủy gói hiện tại và đăng ký gói cước mới.",
+    "cancelButton": "Bỏ qua",
+    "confirmButton": "Đồng ý"
+  },
+  "modalOTP": {
+    "title": "Nhập mã OTP",
+    "description": "Vui lòng nhập mã OTP gửi vào số điện thoại {phoneNumber} của quý khách",
+    "countdownMessage": "Bạn có thể yêu cầu mã mới sau {seconds} giây.",
+    "resendButton": "Gửi lại",
+    "resendError": "Không thể gửi lại OTP. Vui lòng thử lại.",
+    "confirmButton": "Xác nhận",
+    "submitting": "Đang xác nhận...",
+    "invalidOtp": "Mã OTP không khớp, vui lòng nhập lại.",
+    "required": "Vui lòng nhập mã OTP",
+    "length": "Mã OTP phải có 6 chữ số",
+    "numbersOnly": "Mã OTP chỉ được chứa số"
+  },
+  "topup": {
+    "title": "Nạp tiền",
+    "phoneNumber": "Số điện thoại",
+    "amountOption": "{amount} VND",
+    "topupNowButton": "Nạp ngay",
+    "invalidPhoneNumber": "Số điện thoại không hợp lệ",
+    "requiredPhoneNumber": "Số điện thoại là bắt buộc",
+    "titleMessage": "Thông báo",
+    "placeholderPhoneNumber": "Nhập số điện thoại SkyFi"
+  },
+  "packDetail": {
+    "title": "Chi tiết gói cước",
+    "packageLabel": "Gói cước",
+    "benefitsTitle": "Lợi ích",
+    "dataPerDay": "GB/ngày",
+    "sms": "SMS",
+    "minutes": "phút",
+    "free": "Miễn phí",
+    "descriptionLabel": "Mô tả",
+    "syntaxLabel": "Cú pháp kiểm tra gói cước",
+    "autoRenewal": "Gói cước tự động gia hạn",
+    "checkSyntax": "Kiểm tra gói cước: Soạn *090*5# bấm gọi (miễn phí) Hoặc soạn KT ALL gửi 9199 (miễn phí)",
+    "price": "VND",
+    "validity": "ngày",
+    "register": "Đăng ký"
+  },
+  "supportCenter": {
+    "title": "Trung tâm hỗ trợ",
+    "faqTitle": "Câu hỏi thường gặp",
+    "faq1": {
+      "question": "Cách sử dụng eSIM",
+      "answer": "Bước 1: Chọn gói cước theo yêu cầu.\\nBước 2: Cài đặt eSIM.\\nBước 3: Kích hoạt eSIM."
+    },
+    "faq2": {
+      "question": "Trước khi cài đặt eSIM",
+      "answer": "Người dùng cần kiểm tra điện thoại có hỗ trợ eSIM hay không.\\nKiểm tra danh sách model điện thoại có hỗ trợ eSIM cập nhật mới nhất theo đường link bên dưới:\\nhttps://skyfi.vn/buy-esim/nations\\nNgười dùng cần kiểm tra Chính sách kích hoạt eSIM. Hầu hết eSIM sẽ kích hoạt sử dụng tại quốc gia đến khi kết nối sóng lần đầu tiên với nhà mạng địa phương. Tuy nhiên, một số eSIM sẽ kích hoạt ngay lập tức khi cài đặt vào điện thoại ở bất kỳ đâu. Khuyến cáo người dùng nên cài đặt"
+    },
+    "faq3": {
+      "question": "Cách cài đặt eSIM?",
+      "answer": "Bước 1: Mở cài đặt trên điện thoại.\\nBước 2: Chọn mục Di động hoặc Mạng di động.\\nBước 3: Chọn Thêm gói cước di động.\\nBước 4: Quét mã QR hoặc nhập thông tin eSIM được cung cấp.\\nBước 5: Xác nhận và hoàn tất cài đặt."
+    },
+    "faq4": {
+      "question": "Sau khi cài đặt eSIM",
+      "answer": "Người dùng cần khởi động lại điện thoại để hoàn tất quá trình cài đặt.\\nSau khi khởi động lại, người dùng có thể sử dụng eSIM như một SIM thông thường."
+    },
+    "faq5": {
+      "question": "Cách kiểm tra ICCID đã cài đặt?",
+      "answer": "Người dùng có thể kiểm tra ICCID đã cài đặt bằng cách vào cài đặt SIM trên điện thoại.\\nTìm mục thông tin SIM để xem ICCID."
+    },
+    "faq6": {
+      "question": "Cách kiểm tra cài đặt APN và thay đổi APN?",
+      "answer": "Người dùng có thể vào cài đặt mạng di động để kiểm tra và thay đổi APN.\\nCần đảm bảo APN được cấu hình đúng để sử dụng dữ liệu di động."
+    },
+    "faq7": {
+      "question": "Cách xử lý sự cố",
+      "answer": "Nếu gặp sự cố khi sử dụng eSIM, người dùng có thể thử các bước sau:\\n1. Khởi động lại điện thoại.\\n2. Kiểm tra kết nối mạng.\\n3. Đảm bảo eSIM đã được cài đặt đúng cách.\\n4. Liên hệ với bộ phận hỗ trợ khách hàng nếu vẫn gặp vấn đề."
+    },
+    "faq8": {
+      "question": "iMessage và Facetime",
+      "answer": "Để sử dụng iMessage và Facetime với eSIM, người dùng cần đảm bảo đã đăng nhập tài khoản Apple ID.\\nSau đó, vào cài đặt iMessage và Facetime để kích hoạt dịch vụ."
+    },
+    "faq9": {
+      "question": "Điểm phát Wifi /chia sẻ dữ liệu di động",
+      "answer": "Người dùng có thể chia sẻ dữ liệu di động từ eSIM bằng cách vào cài đặt điểm phát Wifi.\\nChọn eSIM làm nguồn dữ liệu và bật tính năng chia sẻ."
+    },
+    "faq10": {
+      "question": "Khi nào có thể xóa eSIM khỏi điện thoại?",
+      "answer": "Người dùng có thể xóa eSIM khỏi điện thoại bất cứ lúc nào. Tuy nhiên, cần đảm bảo rằng eSIM không còn được sử dụng cho bất kỳ gói cước nào trước khi xóa."
+    }
+  },
+  "packageInfo": {
+    "selectedNumber": "Số đã chọn:",
+    "formType": "Hình thức:",
+    "chooseNewNumber": "Chọn số mới",
+    "selectedSimType": "Loại SIM đã chọn:",
+    "packagePromotion": "Gói cước:",
+    "internalPackageProgram": "Chương trình gói cước nội bộ"
+  },
+  "dktt": {
+    "loadingCardProcessing": "Đang nhận diện thông tin",
+    "cardProcessingDescription": "Hệ thống đang xử lý và nhận diện thông tin từ thẻ của bạn. Vui lòng đợi...",
+    "loadingRegistration": "Đang gửi thông tin đăng ký",
+    "registrationDescription": "Hệ thống đang xử lý thông tin đăng ký của bạn. Vui lòng đợi...",
+    "successScreen": {
+      "title": "Đăng ký thông tin thành công",
+      "message": "Chúc anh chị có trải nghiệm tuyệt vời cùng nhà mạng SkyFi.",
+      "returnHomeButton": "Trở về trang chủ"
+    },
+    "videoRecording": {
+      "title": "Quay video chân dung",
+      "description": "Quay video nói rõ ràng các nội dung sau:",
+      "sampleVideoLink": "Tại đây",
+      "samplePopup": {
+        "title": "Video mẫu hướng dẫn",
+        "description": "Xem video mẫu để hiểu cách quay video chân dung và đọc số thuê bao:",
+        "videoTitle": "Video mẫu hướng dẫn quay video chân dung",
+        "closeButton": "×"
+      },
+      "formInfo": {
+        "phoneLabel": "Số thuê bao:",
+        "fullNameLabel": "Họ và tên:",
+        "birthDayLabel": "Ngày sinh:",
+        "idNumberLabel": "Số giấy tờ:",
+        "sampleVideoText": "Xem video mẫu "
+      },
+      "loading": {
+        "savingVideo": "Đang lưu video...",
+        "submittingRegistration": "Đang gửi thông tin đăng ký..."
+      },
+      "recording": {
+        "isRecording": "ĐANG QUAY {time}s",
+        "timeRemaining": "Còn {time}s",
+        "ready": "Sẵn sàng quay video (tối đa 30 giây)",
+        "readyIcon": "📹"
+      },
+      "controls": {
+        "startRecording": "Bắt đầu quay video",
+        "stopRecording": "Dừng quay video",
+        "processing": "Đang xử lý..."
+      },
+      "buttons": {
+        "retake": "📹 Quay lại video",
+        "saving": "Đang lưu...",
+        "saved": "✅ Đã lưu video",
+        "save": "💾 Lưu video",
+        "processing": "Đang xử lý..."
+      },
+      "messages": {
+        "videoSaved": "Video đã được lưu thành công!",
+        "uploading": "Đang tải video lên hệ thống, vui lòng đợi..."
+      },
+      "tooltips": {
+        "startRecording": "Bắt đầu quay video",
+        "stopRecording": "Dừng quay video",
+        "retakeVideo": "Quay lại video",
+        "saveVideo": "Lưu video này",
+        "videoSaved": "Video đã được lưu",
+        "savingVideo": "Đang lưu video...",
+        "processing": "Đang xử lý..."
+      }
+    },
+    "title": "Đăng ký thông tin thành công",
+    "message": "Chúc anh chị có trải nghiệm tuyệt vời cùng nhà mạng SkyFi.",
+    "returnHomeButton": "Trở về trang chủ",
+    "accessibility": {
+      "successIcon": "Biểu tượng thành công",
+      "checkmark": "Dấu kiểm xác nhận thành công"
+    },
+    "documentSelector": {
+      "title": "Đăng ký",
+      "subtitle": "thông tin thuê bao",
+      "documentTypeLabel": "Loại giấy tờ",
+      "passport": "Hộ chiếu",
+      "cccd": "CCCD",
+      "instructions": {
+        "selectDocument": "Vui lòng chọn loại giấy tờ tùy thân để đăng ký thông tin thuê bao và nút nhấn Tiếp tục",
+        "passportInfo": "Hộ chiếu chỉ cần chụp một mặt và ảnh chân dung",
+        "cccdInfo": "CCCD cần chụp cả hai mặt và ảnh chân dung"
+      }
+    },
+    "navigationButtons": {
+      "backButton": "Quay lại",
+      "continueButton": "Tiếp tục",
+      "completeButton": "Hoàn thành",
+      "processingButton": "Đang xử lý...",
+      "stepErrors": {
+        "default": "Vui lòng hoàn thành thông tin của bước hiện tại!",
+        "step3": "Vui lòng chọn loại giấy tờ tùy thân!",
+        "step4": "Vui lòng chụp ảnh mặt trước giấy tờ!",
+        "step5": "Vui lòng chụp ảnh mặt sau giấy tờ!",
+        "step6": "Vui lòng chụp ảnh chân dung!",
+        "step7": "Vui lòng điền đầy đủ thông tin bắt buộc!",
+        "step8": "Vui lòng ký tên vào khung chữ ký!",
+        "step9": "Vui lòng lưu video chân dung để hoàn thành đăng ký!"
+      }
+    },
+    "photoCapture": {
+      "frontCardTitle": "Chụp mặt trước {cardType}",
+      "backCardTitle": "Chụp mặt sau {cardType}",
+      "faceVerificationTitle": "Xác thực khuôn mặt",
+      "cardDescription": "Đặt giấy tờ ở giữa khung hình và đảm bảo ảnh chụp rõ nét, không bị mờ lóa, mất góc",
+      "faceDescription": "Điều chỉnh khuôn mặt nằm giữa khung tròn, giữ thiết bị ổn định và thẳng với khuôn mặt",
+      "cardTypes": {
+        "cccd": "Căn cước/CCCD",
+        "passport": "Hộ chiếu"
+      },
+      "errors": {
+        "invalidFileType": "Vui lòng chọn file ảnh hợp lệ",
+        "fileSizeTooBig": "Kích thước ảnh không được vượt quá 10MB",
+        "fileReadError": "Có lỗi xảy ra khi đọc file"
+      },
+      "buttons": {
+        "initializingCamera": "Đang khởi tạo camera...",
+        "processing": "Đang xử lý...",
+        "takePhoto": "Chụp ảnh",
+        "uploadFromDevice": "Tải ảnh từ thiết bị",
+        "retakePhoto": "Chụp lại",
+        "uploadAnotherPhoto": "Tải ảnh khác từ thiết bị"
+      },
+      "or": "hoặc"
+    },
+    "camera": {
+      "cardTypes": {
+        "cccd": "Căn cước/CCCD",
+        "passport": "Hộ chiếu"
+      },
+      "imageLabels": {
+        "faceAuth": "Xác thực khuôn mặt",
+        "frontCard": "Mặt trước {cardType}",
+        "backCard": "Mặt sau {cardType}"
+      },
+      "descriptions": {
+        "face": "Điều chỉnh khuôn mặt nằm giữa khung tròn, giữ thiết bị ổn định và thẳng với khuôn mặt",
+        "card": "Đặt giấy tờ ở giữa khung hình và đảm bảo ảnh chụp rõ nét, không bị mờ lóa, mất góc"
+      },
+      "error": {
+        "title": "Lỗi camera",
+        "retryButton": "Thử lại"
+      }
+    },
+    "infoReview": {
+      "title": "Kiểm tra lại thông tin",
+      "fields": {
+        "fullName": {
+          "label": "Họ và tên",
+          "placeholder": "Nhập họ và tên"
+        },
+        "gender": {
+          "label": "Giới tính",
+          "male": "Nam",
+          "female": "Nữ"
+        },
+        "idNumber": {
+          "label": "Số giấy tờ",
+          "placeholder": "Nhập số giấy tờ"
+        },
+        "birthDate": {
+          "label": "Ngày sinh",
+          "placeholder": "Chọn ngày sinh"
+        },
+        "issueDate": {
+          "label": "Ngày cấp",
+          "placeholder": "Chọn ngày cấp"
+        },
+        "issuePlace": {
+          "label": "Nơi cấp",
+          "placeholder": "Chọn nơi cấp",
+          "options": {
+            "BCA": "Bộ công an",
+            "CCC": "Cục Trưởng Cục Cảnh sát Quản lý hành chính về trật tự xã hội",
+            "CCD": "Cục Trưởng Cục Cảnh sát ĐKQL cư trú và DLQG về dân cư",
+            "CXN": "Cục quản lý xuất nhập cảnh"
+          }
+        },
+        "address": {
+          "label": "Nơi thường trú",
+          "placeholder": "Nhập địa chỉ thường trú"
+        }
+      }
+    },
+    "signatureCapture": {
+      "title": "Ký hợp đồng",
+      "showTerms": "Xem thêm điều khoản",
+      "hideTerms": "Ẩn bớt điều khoản",
+      "agreement": {
+        "label": "Tôi hiểu và đồng ý với các điều kiện dưới đây:",
+        "condition1": "Việc đăng ký thông tin thuê bao trên hệ thống sẽ chỉ được thực hiện sau khi cung cấp đầy đủ các giấy tờ, thông tin theo quy định của pháp luật.",
+        "condition2": "Trong quá trình chờ và sau khi hoàn thành đăng ký thông tin trên hệ thống, nếu có xảy ra bất kỳ khiếu kiện, tranh chấp nào liên quan đến số thuê bao trên, tôi đồng ý để SkyFi thu hồi số thuê bao để giải quyết khiếu nại, đồng thời tôi cam kết sẽ phối hợp SkyFi để giải quyết và chịu hoàn toàn trách nhiệm trước pháp luật.",
+        "condition3": "Các thông tin và chữ ký của bạn sẽ được tự đồng điền vào Phiếu xác nhận thông tin thuê bao,  ",
+        "condition4": "Tôi đã đọc hiểu và đồng ý để SkyFi xử lý dữ liệu cá nhân của tôi theo ",
+        "link1": "Chính sách xử lý và bảo vệ dữ liệu cá nhân",
+        "link2": "Chấp thuận xử lý và bảo vệ dữ liệu cá nhân",
+        "below": " dưới đây."
+      },
+      "instructions": {
+        "text": "Vui lòng ký tên của bạn tại phía dưới cùng của hợp đồng và kiểm tra lại thông tin hợp đồng",
+        "linkText": "Tại đây!",
+        "loadingText": "Đang tải phiếu..."
+      },
+      "warnings": {
+        "agreeFirst": "⚠️ Vui lòng đồng ý với các điều kiện để tiếp tục"
+      },
+      "signature": {
+        "title": "Chữ ký khách hàng",
+        "needAgreement": "(Cần đồng ý điều kiện trước)",
+        "placeholder": {
+          "line1": "Vui lòng đồng ý với các điều kiện",
+          "line2": "để bắt đầu ký tên"
+        },
+        "clearButton": "Xóa chữ ký"
+      },
+      "popup": {
+        "title": "Phiếu xác nhận thông tin thuê bao",
+        "pages": "({count} trang)",
+        "loadingPdf": "Đang tải PDF...",
+        "renderingPages": "Đang render các trang...",
+        "pageNumber": "Trang {number}",
+        "noData": "Không có dữ liệu phiếu",
+        "closeButton": "Đóng",
+        "errorLoadPdf": "Không thể tải file PDF. Vui lòng thử lại."
+      }
+    },
+    "progressBar": {
+      "steps": {
+        "step1": "Chụp ảnh giấy tờ và chân dung",
+        "step2": "Xem thông tin",
+        "step3": "Xác thực chữ ký",
+        "step4": "Quay video chân dung"
+      },
+      "accessibility": {
+        "completed": "Bước hoàn thành",
+        "current": "Bước hiện tại",
+        "pending": "Bước chưa hoàn thành",
+        "progressBar": "Thanh tiến trình đăng ký"
+      }
+    }
+  },
+  "cardTypes": {
+    "cccd": "Căn cước/CCCD",
+    "passport": "Hộ chiếu"
+  },
+  "imageLabels": {
+    "faceAuth": "Xác thực khuôn mặt",
+    "frontCard": "Chụp mặt trước {cardType}",
+    "backCard": "Chụp mặt sau {cardType}"
+  },
+  "descriptions": {
+    "face": "Điều chỉnh khuôn mặt nằm giữa khung tròn, giữ thiết bị ổn định và thẳng với khuôn mặt",
+    "card": "Đặt giấy tờ ở giữa khung hình và đảm bảo ảnh chụp rõ nét, không bị mờ lóa, mất góc"
+  },
+  "error": {
+    "title": "Lỗi Camera",
+    "retryButton": "🔄 Thử lại",
+    "invalidFile": "Vui lòng chọn file ảnh hợp lệ",
+    "fileTooLarge": "Kích thước ảnh không được vượt quá 10MB",
+    "readFileError": "Có lỗi xảy ra khi đọc file"
+  },
+  "buttons": {
+    "initializingCamera": "Đang khởi tạo camera...",
+    "processing": "Đang xử lý...",
+    "takePhoto": "Chụp ảnh",
+    "or": "hoặc",
+    "uploadFromDevice": "Tải ảnh từ thiết bị",
+    "retakePhoto": "Chụp lại",
+    "uploadAnother": "Tải ảnh khác từ thiết bị"
+  },
+  "devicesEsim": {
+    "title": "Danh sách thiết bị hỗ trợ eSIM",
+    "notice": "Lưu ý: eSIM là một loại sim điện tử (sử dụng mã QR) và không phải là thẻ sim vật lý lắp vào điện thoại , eSIM không dùng cho các loại đồng hồ thông minh",
+    "searchPlaceholder": "Nhập tên máy (ví dụ Iphone 15, SS Galaxy Fold,...)",
+    "noResults": "Không tìm thấy thiết bị phù hợp với \"{searchTerm}\"",
+    "closeButton": "Đóng",
+    "searchIcon": "Tìm kiếm",
+    "expandIcon": "Mở rộng"
+  },
+  "privacyPolicyPopup": {
+    "message": "Bạn vui lòng đọc kỹ \"Chính sách bảo vệ dữ liệu cá nhân TẠI ĐÂY và xác nhận đã đọc, hiểu và đồng ý với toàn bộ nội dung của chính sách.",
+    "messageHere": "TẠI ĐÂY",
+    "acceptButton": "Đồng ý",
+    "skipButton": "Bỏ qua"
+  },
+  "esimGuide": {
+    "title": "Hướng dẫn cài đặt eSIM",
+    "iosDevice": "Thiết bị iOS",
+    "androidDevice": "Thiết bị Android",
+    "setupMethodSelection": "Lựa chọn cách cài đặt",
+    "qrCode": "Qua QR code",
+    "manual": "Thủ công",
+    "installationSteps": "Các bước cài đặt eSIM",
+    "dataSetupSteps": "Bật dữ liệu mạng",
+    "ios": {
+      "qr": {
+        "installation": [
+          "Vào Cài đặt > Dữ liệu di động > Thêm eSIM hoặc Thiết lập dịch vụ di động > Sử dụng mã QR trên thiết bị của bạn.",
+          "Quét mã QR hoặc chụp ảnh chụp màn hình (khả dụng đến iOS 17.3), chạm vào \"Mở ảnh\", chọn mã này từ cuộn camera, chạm vào \"Tiếp theo\", sau đó chạm vào \"Tiếp tục\" hai lần và chờ một chút. eSIM của bạn sẽ kết nối với mạng, việc này có thể cần một vài phút, sau đó chạm vào \"Hoàn tất\".",
+          "Chọn một nhãn cho gói eSIM mới của bạn.",
+          "Chọn \"Chính\" cho sim mặc định của bạn, sau đó chạm vào \"Tiếp tục\".",
+          "Chọn sim \"Chính\" mà bạn muốn dùng với iMessage và FaceTime cho Apple ID, sau đó chạm vào \"Tiếp tục\".",
+          "Chọn gói eSIM mới cho dữ liệu di động, sau đó chạm vào \"Tiếp tục\"."
+        ],
+        "dataSetup": [
+          "Vào \"Dữ liệu di động\", sau đó chọn eSIM vừa được tải về thiết bị của bạn. Bật công tắc \"Bật sim này\", sau đó chọn gói eSIM mới của bạn cho dữ liệu di động.",
+          "Chạm vào \"Chọn mạng\", vô hiệu công tắc \"Tự động\", sau đó chọn thủ công mạng lưới được hỗ trợ nếu eSIM của bạn đã kết nối với nhầm mạng.",
+          "Bật công tắc \"Chuyển vùng dữ liệu\" cho gói eSIM mới của bạn."
+        ]
+      },
+      "manual": [
+        "Chạm vào \"Điền chi tiết thủ công\" và điền Địa chỉ SM-DP+ và Mã kích hoạt bằng cách sao chép chúng, chạm vào \"Tiếp theo\", sau đó chạm vào \"Tiếp tục\" hai lần và chờ một chút. eSIM của bạn sẽ kết nối với mạng, việc này có thể cần một vài phút, sau đó chạm vào \"Hoàn tất\".",
+        "Chọn một nhãn cho gói eSIM mới của bạn.",
+        "Chọn \"Chính\" cho sim mặc định của bạn, sau đó chạm vào \"Tiếp tục\".",
+        "Chọn sim \"Chính\" mà bạn muốn dùng với iMessage và FaceTime cho Apple ID, sau đó chạm vào \"Tiếp tục\".",
+        "Chọn gói eSIM mới cho dữ liệu di động, sau đó chạm vào \"Tiếp tục\"."
+      ]
+    },
+    "android": {
+      "qr": {
+        "installation": [
+          "Vào \"Cài đặt\", chạm vào \"Kết nối\", sau đó chạm vào \"Quản lý thẻ SIM\" trên thiết bị của bạn.",
+          "Chạm vào \"Thêm gói di động\", sau đó chạm vào \"Quét mã QR của nhà mạng\".",
+          "Quét mã QR, sau đó chạm vào \"Xác nhận\"."
+        ],
+        "dataSetup": [
+          "Vào \"Quản lý thẻ SIM\", sau đó bật eSIM bằng cách bật công tắc, và chạm vào \"OK\" trên thiết bị của bạn.",
+          "Chọn eSIM của bạn cho dữ liệu di động.",
+          "Vào \"Kết nối\", sau đó chạm vào \"Mạng di động\".",
+          "Bật công tắc \"Chuyển vùng dữ liệu\".",
+          "Chạm vào \"Tên điểm truy cập\", sau đó chạm vào \"Thêm\" ở góc trên bên phải của màn hình.",
+          "Điền APN bằng cách sao chép số này vào các trường Tên và APN.",
+          "Chạm vào dấu ba chấm ở góc trên bên phải màn hình, chạm vào \"Lưu\", sau đó chọn APN bạn đã lưu bằng cách nhấn vào nút tròn.",
+          "Chạm vào công tắc \"Nhà mạng\", chạm vào công tắc \"Chọn tự động\", sau đó chọn mạng được hỗ trợ một cách thủ công nếu eSIM của bạn đ  mạng."
+        ]
+      },
+      "manual": [
+        "Vào \"Cài đặt\", chạm vào \"Kết nối\", sau đó chạm vào \"Quản lý thẻ SIM\" trên thiết bị của bạn.",
+        "Chạm vào \"Thêm gói di động\", sau đó chạm vào \"Quét mã QR của nhà mạng\".",
+        "Chạm vào \"Điền mã kích hoạt\".",
+        "Điền Địa chỉ SM-DP+ & Mã kích hoạt bằng cách sao chép chúng, chạm vào \"Kết nối\", sau đó chạm vào \"Xác nhận\"."
+      ]
+    }
+  },
+  "countries": {
+    "title": "Các quốc gia có sẵn",
+    "close": "Đóng",
+    "closeAriaLabel": "Đóng popup",
+    "searchPlaceholder": "Tìm kiếm quốc gia...",
+    "flagAlt": "Cờ {country}",
+    "noResults": "Không tìm thấy quốc gia nào phù hợp",
+    "totalCount": "Tổng cộng: {count} quốc gia"
+  },
+  "travelSim": {
+    "titleFreemium": "NHẬN SIM DU LỊCH VIỆT NAM MIỄN PHÍ",
+    "titleSkyboss": "NHẬN SIM DU LỊCH QUỐC TẾ MIỄN PHÍ",
+    "warning": "Chương trình chỉ áp dụng cho khách quốc tế tới Việt Nam và không áp dụng cho khách hàng là đại lý của Vietjet",
+    "descriptionFreemium": "Vui lòng nhập mã đặt chỗ Vietjet Air để nhận SIM du lịch Việt Nam miễn phí, SIM có sẵn 500MB data",
+    "descriptionSkyboss": "Vui lòng nhập mã đặt chỗ Vietjet Air để nhận SIM du lịch quốc tế dành riêng cho hạng vé SkyBoss - Có sẵn 1GB data quốc tế.",
+    "bookingCodeLabel": "Mã đặt chỗ Vietjet Air",
+    "bookingCodePlaceholder": "Nhập mã đặt chỗ để nhận SIM",
+    "emailLabel": "Email booking VietJet Air",
+    "emailPlaceholder": "Vui lòng nhập email",
+    "otpSend": "SkyFi đã gửi một mã xác thực OTP đến email của bạn",
+    "otpLabel": "Nhập mã OTP để xác thực",
+    "resendOtp": "Gửi lại mã",
+    "notification": "Thông báo",
+    "continueButton": "Tiếp tục",
+    "selectPackageTitle": "Chọn gói cước",
+    "errorTitle": "Lỗi đường dẫn",
+    "errorMessage": "Vui lòng kiểm tra lại thông tin của bạn",
+    "notePackage": "Lưu ý: Các gói cước chính không được cộng dồn, trường hợp mua thêm gói cước mới, hệ thống sẽ tự động hủy gói cước cũ của Bạn.",
+    "esimWarning": "Các sản phẩm này chỉ phù hợp với các thiết bị hỗ trợ eSIM. Kiểm tra thiết bị hỗ trợ eSIM",
+    "here": "tại đây",
+    "common": {
+      "days": "ngày",
+      "package": "gói",
+      "free": "Miễn phí"
+    },
+    "title": {
+      "greeting": "Bonjour Vietnam!",
+      "subtitle": "Chọn ngay eSIM SkyFi để hành trình luôn kết nối."
+    },
+    "packages": {
+      "vietnamEsim": "eSIM du lịch Việt Nam - 500MB/3 ngày"
+    },
+    "buttons": {
+      "backToHome": "Về trang chủ"
+    },
+    "info": {
+      "bookingAlreadyGifted": "Mã Booking này đã được tặng quà và gửi về email, bạn có muốn mua thêm không?",
+      "programNotForRecentRecipients": "Chương trình không dành cho khách hàng đã nhận được quà tặng trong vòng 30 ngày",
+      "freeDataNotice": "Lưu ý: 500MB được tặng một lần duy nhất trên 1 SIM"
+    },
+    "success": {
+      "title": "Thành công",
+      "freeSimSentToEmail": "SIM miễn phí đã được gửi đến email của bạn",
+      "receivedVietnamEsim": "Nhận eSIM du lịch Việt Nam",
+      "esimSentMessage": "eSIM đã được gửi đến email của bạn\nChúc Quý khách có hành trình du lịch tuyệt vời."
+    },
+    "errors": {
+      "selectAtLeastOnePackage": "Vui lòng chọn ít nhất một gói",
+      "createOrderError": "Đã xảy ra lỗi khi tạo đơn hàng",
+      "paymentOrderError": "Đã xảy ra lỗi khi thanh toán đơn hàng",
+      "failed": "Thất bại",
+      "generalError": "Có lỗi xảy ra vui lòng thử lại",
+      "required": "Mã đặt chỗ là bắt buộc",
+      "min": "Độ dài tối thiểu là {min} ký tự",
+      "max": "Độ dài tối đa là {max} ký tự",
+      "notPhone": "Không có SIM nào để đặt hàng",
+      "notQuantity": "Vui lòng chọn số lượng SIM",
+      "title": "Thông báo"
+    },
+    "modalVerify": {
+      "title": "LƯU Ý",
+      "warningMessage": "Trường hợp thuê bao đang có 1 trong 3 gói cước SMART, POWER, INFINITY, khi mua gói cước mới, data còn lại ở gói cũ sẽ bị huỷ. Hãy đảm bảo dung lượng data còn lại gần hết để tránh lãng phí",
+      "giftMessage": "Bạn sắp nhận được gói quà tặng eSIM du lịch Việt Nam. Gói cước sẽ được gửi vào email bạn đã đăng ký để dễ dàng sử dụng.",
+      "packageTitle": "Gói cước mua thêm",
+      "giftTitle": "Quà tặng của bạn",
+      "defaultPackageName": "Gói VJ70/1GB - 7 ngày",
+      "defaultPrice": "70.000 VND",
+      "instructionText": "Vui lòng kiểm tra email của bạn để cài đặt SIM và sử dụng",
+      "skipButton": "Đóng",
+      "continueButton": "Tiếp tục thanh toán",
+      "claimButton": "Nhận quà"
+    },
+    "multiPackageConfirm": {
+      "title": "Xác nhận đơn hàng",
+      "warningMessage": "Vui lòng kiểm tra thông tin đơn hàng trước khi tiếp tục",
+      "selectedSims": "Số SIM đã chọn",
+      "totalPackages": "Tổng số gói",
+      "packageDetails": "Chi tiết gói cước",
+      "totalAmount": "Tổng tiền",
+      "cancelButton": "Hủy",
+      "confirmButton": "Xác nhận đặt hàng"
+    },
+    "travelSimPackage": {
+      "packageLabel": "Gói cước",
+      "quantityLabel": "Số lượng",
+      "freeLabel": "Miễn phí",
+      "decreaseQuantityAriaLabel": "Giảm số lượng",
+      "increaseQuantityAriaLabel": "Tăng số lượng",
+      "maxQuantityReached": "Đã đạt số lượng tối đa ({maxQuantity})"
+    },
+    "orderSummary": {
+      "title": "Chi tiết đơn hàng",
+      "packageHeader": "Gói cước",
+      "dataCapacityHeader": "Dung lượng",
+      "dataCapacityHeaderDesktop": "Dung lượng data",
+      "quantityHeader": "Số lượng",
+      "quantityHeaderShort": "SL",
+      "totalPriceHeader": "Thành tiền",
+      "free": "Miễn phí",
+      "gift": "Quà tặng",
+      "totalLabel": "Tổng cộng",
+      "paymentButton": "Thanh toán",
+      "receiveGiftButton": "Nhận quà",
+      "giftIcon": "Quà tặng",
+      "freePrice": "0 VND",
+      "orderDetailsTitle": "Chi tiết đơn hàng",
+      "packageLabel": "Gói cước",
+      "quantityLabel": "Số lượng",
+      "totalOrderLabel": "Tổng đơn hàng",
+      "backButton": "Quay lại"
+    },
+    "infoSim": {
+      "yourSimNumber": "Số thuê bao của bạn",
+      "selectFreeSimTitle": "Lựa chọn thuê bao miễn phí để mua thêm gói",
+      "buyDataForAllSims": "Mua data cho tất cả các SIM",
+      "yourGift": "Quà tặng của bạn",
+      "travelEsimVietnam": "eSIM du lịch Việt Nam",
+      "giftDataLabel": "Data được tặng",
+      "giftDataAmount": "500MB/SIM (= 0.5GB)",
+      "descriptionText": "500MB đủ để mở đầu, nhưng hành trình của bạn cần nhiều hơn thế!",
+      "upgradeDataText": "HÃY NÂNG CẤP DATA ĐỂ KẾT NỐI TRỌN VẸN"
+    },
+    "modalSimNotActive": {
+      "title": "Bạn đã sở hữu SIM du lịch Việt Nam",
+      "description": "Vui lòng kiểm tra email của bạn để cài đặt SIM và sử dụng",
+      "contactInfo": "Mọi thắc mắc vui lòng liên hệ CSKH\nEmail: customercare@skyfi.vn\nHotline: 1900 6605\nZalo OA: https://zalo.me/4027302975952039719",
+      "closeButton": "Đóng"
+    },
+    "modalRegions": {
+      "title": "Các quốc gia được hỗ trợ",
+      "searchPlaceholder": "Tên quốc gia",
+      "loading": "Đang tải...",
+      "noResults": "Không tìm thấy quốc gia nào"
+    },
+    "simItem": {
+      "decrease": "Giảm số lượng",
+      "increase": "Tăng số lượng",
+      "free": "Miễn phí",
+      "quantity": "Số lượng",
+      "subtitle": "SIM du lịch {number} quốc gia \nchi tiết #Xem tại đây"
+    },
+    "confirm": {
+      "title": "BẠN ĐÃ NHẬN SIM MIỄN PHÍ",
+      "description": "Vui lòng kiểm tra thông tin SIM và gói cước tại email của bạn. \nChúc Quý khách có hành trình du lịch tuyệt vời.",
+      "confirmButton": "Mua thêm data quốc tế",
+      "backButton": "Về trang chủ"
+    },
+    "travelSimItemPage": {
+      "headerTitle": "Quý khách nhận được {quantity} SIM du lịch quốc tế miễn phí",
+      "productTitle": "SIM du lịch quốc tế dành cho khách hàng SkyBoss - Vietjet Air",
+      "dataInfo": "Bạn được miễn phí gói data đầu tiên (1GB quốc tế + 1GB Việt Nam). Đơn giá mua thêm data: 70.000 VND/gói data.",
+      "productHeader": "Sản phẩm",
+      "dataPackageHeader": "Gói dung lượng data/SIM",
+      "priceHeader": "Thành tiền",
+      "buyDataForAllSims": "Mua data cho tất cả SIM",
+      "quantitySummary": "Số lượng: {quantity} SIM",
+      "esimNotice": "Lưu ý: eSIM là SIM điện tử, được gửi qua email khách hàng. eSIM chỉ sử dụng được trên các thiết bị di động có hỗ trợ.",
+      "deviceListLink": "Xem danh sách thiết bị",
+      "receiveSimButton": "Nhận {quantity} SIM",
+      "simTitle": "SIM du lịch 55 quốc gia",
+      "simSubtitle": "chi tiết Xem tại đây",
+      "phoneTitle": "Thuê bao",
+      "quantityLabel": "Gói mua thêm",
+      "listPhones": "Danh sách eSIM mua thêm data",
+      "singleSimUI": {
+        "phoneNumberLabel": "Số thuê bao của bạn",
+        "packageTitle": "Mua thêm data quốc tế",
+        "packageDescription": "Gói data du lịch tại 73 quốc gia với dung lượng 1GB data quốc tế. Chi tiết quốc gia hỗ trợ #xem tại đây",
+        "packageDescriptionMobile": "Gói data du lịch VJ70 #tại 73 quốc gia# với dung lượng 1GB data quốc tế. Đơn giá: 70.000 VND/gói"
+      },
+      "simListTitle": "Danh sách SIM đã nhận",
+      "simListMobile": "Danh sách SIM",
+      "descriptionWithAdditional": "Dưới đây là danh sách các SIM đã gửi cho bạn kèm với các gói cước đã mua. Bạn có thể mua thêm gói cước cho từng SIM.",
+      "descriptionWithFreePackage": "Dưới đây là danh sách các SIM đã gửi cho bạn kèm với gói tặng SM8",
+      "headers": {
+        "phoneNumber": "Số điện thoại",
+        "package": "Gói cước",
+        "buyMore": "Mua thêm",
+        "quantity": "Số lượng",
+        "price": "Giá",
+        "gift": "Tặng"
+      },
+      "freeLabel": "Miễn phí",
+      "totalPackages": "Tổng số gói: {total}"
+    },
+    "travelSimSuccess": {
+      "titleFreemiumSuccess": "Mua gói\nthành công",
+      "titleFreemiumFail": "Mua gói\nthất bại",
+      "backToHome": "Về trang chủ",
+      "descriptionFreemiumSuccess": "Vui lòng kiểm tra thông tin SIM và gói cước tại email của bạn.\nChúc quý khách có hành trình du lịch tuyệt vời!",
+      "descriptionFreemiumFail": "Rất tiếc, giao dịch của bạn chưa được thực hiện. Vui lòng kiểm tra lại thông tin thanh toán hoặc thử lại sau."
+    }
+  },
+  "warning": {
+    "title": "Cảnh báo",
+    "message": "Đây là website thử nghiệm của SkyFi. Mọi giao dịch trên website sẽ không có giá trị. Anh/chị vui lòng chuyển qua website chính thức của SkyFi tại đường link ",
+    "linkText": "Tại đây",
+    "closeButton": "Đã hiểu"
+  },
+  "vikki": {
+    "simInfo": {
+      "remainingTitle": "Còn lại {remaining}/{total} ngày",
+      "remainingPerDay": "Còn lại/ngày",
+      "call": "Gọi",
+      "sms": "Tin nhắn",
+      "monthly": "Tháng",
+      "minutesPerMonth": "phút/ tháng",
+      "smsPerMonth": "SMS/ tháng",
+      "hotPackages": "Gói cước hot",
+      "explore": "Khám phá",
+      "callMinutes": "Phút gọi",
+      "register": "Đăng ký"
+    },
+    "registerSuccess": {
+      "title": "Đăng ký thành công",
+      "message": "Chúc mừng bạn đã đăng ký gói cước thành công!",
+      "close": "Đóng"
+    },
+    "modalNotMoney": {
+      "title": "Đăng ký thất bại",
+      "message": "Rất tiếc, tài khoản chính (TKC) của bạn không đủ số dư. Vui lòng chọn Tài khoản Vikki để tiếp tục mua gói cước",
+      "button": "Tài khoản Vikki"
+    },
+    "modalChangeSim": {
+      "title": "Chọn số khác",
+      "searchPrefix": "x",
+      "searchHint": "Điền vào ô trống chữ số mong muốn",
+      "noResultsMessage": "!!! Rất tiếc, số bạn đang tìm hiện không còn. Có thể bạn sẽ thích những số sau:",
+      "confirmButton": "Xác nhận"
+    },
+    "modals": {
+      "activateSim": {
+        "title": "Thông báo",
+        "description": "Vui lòng mua và kích hoạt SIM SkyFi để sử dụng tính năng này",
+        "closeButton": "Đóng",
+        "buySim": "Mua SIM"
+      },
+      "overNumber": {
+        "title": "Thông báo",
+        "description": "Bạn đã kích hoạt {count} thuê bao. Vui lòng đến điểm giao dịch SkyFi hoặc liên hệ CSKH để được hỗ trợ.",
+        "emailLabel": "Email: ",
+        "emailValue": "customercare@skyfi.vn",
+        "emailUrl": "mailto:customercare@skyfi.vn",
+        "zaloLabel": "Zalo OA: ",
+        "zaloValue": "https://zalo.me/4027302975952039719",
+        "zaloUrl": "https://zalo.me/4027302975952039719",
+        "hotlineLabel": "Hotline: ",
+        "hotlineValue": "19006605 (1000d/phut)",
+        "hotlineUrl": "tel:19006605",
+        "closeButton": "Đóng"
+      }
+    },
+    "home": {
+      "title": "Vikki",
+      "description": "Vikki Information Page",
+      "header": {
+        "greeting": "Chào buổi sáng",
+        "greetingMorning": "Chào buổi sáng",
+        "greetingAfternoon": "Chào buổi chiều",
+        "greetingEvening": "Chào buổi tối",
+        "activateOtherSim": "Kích hoạt SIM khác",
+        "topup": "Nạp tiền"
+      },
+      "simStatusCard": {
+        "title": "Bạn đã có SIM SkyFi chưa?",
+        "description": "Nhấn \"Mua SIM\" để lựa chọn cho mình số điện thoại và gói cước phù hợp.",
+        "activate": "Kích hoạt SIM",
+        "buySim": "Mua SIM",
+        "mainAccount": "Tài khoản gốc",
+        "topup": "Nạp tiền",
+        "mainPackage": "Gói cước chính",
+        "remainingTime": "Thời hạn còn",
+        "days": "ngày",
+        "remaining": "Còn lại",
+        "changePackage": "Đổi gói cước",
+        "renewWithVikki": "Gia hạn bằng TK Vikki",
+        "renewModalTitle": "Gia hạn gói cước tự động",
+        "renewModalDescription": "Bạn vui lòng bấm vào \"Tiếp tục\" để thực hiện gia hạn gói cước hàng tháng bằng cách trừ tiền từ tài khoản Vikki",
+        "renewModalClose": "Đóng",
+        "renewModalConfirm": "Tiếp tục",
+        "renewSuccess": "Đăng ký gia hạn tự động thành công",
+        "renewError": "Đăng ký gia hạn tự động thất bại",
+        "autoBillTitle": "Gia hạn tự động bằng tài khoản Vikki",
+        "autoBillNextDate": "Ngày gia hạn tiếp theo",
+        "autoBillAmount": "Số tiền gia hạn",
+        "cancelAutoBill": "Huỷ gia hạn tự động",
+        "cancelModalTitle": "Huỷ gia hạn tự động",
+        "cancelModalDescription": "Bạn có chắc muốn huỷ gia hạn tự động? Gói cước sẽ không được tự động gia hạn vào kỳ tiếp theo.",
+        "cancelModalClose": "Đóng",
+        "cancelModalConfirm": "Xác nhận huỷ",
+        "cancelSuccess": "Huỷ gia hạn tự động thành công",
+        "cancelError": "Huỷ gia hạn tự động thất bại",
+        "dailyPackage": "Gói ngày",
+        "perDay": "ngày"
+      },
+      "quickActions": {
+        "buySim": "Mua SIM",
+        "packages": "Gói cước",
+        "topup": "Nạp tiền",
+        "travelEsim": "eSIM du lịch"
+      },
+      "mainPackages": {
+        "title": "Gói cước chính",
+        "explore": "Khám phá"
+      },
+      "hotPackages": {
+        "title": "Gói cước hot",
+        "explore": "Khám phá",
+        "data": "Data",
+        "day": "ngày",
+        "callMinutes": "Phút gọi",
+        "freeInternal": "miễn phí nội mạng",
+        "month": "tháng",
+        "register": "Đăng ký",
+        "detail": "Chi tiết"
+      },
+      "footer": {
+        "home": "Trang chủ",
+        "notification": "Thông báo",
+        "support": "Hỗ trợ",
+        "profile": "Cá nhân"
+      }
+    },
+    "topup": {
+      "title": "Nạp tiền",
+      "phoneNumber": "Số điện thoại",
+      "invalidPhoneNumber": "Số điện thoại không hợp lệ. Phải bắt đầu bằng 070",
+      "requiredPhoneNumber": "Vui lòng nhập số điện thoại",
+      "titleMessage": "Thông báo",
+      "placeholderPhoneNumber": "0707 123 456",
+      "topupNowButton": "Nạp ngay"
+    },
+    "cart": {
+      "title": "Giỏ hàng",
+      "itemCount": "{count} sản phẩm",
+      "productHeader": "Sản Phẩm",
+      "priceHeader": "Giá",
+      "orderSummary": "Tóm tắt đơn hàng",
+      "taxAndFee": "Thuế & Phí dịch vụ",
+      "included": "Đã bao gồm",
+      "total": "Tổng cộng",
+      "emptyTitle": "Chưa có sản phầm nào trong giỏ",
+      "emptyDescription": "Bạn có thể ghé thăm cửa hàng của chúng tôi và mua sắm.",
+      "buySim": "Mua SIM",
+      "checkout": "Thanh toán",
+      "notification": "Thông báo",
+      "maxQuantity": "Số lượng tối đa là 50",
+      "minQuantity": "Số lượng tối thiểu là 1",
+      "physicalSim": "SIM vật lý",
+      "esim": "eSIM",
+      "quantity": "Số lượng",
+      "package": "Gói cước",
+      "viewCart": "Xem giỏ hàng",
+      "close": "Đóng"
+    },
+    "package": {
+      "title": " Gói cước",
+      "all": "Tất cả",
+      "dailyPackage": "Gói ngày",
+      "monthlyPackage": "Gói tháng",
+      "loading": "Đang tải gói cước...",
+      "noPackages": "Không tìm thấy gói cước",
+      "changeFilter": "Thử thay đổi bộ lọc để xem gói cước khác",
+      "clearFilter": "Xóa bộ lọc",
+      "filterAll": "Tất cả",
+      "filterDaily": "Gói ngày",
+      "filterMonthly": "Gói tháng"
+    },
+    "packageCard": {
+      "data": "Data",
+      "day": "ngày",
+      "days": "ngày",
+      "callMinutes": "Phút gọi",
+      "minutesInternetwork": "{minutes} phút gọi liên mạng",
+      "freeInternal": "miễn phí nội mạng",
+      "register": "Đăng ký",
+      "detail": "Chi tiết",
+      "vikkiGift": "QUÀ TẶNG VIKKI",
+      "expiry": "Thời hạn sử dụng: {days} ngày từ khi kích hoạt",
+      "autoRenewal": "Tự động gia hạn mỗi {days} ngày",
+      "giftNoteLabel": "Lưu ý: ",
+      "giftNoteContent": "Quà tặng chỉ được giữ khi khách hàng đã hoàn tất các bước để nhận QR code eSIM. ",
+      "giftNoteRules": "Thể lệ chương trình",
+      "month": "tháng"
+    },
+    "checkout": {
+      "infoClient": {
+        "title": "Thông tin liên lạc",
+        "description": "Chúng tôi sẽ liên hệ và gửi thông tin đến bạn qua thông tin liên hệ dưới đây.",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Nhập email",
+        "phoneLabel": "Số điện thoại",
+        "phonePlaceholder": "Nhập số điện thoại",
+        "nameLabel": "Tên",
+        "namePlaceholder": "Nhập tên"
+      },
+      "summary": {
+        "title": "Thông tin giao dịch:",
+        "products": "Mệnh giá",
+        "feeShipping": "Phí vận chuyển",
+        "taxAndService": "Phí giao dịch",
+        "included": "Miễn phí",
+        "total": "Tổng thanh toán",
+        "quantity": "Số lượng",
+        "vatIncluded": "Đã bao gồm VAT",
+        "discount": "Giảm giá",
+        "validationError": "Vui lòng nhập mã giảm giá",
+        "successTitle": "Thành công",
+        "applySuccess": "Áp dụng mã giảm giá thành công. Bạn được giảm",
+        "invalidCoupon": "Mã giảm giá không hợp lệ",
+        "couponError": "Có lỗi xảy ra khi kiểm tra mã giảm giá",
+        "description": "Đã áp dụng mã giảm giá",
+        "remove": "Xóa",
+        "inputPlaceholder": "Nhập mã giảm giá",
+        "notification": "Thông báo",
+        "reappliedSuccess": "Mã giảm giá đã được áp dụng lại với phí vận chuyển mới. Tiết kiệm:",
+        "invalidWithNewAddress": "Mã giảm giá không còn hợp lệ với địa chỉ giao hàng mới. Vui lòng chọn mã khác.",
+        "error": "Lỗi",
+        "revalidationError": "Có lỗi khi kiểm tra mã giảm giá. Mã đã được xóa, vui lòng thử lại.",
+        "applyCoupon": "Áp dụng",
+        "validating": "Đang kiểm tra..."
+      },
+      "delivery": {
+        "title": "Địa chỉ nhận SIM",
+        "selectAddressError": "Vui lòng chọn địa chỉ nhận SIM",
+        "detailedAddressLabel": "Địa chỉ chi tiết",
+        "addressRequired": "Vui lòng nhập địa chỉ giao hàng",
+        "addressMinLength": "Địa chỉ phải có ít nhất 10 ký tự",
+        "addressPlaceholder": "Số nhà, tên đường, tòa nhà..."
+      },
+      "payment": {
+        "title": "Thanh toán",
+        "noSimsTitle": "Không có SIM trong giỏ hàng",
+        "noSimsDescription": "Vui lòng chọn SIM và gói cước để tiếp tục thanh toán.",
+        "noSims": "Giỏ hàng trống",
+        "buyButton": "Mua SIM ngay",
+        "esimModal": "tương thích với eSIM.",
+        "agreeTermsEsimPrefix": "Thiết bị của tôi là ",
+        "agreeTerms": "Điều kiện & Điều khoản.",
+        "agreeTermsPrefix": "Tôi đồng ý với",
+        "and": "và",
+        "Policy": "Chính sách xử lý, bảo vệ dữ liệu cá nhân",
+        "agreeTermsPhysicalLink": "Điều khoản & Điều kiện giao dịch chung của SkyFi ",
+        "titleMessage": "Thông báo",
+        "validationErrorTermsBoth": "Vui lòng đồng ý với các điều khoản để tiếp tục.",
+        "validationErrorTermsEsim": "Vui lòng đồng ý với điều khoản eSIM để tiếp tục.",
+        "validationErrorTermsPhysical": "Vui lòng đồng ý với điều khoản SIM vật lý để tiếp tục.",
+        "devicePrefix": "Lưu ý: Thiết bị cần hỗ trợ eSIM",
+        "deviceCompatibility": "Xem danh sách thiết bị tương thích",
+        "agreeWith": "Tôi đồng ý với",
+        "termsAndConditions": "Điều khoản & Điều kiện",
+        "close": "Đóng",
+        "notification": "Thông báo",
+        "completePayment": "Thanh toán"
+      },
+      "result": {
+        "title": "Kết quả thanh toán",
+        "notFound": "Không tìm thấy mã đơn hàng",
+        "homeButton": "Về trang chủ",
+        "success": "Thành công!",
+        "failure": "Thanh toán thất bại",
+        "orderCode": "Mã GD",
+        "customer": "Khách hàng",
+        "paymentFrom": "Thanh toán từ",
+        "service": "Dịch vụ",
+        "provider": "Nhà cung cấp"
+      }
+    },
+    "shipAddress": {
+      "label": "Tỉnh/Thành phố, Quận/ Huyện, Phường/Xã",
+      "placeholder": "Nhập Tỉnh/Thành phố"
+    },
+    "addressModal": {
+      "title": "Chọn địa chỉ nhận SIM",
+      "selectedArea": "Khu vực được chọn",
+      "reset": "Thiết lập lại",
+      "city": "Tỉnh/Thành phố",
+      "district": "Quận/Huyện",
+      "ward": "Phường/Xã",
+      "selectCity": "Chọn Tỉnh/Thành phố",
+      "selectDistrict": "Chọn Quận/Huyện",
+      "selectWard": "Chọn Phường/Xã",
+      "searchPlaceholder": "Tìm kiếm",
+      "noResults": "Không tìm thấy kết quả phù hợp",
+      "confirm": "Xác nhận"
+    },
+    "simData": {
+      "title": "Mua SIM",
+      "myNumber": "Số dành cho bạn",
+      "selectOther": "Chọn số khác",
+      "physicalSim": "SIM vật lý",
+      "esim": "eSIM",
+      "noteEsim": "Lưu ý: Thiết bị cần hỗ trợ eSIM",
+      "notePhysical": "Lưu ý: Giao SIM tại nhà - Có tính phí vận chuyển",
+      "noPackage": "Không có gói cước nào khả dụng cho số này.",
+      "selectPackageRequired": "Vui lòng chọn gói cước trước khi tiếp tục.",
+      "noPackageAvailable": "Không có gói cước nào khả dụng. Vui lòng thử số khác.",
+      "packageCodeEqualVJ71": "Gói cước VJ71 đã có trong giỏ hàng.",
+      "total": "Tổng cộng",
+      "addToCart": "Thêm vào giỏ hàng",
+      "pay": "Thanh toán",
+      "notify": "Thông báo",
+      "maxQuantity": "Bạn đã đạt đến số lượng tối đa cho sản phẩm này trong giỏ hàng.",
+      "priceInfo": "Giá tiền bao gồm tiền SIM + Phí hòa mạng + Số",
+      "eventEnded": "Chương trình quà tặng 500 eSIM đã kết thúc"
+    },
+    "travelEsim": {
+      "title": "Mua eSIM du lịch",
+      "searchPlaceholder": "Tìm kiếm theo quốc gia",
+      "national": "eSIM quốc gia",
+      "regional": "eSIM khu vực",
+      "global": "eSIM toàn cầu",
+      "note": "Lưu ý: eSIM là SIM điện tử, được gửi qua email khách hàng. eSIM chỉ sử dụng được trên các thiết bị di động có hỗ trợ.",
+      "viewDevices": "Xem danh sách thiết bị",
+      "loading": "Đang tải...",
+      "noResult": "Không tìm thấy kết quả nào.",
+      "noData": "Không có dữ liệu.",
+      "countries": "Các quốc gia",
+      "regions": "Các khu vực",
+      "globalPackages": "Các gói toàn cầu",
+      "detailPage": {
+        "loading": "Đang tải dữ liệu...",
+        "noPackage": "Không tìm thấy gói cước nào cho {country}."
+      },
+      "packageCard": {
+        "coverage": "Phạm vi phủ sóng",
+        "data": "Dung lượng",
+        "validity": "Hiệu lực",
+        "price": "Giá",
+        "quantity": "Số lượng",
+        "buy": "Chọn mua",
+        "day": "ngày",
+        "maxQty": "Số lượng tối đa là 50",
+        "minQty": "Số lượng tối thiểu là 1",
+        "country": "quốc gia",
+        "maxQtyMessage": "Số lượng tối đa là 50 sản phẩm, vui lòng nhập lại."
+      },
+      "countriesModal": {
+        "title": "Các quốc gia có sẵn",
+        "searchPlaceholder": "Tìm kiếm quốc gia...",
+        "selectedArea": "Khu vực được chọn",
+        "reset": "Thiết lập lại",
+        "noResults": "Không tìm thấy kết quả phù hợp",
+        "total": "Tổng cộng",
+        "countries": "quốc gia",
+        "close": "Đóng",
+        "confirm": "Xác nhận"
+      },
+      "packageDetail": {
+        "title": "Chi tiết gói cước",
+        "yourPackage": "Gói cước của bạn",
+        "description": "Mô tả",
+        "providedBy": "Cung cấp bởi",
+        "speedVaries": "Tốc độ có thể thay đổi tuỳ thuộc vào vị trí",
+        "activationPolicy": "Chính sách kích hoạt",
+        "validityStartsOnSetup": "Thời hạn hiệu lực sẽ bắt đầu lúc cài đặt",
+        "packageType": "Loại gói",
+        "dataOnly": "Chỉ dữ liệu",
+        "dataOnlyTooltip": "eSIM này chỉ hỗ trợ dịch vụ dữ liệu.",
+        "ekyc": "eKYC\n(Xác minh danh tính)",
+        "notRequired": "Không bắt buộc",
+        "deviceWarning": "eSIM chỉ sử dụng được trên các thiết bị di động có hỗ trợ.",
+        "ViewDevices": "Xem danh sách thiết bị",
+        "addToCart": "Thêm vào giỏ hàng",
+        "buyNow": "Mua ngay",
+        "decreaseQty": "Giảm số lượng",
+        "increaseQty": "Tăng số lượng"
+      }
+    },
+    "scanQR": {
+      "title": "Quét mã QR",
+      "physicalSimNote": "Đối với SIM vật lý: Quét mã trên thẻ SIM",
+      "esimNote": "Đối với eSIM: Quét mã QR đã gửi về email",
+      "uploadQR": "Tải mã QR",
+      "inputSerial": "Nhập số serial",
+      "cameraError": "Không thể truy cập camera. Vui lòng kiểm tra quyền truy cập.",
+      "uploadError": "Không thể đọc mã QR từ ảnh. Vui lòng thử lại.",
+      "uploadProcessing": "Đang xử lý ảnh...",
+      "scanSuccess": "Quét mã QR thành công!",
+      "invalidQR": "Mã QR không hợp lệ. Vui lòng thử lại."
+    },
+    "inputActivate": {
+      "headerTitle": "Kích hoạt SIM",
+      "title": "Thông tin SIM",
+      "note": "Lưu ý: Bạn có tối đa 10 lần nhập/quét số Serial SIM cho 1 số thuê bao trong 1 ngày. Vượt quá số lần quy định, vui lòng thử lại sau 24 giờ.",
+      "phoneLabel": "Số thuê bao cần kích hoạt",
+      "serialLabel": "Serial",
+      "serialPlaceholder": "Nhập 16 số serial SIM hoặc quét mã",
+      "serialRequired": "Vui lòng nhập số serial",
+      "serialInvalid": "Số serial phải có ít nhất 16 ký tự",
+      "continueButton": "Tiếp tục",
+      "phoneRequired": "Vui lòng nhập số thuê bao",
+      "phoneInvalid": "Số thuê bao không hợp lệ. Phải bắt đầu bằng 070"
+    },
+    "infoActivate": {
+      "title": "Kiểm tra lại thông tin",
+      "fullName": "Họ và tên",
+      "gender": "Giới tính",
+      "idNumber": "Số Căn cước công dân",
+      "dateOfBirth": "Ngày sinh",
+      "issueDate": "Ngày cấp",
+      "expiryDate": "Ngày hết hạn",
+      "issuePlace": "Nơi cấp",
+      "permanentAddress": "Nơi thường trú",
+      "currentAddress": "Địa chỉ hiện tại",
+      "continueButton": "Tiếp tục"
+    },
+    "signActivate": {
+      "title": "Ký hợp đồng",
+      "agreeTerms": "Tôi hiểu và đồng ý với các điều kiện dưới đây:",
+      "term1": "Việc đăng ký thông tin thuê bao trên hệ thống sẽ chỉ được thực hiện sau khi cung cấp đầy đủ các giấy tờ, thông tin theo quy định của pháp luật.",
+      "term2": "Trong quá trình chờ và sau khi hoàn thành đăng ký thông tin trên hệ thống, nếu có xảy ra bất kỳ khiếu kiện, tranh chấp nào liên quan đến số thuê bao trên, tôi đồng ý để SkyFi thu hồi số thuê bao để giải quyết khiếu nại.",
+      "term3": "Các thông tin và chữ ký của bạn sẽ được tự động điền vào Phiếu xác nhận thông tin thuê bao,",
+      "privacyPolicy": "Chính sách xử lý và bảo vệ dữ liệu cá nhân",
+      "returnPolicy": "Chính sách cam kết hoàn trả SIM.",
+      "readContract": "Vui lòng đọc hợp đồng và ký tên của bạn tại phía dưới cùng của hợp đồng",
+      "here": "tại đây.",
+      "signatureTitle": "Chữ ký khách hàng",
+      "clear": "Xóa",
+      "continueButton": "Tiếp tục",
+      "pleaseAgree": "Vui lòng đồng ý với các điều khoản để tiếp tục",
+      "pleaseSign": "Vui lòng ký tên để tiếp tục",
+      "notification": "Thông báo",
+      "contactInfoTitle": "Thông tin liên hệ",
+      "noContactInfo": "Không có thông tin liên hệ.",
+      "errorTitle": "Lỗi",
+      "cannotLoadContactInfo": "Không thể tải thông tin liên hệ.",
+      "cannotRetrieveCallInfo": "Không thể lấy thông tin cuộc gọi. Vui lòng thử lại.",
+      "invalidCallInfo": "Thông tin cuộc gọi không hợp lệ. Vui lòng quay lại và thử lại.",
+      "errorSavingCallLog": "Lưu thông tin cuộc gọi thất bại. Vui lòng thử lại."
+    },
+    "videoCall": {
+      "title": "Hướng dẫn video call",
+      "guideTitle": "Hướng dẫn thực hiện cuộc gọi Video",
+      "point1": "Thiết bị đang sử dụng có CAMERA ĐƯỢC CẤP QUYỀN",
+      "point2": "Theo quy định của Bộ Thông tin truyền thông, để hoàn tất thủ tục đăng ký/cập nhật thông tin thuê bao, Bạn vui lòng thực hiện cuộc Video với tổng đài viên.",
+      "note": "*Lưu ý: cấp quyền truy cập CAMERA cho thiết bị",
+      "continueButton": "Tiếp tục",
+      "goHome": "Về trang chủ",
+      "calling": {
+        "connecting": "Đang kết nối với giao dịch viên",
+        "pleaseWait": "Vui lòng đợi trong giây lát...",
+        "cancelCall": "Hủy cuộc gọi"
+      },
+      "ongoing": {
+        "permissionRequired": "Yêu cầu quyền Camera & Microphone",
+        "allowCameraAccess": "Vui lòng cho phép truy cập camera và microphone để tham gia cuộc gọi.",
+        "errorLabel": "Lỗi",
+        "retry": "Thử lại",
+        "androidInstruction": "Trên Android: Vào Cài đặt → Ứng dụng → Trình duyệt → Quyền → Bật Camera & Microphone",
+        "missingRoomInfo": "Thiếu thông tin phòng họp",
+        "pleaseTryAgain": "Vui lòng thử lại",
+        "checkingPermissions": "Đang kiểm tra quyền camera và microphone...",
+        "pleaseAllow": "Vui lòng cho phép khi được yêu cầu"
+      },
+      "rescore": {
+        "noVideoData": "Không có dữ liệu video. Vui lòng thử lại.",
+        "videoEmpty": "Video rỗng. Vui lòng thử lại.",
+        "uploadFailed": "Gửi video thất bại. Vui lòng thử lại.",
+        "permissionRequired": "Yêu cầu quyền Camera & Microphone",
+        "errorLabel": "Lỗi",
+        "notification": "Thông báo",
+        "goHome": "Về trang chủ",
+        "registrationTitle": "Đăng ký/Cập nhật TTTB",
+        "instructions": "Bạn vui lòng thực hiện theo hướng dẫn sau:\nBước 1: Để khuôn mặt vào giữa khung hình và bấm \"Bắt đầu quay\"\nBước 2: Thực hiện quay trái và quay phải\nBước 3: Đọc số thuê đang thực hiện Đăng ký/Cập nhật Số thuê bao của bạn là {phone}\nBước 4: Bấm Gửi Video để hoàn tất.",
+        "preview": "Xem lại",
+        "retake": "Quay lại",
+        "sendVideo": "Gửi Video",
+        "sending": "Đang gửi...",
+        "startRecording": "Bắt đầu quay",
+        "stopRecording": "Dừng quay",
+        "instructionIntro": "Bạn vui lòng thực hiện theo hướng dẫn sau:",
+        "step1Label": "Bước 1:",
+        "step1Text": "Để khuôn mặt vào giữa khung hình và bấm \"Bắt đầu quay\"",
+        "step2Label": "Bước 2:",
+        "step2Text": "Thực hiện quay trái và quay phải",
+        "step3Label": "Bước 3:",
+        "step3Text": "Đọc số thuê đang thực hiện Đăng ký/Cập nhật Số thuê bao của bạn là",
+        "step4Label": "Bước 4:",
+        "step4Text": "Bấm \"Gửi Video\" để hoàn tất."
+      }
+    },
+    "profile": {
+      "title": "Cá nhân",
+      "manageTravelEsim": "Quản lý eSIM du lịch đã mua",
+      "accountInfo": "Thông tin tài khoản",
+      "subscriberHistory": "Lịch sử thuê bao",
+      "activateSim": "Kích hoạt SIM",
+      "customerSupport": "Hỗ trợ khách hàng",
+      "termsAndPolicy": "Điều khoản và chính sách",
+      "sampleContact": {
+        "title": "Hợp đồng mẫu",
+        "item1": "Bạn xác nhận thông tin thuê bao đã đăng ký dịch vụ viên thông di động một đất",
+        "item2": "Hợp đồng cung cấp và sử dụng DV viên thông di động một đất",
+        "item3": "BM01-Danh sách thuê bao đã đăng ký sử dụng DV viên thông",
+        "item4": "BM02-Danh sách thuê bao đã đăng ký sử dụng DV viên thông",
+        "item5": "Biến bản chuyển quyền sử dụng DV viên thông"
+      },
+      "logout": "Đăng xuất",
+      "terms": {
+        "title": "Điều khoản và chính sách",
+        "personalDataProtectionPolicy": "Chính sách bảo vệ dữ liệu cá nhân",
+        "termsOfService": "Điều khoản dịch vụ",
+        "paymentPolicy": "Chính sách thanh toán",
+        "generalTerms": "Điều khoản chung",
+        "privacyPolicyAndCookies": "Chính sách bảo mật và cookie",
+        "serviceQualityManagements": "Quản lý chất lượng dịch vụ",
+        "refundPolicy": "Chính sách hoàn tiền",
+        "sampleContacts": "Hợp đồng mẫu"
+      },
+      "serviceQualityManagement": {
+        "title": "Quản lý chất lượng dịch vụ",
+        "item1": "Công bố CLDV_DV điện thoại trên mạng VTDĐ",
+        "item2": "Công bố CLDV_Truy cập internet WCDMA, LTE, LTE",
+        "item3": "BAN TIEP NHAN CONG BO CLDV INTERNET DI DONG 2025",
+        "item4": "BAN TIEP NHAN CONG BO CLDV THOA DI DONG 2025"
+      }
+    },
+    "profileDetail": {
+      "title": "Thông tin tài khoản",
+      "fullName": "Họ và tên",
+      "gender": "Giới tính",
+      "idNumber": "Số căn cước công dân",
+      "dateOfBirth": "Ngày sinh",
+      "issueDate": "Ngày cấp",
+      "expiryDate": "Ngày hết hạn",
+      "placeOfIssue": "Nơi cấp",
+      "permanentAddress": "Nơi thường trú",
+      "email": "Email"
+    },
+    "subscriberHistory": {
+      "empty": "Chưa có lịch sử giao dịch",
+      "title": "Lịch sử thuê bao",
+      "tabs": {
+        "topup": "Nạp thẻ",
+        "services": "Dịch vụ",
+        "calls": "Cuộc gọi"
+      },
+      "yesterday": "Hôm qua",
+      "dateFormat": "{date}",
+      "transactionTypes": {
+        "momoTopup": "Nạp tiền qua {provider}",
+        "scratchCard": "Thẻ cào",
+        "dataPackage": "Gói cước data",
+        "outgoingCall": "Cuộc gọi đi"
+      },
+      "noData": "Không có lịch sử giao dịch"
+    },
+    "support": {
+      "title": "Trung tâm hỗ trợ",
+      "back": "Quay lại",
+      "faq": {
+        "title": "Câu hỏi thường gặp",
+        "viewAll": "Tất cả"
+      },
+      "contact": {
+        "title": "Bạn cần liên hệ với SkyFi",
+        "support247": "Hỗ trợ 24/24",
+        "liveChat": "Live Chat",
+        "chatNow": "Chat ngay",
+        "orContactVia": "Hoặc liên hệ với SkyFi qua",
+        "hotline": "Hotline"
+      },
+      "social": {
+        "zalo": "Zalo",
+        "facebook": "Facebook",
+        "email": "Email"
+      }
+    },
+    "activateProvider": {
+      "notifications": {
+        "title": "Thông báo",
+        "callAlreadyProcessing": "Cuộc gọi đang được xử lý",
+        "registerSuccess": "SkyFi đã tiếp nhận thông tin đăng ký/ cập nhật TTTB thành công! Dữ liệu sẽ được xử lý trong vòng 01-02 phút tới. Cảm ơn bạn đã tin tưởng và sử dụng dịch vụ của SkyFi.",
+        "registerFailed": "ĐTB đăng ký thất bại. Chi tiết LH 0877087087(0đ cho TB iTel). Trân trọng.",
+        "noFreeTeller": "Rất tiếc, tất cả các KTV hiện đang bận. Bạn vui lòng bấm vào \"Quay video\" để được hoàn tất quá trình đăng ký thông tin.",
+        "recordVideo": "Quay video",
+        "close": "Đóng",
+        "goHome": "Về trang chủ",
+        "rejectedRegistration": "Đăng ký thất bại do hồ sơ chưa hợp lệ. Vui lòng kiểm tra và thực hiện lại Bạn nhé!"
+      }
+    }
+  },
+  "manager-esim": {
+    "pageTitle": "Quản lý eSIM du lịch đã mua",
+    "tabs": {
+      "activeEsim": "eSIM đang sử dụng",
+      "notInstalledEsim": "eSIM chưa cài"
+    },
+    "status": {
+      "active": "Đang sử dụng",
+      "notInstalled": "Chưa cài đặt",
+      "expired": "Hết hạn"
+    },
+    "coverage": "Phạm vi phủ sóng",
+    "remainingTime": "Thời hạn còn",
+    "days": "ngày",
+    "dataPackage": "Gói data",
+    "remaining": "Còn lại",
+    "viewDetail": "Xem chi tiết",
+    "buyMoreData": "Mua thêm data",
+    "installEsim": "Cài đặt eSIM",
+    "noActiveEsim": "Bạn chưa có eSIM đang sử dụng",
+    "noNotInstalledEsim": "Bạn không có eSIM chưa cài đặt",
+    "installTitle": "Cài đặt SIM",
+    "qrInstallTitle": "Mã QR cài đặt eSIM",
+    "qrInstallDescription": "Quét mã QR trên để cài đặt eSIM trên điện thoại",
+    "installGuideButton": "Xem hướng dẫn cài đặt eSIM",
+    "provider": "Cung cấp bởi",
+    "activationPolicy": "Chính sách kích hoạt",
+    "activationPolicyDesc": "Thời hạn hiệu lực sẽ bắt đầu lúc cài",
+    "dataLimit": "Dung lượng",
+    "validity": "Hiệu lực",
+    "daysValidity": "{days} ngày",
+    "price": "Giá",
+    "packageType": "Loại gói",
+    "dataOnly": "Chỉ dữ liệu",
+    "ekyc": "eKYC (Xác minh danh tính)",
+    "notRequired": "Không bắt buộc",
+    "guideTitle": "Hướng dẫn cài đặt eSIM",
+    "deviceIos": "Thiết bị IOS",
+    "deviceAndroid": "Thiết bị Android",
+    "chooseMethod": "Lựa chọn cách cài đặt",
+    "viaQr": "Qua QR code",
+    "manual": "Thủ công",
+    "step1Title": "1. Các bước cài đặt eSIM",
+    "iosQrStep1": "Vào Cài đặt > Dữ liệu di động > Thêm eSIM hoặc Thiết lập dịch vụ di động > Sử dụng mã QR trên thiết bị của bạn.",
+    "iosQrStep2": "Quét mã QR hoặc chụp ảnh chụp màn hình (khả dụng đến iOS 17.3), chạm vào \"Mở ảnh\", chọn mã này từ cuộn camera, chạm vào \"Tiếp theo\", sau đó chạm vào \"Tiếp tục\" hai lần và chờ một chút. eSIM của bạn sẽ kết nối với mạng, việc này có thể cần một vài phút, sau đó chạm vào \"Hoàn tất\".",
+    "iosQrStep3": "Chọn một nhãn cho gói eSIM mới của bạn.",
+    "iosQrStep4": "Chọn \"Chính\" cho SIM mặc định của bạn, sau đó chạm vào \"Tiếp tục\".",
+    "iosQrStep5": "Chọn SIM \"Chính\" mà bạn muốn dùng với iMessage và FaceTime cho Apple ID, sau đó chạm vào \"Tiếp tục\".",
+    "iosQrStep6": "Chọn gói eSIM mới cho dữ liệu di động, sau đó chạm vào \"Tiếp tục\".",
+    "step2Title": "2. Bật dữ liệu mạng",
+    "iosNetworkStep1": "Vào \"Dữ liệu di động\", sau đó chọn eSIM vừa được tải về thiết bị của bạn. Bật công tắc \"Bật SIM này\", sau đó chọn gói eSIM mới của bạn cho dữ liệu di động.",
+    "iosNetworkStep2": "Chạm vào \"Chọn mạng\", vô hiệu công tắc \"Tự động\", sau đó chọn thủ công mạng lưới được hỗ trợ nếu eSIM của bạn đã kết nối với nhầm mạng.",
+    "iosNetworkStep3": "Bật công tắc \"Chuyển vùng dữ liệu\" cho gói eSIM mới của bạn.",
+    "guideUpdating": "Nội dung hướng dẫn đang được cập nhật...",
+    "activationPolicyDescHtml": "Thời hạn hiệu lực sẽ<br/>bắt đầu lúc cài"
+  },
+  "esim-detail": {
+    "pageTitle": "Chi tiết eSIM",
+    "remaining": "Còn lại",
+    "coverage": "Phạm vi phủ sóng",
+    "provider": "Cung cấp bởi",
+    "dataCapacity": "Dung lượng",
+    "planType": "Loại gói",
+    "validity": "Hiệu lực",
+    "days": "ngày",
+    "ekyc": "eKYC (Xác minh danh tính)",
+    "yourPackage": "Gói cước của bạn",
+    "buyMoreData": "Mua thêm dung lượng",
+    "remainingTime": "Thời hạn còn",
+    "viewDetail": "Xem chi tiết",
+    "register": "Đăng ký",
+    "callMinutes": "Phút gọi",
+    "status": {
+      "active": "Đang sử dụng",
+      "notInstalled": "Chưa cài đặt",
+      "expired": "Hết hạn"
+    },
+    "planTypes": {
+      "dataOnly": "Chỉ dữ liệu",
+      "dataAndCall": "Dữ liệu & Gọi"
+    },
+    "ekycStatus": {
+      "required": "Bắt buộc",
+      "notRequired": "Không bắt buộc"
+    }
+  },
+  "RegisterCustomerSign": {
+    "title": "Vui lòng ký tên để xác nhận đăng ký",
+    "signature_area": "Khu vực ký tên",
+    "signature_hint": "Vui lòng ký tên trong khung bên dưới",
+    "clear_signature": "Xóa chữ ký",
+    "view_document": "Xem phiếu",
+    "confirm": "Xác nhận",
+    "processing": "Đang xử lý...",
+    "sign_before_view": "Vui lòng ký trước khi xem phiếu",
+    "sign_before_confirm": "Vui lòng ký tên trước khi xác nhận",
+    "view_before_confirm": "Vui lòng xem phiếu trước khi xác nhận",
+    "view_error": "Lỗi khi xem phiếu",
+    "confirm_success": "Xác nhận thành công",
+    "confirm_failed": "Xác nhận thất bại",
+    "error_retry": "Có lỗi xảy ra, vui lòng thử lại"
+  },
+  "hdbank": {
+    "registerSim": {
+      "titleLine1": "Tặng SIM HDSKY",
+      "titleLine2": "độc quyền từ HDBank",
+      "subtitle": "Ưu đãi dài lâu, miễn phí data hàng tháng",
+      "benefitFree1": "Miễn phí",
+      "benefitFree2": "tháng đầu",
+      "benefitSim1": "SIM đặc thù",
+      "benefitSim2": "HDSKY",
+      "benefitPoint1": "Dùng SkyPoint",
+      "benefitPoint2": "đổi gói cước",
+      "registerNow": "Đăng ký ngay",
+      "faqTitle": "Câu hỏi thường gặp",
+      "cardTitle": "Độc quyền HDBank, tặng SIM HDSKY",
+      "bullet1": "Miễn phí tháng đầu",
+      "bullet2": "Ưu đãi dài lâu từ tháng sau",
+      "bullet3": "Trải nghiệm nhanh, lợi ích độc quyền",
+      "feat1Title": "Chọn số HDSKY miễn phí",
+      "feat1Desc": "Đầu số 0707 – hạ tầng MobiFone, dùng trong & ngoài nước",
+      "feat2Title": "Tặng SIM đặc thù HDSKY",
+      "feat2Desc": "3GB/ngày trong 30 ngày (tháng đầu)",
+      "feat3Title": "Dùng SkyPoint đổi ưu đãi gói cước",
+      "feat3Desc": "Áp dụng từ tháng thứ 2 trở đi",
+      "consentProvidedBy": "Dịch vụ này được",
+      "consentProvidedByBold": "cung cấp bởi đối tác SkyFi",
+      "consentTermsPrefix": "Tôi đồng ý Điều khoản, Chính sách xử lý, bảo vệ dữ liệu cá nhân của",
+      "and": "và",
+      "consentShare": "Đồng ý cho HDBank chia sẻ dữ liệu cá nhân (họ và tên, số điện thoại, email, số giấy tờ tuỳ thân, ngày cấp giấy tờ tuỳ thân, ảnh chân dung, ảnh 2 mặt giấy tờ tuỳ thân, và dữ liệu gốc từ chip trong CCCD (có chứa thông tin sinh trắc học)",
+      "consentSharePurpose": "của tôi cho SkyFi nhằm mục đích:",
+      "consentEkyc": "eKYC đăng ký SIM",
+      "consentTransfer": "Chuyển giao dữ liệu cho SkyFi cũng như điều hướng đến nền tảng của SkyFi để hai Bên mang đến các sản phẩm, dịch vụ phù hợp với nhu cầu của tôi.",
+      "consentNote": "Ảnh 2 mặt CCCD và thông tin sinh trắc học là dữ liệu cá nhân nhạy cảm",
+      "supportPrefix": "Các vấn đề liên quan đến dịch vụ",
+      "supportMiddle": ", Quý Khách vui lòng liên hệ tổng đài SkyFi",
+      "supportSuffix": "để được hỗ trợ.",
+      "agree": "Đồng ý và tiếp tục",
+      "gift": {
+        "notify": "Thông báo",
+        "loadSimError": "Không thể tải thông tin SIM. Vui lòng thử lại.",
+        "numberForYou": "Số dành cho bạn",
+        "selectOther": "Chọn số khác",
+        "esim": "eSIM",
+        "physicalSim": "SIM vật lý",
+        "esimNote": "Lưu ý: eSIM là SIM điện tử, chỉ sử dụng được trên các thiết bị di động có hỗ trợ. ",
+        "deviceList": "Danh sách thiết bị",
+        "giftCardTitle": "QUÀ TẶNG HDB",
+        "giftSimLabel": "Sim độc quyền HDSKY",
+        "giftSimValue": "50.000 VND",
+        "giftPackageLabel": "Gói cước ưu đãi",
+        "giftPackageValue": "100.000 VND/Tháng",
+        "giftData": "3GB/ngày",
+        "giftCall": "10 phút gọi liên mạng",
+        "totalLabel": "Tổng ưu đãi KH",
+        "totalValue": "150.000 VND",
+        "advanceLabel": "KH tạm ứng",
+        "advanceValue": "50.000 VND",
+        "discountNote": "Giảm đến 40% giá gói cước từ tháng thứ 2. Áp dụng theo chương trình thực tế.",
+        "otherServices": "Dịch vụ khác",
+        "travelEsim": "eSIM du lịch quốc tế tại 200++ quốc gia",
+        "conditionNote": "Lưu ý: Điều kiện cần để nhận quà Sim độc quyền HDSKY là: KH cần có 50.000 VND tối thiểu trong tài khoản thanh toán để kích hoạt tài khoản và sẽ được hoàn lại vào tháng thứ 2 nếu duy trì số dư tài khoản bình quân 5 triệu đồng/tháng. ",
+        "learnMore": "Tìm hiểu thêm",
+        "confirmContinue": "Xác nhận và tiếp tục",
+        "physicalNote": "*Giao SIM tại nhà - Có tính phí vận chuyển",
+        "shipLabel": "Phí ship",
+        "payLabel": "Cần thanh toán"
+      },
+      "popupGift": {
+        "title": "Lưu ý nhận quà HDB",
+        "messagePrefix": "Để nhận ưu đãi SIM độc quyền HDSKY, quý khách vui lòng hoàn thiện các bước đăng ký nhận quà ",
+        "messageHighlight": "trước khi mua eSIM du lịch",
+        "button": "Tôi đã hiểu"
+      },
+      "popupRecovery": {
+        "title": "Bạn vui lòng lưu ý điều kiện thu hồi 50,000 VND của gói quà tặng ưu đãi",
+        "message": "Trường hợp KH không đạt điều kiện số dư tài khoản thanh toán bình quân 5 triệu/tháng, HDBank sẽ thực hiện thu hồi 50,000 VND quà tặng ưu đãi của gói SIM tài trợ",
+        "button": "Tôi đã hiểu"
+      },
+      "popupExpired": {
+        "title": "Đã hết thời gian nhận quà",
+        "message": "Rất tiếc, thời gian nhận quà tặng ưu đãi của Quý khách đã kết thúc.",
+        "button": "Đã hiểu"
+      },
+      "info": {
+        "title": "Thông tin liên lạc",
+        "subtitle": "Chúng tôi sẽ liên hệ và gửi thông tin đến bạn qua thông tin liên hệ dưới đây.",
+        "emailLabel": "Email",
+        "phoneLabel": "Số điện thoại",
+        "nameLabel": "Tên",
+        "refundNote": "Số tiền Quý khách tạm ứng sẽ được hoàn trả vào tài khoản thanh toán mở tại HDBank trong tháng kế tiếp nếu số dư tài khoản bình quân của quý khách đạt 5 triệu đồng/tháng.",
+        "continue": "Tiếp tục",
+        "addressTitle": "Địa chỉ nhận SIM vật lý",
+        "regionLabel": "Tỉnh/Thành phố, Quận/ Huyện, Phường/Xã",
+        "detailLabel": "Địa chỉ chi tiết",
+        "detailPlaceholder": "Số nhà, tên đường...",
+        "continueShipping": "Tiếp tục",
+        "picker": {
+          "title": "Chọn địa chỉ nhận SIM",
+          "search": "Tìm kiếm",
+          "provinceHeader": "Tỉnh/Thành phố",
+          "districtHeader": "Quận/Huyện",
+          "wardHeader": "Phường/Xã",
+          "selectedArea": "Khu vực được chọn",
+          "reset": "Thiết lập lại",
+          "chooseDistrict": "Chọn Quận/Huyện",
+          "chooseWard": "Chọn Phường/Xã"
+        }
+      },
+      "payment": {
+        "title": "Độc quyền HDSKY",
+        "phoneLabel": "Số điện thoại",
+        "dataLabel": "Dung lượng",
+        "callLabel": "Gọi thoại",
+        "cycleLabel": "Chu kỳ cước",
+        "esimLabel": "eSIM & hoà mạng",
+        "simLabel": "SIM & hoà mạng",
+        "packageLabel": "Gói cước",
+        "shipLabel": "Phí ship",
+        "advanceLabel": "Tạm ứng",
+        "accountLabel": "Tài khoản thanh toán",
+        "debitAccount": "TK trích tiền",
+        "planTitle": "Gói cước & SIM (tặng kèm)",
+        "planNameLabel": "Gói cước ưu đãi",
+        "planNameValue": "HDSKY",
+        "customerAdvance": "Khách hàng tạm ứng",
+        "totalPayLabel": "Tổng số tiền thanh toán",
+        "autobillTitle": "Thanh toán tự động gói cước (autobill)",
+        "autobillDesc": "Gia hạn HDSKY để sử dụng không gián đoạn",
+        "confirm": "Xác nhận",
+        "orderErrorTitle": "Thông báo",
+        "orderError": "Đã xảy ra lỗi khi tạo đơn hàng. Vui lòng thử lại."
+      },
+      "result": {
+        "success": "Thành công",
+        "forNumber": "Số điện thoại <b>{phone}</b> cho gói cước <b>{plan}</b>",
+        "note": "HDBank tạm giữ <b>{amount}</b> để kích hoạt dịch vụ và sẽ được hoàn lại vào tháng thứ 2 nếu duy trì số dư tài khoản thanh toán bình quân <b>{balance}</b>",
+        "details": "Chi tiết giao dịch",
+        "txCode": "Mã giao dịch",
+        "txLabel": "Mã GD",
+        "planLabel": "Gói cước ưu đãi",
+        "planValue": "HDSKY",
+        "customer": "Tên khách hàng",
+        "account": "Tài khoản thanh toán",
+        "simPlan": "SIM & Gói cước ưu đãi",
+        "provider": "Nhà cung cấp",
+        "providerValue": "SkyFi",
+        "afterBalance": "Số dư sau giao dịch",
+        "share": "Chia sẻ",
+        "activateSim": "Kích hoạt eSIM",
+        "autoPay": "Đăng ký thanh toán tự động",
+        "trackSim": "Theo dõi SIM"
+      },
+      "activate": {
+        "simInfo": {
+          "title": "Thông tin SIM",
+          "note": "Lưu ý: Bạn có tối đa 10 lần nhập/quét số Serial SIM cho 1 số thuê bao trong 1 ngày. Vượt quá số lần quy định, vui lòng thử lại sau 24 giờ.",
+          "phoneLabel": "Số thuê bao cần kích hoạt",
+          "serialLabel": "Serial"
+        },
+        "register": {
+          "title": "Thông tin đăng ký",
+          "subtitle": "Bạn vui lòng kiểm tra các trường đăng ký thông tin thuê bao sau",
+          "fullName": "Họ và tên",
+          "gender": "Giới tính",
+          "idNumber": "Số Căn cước công dân",
+          "dob": "Ngày sinh",
+          "issueDate": "Ngày cấp",
+          "expiryDate": "Ngày hết hạn",
+          "issuePlace": "Nơi cấp",
+          "permanentAddress": "Nơi thường trú",
+          "currentAddress": "Địa chỉ hiện tại"
+        },
+        "continue": "Tiếp tục",
+        "sign": {
+          "instruction": "Vui lòng tích xác nhận vào các chính sách/điều khoản bên dưới",
+          "term1": "Tôi đã đọc và đồng ý với nội dung <b>Phiếu yêu cầu thay đổi thông tin thuê bao</b>",
+          "term2": "Tôi đã đọc và đồng ý với nội dung <b>Hợp đồng cung cấp và sử dụng dịch vụ</b>",
+          "term3": "Tôi đã đọc và đồng ý với nội dung <b>Phiếu cam kết sử dụng dịch vụ viễn thông</b>",
+          "term4": "Tôi xác nhận đọc, hiểu và đồng ý toàn bộ nội dung của <b>Văn bản chấp thuận về xử lý và bảo vệ dữ liệu cá nhân.</b>",
+          "detail": "Chi tiết",
+          "detailContent": "...quảng cáo và khuyến mại, Khách hàng có thể cho Galaxy Holdings/ Galaxy Telecom biết bất kỳ lúc nào bằng việc gửi yêu cầu cho Galaxy Holdings/ Galaxy Telecom theo các phương thức theo quy định tại khoản 9 Điều 7 Văn Bản Chấp Thuận.",
+          "detailContent2": "Ngoại trừ các mục đích xử lý dữ liệu nêu trên, nếu cần xử lý dữ liệu cá nhân của Khách hàng cho bất kỳ mục đích nào khác, Galaxy Holdings/ Galaxy Telecom sẽ chỉ tiến hành xử lý dữ liệu cá nhân phù hợp với sự đồng ý của Khách hàng.",
+          "detailTerm": "Cung cấp Sản phẩm, hàng hóa, dịch vụ cho Khách hàng theo Hợp đồng (Theo Khoản 1 Điều 3 Văn bản chấp thuận). Không thuộc trường hợp phải xin sự đồng ý của Khách hàng theo quy định tại Điểm b Khoản 3 Điều 18 Luật bảo vệ quyền lợi người tiêu dùng 2023",
+          "signatureTitle": "Chữ ký khách hàng",
+          "signatureDesc": "Chữ ký của Bạn sẽ được sử dụng trên tất cả các giấy tờ đã được tích xác nhận ở mục 1 (bên trên).",
+          "signHint": "Bấm vào đây để ký",
+          "signed": "Đã ký",
+          "back": "Quay lại"
+        },
+        "success": {
+          "title": "KÍCH HOẠT SIM THÀNH CÔNG",
+          "noteTitle": "Lưu ý:",
+          "note1": "Bạn đã kích hoạt SIM thành công. Bạn vui lòng quét mã QR để cài đặt eSim vào máy. <b>Hướng dẫn cài đặt</b>",
+          "note2": "Thuê bao <b>{phone}</b> đã được liên kết với tài khoản HDBank để nhận các thông báo qua tin nhắn",
+          "travelBanner": "Vi vu khắp thế giới cùng eSIM du lịch SkyFi",
+          "travelBannerDes": "Với data tốc độ cao tại 200++ quốc gia, eSIM du lịch SkyFi mang đến cho bạn một trải nghiệm kết nối trọn vẹn",
+          "buyNow": "Mua ngay",
+          "saveQR": "Lưu mã QR",
+          "subscriber": "Số Thuê bao: <b>{phone}</b> - Gói {plan}",
+          "home": "Về trang chủ"
+        }
+      },
+      "tracking": {
+        "title": "Theo dõi tiến độ",
+        "deliveryTitle": "Giao trong 3-5 ngày làm việc:",
+        "step1Title": "Đã nhận thông tin",
+        "step1Desc": "SkyFi đã tiếp nhận thông tin đăng ký SIM của bạn",
+        "step2Title": "Đang xử lý",
+        "step2Desc": "SkyFi đang chuẩn bị SIM giao đến bạn",
+        "step3Title": "Đang giao SIM",
+        "step3Desc": "SIM đang được giao tới địa chỉ của bạn",
+        "step4Title": "Kích hoạt SIM",
+        "step4Desc": "Vui lòng làm theo tài liệu hướng dẫn kèm theo SIM để kích hoạt",
+        "noteDelivery": "Giao trong <b>3-5 ngày</b> làm việc",
+        "notePhone": "Quý khách vui lòng để ý điện thoại số <b>{phone}</b> để đơn vị vận chuyển liên hệ trong quá trình giao SIM.",
+        "home": "Về trang chủ"
+      }
+    },
+    "simInfo": {
+      "remainingTitle": "Còn lại {remaining}/{total} ngày",
+      "remainingPerDay": "Còn lại/ngày",
+      "call": "Gọi",
+      "sms": "Tin nhắn",
+      "monthly": "Tháng",
+      "minutesPerMonth": "phút/ tháng",
+      "smsPerMonth": "SMS/ tháng",
+      "hotPackages": "Gói cước hot",
+      "explore": "Khám phá",
+      "callMinutes": "Phút gọi",
+      "register": "Đăng ký"
+    },
+    "registerSuccess": {
+      "title": "Đăng ký thành công",
+      "message": "Chúc mừng bạn đã đăng ký gói cước thành công!",
+      "close": "Đóng"
+    },
+    "modalNotMoney": {
+      "title": "Đăng ký thất bại",
+      "message": "Rất tiếc, tài khoản chính (TKC) của bạn không đủ số dư. Vui lòng chọn Tài khoản HDBank để tiếp tục mua gói cước",
+      "button": "Tài khoản HDBank"
+    },
+    "modalChangeSim": {
+      "title": "Chọn số khác",
+      "searchPrefix": "x",
+      "searchHint": "Điền vào ô trống chữ số mong muốn",
+      "noResultsMessage": "!!! Rất tiếc, số bạn đang tìm hiện không còn. Có thể bạn sẽ thích những số sau:",
+      "confirmButton": "Xác nhận"
+    },
+    "modals": {
+      "activateSim": {
+        "title": "Thông báo",
+        "description": "Vui lòng mua và kích hoạt SIM SkyFi để sử dụng tính năng này",
+        "closeButton": "Đóng",
+        "buySim": "Mua SIM"
+      },
+      "overNumber": {
+        "title": "Thông báo",
+        "description": "Bạn đã kích hoạt {count} thuê bao. Vui lòng đến điểm giao dịch SkyFi hoặc liên hệ CSKH để được hỗ trợ.",
+        "emailLabel": "Email: ",
+        "emailValue": "customercare@skyfi.vn",
+        "emailUrl": "mailto:customercare@skyfi.vn",
+        "zaloLabel": "Zalo OA: ",
+        "zaloValue": "https://zalo.me/4027302975952039719",
+        "zaloUrl": "https://zalo.me/4027302975952039719",
+        "hotlineLabel": "Hotline: ",
+        "hotlineValue": "19006605 (1000d/phut)",
+        "hotlineUrl": "tel:19006605",
+        "closeButton": "Đóng"
+      }
+    },
+    "home": {
+      "title": "HDBank",
+      "description": "HDBank Information Page",
+      "header": {
+        "greeting": "Chào buổi sáng",
+        "greetingMorning": "Chào buổi sáng",
+        "greetingAfternoon": "Chào buổi chiều",
+        "greetingEvening": "Chào buổi tối",
+        "activateOtherSim": "Kích hoạt SIM khác",
+        "topup": "Nạp tiền"
+      },
+      "simStatusCard": {
+        "title": "Bạn đã có SIM SkyFi chưa?",
+        "description": "Nhấn \"Mua SIM\" để lựa chọn cho mình số điện thoại và gói cước phù hợp.",
+        "activate": "Kích hoạt SIM",
+        "buySim": "Mua SIM",
+        "mainAccount": "Tài khoản gốc",
+        "topup": "Nạp tiền",
+        "mainPackage": "Gói cước chính",
+        "remainingTime": "Thời hạn còn",
+        "days": "ngày",
+        "remaining": "Còn lại",
+        "changePackage": "Đổi gói cước",
+        "renewWithVikki": "Gia hạn bằng TK HDBank",
+        "renewModalTitle": "Gia hạn gói cước tự động",
+        "renewModalDescription": "Bạn vui lòng bấm vào \"Tiếp tục\" để thực hiện gia hạn gói cước hàng tháng bằng cách trừ tiền từ tài khoản Vikki",
+        "renewModalClose": "Đóng",
+        "renewModalConfirm": "Tiếp tục",
+        "renewSuccess": "Đăng ký gia hạn tự động thành công",
+        "renewError": "Đăng ký gia hạn tự động thất bại",
+        "autoBillTitle": "Gia hạn tự động bằng tài khoản HDBank",
+        "autoBillNextDate": "Ngày gia hạn tiếp theo",
+        "autoBillAmount": "Số tiền gia hạn",
+        "cancelAutoBill": "Huỷ gia hạn tự động",
+        "cancelModalTitle": "Huỷ gia hạn tự động",
+        "cancelModalDescription": "Bạn có chắc muốn huỷ gia hạn tự động? Gói cước sẽ không được tự động gia hạn vào kỳ tiếp theo.",
+        "cancelModalClose": "Đóng",
+        "cancelModalConfirm": "Xác nhận huỷ",
+        "cancelSuccess": "Huỷ gia hạn tự động thành công",
+        "cancelError": "Huỷ gia hạn tự động thất bại",
+        "dailyPackage": "Gói ngày",
+        "perDay": "ngày"
+      },
+      "quickActions": {
+        "buySim": "Mua SIM",
+        "packages": "Gói cước",
+        "topup": "Nạp tiền",
+        "travelEsim": "eSIM du lịch"
+      },
+      "mainPackages": {
+        "title": "Gói cước chính",
+        "explore": "Khám phá"
+      },
+      "hotPackages": {
+        "title": "Gói cước hot",
+        "explore": "Khám phá",
+        "data": "Data",
+        "day": "ngày",
+        "callMinutes": "Phút gọi",
+        "freeInternal": "miễn phí nội mạng",
+        "month": "tháng",
+        "register": "Đăng ký",
+        "detail": "Chi tiết"
+      },
+      "footer": {
+        "home": "Trang chủ",
+        "notification": "Thông báo",
+        "support": "Hỗ trợ",
+        "profile": "Cá nhân"
+      }
+    },
+    "topup": {
+      "title": "Nạp tiền",
+      "phoneNumber": "Số điện thoại",
+      "invalidPhoneNumber": "Số điện thoại không hợp lệ. Phải bắt đầu bằng 070",
+      "requiredPhoneNumber": "Vui lòng nhập số điện thoại",
+      "titleMessage": "Thông báo",
+      "placeholderPhoneNumber": "0707 123 456",
+      "topupNowButton": "Nạp ngay"
+    },
+    "cart": {
+      "title": "Giỏ hàng",
+      "itemCount": "{count} sản phẩm",
+      "productHeader": "Sản Phẩm",
+      "priceHeader": "Giá",
+      "orderSummary": "Tóm tắt đơn hàng",
+      "taxAndFee": "Thuế & Phí dịch vụ",
+      "included": "Đã bao gồm",
+      "total": "Tổng cộng",
+      "emptyTitle": "Chưa có sản phầm nào trong giỏ",
+      "emptyDescription": "Bạn có thể ghé thăm cửa hàng của chúng tôi và mua sắm.",
+      "buySim": "Mua SIM",
+      "checkout": "Thanh toán",
+      "notification": "Thông báo",
+      "maxQuantity": "Số lượng tối đa là 50",
+      "minQuantity": "Số lượng tối thiểu là 1",
+      "physicalSim": "SIM vật lý",
+      "esim": "eSIM",
+      "quantity": "Số lượng",
+      "package": "Gói cước",
+      "viewCart": "Xem giỏ hàng",
+      "close": "Đóng"
+    },
+    "package": {
+      "title": " Gói cước",
+      "all": "Tất cả",
+      "dailyPackage": "Gói ngày",
+      "monthlyPackage": "Gói tháng",
+      "loading": "Đang tải gói cước...",
+      "noPackages": "Không tìm thấy gói cước",
+      "changeFilter": "Thử thay đổi bộ lọc để xem gói cước khác",
+      "clearFilter": "Xóa bộ lọc",
+      "filterAll": "Tất cả",
+      "filterDaily": "Gói ngày",
+      "filterMonthly": "Gói tháng"
+    },
+    "packageCard": {
+      "data": "Data",
+      "day": "ngày",
+      "days": "ngày",
+      "callMinutes": "Phút gọi",
+      "minutesInternetwork": "{minutes} phút gọi liên mạng",
+      "freeInternal": "miễn phí nội mạng",
+      "register": "Đăng ký",
+      "detail": "Xem chi tiết",
+      "vikkiGift": "QUÀ TẶNG HDBANK",
+      "expiry": "Thời hạn sử dụng: {days} ngày từ khi kích hoạt",
+      "autoRenewal": "Tự động gia hạn mỗi {days} ngày",
+      "giftNoteLabel": "Lưu ý: ",
+      "giftNoteContent": "Quà tặng chỉ được giữ khi khách hàng đã hoàn tất các bước để nhận QR code eSIM. ",
+      "giftNoteRules": "Thể lệ chương trình",
+      "month": "tháng"
+    },
+    "checkout": {
+      "infoClient": {
+        "title": "Thông tin liên lạc",
+        "description": "Chúng tôi sẽ liên hệ và gửi thông tin đến bạn qua thông tin liên hệ dưới đây.",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Nhập email",
+        "phoneLabel": "Số điện thoại",
+        "phonePlaceholder": "Nhập số điện thoại",
+        "nameLabel": "Tên",
+        "namePlaceholder": "Nhập tên"
+      },
+      "summary": {
+        "title": "Thông tin giao dịch:",
+        "products": "Mệnh giá",
+        "feeShipping": "Phí vận chuyển",
+        "taxAndService": "Phí giao dịch",
+        "included": "Miễn phí",
+        "total": "Tổng thanh toán",
+        "quantity": "Số lượng",
+        "vatIncluded": "Đã bao gồm VAT",
+        "discount": "Giảm giá",
+        "validationError": "Vui lòng nhập mã giảm giá",
+        "successTitle": "Thành công",
+        "applySuccess": "Áp dụng mã giảm giá thành công. Bạn được giảm",
+        "invalidCoupon": "Mã giảm giá không hợp lệ",
+        "couponError": "Có lỗi xảy ra khi kiểm tra mã giảm giá",
+        "description": "Đã áp dụng mã giảm giá",
+        "remove": "Xóa",
+        "inputPlaceholder": "Nhập mã giảm giá",
+        "notification": "Thông báo",
+        "reappliedSuccess": "Mã giảm giá đã được áp dụng lại với phí vận chuyển mới. Tiết kiệm:",
+        "invalidWithNewAddress": "Mã giảm giá không còn hợp lệ với địa chỉ giao hàng mới. Vui lòng chọn mã khác.",
+        "error": "Lỗi",
+        "revalidationError": "Có lỗi khi kiểm tra mã giảm giá. Mã đã được xóa, vui lòng thử lại.",
+        "applyCoupon": "Áp dụng",
+        "validating": "Đang kiểm tra..."
+      },
+      "delivery": {
+        "title": "Địa chỉ nhận SIM",
+        "selectAddressError": "Vui lòng chọn địa chỉ nhận SIM",
+        "detailedAddressLabel": "Địa chỉ chi tiết",
+        "addressRequired": "Vui lòng nhập địa chỉ giao hàng",
+        "addressMinLength": "Địa chỉ phải có ít nhất 10 ký tự",
+        "addressPlaceholder": "Số nhà, tên đường, tòa nhà..."
+      },
+      "payment": {
+        "title": "Thanh toán",
+        "noSimsTitle": "Không có SIM trong giỏ hàng",
+        "noSimsDescription": "Vui lòng chọn SIM và gói cước để tiếp tục thanh toán.",
+        "noSims": "Giỏ hàng trống",
+        "buyButton": "Mua SIM ngay",
+        "esimModal": "tương thích với eSIM.",
+        "agreeTermsEsimPrefix": "Thiết bị của tôi là ",
+        "agreeTerms": "Điều kiện & Điều khoản.",
+        "agreeTermsPrefix": "Tôi đồng ý với",
+        "and": "và",
+        "Policy": "Chính sách xử lý, bảo vệ dữ liệu cá nhân",
+        "agreeTermsPhysicalLink": "Điều khoản & Điều kiện giao dịch chung của SkyFi ",
+        "titleMessage": "Thông báo",
+        "validationErrorTermsBoth": "Vui lòng đồng ý với các điều khoản để tiếp tục.",
+        "validationErrorTermsEsim": "Vui lòng đồng ý với điều khoản eSIM để tiếp tục.",
+        "validationErrorTermsPhysical": "Vui lòng đồng ý với điều khoản SIM vật lý để tiếp tục.",
+        "devicePrefix": "Lưu ý: Thiết bị cần hỗ trợ eSIM",
+        "deviceCompatibility": "Xem danh sách thiết bị tương thích",
+        "agreeWith": "Tôi đồng ý với",
+        "termsAndConditions": "Điều khoản & Điều kiện",
+        "close": "Đóng",
+        "notification": "Thông báo",
+        "completePayment": "Thanh toán"
+      },
+      "result": {
+        "title": "Kết quả thanh toán",
+        "notFound": "Không tìm thấy mã đơn hàng",
+        "homeButton": "Về trang chủ",
+        "success": "Thành công!",
+        "failure": "Thanh toán thất bại",
+        "orderCode": "Mã GD",
+        "customer": "Khách hàng",
+        "paymentFrom": "Thanh toán từ",
+        "service": "Dịch vụ",
+        "provider": "Nhà cung cấp"
+      }
+    },
+    "shipAddress": {
+      "label": "Tỉnh/Thành phố, Quận/ Huyện, Phường/Xã",
+      "placeholder": "Nhập Tỉnh/Thành phố"
+    },
+    "addressModal": {
+      "title": "Chọn địa chỉ nhận SIM",
+      "selectedArea": "Khu vực được chọn",
+      "reset": "Thiết lập lại",
+      "city": "Tỉnh/Thành phố",
+      "district": "Quận/Huyện",
+      "ward": "Phường/Xã",
+      "selectCity": "Chọn Tỉnh/Thành phố",
+      "selectDistrict": "Chọn Quận/Huyện",
+      "selectWard": "Chọn Phường/Xã",
+      "searchPlaceholder": "Tìm kiếm",
+      "noResults": "Không tìm thấy kết quả phù hợp",
+      "confirm": "Xác nhận"
+    },
+    "simData": {
+      "title": "Mua SIM",
+      "myNumber": "Số dành cho bạn",
+      "selectOther": "Chọn số khác",
+      "physicalSim": "SIM vật lý",
+      "esim": "eSIM",
+      "noteEsim": "Lưu ý: Thiết bị cần hỗ trợ eSIM",
+      "notePhysical": "Lưu ý: Giao SIM tại nhà - Có tính phí vận chuyển",
+      "noPackage": "Không có gói cước nào khả dụng cho số này.",
+      "selectPackageRequired": "Vui lòng chọn gói cước trước khi tiếp tục.",
+      "noPackageAvailable": "Không có gói cước nào khả dụng. Vui lòng thử số khác.",
+      "packageCodeEqualVJ71": "Gói cước VJ71 đã có trong giỏ hàng.",
+      "total": "Tổng cộng",
+      "addToCart": "Thêm vào giỏ hàng",
+      "pay": "Thanh toán",
+      "notify": "Thông báo",
+      "maxQuantity": "Bạn đã đạt đến số lượng tối đa cho sản phẩm này trong giỏ hàng.",
+      "priceInfo": "Giá tiền bao gồm tiền SIM + Phí hòa mạng + Số",
+      "eventEnded": "Chương trình quà tặng 500 eSIM đã kết thúc"
+    },
+    "travelEsim": {
+      "title": "Mua eSIM du lịch",
+      "searchPlaceholder": "Tìm kiếm theo quốc gia",
+      "national": "eSIM quốc gia",
+      "regional": "eSIM khu vực",
+      "global": "eSIM toàn cầu",
+      "note": "Lưu ý: eSIM là SIM điện tử, được gửi qua email khách hàng. eSIM chỉ sử dụng được trên các thiết bị di động có hỗ trợ.",
+      "viewDevices": "Xem danh sách thiết bị",
+      "loading": "Đang tải...",
+      "noResult": "Không tìm thấy kết quả nào.",
+      "noData": "Không có dữ liệu.",
+      "countries": "Các quốc gia",
+      "regions": "Các khu vực",
+      "globalPackages": "Các gói toàn cầu",
+      "detailPage": {
+        "loading": "Đang tải dữ liệu...",
+        "noPackage": "Không tìm thấy gói cước nào cho {country}."
+      },
+      "packageCard": {
+        "coverage": "Phạm vi phủ sóng",
+        "data": "Dung lượng",
+        "validity": "Hiệu lực",
+        "price": "Giá",
+        "quantity": "Số lượng",
+        "buy": "Chọn mua",
+        "day": "ngày",
+        "maxQty": "Số lượng tối đa là 50",
+        "minQty": "Số lượng tối thiểu là 1",
+        "country": "quốc gia",
+        "maxQtyMessage": "Số lượng tối đa là 50 sản phẩm, vui lòng nhập lại."
+      },
+      "countriesModal": {
+        "title": "Các quốc gia có sẵn",
+        "searchPlaceholder": "Tìm kiếm quốc gia...",
+        "selectedArea": "Khu vực được chọn",
+        "reset": "Thiết lập lại",
+        "noResults": "Không tìm thấy kết quả phù hợp",
+        "total": "Tổng cộng",
+        "countries": "quốc gia",
+        "close": "Đóng",
+        "confirm": "Xác nhận"
+      },
+      "packageDetail": {
+        "title": "Chi tiết gói cước",
+        "yourPackage": "Gói cước của bạn",
+        "description": "Mô tả",
+        "providedBy": "Cung cấp bởi",
+        "speedVaries": "Tốc độ có thể thay đổi tuỳ thuộc vào vị trí",
+        "activationPolicy": "Chính sách kích hoạt",
+        "validityStartsOnSetup": "Thời hạn hiệu lực sẽ bắt đầu lúc cài đặt",
+        "packageType": "Loại gói",
+        "dataOnly": "Chỉ dữ liệu",
+        "dataOnlyTooltip": "eSIM này chỉ hỗ trợ dịch vụ dữ liệu.",
+        "ekyc": "eKYC\n(Xác minh danh tính)",
+        "notRequired": "Không bắt buộc",
+        "deviceWarning": "eSIM chỉ sử dụng được trên các thiết bị di động có hỗ trợ.",
+        "ViewDevices": "Xem danh sách thiết bị",
+        "addToCart": "Thêm vào giỏ hàng",
+        "buyNow": "Mua ngay",
+        "decreaseQty": "Giảm số lượng",
+        "increaseQty": "Tăng số lượng"
+      }
+    },
+    "scanQR": {
+      "title": "Quét mã QR",
+      "physicalSimNote": "Đối với SIM vật lý: Quét mã trên thẻ SIM",
+      "esimNote": "Đối với eSIM: Quét mã QR đã gửi về email",
+      "uploadQR": "Tải mã QR",
+      "inputSerial": "Nhập số serial",
+      "cameraError": "Không thể truy cập camera. Vui lòng kiểm tra quyền truy cập.",
+      "uploadError": "Không thể đọc mã QR từ ảnh. Vui lòng thử lại.",
+      "uploadProcessing": "Đang xử lý ảnh...",
+      "scanSuccess": "Quét mã QR thành công!",
+      "invalidQR": "Mã QR không hợp lệ. Vui lòng thử lại."
+    },
+    "inputActivate": {
+      "headerTitle": "Kích hoạt SIM",
+      "title": "Thông tin SIM",
+      "note": "Lưu ý: Bạn có tối đa 10 lần nhập/quét số Serial SIM cho 1 số thuê bao trong 1 ngày. Vượt quá số lần quy định, vui lòng thử lại sau 24 giờ.",
+      "phoneLabel": "Số thuê bao cần kích hoạt",
+      "serialLabel": "Serial",
+      "serialPlaceholder": "Nhập 16 số serial SIM hoặc quét mã",
+      "serialRequired": "Vui lòng nhập số serial",
+      "serialInvalid": "Số serial phải có ít nhất 16 ký tự",
+      "continueButton": "Tiếp tục",
+      "phoneRequired": "Vui lòng nhập số thuê bao",
+      "phoneInvalid": "Số thuê bao không hợp lệ. Phải bắt đầu bằng 070"
+    },
+    "infoActivate": {
+      "title": "Kiểm tra lại thông tin",
+      "fullName": "Họ và tên",
+      "gender": "Giới tính",
+      "idNumber": "Số Căn cước công dân",
+      "dateOfBirth": "Ngày sinh",
+      "issueDate": "Ngày cấp",
+      "expiryDate": "Ngày hết hạn",
+      "issuePlace": "Nơi cấp",
+      "permanentAddress": "Nơi thường trú",
+      "currentAddress": "Địa chỉ hiện tại",
+      "continueButton": "Tiếp tục"
+    },
+    "signActivate": {
+      "title": "Ký hợp đồng",
+      "agreeTerms": "Tôi hiểu và đồng ý với các điều kiện dưới đây:",
+      "term1": "Việc đăng ký thông tin thuê bao trên hệ thống sẽ chỉ được thực hiện sau khi cung cấp đầy đủ các giấy tờ, thông tin theo quy định của pháp luật.",
+      "term2": "Trong quá trình chờ và sau khi hoàn thành đăng ký thông tin trên hệ thống, nếu có xảy ra bất kỳ khiếu kiện, tranh chấp nào liên quan đến số thuê bao trên, tôi đồng ý để SkyFi thu hồi số thuê bao để giải quyết khiếu nại.",
+      "term3": "Các thông tin và chữ ký của bạn sẽ được tự động điền vào Phiếu xác nhận thông tin thuê bao,",
+      "privacyPolicy": "Chính sách xử lý và bảo vệ dữ liệu cá nhân",
+      "returnPolicy": "Chính sách cam kết hoàn trả SIM.",
+      "readContract": "Vui lòng đọc hợp đồng và ký tên của bạn tại phía dưới cùng của hợp đồng",
+      "here": "tại đây.",
+      "signatureTitle": "Chữ ký khách hàng",
+      "clear": "Xóa",
+      "continueButton": "Tiếp tục",
+      "pleaseAgree": "Vui lòng đồng ý với các điều khoản để tiếp tục",
+      "pleaseSign": "Vui lòng ký tên để tiếp tục",
+      "notification": "Thông báo",
+      "contactInfoTitle": "Thông tin liên hệ",
+      "noContactInfo": "Không có thông tin liên hệ.",
+      "errorTitle": "Lỗi",
+      "cannotLoadContactInfo": "Không thể tải thông tin liên hệ.",
+      "cannotRetrieveCallInfo": "Không thể lấy thông tin cuộc gọi. Vui lòng thử lại.",
+      "invalidCallInfo": "Thông tin cuộc gọi không hợp lệ. Vui lòng quay lại và thử lại.",
+      "errorSavingCallLog": "Lưu thông tin cuộc gọi thất bại. Vui lòng thử lại."
+    },
+    "videoCall": {
+      "title": "Hướng dẫn video call",
+      "guideTitle": "Hướng dẫn thực hiện cuộc gọi Video",
+      "point1": "Thiết bị đang sử dụng có CAMERA ĐƯỢC CẤP QUYỀN",
+      "point2": "Theo quy định của Bộ Thông tin truyền thông, để hoàn tất thủ tục đăng ký/cập nhật thông tin thuê bao, Bạn vui lòng thực hiện cuộc Video với tổng đài viên.",
+      "note": "*Lưu ý: cấp quyền truy cập CAMERA cho thiết bị",
+      "continueButton": "Tiếp tục",
+      "goHome": "Về trang chủ",
+      "calling": {
+        "connecting": "Đang kết nối với giao dịch viên",
+        "pleaseWait": "Vui lòng đợi trong giây lát...",
+        "cancelCall": "Hủy cuộc gọi"
+      },
+      "ongoing": {
+        "permissionRequired": "Yêu cầu quyền Camera & Microphone",
+        "allowCameraAccess": "Vui lòng cho phép truy cập camera và microphone để tham gia cuộc gọi.",
+        "errorLabel": "Lỗi",
+        "retry": "Thử lại",
+        "androidInstruction": "Trên Android: Vào Cài đặt → Ứng dụng → Trình duyệt → Quyền → Bật Camera & Microphone",
+        "missingRoomInfo": "Thiếu thông tin phòng họp",
+        "pleaseTryAgain": "Vui lòng thử lại",
+        "checkingPermissions": "Đang kiểm tra quyền camera và microphone...",
+        "pleaseAllow": "Vui lòng cho phép khi được yêu cầu"
+      },
+      "rescore": {
+        "noVideoData": "Không có dữ liệu video. Vui lòng thử lại.",
+        "videoEmpty": "Video rỗng. Vui lòng thử lại.",
+        "uploadFailed": "Gửi video thất bại. Vui lòng thử lại.",
+        "permissionRequired": "Yêu cầu quyền Camera & Microphone",
+        "errorLabel": "Lỗi",
+        "notification": "Thông báo",
+        "goHome": "Về trang chủ",
+        "registrationTitle": "Đăng ký/Cập nhật TTTB",
+        "instructions": "Bạn vui lòng thực hiện theo hướng dẫn sau:\nBước 1: Để khuôn mặt vào giữa khung hình và bấm \"Bắt đầu quay\"\nBước 2: Thực hiện quay trái và quay phải\nBước 3: Đọc số thuê đang thực hiện Đăng ký/Cập nhật Số thuê bao của bạn là {phone}\nBước 4: Bấm Gửi Video để hoàn tất.",
+        "preview": "Xem lại",
+        "retake": "Quay lại",
+        "sendVideo": "Gửi Video",
+        "sending": "Đang gửi...",
+        "startRecording": "Bắt đầu quay",
+        "stopRecording": "Dừng quay",
+        "instructionIntro": "Bạn vui lòng thực hiện theo hướng dẫn sau:",
+        "step1Label": "Bước 1:",
+        "step1Text": "Để khuôn mặt vào giữa khung hình và bấm \"Bắt đầu quay\"",
+        "step2Label": "Bước 2:",
+        "step2Text": "Thực hiện quay trái và quay phải",
+        "step3Label": "Bước 3:",
+        "step3Text": "Đọc số thuê đang thực hiện Đăng ký/Cập nhật Số thuê bao của bạn là",
+        "step4Label": "Bước 4:",
+        "step4Text": "Bấm \"Gửi Video\" để hoàn tất."
+      }
+    },
+    "profile": {
+      "title": "Cá nhân",
+      "manageTravelEsim": "Quản lý eSIM du lịch đã mua",
+      "accountInfo": "Thông tin tài khoản",
+      "subscriberHistory": "Lịch sử thuê bao",
+      "activateSim": "Kích hoạt SIM",
+      "customerSupport": "Hỗ trợ khách hàng",
+      "termsAndPolicy": "Điều khoản và chính sách",
+      "sampleContact": {
+        "title": "Hợp đồng mẫu",
+        "item1": "Bạn xác nhận thông tin thuê bao đã đăng ký dịch vụ viên thông di động một đất",
+        "item2": "Hợp đồng cung cấp và sử dụng DV viên thông di động một đất",
+        "item3": "BM01-Danh sách thuê bao đã đăng ký sử dụng DV viên thông",
+        "item4": "BM02-Danh sách thuê bao đã đăng ký sử dụng DV viên thông",
+        "item5": "Biến bản chuyển quyền sử dụng DV viên thông"
+      },
+      "logout": "Đăng xuất",
+      "terms": {
+        "title": "Điều khoản và chính sách",
+        "personalDataProtectionPolicy": "Chính sách bảo vệ dữ liệu cá nhân",
+        "termsOfService": "Điều khoản dịch vụ",
+        "paymentPolicy": "Chính sách thanh toán",
+        "generalTerms": "Điều khoản chung",
+        "privacyPolicyAndCookies": "Chính sách bảo mật và cookie",
+        "serviceQualityManagements": "Quản lý chất lượng dịch vụ",
+        "refundPolicy": "Chính sách hoàn tiền",
+        "sampleContacts": "Hợp đồng mẫu"
+      },
+      "serviceQualityManagement": {
+        "title": "Quản lý chất lượng dịch vụ",
+        "item1": "Công bố CLDV_DV điện thoại trên mạng VTDĐ",
+        "item2": "Công bố CLDV_Truy cập internet WCDMA, LTE, LTE",
+        "item3": "BAN TIEP NHAN CONG BO CLDV INTERNET DI DONG 2025",
+        "item4": "BAN TIEP NHAN CONG BO CLDV THOA DI DONG 2025"
+      }
+    },
+    "profileDetail": {
+      "title": "Thông tin tài khoản",
+      "fullName": "Họ và tên",
+      "gender": "Giới tính",
+      "idNumber": "Số căn cước công dân",
+      "dateOfBirth": "Ngày sinh",
+      "issueDate": "Ngày cấp",
+      "expiryDate": "Ngày hết hạn",
+      "placeOfIssue": "Nơi cấp",
+      "permanentAddress": "Nơi thường trú",
+      "email": "Email"
+    },
+    "subscriberHistory": {
+      "empty": "Chưa có lịch sử giao dịch",
+      "title": "Lịch sử thuê bao",
+      "tabs": {
+        "topup": "Nạp thẻ",
+        "services": "Dịch vụ",
+        "calls": "Cuộc gọi"
+      },
+      "yesterday": "Hôm qua",
+      "dateFormat": "{date}",
+      "transactionTypes": {
+        "momoTopup": "Nạp tiền qua {provider}",
+        "scratchCard": "Thẻ cào",
+        "dataPackage": "Gói cước data",
+        "outgoingCall": "Cuộc gọi đi"
+      },
+      "noData": "Không có lịch sử giao dịch"
+    },
+    "support": {
+      "title": "Trung tâm hỗ trợ",
+      "back": "Quay lại",
+      "faq": {
+        "title": "Câu hỏi thường gặp",
+        "viewAll": "Tất cả"
+      },
+      "contact": {
+        "title": "Bạn cần liên hệ với SkyFi",
+        "support247": "Hỗ trợ 24/24",
+        "liveChat": "Live Chat",
+        "chatNow": "Chat ngay",
+        "orContactVia": "Hoặc liên hệ với SkyFi qua",
+        "hotline": "Hotline"
+      },
+      "social": {
+        "zalo": "Zalo",
+        "facebook": "Facebook",
+        "email": "Email"
+      }
+    },
+    "activateProvider": {
+      "notifications": {
+        "title": "Thông báo",
+        "callAlreadyProcessing": "Cuộc gọi đang được xử lý",
+        "registerSuccess": "SkyFi đã tiếp nhận thông tin đăng ký/ cập nhật TTTB thành công! Dữ liệu sẽ được xử lý trong vòng 01-02 phút tới. Cảm ơn bạn đã tin tưởng và sử dụng dịch vụ của SkyFi.",
+        "registerFailed": "ĐTB đăng ký thất bại. Chi tiết LH 0877087087(0đ cho TB iTel). Trân trọng.",
+        "noFreeTeller": "Rất tiếc, tất cả các KTV hiện đang bận. Bạn vui lòng bấm vào \"Quay video\" để được hoàn tất quá trình đăng ký thông tin.",
+        "recordVideo": "Quay video",
+        "close": "Đóng",
+        "goHome": "Về trang chủ",
+        "rejectedRegistration": "Đăng ký thất bại do hồ sơ chưa hợp lệ. Vui lòng kiểm tra và thực hiện lại Bạn nhé!"
+      }
+    }
+  }
+}

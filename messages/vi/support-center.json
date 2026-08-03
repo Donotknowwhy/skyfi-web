@@ -1,0 +1,38 @@
+{
+  "supportCenter": {
+    "title": "Trung tâm hỗ trợ",
+    "faqTitle": "Câu hỏi thường gặp",
+    "faq1": {
+      "question": "Cách sử dụng eSIM",
+      "answer": "Bước 1: Chọn gói cước theo yêu cầu.\\nBước 2: Cài đặt eSIM.\\nBước 3: Kích hoạt eSIM."
+    },
+    "faq2": {
+      "question": "Trước khi cài đặt eSIM",
+      "answer": "Người dùng cần kiểm tra điện thoại có hỗ trợ eSIM hay không.\\nKiểm tra danh sách model điện thoại có hỗ trợ eSIM cập nhật mới nhất theo đường link bên dưới:\\nhttps://skyfi.vn/buy-esim/nations\\nNgười dùng cần kiểm tra Chính sách kích hoạt eSIM. Hầu hết eSIM sẽ kích hoạt sử dụng tại quốc gia đến khi kết nối sóng lần đầu tiên với nhà mạng địa phương. Tuy nhiên, một số eSIM sẽ kích hoạt ngay lập tức khi cài đặt vào điện thoại ở bất kỳ đâu. Khuyến cáo người dùng nên cài đặt"
+    },
+    "faq3": {
+      "question": "Cách cài đặt eSIM?"
+    },
+    "faq4": {
+      "question": "Sau khi cài đặt eSIM"
+    },
+    "faq5": {
+      "question": "Cách kiểm tra ICCID đã cài đặt?"
+    },
+    "faq6": {
+      "question": "Cách kiểm tra cài đặt APN và thay đổi APN?"
+    },
+    "faq7": {
+      "question": "Cách xử lý sự cố"
+    },
+    "faq8": {
+      "question": "iMessage và Facetime"
+    },
+    "faq9": {
+      "question": "Điểm phát Wifi /chia sẻ dữ liệu di động"
+    },
+    "faq10": {
+      "question": "Khi nào có thể xóa eSIM khỏi điện thoại?"
+    }
+  }
+} 

@@ -1,0 +1,384 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Be Vietnam Pro Font Family */
+
+/* Thin 100 */
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ExtraLight 200 */
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Light 300 */
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Regular 400 */
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Medium 500 */
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* SemiBold 600 */
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold 700 */
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ExtraBold 800 */
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Black 900 */
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/fonts/vikki/BeVietnamPro-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Inter", sans-serif;
+}
+
+#app-vikki * {
+  font-family: "Be Vietnam Pro", sans-serif !important;
+}
+
+#hdbank-app * {
+  font-family: "Be Vietnam Pro", sans-serif !important;
+}
+
+html,
+body,
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.font-hdbank {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.font-koho {
+  font-family: "KoHo", sans-serif;
+}
+
+.font-serif {
+  font-family: "Instrument Serif", serif;
+}
+
+.font-indie-flower {
+  font-family: "Indie Flower", cursive;
+}
+
+.font-abyssinica {
+  font-family: "Abyssinica SIL", serif;
+}
+
+.why-choose-skyfi {
+  align-items: center;
+  background: linear-gradient(
+    158deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(254, 252, 241, 1) 21%,
+    rgba(255, 247, 225, 1) 35%,
+    rgba(255, 244, 214, 1) 56%,
+    rgba(255, 255, 255, 0) 74%
+  );
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  height: 718px;
+  justify-content: center;
+  padding: 80px 0px;
+  position: relative;
+}
+
+.loadingPage {
+  background: #00000070;
+
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.package-home-slider .slick-dots {
+  bottom: -10px;
+  display: flex !important;
+  justify-content: end;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+
+  margin: 0;
+  padding-right: 15%;
+}
+
+.package-home-slider .slick-dots li {
+  width: 10px;
+  height: 10px;
+  margin: 0;
+}
+
+.package-home-slider .slick-dots li div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #9c9c9c;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.package-home-slider .slick-dots li.slick-active div {
+  background-color: #000000;
+}
+
+.package-home-slider .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.package-home-slider .slick-slide {
+  padding: 0 10px;
+}
+
+.package-home-slider .slick-slide > div {
+  height: 100%;
+}
+
+/* Hide scrollbar styles */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+/* Scrollbar hide utility for better naming */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+/* Custom scrollbar styling for when we want to show it */
+.scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 #f1f5f9;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 3px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.btnvikki {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 12px 16px;
+  gap: 8px;
+  background: linear-gradient(
+    88.19deg,
+    #2c4eff -4.19%,
+    #0000ff 12.9%,
+    #6100ff 48.11%,
+    #da0191 74.13%,
+    #ff8a00 89.99%,
+    #ffb907 99.38%
+  );
+  border-radius: 1000px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 16px rgba(44, 78, 255, 0.12);
+}
+
+.btnvikki:hover {
+  box-shadow: 0px 4px 16px rgba(44, 78, 255, 0.24);
+  transform: translateY(-2px);
+}
+
+.packSliderPackage .slick-track {
+  display: flex !important;
+}
+
+.packSliderPackage .slick-slide {
+  height: inherit !important;
+}
+.packSliderPackage .slick-slide > * {
+  height: 100%;
+}
+#package-description * {
+  font-family: "Be Vietnam Pro", sans-serif !important;
+}

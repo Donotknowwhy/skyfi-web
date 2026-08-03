@@ -1,0 +1,862 @@
+{
+  "common": {
+    "title": "SkyFi",
+    "description": "SkyFiは、航空、飲食、娯楽、ショッピングなどの便利なサービスに接続する、世界的な高速eSIM（4G、5G）サービスプロバイダーです。",
+    "login": "ログイン",
+    "cart": "カート",
+    "myEssim": "マイeSIM",
+    "logout": "ログアウト",
+    "errorOccurred": "エラーが発生しました",
+    "loading": "読み込み中...",
+    "notification": "通知",
+    "maxQuantity": "最大数量は {quantity} 個です。再入力してください。",
+    "minQuantity": "最小数量は{quantity}個です。再入力してください。",
+    "distributedBy": "配給元",
+    "close": "閉じる",
+    "perDay": "/日"
+  },
+  "loginPage": {
+    "title": "ログイン",
+    "subtitle": "ログインして旅行eSIMを管理",
+    "emailTab": "メール",
+    "qrCodeTab": "QRコード",
+    "emailLabel": "メール",
+    "emailRequired": "*",
+    "emailPlaceholder": "SkyFi旅行eSIMを購入したメールアドレスを入力してください",
+    "emailNote": "まだ旅行eSIMをお持ちではありませんか？",
+    "buyEsim": "eSIMを購入",
+    "now": "今すぐ。",
+    "continueButton": "続行",
+    "invalidEmail": "無効なメールアドレスです"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "simData": "SIMを購入",
+    "travelESim": "旅行eSIMを購入",
+    "plans": "プラン",
+    "about": "SkyFiについて",
+    "contact": "お問い合わせ",
+    "topUp": "チャージ"
+  },
+  "home": {
+    "hero": {
+      "title": "どこでも\n常時接続",
+      "subtitle": "SkyFiで、あらゆる冒険の旅先でインターネット接続をお楽しみください。"
+    },
+    "whyChoose": {
+      "title": "SkyFiを選ぶ理由",
+      "reason1": "スムーズな体験",
+      "reason1Description": "どこへ行っても安定した高速インターネット接続。",
+      "reason2": "24時間年中無休のサポート",
+      "reason2Description": "カスタマーサポートチームがいつでもお手伝いいたします。",
+      "reason3": "費用対効果",
+      "reason3Description": "海外旅行の費用を節約する最適なソリューション。"
+    },
+    "menuBuySim": {
+      "domesticSim": {
+        "title": "国内SIMを\n購入",
+        "buyButton": "今すぐ購入"
+      },
+      "travelEsim": {
+        "title": "旅行eSIMを\n購入",
+        "buyButton": "今すぐ購入"
+      }
+    },
+    "plans": {
+      "title": "魅力的な\nプラン",
+      "viewAll": "すべて見る",
+      "register": "登録",
+      "pricePerMonth": "/月",
+      "pricePerDay": "/日",
+      "plan1": {
+        "data": "2GB/日",
+        "feature1": "高速データ容量を使い切るとアクセス停止",
+        "feature2": "プランは自動更新されます"
+      },
+      "plan2": {
+        "data": "2GB/日",
+        "feature1": "高速データ容量を使い切るとアクセス停止",
+        "feature2": "プランは自動更新されます"
+      },
+      "plan3": {
+        "data": "2GB/日",
+        "feature1": "高速データ容量を使い切るとアクセス停止",
+        "feature2": "プランは自動更新されます"
+      },
+      "plan4": {
+        "data": "2GB/日",
+        "feature1": "高速データ容量を使い切るとアクセス停止",
+        "feature2": "プランは自動更新されます"
+      }
+    },
+    "packageHome": {
+      "hotTitle": "プラン",
+      "hotHighlight": "HOT",
+      "validityDescription": "プランサイクルは {days} 日間です",
+      "dataLabel": "使い放題データ",
+      "dataUnit": "GB/日",
+      "priceLabel": "パッケージ価格",
+      "dayUnit": "日",
+      "detailButton": "詳細",
+      "buyNowButton": "今すぐ購入",
+      "dataIcon": "データアイコン",
+      "priceIcon": "価格アイコン",
+      "packageImage": "パッケージ画像"
+    },
+    "discovery": {
+      "title": "アプリで\n探索",
+      "title1": "",
+      "titleHighlight": "SkyFi ",
+      "subtitle": "多くのユーティリティと独自の機能が付属しています",
+      "qrText": "QRコードをスキャンしてアプリをダウンロード",
+      "downloadFrom": "からダウンロード",
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "features": {
+        "feature1": "eSIMの簡単な管理",
+        "feature2": "リアルタイムのデータ使用量を追跡",
+        "feature3": "安全かつ迅速な支払い",
+        "feature4": "24時間年中無休のサポート"
+      }
+    },
+    "feedback": {
+      "title": "お客様の声と信頼",
+      "customers": {
+        "customer1": {
+          "name": "- Dũng Phùng -",
+          "content": "eSIMを初めて利用しました。SkyFiは素晴らしい価格で、明確な手順があり、すべてがスムーズでした。"
+        },
+        "customer2": {
+          "name": "- Nguyễn Văn A -",
+          "content": "素晴らしいサービス、旅行中に安定した接続。迅速で献身的なカスタマーサポート。引き続き利用します！"
+        },
+        "customer3": {
+          "name": "- Trần Thị B -",
+          "content": "多くのサービスを試しましたが、SkyFiは本当に違います。海外でのネットワークの心配はもうありません！"
+        }
+      }
+    },
+    "cta": {
+      "title": "SkyFiを体験する準備はできましたか？",
+      "subtitle": "今すぐ登録して、無制限の接続をお楽しみください！",
+      "button": "SIMを購入"
+    },
+    "trustedBy": {
+      "title": "信頼されています",
+      "logoAlt": "パートナーロゴ {number}"
+    },
+    "powered": {
+      "title": "Powered by SkyFi",
+      "gdpr": {
+        "title": "GDPR準拠",
+        "description": "お客様のプライバシーとデータセキュリティを確保するため、一般データ保護規則に完全に準拠しています。"
+      },
+      "secure": {
+        "title": "安全なサーバー",
+        "description": "当社のインフラストラクチャは、データを保護し、信頼性の高いサービスを確保するために、エンタープライズレベルのセキュリティ対策を使用しています。"
+      },
+      "privacy": {
+        "title": "プライバシー保護",
+        "description": "高度な暗号化と厳格なデータ保護ポリシーにより、お客様のプライバシーを最優先しています。"
+      }
+    },
+    "listSim": {
+      "title": "SkyFiの\n番号を選択",
+      "exploreSims": "SIM倉庫を探索",
+      "price": "価格",
+      "originalPrice": "元の価格",
+      "salePrice": "プロモーション価格",
+      "loading": "SIM番号を読み込み中...",
+      "error": "SIM番号の読み込みエラー",
+      "noSims": "SIM番号がありません"
+    }
+  },
+  "countryPlansPage": {
+    "bannerTitle": "プランを探索",
+    "nationality": "国",
+    "coverage": "カバレッジ",
+    "searchPlaceholder": "国で検索",
+    "bestOffer": "ベストオファー",
+    "data": "データ容量",
+    "unlimitedData": "無制限",
+    "validityLabel": "有効期間",
+    "validity": "{duration} {unit}",
+    "timeUnits": {
+      "days": "日間",
+      "months": "か月",
+      "years": "年間"
+    },
+    "yourSelectedPlan": "選択されたプラン",
+    "quantity": "数量",
+    "decreaseQuantity": "数量を減らす",
+    "increaseQuantity": "数量を増やす",
+    "selectPlanButton": "購入を選択",
+    "closePopup": "閉じる",
+    "note": "注意",
+    "validityValue": "{number} 日間",
+    "day": "日",
+    "esimDeviceCompatNote": "eSIMは対応するモバイルデバイスでのみ使用できます。デバイスリストを見る",
+    "description": "説明",
+    "provider": "提供元",
+    "activateOnInstall": "有効期間はインストール時に開始されます",
+    "activationPolicy": "アクティベーションポリシー",
+    "planType": "プランタイプ",
+    "dataOnly": "データのみ",
+    "ekyc": "eKYC（本人確認）",
+    "required": "必須",
+    "notRequired": "不要",
+    "supportedCountries": "サポートされている国",
+    "eSIMCompatibleDevices": "eSIM対応モバイルデバイス",
+    "eSIMNotePhysical": "注意：eSIMは電子SIM（QRコードを使用）であり、電話に挿入する物理SIMカードではありません。eSIMはスマートウォッチでは使用できません",
+    "searchDevicePlaceholder": "デバイス名を入力してください（例：Iphone 15, SS Galaxy Foldなど）",
+    "yourPlan": "あなたのプラン",
+    "price": "価格",
+    "addToCartButton": "カートに追加",
+    "buyNowButton": "今すぐ購入",
+    "noteTitle": "注意",
+    "esimDeviceCompatNotePopup": "eSIMは対応するモバイルデバイスでのみ使用できます。デバイスリストを見る",
+    "eSIMNotePhysicalPopup": "注意：eSIMは電子SIM（QRコードを使用）であり、電話に挿入する物理SIMカードではありません。eSIMはスマートウォッチでは使用できません"
+  },
+  "simData": {
+    "title": "番号とプランを選択",
+    "package": "パッケージ",
+    "quantity": "数量",
+    "steps": {
+      "step1": "番号とプランを選択",
+      "step2": "支払い"
+    },
+    "choosePackage": "プランを選択",
+    "simSection": {
+      "numberLabel": "あなたのための番号",
+      "selectButton": "他の番号を選択",
+      "physicalSim": "物理SIM",
+      "deliveryNoteUSIM": "*SIMは自宅に配送されます - 配送料がかかります",
+      "deliveryNoteESIM": "eSIMは電子SIMであり、お客様のメールアドレスに送信されます。eSIMは対応するモバイルデバイスでのみ使用できます。",
+      "deviceCompatibility": "デバイスリストを見る",
+      "includeFee": "価格にはSIM代金、ネットワーク接続料、番号が含まれています"
+    },
+    "totalSection": {
+      "sim": "SIM",
+      "plan": "プラン",
+      "title": "合計金額",
+      "addToCartButton": "カートに追加",
+      "buyNowButton": "チェックアウト"
+    },
+    "itemPackage": {
+      "day": "日",
+      "detail": "詳細を見る",
+      "month": "月",
+      "register": "登録",
+      "free_call_minute": "通話時間： {minute} 分の網間通話"
+    }
+  },
+  "phoneNumberModal": {
+    "title": "他の番号を選択",
+    "searchHint": "希望の数字を空欄に入力してください",
+    "cancelButton": "キャンセル",
+    "confirmButton": "確認",
+    "noResults": "!!! 申し訳ありません、お探しの番号は現在利用できません。次の番号はいかがですか？"
+  },
+  "cart": {
+    "addedSuccessfully": "カートに正常に追加されました",
+    "total": "合計",
+    "viewCart": "カートを見る",
+    "checkout": "チェックアウト",
+    "empty": "カートは空です",
+    "continueShopping": "ショッピングを続けるには製品を追加してください",
+    "closeButton": "閉じる",
+    "page": {
+      "title": "カート",
+      "continueShopping": "ショッピングを続ける",
+      "emptyCartMessage": "カートに製品がありません",
+      "emptyCartDescription": "ストアにアクセスしてショッピングをすることができます。",
+      "buySim": "SIMを購入",
+      "productColumn": "製品",
+      "quantityColumn": "数量",
+      "priceColumn": "価格",
+      "orderSummary": "注文概要",
+      "products": "製品",
+      "taxAndService": "税金とサービス料",
+      "included": "含まれています",
+      "totalAmount": "合計金額"
+    }
+  },
+  "checkout": {
+    "title": "チェックアウト",
+    "back": "戻る",
+    "steps": {
+      "step1": "番号とプランを選択",
+      "step2": "支払い"
+    },
+    "discountSection": {
+      "inputPlaceholder": "割引コードを入力",
+      "applyButton": "割引コードを適用",
+      "processing": "確認中...",
+      "applied": "割引コードが適用されました",
+      "remove": "割引コードを削除",
+      "discount": "割引",
+      "description": "SF69、SF79、SF89のネットワーク接続キットと配送料が15%割引",
+      "validationError": "割引コードを入力してください",
+      "applySuccess": "割引コードの適用に成功しました！あなたは割引を受けます",
+      "successTitle": "成功",
+      "referralPlaceholder": "紹介コードを入力（任意）"
+    },
+    "contactInfo": {
+      "title": "連絡先情報",
+      "description": "以下の連絡先情報を通じて、eSIMのアクティベーション情報をお客様にご連絡し、送信します。",
+      "email": "メール",
+      "phone": "電話番号",
+      "fullName": "氏名",
+      "emailPlaceholder": "メールアドレスを入力",
+      "phonePlaceholder": "電話番号を入力",
+      "namePlaceholder": "名前を入力"
+    },
+    "shippingAddress": {
+      "title": "SIMの受け取り先住所",
+      "province": "省/市",
+      "district": "区/郡",
+      "ward": "区/町/村",
+      "address": "詳細住所",
+      "provincePlaceholder": "省/市を選択",
+      "districtPlaceholder": "区/郡を選択",
+      "wardPlaceholder": "区/町/村を選択",
+      "addressPlaceholder": "詳細住所を入力"
+    },
+    "paymentMethod": {
+      "title": "支払い方法",
+      "galaxypay": "オンライン決済（QR、クレジットカード、電子ウォレットなど）",
+      "domestic": "国内決済カード"
+    },
+    "discountCode": "割引コードを入力",
+    "terms": "私のデバイスはeSIMと互換性があります。私は利用規約に同意します。",
+    "devicePrefix": "私のデバイスは",
+    "deviceCompatibility": "eSIMと互換性があります",
+    "agreeWith": "私は以下に同意します",
+    "termsAndConditions": "利用規約",
+    "completeOrder": "注文を完了する",
+    "agreeTermsPhysical": "私は物理SIMに関するSkyFiの一般取引条件に同意します",
+    "agreeTermsPhysicalPrefix": "私は以下に同意します",
+    "agreeTermsPhysicalLink": "SkyFiの一般取引条件",
+    "agreeTermsEsim": "eSIMについて",
+    "validationErrorTermsPhysical": "物理SIMの条件に同意してください",
+    "validationErrorTermsEsim": "eSIMの条件に同意してください",
+    "validationErrorTermsBoth": "物理SIMとeSIMの両方の条件に同意してください",
+    "orderSummary": {
+      "title": "あなたの注文",
+      "products": "製品",
+      "productsCount": "製品",
+      "taxAndFees": "税金と手数料",
+      "included": "含まれています",
+      "total": "合計",
+      "quantity": "数量",
+      "feeShipping": "配送料",
+      "taxAndService": "税金と手数料"
+    },
+    "titleMessage": "通知",
+    "noSims": "SIMがありません！",
+    "noSimsTitle": "支払うSIMがまだありません",
+    "noSimsDescription": "戻って、希望のSIMまたはプランを選択してください。",
+    "buyButton": "今すぐ購入"
+  },
+  "refundPolicy": {
+    "title": "返金ポリシー",
+    "intro": "skyfi.vnの技術的な問題によりeSIMのインストールと使用ができない場合、お客様は返金または変更を要求する権利があります。",
+    "section1": {
+      "title": "1. 返金とキャンセル",
+      "subtitle1": "1.1. ポリシーとガイドライン",
+      "content1": "1.1.2. 徹底的なトラブルシューティングの後もアクティベートできない場合、購入日から30日以内に返金を要求することができます。\n\n1.1.3. eSIMがアクティベートされ、skyfi.vnが責任を負う問題、および/またはモバイルオペレーターが迅速な修正が不可能であることを認めた場合、残りのデータに対して返金を受けることができます。\n\n1.1.4. 問題解決におけるお客様の早期の協力は、返金を受けるために非常に重要です。\n\n1.1.5. 各データパッケージには独自の有効期間があります。有効期間が終了した場合、残りのデータはいかなる形での返金の対象にもなりません。\n\n1.1.6. 補償：追加の電話料金、追加のSIMカード、またはホテルの追加の電話による料金のため、いかなる形での返金や支払いは行われません。\n\n1.1.7. 不正な購入：skyfi.vnの製品およびサービスの使用に関連して、誤用、当社の利用規約への違反、または不正行為の兆候がある場合、skyfi.vnはいかなる形式の返金も拒否する権利を有します。\n\n1.1.8. 不正な購入：返金手続きを行う前に、問題は調査され、承認されます。不正行為に関連する注文は、skyfi.vnの裁量により一時停止される場合があります。\n\n1.1.9. 不正確な請求：お客様が請求書またはその一部について合理的に誠意を持って異議を唱える場合、請求書を受け取った日から10営業日以内にskyfi.vnに異議を通知する必要があります。通知には、お客様が請求額が不正確であると考える理由、および可能であれば、お客様が負っていると考える金額の情報を含める必要があります。\n\n1.1.10. skyfi.vnは、次の場合には返金要求を受け付けません。\nお客様がeSIMを削除し、再インストールを希望する場合。\nお客様のデバイスがeSIMをサポートしていない場合。\nお客様の電話がネットワークロックされている場合。\neSIMが有効期限を過ぎている場合（有効期限は注文確認メールに記載されています）。\nお客様が訪れる国で不可抗力な状況が発生した場合（自然災害、地震、疫病、火災、戦争、ストライキ、暴動、地方の法令変更、政権交代などを含みますが、これらに限定されません）。\n旅行先の国のネットワークインフラストラクチャに問題があり、不安定である場合。\neSIMの問題が発生した際、お客様がskyfi.vnに積極的に連絡しなかった場合。\n\n1.1.11. その他の理由：返金要求が上記のいずれのカテゴリにも該当しない場合、当社は各要求を個別に検討します。返金が承認された場合、処理手数料がかかることがあります。消費者が要求できる最高のクレジットまたは返金額は、購入品の全価格以下でなければなりません。"
+    },
+    "section2": {
+      "title": "1.2. 返金プロセス",
+      "content": "お客様は、返金要求を行うために、ホットライン：1900 6605を通じてskyfi.vnサポートチームに連絡するか、support@skyfi.vnにメールを送信します。\n\n返金期間：skyfi.vnは、skyfi.vnの技術的な問題によりeSIMのインストールと使用が不可能であることをskyfi.vnが確認し、お客様が返金を要求する権利を有する場合にのみ、お客様に返金します。\n\n返金方法：ケースバイケースで、返金は購入者が指定したクレジットカード/銀行口座に、または両当事者の合意による方法で送金されます。\n\n上記の返金ポリシーが適用されることに注意してください。お客様は、問題の性質に応じて、返金要求をサポートするための追加情報の提供を求められる場合があります。これには、技術的な問題に関するデバイス設定のスクリーンショット、請求額が不正確である理由の説明、および可能であれば、お客様が負っていると考える程度の見積もりなどが含まれます。"
+    },
+    "section3": {
+      "title": "2. 変更",
+      "content": "取得後、skyfi.vnからのeSIMデータパッケージは、特定の要求に基づいて変更またはカスタマイズすることはできません。それらは現状のまま提供されます。\n\n詳細については、skyfi.vnカスタマーケア部門にお問い合わせいただくか、1900 6605にご連絡ください。ありがとうございます！"
+    }
+  },
+  "paymentPolicy": {
+    "title": "支払いポリシー",
+    "mainTitle": "支払いに関する規定と形式",
+    "section1": {
+      "title": "I. 支払い規定",
+      "subtitle1": "支払い契約内容の確認と承認",
+      "content1": "Skyfi.vnには、お客様が支払い機能を送信する前に、取引内容を確認、追加、修正、および承認できるようにするメカニズムがあります。この確認および承認メカニズムは、次の条件を満たしています。\n\nお客様に次の情報を表示します。\n\na) 商品またはサービスの名称、数量、ブランド、および価格。\n\nb) 配送またはサービス提供の方法と期間。\n\nc) 契約の合計金額と、お客様が選択した支払い方法に関連する詳細。\n\nこれらの情報は、お客様の情報システムに保存、印刷、および後で表示することができます。\n\nホットラインによる確認を通じて、契約締結の申し出を受け入れる方法と、契約締結の申し出に回答する期間に関する情報を表示します。\n\n上記の情報を確認した後、お客様が取引をキャンセルするか、ウェブサイトまたはホットラインを通じて契約締結の申し出を確認するかを選択できるようにします。",
+      "subtitle2": "一般取引条件に関する情報",
+      "content2": "Skyfi.vnには、お客様が支払い契約を締結する申し出を送信する前に、一般取引条件を読み、個別に同意を表明するためのメカニズムがあります。\n\n一般取引条件には以下が含まれます。\n\n返金ポリシー。これには、返金期間、購入した商品の返却または交換方法、返金方法、返金費用が含まれます（ウェブサイトで公開されています）。\n\n製品保証ポリシー（ウェブサイトで公開されています）。\n\nサービス基準、サービス提供プロセス、料金表、およびサービス提供に関連するその他の条件。これには、条件と制限（ある場合）が含まれます（ウェブサイトで公開されています）。\n\n各取引における売り手の義務とお客様の義務（ウェブサイトで公開されています）。",
+      "subtitle3": "支払い方法に関する情報",
+      "content3": "Skyfi.vnは、お客様が支払いポリシーセクションで適切な支払い方法を理解して選択できるように、商品に適用されるすべての支払い方法を公開しています。\n\nSkyfi.vnは、お客様がオンライン支払い機能を使用する際に、支払いを行う前に各支払い取引の詳細情報を確認および承認するためのメカニズムを確立しています。\n\nSkyfi.vnは、お客様の支払い取引の安全性とセキュリティを確保し、ウェブサイトを通じてのお客様の支払い情報が不正に変更、削除、破棄、コピー、開示、移動、または横領された場合に、苦情を処理し、損害を補償します。"
+    },
+    "section2": {
+      "title": "II. 支払い形式",
+      "content": "**前払い方法：**\n\n現在、Skyfiは国際VISAカード、国内Napasカードでの支払いを受け付けています。お客様は支払い前に商品を完全に確認することができます。\n\n**注意：** 注文を進める前に、お客様はウェブサイトインターフェースの注文情報フォームに明確に表示されている購入する製品と支払うべき合計金額に関する情報を注意深く確認してください。\n\nお客様は、SKYFI.VNで次の方法で支払うこともできます。\n\n- 国際VISAカード、国内Napasカードでの支払いは、全国の注文に適用されます。お客様はカード情報を入力して確認し、直接支払います。資金はCÔNG TY TNHH GALAXY DIGITAL HOLDINGSの銀行口座に送金されます。\n\n銀行からの確認通知を受け取り次第、SKYFI.VNはお客様に通知し、お客様に商品を配送する手続きを進めます。\n\nお客様は、ウェブサイト：https://Skyfi.vn / またはホットライン：1900 6605を通じて注文することができます。当社のスタッフがお客様に連絡し、製品と配送方法に関する情報を確認します。"
+    }
+  },
+  "TermsAndConditions": {
+    "mainTitle": "一般取引条件",
+    "welcomeMessage": {
+      "paragraph1": "ウェブサイトskyfi.vnへようこそ – これはCÔNG TY TNHH GALAXY DIGITAL HOLDINGSによって設立および所有されています。お客様が当社のウェブサイトにアクセスすることにより、これらの条件に同意したものとみなされます。",
+      "paragraph2": "ウェブサイトは、規定および利用条件のいかなる内容も変更、修正、または調整することができ、これらの変更がウェブサイトで完全に通知および公開されてから5日後に有効になります。",
+      "paragraph3": "skyfi.vnで製品やサービスを注文する前に、この取引条件を注意深くお読みください。"
+    },
+    "supplyConditions": {
+      "title": "商品またはサービスの提供における条件または制限",
+      "paragraph1": "- 最終消費者であるお客様の公平性と利益を確保するため、skyfi.vnはプロモーションプログラムの実施において制限条件を適用する権利を有します。これには、無制限、各プロモーションプログラムでお客様が購入できる製品の最大数量の制限、製品パッケージの購入目的の制限（消費のみに使用、ビジネス目的、転売不可など）、または各プロモーションプログラムで詳細に規定されているその他の制限（ある場合）が含まれます。これらの制限条件は、以下「プロモーションポリシー」と呼びます。",
+      "paragraph2": "したがって、skyfi.vnは、プロモーションポリシーのいかなる内容にも違反する、引き渡された製品の確認を拒否、キャンセル、または取り消す権利を有します。",
+      "paragraph3": "- skyfi.vnは、お客様に通知することなく、skyfi.vnの決定により、その他の特定の状況でお客様に引き渡された製品の確認を拒否、キャンセル、または取り消す権利を有します。"
+    },
+    "inspectionPolicy": {
+      "title": "商品検査ポリシー",
+      "paragraph1": "eSIM製品は、ウェブサイトの詳細な説明と一致することを保証します。eSIMを購入し、支払いが成功した後、ユーザーは購入したeSIM情報に関する会社の通知をメールで受け取ります。情報を受け取ったら、ユーザーはeSIM情報を確認してください。",
+      "paragraph2": "製品は直接配送されないため、商品検査ポリシーはありません。"
+    },
+    "refundPolicy": {
+      "title": "返金/キャンセル/変更ポリシー",
+      "refundAndCancellation": {
+        "title": "3.1. 返金とキャンセル",
+        "policyAndGuidance": {
+          "title": "3.1.1. ポリシーとガイドライン",
+          "point1": "- 徹底的なトラブルシューティングの後もアクティベートできない場合、購入日から30日以内に返金を要求することができます。",
+          "point2": "- eSIMがアクティベートされ、Skyfi.vnが責任を負う問題、および/またはモバイルオペレーターが迅速な修正が不可能であることを認めた場合、残りのデータに対して返金を受けることができます。",
+          "point3": "- 問題解決におけるお客様の早期の協力は、返金を受けるために非常に重要です。",
+          "point4": "- 各データパッケージには独自の有効期間があります。有効期間が終了した場合、残りのデータはいかなる形での返金の対象にもなりません。",
+          "point5": "- 補償：追加の電話料金、追加のSIMカード、またはホテルの追加の電話による料金のため、いかなる形での返金や支払いは行われません。",
+          "point6": "- 不正な購入：Skyfi.vnの製品およびサービスの使用に関連して、誤用、当社の利用規約への違反、または不正行為の兆候がある場合、Skyfi.vnはいかなる形式の返金も拒否する権利を有します。",
+          "point7": "- 不正な購入：返金手続きを行う前に、問題は調査され、承認されます。不正行為に関連する注文は、Skyfi.vnの裁量により一時停止される場合があります。",
+          "point8": "- 不正確な請求：お客様が請求書またはその一部について合理的に誠意を持って異議を唱える場合、請求書を受け取った日から10営業日以内にSkyfi.vnに異議を通知する必要があります。通知には、お客様が請求額が不正確であると考える理由、および可能であれば、お客様が負っていると考える金額の情報を含める必要があります。",
+          "nonRefundableCases": {
+            "intro": "- Skyfi.vnは、次の場合には返金要求を受け付けません。",
+            "case1": "+ お客様がeSIMを削除し、再インストールを希望する場合。",
+            "case2": "+ お客様のデバイスがeSIMをサポートしていない場合。",
+            "case3": "+ お客様の電話がネットワークロックされている場合。",
+            "case4": "+ eSIMが有効期限を過ぎている場合（有効期限は注文確認メールに記載されています）。",
+            "case5": "+ お客様が訪れる国で不可抗力な状況が発生した場合（自然災害、地震、疫病、火災、戦争、ストライキ、暴動、地方の法令変更、政権交代などを含みますが、これらに限定されません）。",
+            "case6": "+ 旅行先の国のネットワークインフラストラクチャに問題があり、不安定である場合。",
+            "case7": "+ eSIMの問題が発生した際、お客様がSkyfi.vnに積極的に連絡しなかった場合。"
+          },
+          "otherReasons": "- その他の理由：返金要求が上記のいずれのカテゴリにも該当しない場合、当社は各要求を個別に検討します。返金が承認された場合、処理手数料がかかることがあります。消費者が要求できる最高のクレジットまたは返金額は、購入品の全価格以下でなければなりません。"
+        },
+        "refundProcess": {
+          "title": "3.1.2. 返金プロセス",
+          "paragraph1": "お客様は、返金要求を行うために、ホットライン：1900 6605を通じてSkyfi.vnサポートチームに連絡するか、support@skyfi.vnにメールを送信します。",
+          "paragraph2": "返金期間：skyfi.vnは、Skyfi.vnの技術的な問題によりeSIMのインストールと使用が不可能であることをskyfi.vnが確認し、お客様が返金を要求する権利を有する場合にのみ、お客様に返金します。",
+          "paragraph3": "返金方法：ケースバイケースで、返金は購入者が指定したクレジットカード/銀行口座に、または両当事者の合意による方法で送金されます。",
+          "paragraph4": "上記の返金ポリシーが適用されることに注意してください。お客様は、問題の性質に応じて、返金要求をサポートするための追加情報の提供を求められる場合があります。これには、技術的な問題に関するデバイス設定のスクリーンショット、請求額が不正確である理由の説明、および可能であれば、お客様が負っていると考える程度の見積もりなどが含まれます。"
+        }
+      },
+      "modification": {
+        "title": "3.2. 変更",
+        "paragraph1": "取得後、Skyfi.vnからのeSIMデータパッケージは、特定の要求に基づいて変更またはカスタマイズすることはできません。それらは現状のまま提供されます。",
+        "paragraph2": "詳細については、skyfi.vnカスタマーケア部門にお問い合わせいただくか、1900 6605にご連絡ください。ありがとうございます！"
+      }
+    },
+    "productWarranty": {
+      "title": "製品保証ポリシー",
+      "status": "保証ポリシー       🗹 あり   ❑ なし"
+    },
+    "shippingPolicy": {
+      "title": "配送および配達ポリシー",
+      "paragraph1": "お客様の注文を確認した後、30分から3時間以内に、できるだけ早くお客様に連絡し、注文情報、お客様の支払い情報を確認します。システムからお客様へのQRコードの送信を容易にするため、お客様は詳細かつ正確なメール情報を提供してください。当社は、不明確な注文をキャンセルする権利、またはお客様が不正確な情報を提供したことによるメール情報の誤りについて責任を負いません。",
+      "paragraph2": "ユーザーがeSIMの注文に成功した後、QRコードはシステムからお客様が登録したGmailの受信トレイに送信され、同時に当社のウェブサイトシステム上のお客様の受信トレイにも表示されます。",
+      "paragraph3": "製品は直接配送されないため、配送および配達ポリシーはありません。"
+    },
+    "serviceStandards": {
+      "title": "サービス基準、サービス提供プロセス、料金表、およびサービス提供に関連するその他の条件",
+      "realSalesNoAdvertising": {
+        "title": "実際の販売、広告なし",
+        "paragraph1": "skyfi.vnは、購入者がSKYFIの製品を使用できるようにサポートするウェブサイトであり、他の売り手の製品やストアを宣伝するためのプラットフォームではありません。"
+      },
+      "mutualRespect": {
+        "title": "相互尊重",
+        "paragraph1": "私たちは、誰もがモバイルショッピングを楽しむことができるように、安全で文明的な顧客ベースを構築したいと考えています（SKYFIの店舗に直接行く必要はありません）。"
+      },
+      "goodPurchaseHistory": {
+        "title": "良好な「購入履歴」を維持する",
+        "paragraph1": "常連客向けのより多くのプロモーションを受けるには、定期的な購入と販売を維持し、「爆弾」注文をせず、時間通りに商品を受け取り、不必要なキャンセル、返品、返金の場合を最小限に抑えることを忘れないでください。"
+      },
+      "noFakeGoods": {
+        "title": "偽造品、模倣品の販売はしない",
+        "paragraph1": "skyfi.vnは、偽造品や模倣品の販売は法律違反であるため、本物の商品のみを販売することを約束します。お客様からフィードバックがあった場合、SKYFIは調査を行い、フィードバックが真実であると確認された場合は、お客様に補償し、訂正記事を公開し、これらの商品をシステムから削除します。"
+      },
+      "serviceProvisionProcess": "サービス提供プロセス（ウェブサイト利用ガイドに具体化されています）",
+      "companyInformation": {
+        "paragraph1": "CÔNG TY TNHH GALAXY DIGITAL HOLDINGS – は、商品を直接販売するウェブサイトの所有者です",
+        "paragraph2": "他のサプライヤーは、ウェブサイトでのサービス提供に参加することはできません",
+        "paragraph3": "参加の形式/方法：ネットワークオペレーターとの協力契約を締結し、商品サプライヤーとeSIMを提供することで、SKYFIはeSIM製品を購入者/サービス利用者に直接提供します。",
+        "paragraph4": "SKYFIは、購入者/サービス利用者から商品の価格を直接徴収し、購入者/サービス利用者への請求書発行に責任を負います。",
+        "paragraph5": "商品サプライヤーは、価格設定に参加したり、利用者と協力したり、料金を徴収したり、システムに直接投稿したり、ストアを作成したりすることはできません。製品は、在庫に輸入されているため、すべてSKYFIによって投稿されます。",
+        "feeScheduleTitle": "料金表",
+        "feeScheduleParagraph": "各商品の料金表はウェブサイトで公開されており、購入者は製品の価格を直接見て、「購入する」かどうかにかかわらず、注文に追加するかどうかを決定できます。"
+      }
+    },
+    "otherTerms": {
+      "title": "その他の条件",
+      "acceptance": {
+        "title": "利用条件の受諾",
+        "paragraph1": "SKYFIのウェブサイトskyfi.vnを利用することにより、お客様はここに規定されている利用条件（以下「利用条件」）に黙示的に同意したものとみなされます。最新の変更を知るために、お客様は「利用条件」を定期的に確認してください。skyfi.vnは、いつでも「利用条件」の内容を変更、調整、追加、または削除する権利を有します。お客様がそのような変更後にウェブサイトを引き続き使用する場合、お客様はその変更に同意したものとみなされます。"
+      },
+      "natureOfInformation": {
+        "title": "表示される情報の性質",
+        "paragraph1": "ウェブサイトに表示されるコンテンツは、SKYFIのプロモーションプログラムに関するeSIM関連製品の情報を提供することを目的としています。"
+      },
+      "disclaimer": {
+        "title": "免責事項",
+        "paragraph1": "このウェブサイトに表示される情報には、SKYFI側からのいかなる形式の保証または責任の約束も付随していません。これには、購入者が選択した製品やサービスの適合性に関する明示的または黙示的な保証が含まれますが、これに限定されません。",
+        "paragraph2": "SKYFIはまた、ウェブサイトが操作エラー、安全、中断がないこと、または表示される情報の正確性、完全性、適時性に関するいかなる保証も拒否します。",
+        "paragraph3": {
+          "intro": "このウェブサイトにアクセスすることにより、お客様は、SKYFIが以下に関連して発生するいかなるエラーに対しても責任を負わないことに黙示的に同意するものとします。",
+          "point1": "(1) このウェブサイト上の情報の使用。",
+          "point2": "(2) このウェブサイトからの接続アクセス。",
+          "point3": "(3) 電子メールの購読登録。",
+          "point4": "(4) 損害の可能性について警告されていた場合でも、SKYFIがサービスを提供したかどうか。",
+          "point5": "(5) ここに記載されているオンライン注文に関連する制限。"
+        },
+        "paragraph4": "上記の条件および制限は、現行法の枠内で有効です。"
+      },
+      "intellectualProperty": {
+        "title": "知的財産権",
+        "paragraph1": {
+          "intro": "このウェブサイトおよび表示されるすべてのレイアウトとコンテンツは、SKYFIの所有物であり、独占的な商業的資産です。すべての使用および引用はSKYFIに損害を与えてはならず、次の条件を遵守する必要があります。",
+          "point1": "(1) 個人的、非商業的な目的にのみ使用すること。",
+          "point2": "(2) すべてのコピーまたは引用は、元のバージョンに示されている著作権マークまたは知的財産権の表示を保持すること。",
+          "point3": "(3) このウェブサイトで使用または表示されているすべての製品、技術、またはプロセスは、SKYFIの著作権またはその他の知的財産に関連している可能性があります。"
+        }
+      },
+      "adjustmentAndModification": {
+        "title": "調整と変更",
+        "paragraph1": "SKYFIは、いつでもこのウェブサイトの活動を変更、修正、または終了する権利を留保します。"
+      },
+      "governingLaw": {
+        "title": "準拠法および紛争解決機関",
+        "paragraph1": "この利用条件は、ベトナム社会主義共和国の法律に準拠します。ベトナム社会主義共和国の裁判所は、関連するすべての紛争を解決する唯一の管轄権を有する機関です。"
+      },
+      "scopeOfApplication": {
+        "title": "適用範囲",
+        "paragraph1": "以下の条件は、ウェブサイトのオンライン注文機能に個別に適用されます。この機能を使用して注文することにより、お客様は、ここに記載されている利用条件を含むがこれに限定されない、ウェブサイトに公開されているすべての指示、条項、条件、および注意事項に黙示的に同意し、遵守するものとみなされます。オンラインでの購入意図がない場合、またはここに記載されている利用条件のいずれかに同意しない場合は、この機能の使用を**停止**してください。"
+      },
+      "onlineOrderingConditions": {
+        "title": "オンライン注文機能の利用条件",
+        "paragraph1": "オンライン注文機能は、個人的かつ非商業的な目的にのみ使用されます。お客様は、このオンライン購入機能から取得した情報、ソフトウェア、製品、またはサービスを修正、コピー、配布、転送、表示、操作、複製、公開、ライセンス供与、リンクの作成、転送、またはビジネスを組織することを許可されていません。",
+        "paragraph2": "オンライン購入機能は、お客様が情報を検索し、サービス製品の購入操作を合法的に完了するのに役立ちます。ただし、この機能を乱用した場合、お客様はアクセスまたは使用を拒否される場合があります。",
+        "paragraph3": "お客様は、ここに記載されている利用条件を遵守し、この機能の使用に関連する行為を実行するための十分な権利と能力を法律の規定に従って有することを、オンライン購入機能を使用する際に確認し、保証しなければなりません。お客様は、お客様自身またはお客様の予約情報を使用する個人または組織によるウェブサイトの使用に関するすべての行為について、金銭的な義務を受け入れます。",
+        "paragraph4": "お客様は、ここに記載されている利用条件を遵守し、この機能の使用に関連する行為を実行するための十分な権利と能力を法律の規定に従って有することを、オンライン購入機能を使用する際に確認し、保証しなければなりません。お客様は、お客様自身またはお客様の予約情報を使用する個人または組織によるウェブサイトの使用に関するすべての行為について、金銭的な義務を受け入れます。"
+      },
+      "priceAndFees": {
+        "title": "価格と料金に関する規定",
+        "paragraph1": "支払う合計金額には、お客様が支払う必要があるすべての税金と手数料が含まれています"
+      }
+    },
+    "obligations": {
+      "title": "売り手（SKYFI）の義務と各取引におけるお客様の義務",
+      "seller": {
+        "title": "SKYFIの義務",
+        "paragraph1": "ウェブサイトを産業貿易省に通知すること（電子商取引サービスを提供するウェブサイト）。ウェブサイトに以下の情報を構築および公開すること：事業体情報。ウェブサイト利用ガイド。一般取引条件に関する情報。プライバシーポリシー。支払い方法に関する情報。苦情解決ポリシー。配送および輸送ポリシー。ウェブサイトを利用する購入者に、アカウント登録時に関連情報の最小限の提供を要求すること。ウェブサイトを利用するメンバーの登録情報を保存し、関連する変更および追加情報を定期的に更新すること。法律の規定に従って、禁止されている商品およびサービスのリストに属する情報をウェブサイトから防止および削除すること。発見した場合、またはこれらの情報に関する確固たる根拠のあるフィードバックを受け取った場合、ウェブサイトの規則/他の法律に違反する情報をウェブサイトから削除すること。ウェブサイトを使用した違法なビジネス行為を調査するための州管理機関をサポートし、情報を提供すること。電子商取引の統計活動、検査活動、および違反の処理に役立つように、管轄の州機関の要求があった場合に、そのビジネス状況に関する情報を提供すること。"
+      },
+      "customer": {
+        "title": "お客様（購入者）の義務",
+        "paragraph1": "氏名、電話番号、メールアドレス、住所のいずれかの情報を最小限かつ正確に提供して初めて、ウェブサイトでオンライン注文を行うことができます。アカウントを登録し、サービスを利用する前に、ウェブサイトskyfi.vnの運用規則、利用規約、およびウェブサイトを通じて提供されるサービスの利用規約を読み、理解すること。また、この運用規則、利用規約、およびサービスの利用規約の変更または調整に関する通知を受け取ったときに、それらを読み、理解すること。メンバーがサービスを利用するか、引き続きサービスを利用することは、メンバーがウェブサイトskyfi.vnおよびウェブサイトを通じて提供されるサービスの運用規則、利用規約に同意し、理解したと見なされます。自分の登録名、パスワードの下でのセキュリティ、保存、およびすべてのサービス利用活動について、自己責任を負うこと。不正使用、乱用、セキュリティ違反、支払いおよび注文情報の保存について、SKYFIに速やかに通知し、両当事者が協力して処理できるようにすること。SKYFIに提供される情報が正確かつ完全であることを約束し、ウェブサイトskyfi.vn上の情報を最新、正確、完全な状態に保つこと。コンテンツ、画像、個人情報、およびその他の情報、ならびにウェブサイトskyfi.vnを介した取引プロセス全体について、自己責任を負うこと。発生した紛争の解決をサポートするために、SKYFI.vnに協力し、必要な情報を提供すること。管轄の州機関の要求があった場合に、取引に関する情報を提供すること。ウェブサイトskyfi.vnで活動する際に、支払い、広告、プロモーション、知的財産権の保護、消費者権利の保護、およびその他の関連法規を遵守すること。ウェブサイトskyfi.vnのサービスを違法、不合理、詐欺的、脅迫的、違法な情報探索、破壊的、システム、構成、skyfi.vnの情報伝送に損害を与えるウイルスの作成および拡散、または投機目的、偽のサービス注文の作成、市場操作（市場需要の予測に役立つものを含む）にサービスを使用しないことを約束し、同意すること。違反した場合、メンバーは法律の前で自分の行為に責任を負わなければなりません。会社の同意なしに、SKYFIが提供するサービスの類似ツールを変更、修正、コピー、配布、提供、作成しないことを約束すること。登録名や第三者を通じて、または会社の名誉に不利益な情報を宣伝、配布するなど、いかなる形式でもウェブサイトskyfi.vnの名誉を傷つける行為を行わないこと。電子商取引の統計活動を支援するために、管轄の州機関の要求があった場合に、自分の個人情報を提供すること。"
+      }
+    }
+  },
+  "contactPage": {
+    "title": "お問い合わせ",
+    "subtitle": "ご質問やご不明な点がございましたら、いつでもお手伝いいたします。",
+    "phone": "電話",
+    "phoneNumber": "1900 6605",
+    "email": "メール",
+    "emailAddress": "customercare@skyfi.vn",
+    "address": "住所",
+    "addressDetails": "Tòa nhà PV Gas, 673 Nguyễn Hữu Thọ, Phước Kiển, Nhà Bè, TP. HCM, Việt Nam",
+    "formName": "氏名",
+    "formNamePlaceholder": "氏名を入力",
+    "formEmail": "メール",
+    "formEmailPlaceholder": "メールアドレスを入力",
+    "formPhone": "電話番号",
+    "formPhonePlaceholder": "電話番号を入力",
+    "formSubject": "件名",
+    "formSubjectPlaceholder": "件名を選択",
+    "formMessage": "メッセージ",
+    "formMessagePlaceholder": "メッセージを入力",
+    "formSendButton": "送信"
+  },
+  "travelESimPage": {
+    "bannerTitle": "eSIMプランを選択",
+    "searchPlaceholder": "国で検索",
+    "tabNational": "国別eSIM",
+    "tabRegional": "地域別eSIM",
+    "tabGlobal": "グローバルeSIM",
+    "notice": "注意：eSIMは電子SIMであり、お客様のメールアドレスに送信されます。eSIMは対応するモバイルデバイスでのみ使用できます。<link>デバイスリストを見る</link>",
+    "countriesTitle": "国々",
+    "regionalComingSoon": "地域別eSIMコンテンツは近日公開予定です！",
+    "globalComingSoon": "グローバルeSIMコンテンツは近日公開予定です！",
+    "singapore": "シンガポール",
+    "cambodia": "カンボジア",
+    "china": "中国",
+    "australia": "オーストラリア",
+    "southKorea": "韓国",
+    "taiwan": "台湾",
+    "kazakhstan": "カザフスタン",
+    "vietnam": "ベトナム",
+    "india": "インド",
+    "japan": "日本",
+    "malaysia": "マレーシア",
+    "indonesia": "インドネシア",
+    "noItemsFound": "製品は見つかりませんでした",
+    "loadingMessage": "読み込み中...",
+    "globalTitle": "グローバルeSIM",
+    "regionalTitle": "地域別eSIM"
+  },
+  "deviceCompatibilityModal": {
+    "title": "eSIM互換デバイス",
+    "closeButton": "閉じる",
+    "intro": "eSIMを使用するには、デバイスがネットワークロック解除されており、eSIM技術をサポートしている必要があります。以下は、一般的なデバイスの参照リストです。",
+    "generalRequirements": {
+      "title": "一般的な要件",
+      "unlocked": "お使いの電話は国際版で、ネットワークロック解除されている必要があります（network-unlocked）。",
+      "esimSupport": "電話はeSIM機能をサポートしている必要があります。"
+    },
+    "apple": {
+      "title": "Apple iPhone",
+      "models": "iPhone XR, XS, XS Max, 11, 11 Pro, 11 Pro Max, SE (2020), 12, 12 Mini, 12 Pro, 12 Pro Max, 13, 13 Mini, 13 Pro, 13 Pro Max, SE (2022), 14, 14 Plus, 14 Pro, 14 Pro Max, 15, 15 Plus, 15 Pro, 15 Pro Max. iPad Air (第3世代以降), iPad Pro (第1世代以降), iPad Mini (第5世代以降)."
+    },
+    "samsung": {
+      "title": "Samsung Galaxy",
+      "models": "Galaxy S20シリーズ, S21シリーズ, S22シリーズ, S23シリーズ, Note20シリーズ, Z Flipシリーズ, Z Foldシリーズ. Google Pixelモデル（Pixel 3以降）。"
+    },
+    "google": {
+      "title": "Google Pixel",
+      "models": "Pixel 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, 4a 5G, 5, 5a, 6, 6 Pro, 6a, 7, 7 Pro, 7a, 8, 8 Pro, Fold."
+    },
+    "note": "このリストは完全ではなく、変更される可能性があります。一部の特定の市場向けバージョン（例：iPhoneの中国、香港。Samsungの米国）は、eSIMをサポートしていないか、物理SIMのみをサポートしている場合があります。",
+    "checkOfficialSite": "<link>メーカーの公式ウェブサイト</link>またはデバイスの設定を確認して、eSIMの互換性を確認してください。"
+  },
+  "countryEsimPage": {
+    "days": "日",
+    "countryNotFound": "この地域のeSIM情報が見つかりませんでした。",
+    "noResultFor": "\"{searchTerm}\"に一致する国が見つかりません。",
+    "clearSearch": "検索をクリア",
+    "noCountryFound": "国が見つかりません",
+    "loading": "読み込み中..."
+  },
+
+  "footer": {
+    "description": "SkyFiは、航空、飲食、娯楽、ショッピングなどの便利なサービスに接続する、世界的な高速eSIM（4G、5G）サービスプロバイダーです。",
+    "connectWithUs": "私たちとつながる",
+    "popularCountries": {
+      "title": "人気の国々",
+      "korea": "韓国",
+      "china": "中国",
+      "thailand": "タイ",
+      "australia": "オーストラリア"
+    },
+    "about": {
+      "title": "会社概要",
+      "aboutSkyFi": "SkyFiについて"
+    },
+    "terms": {
+      "title": "規約",
+      "refundPolicy": "返金ポリシー",
+      "paymentPolicy": "支払いポリシー",
+      "generalTerms": "一般取引条件",
+      "privacyPolicy": "プライバシーとCookieポリシー",
+      "personalDataProtectionPolicy": "個人データ保護ポリシー",
+      "sampleContract": "契約書サンプル",
+      "serviceQualityManagement": "サービス品質管理"
+    },
+    "otherInfo": {
+      "title": "その他の情報",
+      "supportCenter": "サポートセンター",
+      "news": "ニュース",
+      "contactUs": "お問い合わせ",
+      "esimGuide": "eSIMインストールガイド"
+    },
+    "contact": {
+      "title": "連絡先",
+      "phone": "1900 6605",
+      "email": "customercare@skyfi.vn"
+    },
+    "companyInfo": {
+      "title": "Công Ty TNHH Galaxy Digital Holdings",
+      "info": "通信サービス提供ライセンス番号41/GP-CVT（情報通信省が2025年2月6日に発行）。\\L事業登録証明書番号0316951481（ホーチミン市計画投資局が2021年8月13日に発行）。\\L住所：Tòa nhà PV Gas, 673 Nguyễn Hữu Thọ, Xã Nhà Bè, Thành phố Hồ Chí Minh, Việt Nam - 電話：028 38273795 \\L法定代表者：Huynh Kim Tuoc - 役職：取締役社長 "
+    },
+    "copyright": "Copyright © 2024"
+  },
+  "verification": {
+    "title": "セキュリティコードの確認",
+    "description": "セキュリティコードをメールアドレス {email} に送信しました。メールを確認してコードを受け取ってください。このコードは1分後に期限切れになります。",
+    "continueButton": "続行",
+    "noCodeReceived": "コードが届きませんか？",
+    "resendCode": "コードを再送",
+    "resending": "再送中...",
+    "titleMadal": "セキュリティコードが正しくありません",
+    "tryAgainButton": "再試行",
+    "errorMessage": "コードを再送を選択してください。セキュリティコードがあなたのメールアドレスに送信されます。"
+  },
+  "password": {
+    "passwordLabel": "パスワードを入力",
+    "forgotPassword": "パスワードを忘れた場合",
+    "loginButton": "ログイン",
+    "loading": "ログイン中...",
+    "passwordTooShort": "パスワードは6文字以上入力してください",
+    "passwordIncorrect": "入力したパスワードが正しくありません。再試行してください。",
+    "forgotPasswordTitle": "パスワードを忘れた場合",
+    "forgotPasswordDescription": "メールアドレスを入力してください。パスワードをリセットするためのリンクを送信します。",
+    "emailLabel": "メール",
+    "emailPlaceholder": "メールアドレスを入力してください",
+    "resetPasswordButton": "パスワードをリセット",
+    "sending": "送信中...",
+    "emailRequired": "メールアドレスは必須です",
+    "invalidEmail": "有効なメールアドレスを入力してください",
+    "resetError": "リセットメールを送信できませんでした。再試行してください。",
+    "emailSent": "メールが送信されました",
+    "checkEmailInstructions": "パスワードリセットリンクを {email} に送信しました。受信トレイを確認し、指示に従ってください。",
+    "backToLogin": "ログインに戻る",
+    "resetPasswordTitle": "パスワードをリセット",
+    "tooltip": {
+      "title": "パスワードの要件",
+      "requirements": "パスワードは6桁の数字である必要があります。連続した数字（例：123456、345678など）を含まないこと。同じ数字の繰り返し（例：111111、222222など）を含まないこと。"
+    },
+    "consecutiveNumbers": "パスワードに連続した数字（例：123456、345678）を含めることはできません",
+    "repeatedDigits": "パスワードに同じ数字の繰り返し（例：111111、222222）を含めることはできません",
+    "resetPasswordDescription": "アカウントの新しいパスワードを作成してください。",
+    "newPasswordLabel": "新しいパスワード",
+    "newPasswordPlaceholder": "新しいパスワードを入力してください",
+    "confirmPasswordLabel": "パスワードを確認",
+    "confirmPasswordPlaceholder": "新しいパスワードを確認してください"
+  },
+  "privacyPolicyPopup": {
+    "message": "「個人データ保護方針」をこちらでお読みになり、内容をすべて読み、理解し、同意したことをご確認ください。",
+    "messageHere": "こちら",
+    "acceptButton": "同意する",
+    "skipButton": "スキップ"
+  },
+  "countries": {
+    "title": "利用可能な国",
+    "close": "閉じる",
+    "closeAriaLabel": "ポップアップを閉じる",
+    "searchPlaceholder": "国を検索...",
+    "flagAlt": "{country}の旗",
+    "noResults": "一致する国は見つかりませんでした",
+    "totalCount": "合計: {count} か国"
+  },
+  "devicesEsim": {
+    "title": "eSIM対応端末リスト",
+    "notice": "注意: eSIMは電子SIM（QRコードを使用）であり、携帯電話に挿入する物理的なSIMカードではありません。eSIMはスマートウォッチでは使用できません。",
+    "searchPlaceholder": "端末名を入力してください（例：Iphone 15、SS Galaxy Foldなど）",
+    "noResults": "「{searchTerm}」に一致する端末は見つかりませんでした",
+    "closeButton": "閉じる",
+    "searchIcon": "検索",
+    "expandIcon": "展開"
+  },
+  "warning": {
+    "title": "警告",
+    "message": "こちらは SkyFi のテストサイトです。本サイト上でのすべての取引は無効です。正式な SkyFi のウェブサイトへ移動してください。リンクはこちら：",
+    "linkText": "こちら",
+    "closeButton": "理解しました"
+  },
+  "payment-result": {
+    "thankYou": "SkyFiをご利用いただきありがとうございます！",
+    "homeButton": "ホームへ戻る",
+    "error": {
+      "title": "支払いに失敗しました！",
+      "message": "取引処理中にエラーが発生しました。"
+    },
+    "success": {
+      "title": "支払い成功！",
+      "message": "お取引は正常に処理されました。"
+    },
+    "orderDetails": {
+      "label": "注文の詳細",
+      "orderId": "注文番号",
+      "purchaseDate": "購入日",
+      "esimQuantity": "eSIM数量",
+      "esimQuantityTravel": "旅行用eSIM数量",
+      "usimQuantity": "物理SIM数量",
+      "total": "合計金額"
+    },
+    "title": "eSIMの詳細",
+    "data": {
+      "using": "使用中",
+      "waiting": "有効化待ち",
+      "dataLeft": "残りデータ",
+      "coverage": "カバレッジ範囲",
+      "provider": "提供元",
+      "dataAmount": "データ容量",
+      "planType": "プランタイプ",
+      "validity": "有効期間",
+      "ekyc": "eKYC（本人確認）",
+      "iccid": "ICCID",
+      "dataOnly": "データ専用",
+      "notRequired": "必須ではない",
+      "remainingValidity": "残りの有効期間",
+      "days": "日",
+      "remainingData": "残りのデータ容量"
+    },
+    "notification": {
+      "title": "データ残量が少ない通知",
+      "message": "データが残り少なくなったときにSkyFiが通知を表示することを許可しますか？",
+      "allow": "許可する"
+    },
+    "buyMore": {
+      "title": "データを追加購入",
+      "button": "今すぐ購入"
+    },
+    "warning": {
+      "title": "警告",
+      "message": "ほとんどのeSIMは1回しかインストールできません。削除した場合、再インストールはできません。"
+    }
+  },
+  "manager-esim": {
+    "pageTitle": "購入した旅行eSIMの管理",
+    "tabs": {
+      "activeEsim": "使用中のeSIM",
+      "notInstalledEsim": "未インストールのeSIM"
+    },
+    "status": {
+      "active": "使用中",
+      "notInstalled": "未インストール",
+      "expired": "期限切れ"
+    },
+    "coverage": "カバレッジ",
+    "remainingTime": "残り時間",
+    "days": "日",
+    "dataPackage": "データパッケージ",
+    "remaining": "残り",
+    "viewDetail": "詳細を見る",
+    "buyMoreData": "データを追加購入",
+    "installEsim": "eSIMをインストール",
+    "noActiveEsim": "使用中のeSIMがありません",
+    "noNotInstalledEsim": "インストールするeSIMがありません"
+  },
+  "esim-detail": {
+    "pageTitle": "eSIM詳細",
+    "remaining": "残り",
+    "coverage": "カバレッジ",
+    "provider": "プロバイダー",
+    "dataCapacity": "データ容量",
+    "planType": "プラン種別",
+    "validity": "有効期限",
+    "days": "日",
+    "ekyc": "eKYC (本人確認)",
+    "yourPackage": "あなたのパッケージ",
+    "buyMoreData": "データを追加購入",
+    "remainingTime": "残り時間",
+    "viewDetail": "詳細を見る",
+    "register": "登録",
+    "callMinutes": "通話分",
+    "status": {
+      "active": "使用中",
+      "notInstalled": "未インストール",
+      "expired": "期限切れ"
+    },
+    "planTypes": {
+      "dataOnly": "データのみ",
+      "dataAndCall": "データ＆通話"
+    },
+    "ekycStatus": {
+      "required": "必須",
+      "notRequired": "不要"
+    }
+  }
+
+}
