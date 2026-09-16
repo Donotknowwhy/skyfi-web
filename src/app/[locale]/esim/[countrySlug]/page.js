@@ -94,6 +94,22 @@ export default function CountryESimPlansPage() {
   const tPage = useTranslations('countryEsimPage');
   const tCommon = useTranslations( 'common' );
   const tbaner = useTranslations('travelESimPage');
+  const showFigmaMarketing = viewSrc !== 'vj';
+
+  const tabs = [
+    { id: 'national', label: locale === 'vi' && showFigmaMarketing ? 'Danh sách quốc gia' : tbaner('tabNational') },
+    { id: 'regional', label: locale === 'vi' && showFigmaMarketing ? 'Khu vực' : tbaner('tabRegional') },
+    { id: 'global', label: locale === 'vi' && showFigmaMarketing ? 'Toàn cầu' : tbaner('tabGlobal') },
+  ];
+
+  const tabHref = (tabId) => `/${locale}/travel-esim/?type=${tabId}&src=${viewSrc}`;
+
+  const isTabActive = (tabId) => {
+    if (tabId === 'national') {
+      return typeParam === 'national' || regions === 'COUNTRY';
+    }
+    return typeParam === tabId || regions === tabId.toUpperCase();
+  };
 
     const { showDevicesEsim } = useMyEsim();
 
@@ -411,36 +427,47 @@ export default function CountryESimPlansPage() {
 
       {/* Main Content Section */}
       <main className="w-full flex flex-col items-center">
-        {/* Tabs - Using query parameters */}
-        <div className="w-full bg-white border-b border-[#F1F1F1]">
-          <div className="px-4 xl:container  flex justify-between md:justify-start gap-[20px] md:gap-[40px]">
-            {[
-              { id: 'national', labelKey: 'travelESimPage.tabNational' },
-              { id: 'regional', labelKey: 'travelESimPage.tabRegional' },
-              { id: 'global', labelKey: 'travelESimPage.tabGlobal' },
-            ].map( tab => {
-              const link = `/${locale}/travel-esim/?type=${tab.id}&src=${viewSrc}`;
-              return (
+        {!showFigmaMarketing && (
+          <div className="w-full bg-white border-b border-[#F1F1F1]">
+            <div className="px-4 xl:container flex justify-between md:justify-start gap-[20px] md:gap-[40px]">
+              {tabs.map((tab) => (
                 <Link
-                  key={ tab.id }
-                  href={link}
-                  className={ `py-[16px] md:py-[20px] font-inter text-sm sm:text-[16px] md:text-[18px] border-b-2 hover:text-[#ED1B2F]
-                  ${ regions == tab.id.toUpperCase()
+                  key={tab.id}
+                  href={tabHref(tab.id)}
+                  className={`py-[16px] md:py-[20px] font-inter text-sm sm:text-[16px] md:text-[18px] border-b-2 hover:text-[#ED1B2F] ${
+                    isTabActive(tab.id)
                       ? 'border-[#ED1B2F] text-[#ED1B2F] font-semibold'
-                      : 'border-transparent text-[#A1A1A1] font-medium' }
-                 ${ regions == "COUNTRY" && tab.id==="national"
-                      ? '!border-[#ED1B2F] !text-[#ED1B2F] font-semibold'
-                      : '' }
-                `}
+                      : 'border-transparent text-[#A1A1A1] font-medium'
+                  }`}
                 >
-                  { t( tab.labelKey ) }
+                  {tab.label}
                 </Link>
-              );
-            } )}
+              ))}
+            </div>
           </div>
-        </div>
+        )}
         {/* Country Title and Plan Grid */}
         <div className="w-full px-4 xl:container xl:px-[90px] py-3 md:py-3 flex flex-col gap-[20px]">
+          {showFigmaMarketing && (
+            <nav aria-label="Loại eSIM" className="inline-flex w-fit items-center gap-2 rounded-2xl bg-[#ddd] p-[6px]">
+              {tabs.map((tab) => {
+                const isActive = isTabActive(tab.id);
+                return (
+                  <Link
+                    key={tab.id}
+                    href={tabHref(tab.id)}
+                    className={`h-10 rounded-[14px] px-4 py-[10px] font-inter text-sm font-semibold leading-5 transition-colors ${
+                      isActive
+                        ? 'bg-[#faa61a] text-white shadow-[inset_-3px_2px_3.2px_rgba(0,0,0,0.25)]'
+                        : 'bg-white text-[#d0d0d0] hover:text-[#666]'
+                    }`}
+                  >
+                    {tab.label}
+                  </Link>
+                );
+              })}
+            </nav>
+          )}
           <p className="font-inter text-[14px] md:text-[16px] text-[#333] ">
             {tbaner.rich('notice', {
               link: (chunks) => (

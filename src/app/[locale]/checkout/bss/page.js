@@ -135,7 +135,7 @@ export default function BssCheckoutPage() {
               </label>
             </div>
             {error && <p className="mt-5 rounded-lg bg-red-50 px-4 py-3 text-sm text-red-700">{error}{orderNumber && <> Mã đơn: <strong>{orderNumber}</strong>.</>}</p>}
-            <button type="submit" disabled={isLoadingPrice || !price || isSubmitting} className="mt-7 w-full rounded-lg bg-[#ed1b2f] px-5 py-3 font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50">
+            <button type="submit" disabled={isLoadingPrice || !price || isSubmitting} className="mt-7 w-full rounded-lg bg-[#faa61a] px-5 py-3 font-semibold text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50">
               {isSubmitting ? 'Đang tạo đơn...' : 'Tạo đơn và thanh toán'}
             </button>
           </form>
@@ -145,7 +145,7 @@ export default function BssCheckoutPage() {
               <p className="font-semibold text-[#333]">{selectedPackage.name}</p>
               <p className="mt-2 text-sm text-[#666]">{selectedPackage.quantity} gói · {selectedPackage.validity_days || '—'} ngày</p>
             </div>}
-            <div className="mt-5 flex items-center justify-between text-[#333]"><span>Tổng thanh toán</span><strong className="text-xl text-[#ed1b2f]">{isLoadingPrice ? 'Đang kiểm tra giá...' : formatPrice(amount, currency, locale)}</strong></div>
+            <div className="mt-5 flex items-center justify-between text-[#333]"><span>Tổng thanh toán</span><strong className="text-xl text-[#faa61a]">{isLoadingPrice ? 'Đang kiểm tra giá...' : formatPrice(amount, currency, locale)}</strong></div>
             <p className="mt-3 text-xs leading-5 text-[#777]">Giá được BSS xác nhận lại ngay trước khi tạo đơn.</p>
           </aside>
         </div>

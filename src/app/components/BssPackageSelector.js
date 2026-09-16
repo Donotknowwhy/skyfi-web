@@ -109,7 +109,7 @@ export default function BssPackageSelector({ country, dataOptions, validityDaysO
   }, [onFilterPackages, selectedDataKey, selectedDays]);
 
   useEffect(() => {
-    if (!selectedPackage) {
+    if (!selectedPackage || !Number.isInteger(quantity) || quantity < 1) {
       setPrice(null);
       setPriceError('');
       return;
@@ -132,7 +132,29 @@ export default function BssPackageSelector({ country, dataOptions, validityDaysO
     return () => { current = false; };
   }, [quantity, selectedPackage]);
 
-  const updateQuantity = (delta) => setQuantity((current) => Math.min(MAX_QUANTITY, Math.max(1, current + delta)));
+  const updateQuantity = (delta) => setQuantity((current) => {
+    const value = Number(current) || 1;
+    return Math.min(MAX_QUANTITY, Math.max(1, value + delta));
+  });
+
+  const handleQuantityInputChange = (event) => {
+    const newValue = event.target.value;
+    if (newValue !== '' && !/^\d+$/.test(newValue)) return;
+    if (Number(newValue) > MAX_QUANTITY) {
+      setQuantity(MAX_QUANTITY);
+      return;
+    }
+    setQuantity(newValue === '' ? '' : Number(newValue));
+  };
+
+  const handleQuantityBlur = (event) => {
+    const value = event.target.value;
+    if (value === '' || Number.isNaN(Number(value)) || Number(value) < 1) {
+      setQuantity(1);
+    } else if (Number(value) > MAX_QUANTITY) {
+      setQuantity(MAX_QUANTITY);
+    }
+  };
   const displayTotal = price?.total_price ?? (selectedPackage ? Number(selectedPackage.selling_price) * quantity : 0);
   const currency = price?.currency || selectedPackage?.currency || 'VND';
 
@@ -231,9 +253,18 @@ export default function BssPackageSelector({ country, dataOptions, validityDaysO
               <div className="flex items-center justify-between gap-4">
                 <span className="font-semibold text-[#333]">Số lượng gói</span>
                 <div className="flex items-center gap-3 rounded-lg bg-white px-2 py-1 shadow-sm">
-                  <button type="button" onClick={() => updateQuantity(-1)} disabled={quantity === 1} className="h-8 w-8 rounded-full text-lg text-[#555] disabled:text-[#bbb]" aria-label="Giảm số lượng">−</button>
-                  <span className="w-8 text-center font-semibold text-[#333]">{quantity}</span>
-                  <button type="button" onClick={() => updateQuantity(1)} disabled={quantity === MAX_QUANTITY} className="h-8 w-8 rounded-full bg-[#faa61a] text-lg text-white disabled:opacity-50" aria-label="Tăng số lượng">+</button>
+                  <button type="button" onClick={() => updateQuantity(-1)} disabled={Number(quantity) <= 1} className="h-8 w-8 rounded-full text-lg text-[#555] disabled:text-[#bbb]" aria-label="Giảm số lượng">−</button>
+                  <input
+                    type="text"
+                    inputMode="numeric"
+                    value={quantity}
+                    onChange={handleQuantityInputChange}
+                    onBlur={handleQuantityBlur}
+                    maxLength={2}
+                    aria-label="Số lượng gói"
+                    className="w-10 border-0 bg-transparent text-center text-base font-semibold text-[#333] outline-none [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+                  />
+                  <button type="button" onClick={() => updateQuantity(1)} disabled={Number(quantity) >= MAX_QUANTITY} className="h-8 w-8 rounded-full bg-[#faa61a] text-lg text-white disabled:opacity-50" aria-label="Tăng số lượng">+</button>
                 </div>
               </div>
               <div className="mt-5 flex items-end justify-between gap-4 border-t border-[#e8e8e8] pt-4">
@@ -244,7 +275,7 @@ export default function BssPackageSelector({ country, dataOptions, validityDaysO
               <button
                 type="button"
                 onClick={() => onBuyNow(selectedPackage, quantity)}
-                disabled={isLoadingPrice || Boolean(priceError)}
+                disabled={isLoadingPrice || Boolean(priceError) || !Number.isInteger(quantity) || quantity < 1}
                 className="mt-5 w-full rounded-lg bg-[#faa61a] px-5 py-3 font-semibold text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
               >
                 Mua ngay
