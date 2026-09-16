@@ -14,7 +14,7 @@ const CalendarIconFigma = () => <svg width="16" height="16" viewBox="0 0 16 16" 
 const QuantityMinusIcon = () => <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.5" stroke="#DDDDDD" /><path d="M6 10H14" stroke="#333333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 const QuantityPlusIcon = () => <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-primary"><circle cx="10" cy="10" r="9.5" fill="currentColor" stroke="currentColor" /><path d="M10 6V14" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /><path d="M6 10H14" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 
-export default function PlanCard( { plan, locale, onBuyNowClick, sim } ) {
+export default function PlanCard( { plan, locale, onBuyNowClick, sim, checkoutOnly = false } ) {
   const t = useTranslations( 'countryPlansPage' );
   const tCommon = useTranslations( 'common' );
   const [ quantity, setQuantity ] = React.useState( 1 );
@@ -124,7 +124,7 @@ export default function PlanCard( { plan, locale, onBuyNowClick, sim } ) {
 
   const onBuyNowClickHandler = ( type = "cart" ) => {
     closeModal();
-    onBuyNowClick( sim, quantity, type );
+    onBuyNowClick( sim, quantity, checkoutOnly ? 'buy' : type );
   };
 
   const inputOnKeyDown = ( e ) => {
@@ -288,7 +288,7 @@ export default function PlanCard( { plan, locale, onBuyNowClick, sim } ) {
             type='button'
             onClick={ (e) => {
               e.stopPropagation();
-              onBuyNowClickHandler( "cart" );
+              onBuyNowClickHandler( checkoutOnly ? "buy" : "cart" );
             }}
             className="block w-full bg-[#E69818] text-white text-center font-inter font-semibold text-[16px] py-[12px] rounded-[8px] hover:bg-[#D0840A] transition-colors mb-[16px]"
             aria-label={ t( 'buyNowButton', { defaultValue: "Mua ngay" } ) }
@@ -473,10 +473,10 @@ export default function PlanCard( { plan, locale, onBuyNowClick, sim } ) {
                         </div>
                         <div className="px-[20px] pb-[20px] pt-[12px]">
                           <div className="flex flex-col gap-[8px]">
-                            <button onClick={ () => onBuyNowClickHandler( "cart" ) }
+                            {!checkoutOnly && <button onClick={ () => onBuyNowClickHandler( "cart" ) }
                               className="block w-full bg-white text-[#E69818] border border-[#E69818] text-center font-inter font-semibold text-[16px] py-[12px] rounded-[8px] hover:bg-orange-50 transition-colors">
                               { t( 'addToCartButton', { defaultValue: 'Thêm vào giỏ hàng' } ) }
-                            </button>
+                            </button>}
                             <button onClick={ () => onBuyNowClickHandler( "buy" ) }
                               className="block w-full bg-[#E69818] text-white text-center font-inter font-semibold text-[16px] py-[12px] rounded-[8px] hover:bg-[#D0840A] transition-colors">
                               { t( 'buyNowButton', { defaultValue: 'Mua ngay' } ) }

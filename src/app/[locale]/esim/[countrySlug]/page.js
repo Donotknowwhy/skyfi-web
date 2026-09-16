@@ -4,17 +4,14 @@ import axios from 'axios';
 import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { useParams, useRouter, useSearchParams } from 'next/navigation';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import Footer from '../../../components/Footer';
 import Header from '../../../components/Header';
-import { showModalMess } from '../../../components/modals/modalMess';
-import PlanCard from '../../../components/PlanCard';
-import { useUserActions } from '../../../stores/user';
-import { convertSimTravel, convertSimTravelToCart, dailySuffix } from '../../../utils/format';
+import BssPackageSelector from '../../../components/BssPackageSelector';
 import HeaderVJ from "@/app/components/HeaderVJ";
 import HeaderCart from "@/app/components/HeaderCart";
 import useMyEsim from "@/app/hooks/useMyEsim";
-import { trackPageView, trackProductListView, trackProductView, trackAddToCart, trackBeginCheckout, trackSearch } from "@/app/utils/trackingHelper";
+import { trackPageView, trackBeginCheckout, trackSearch } from "@/app/utils/trackingHelper";
 
 // Placeholder Icons
 const SearchIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>;
@@ -22,6 +19,52 @@ const ChevronLeftIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="24"
 const ArrowRightIcon = () => <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fillRule="evenodd" clipRule="evenodd" d="M8.29289 6.05559C8.68342 5.66507 9.31658 5.66507 9.70711 6.05559L15.7071 12.0556C16.0976 12.4461 16.0976 13.0793 15.7071 13.4698L9.70711 19.4698C9.31658 19.8603 8.68342 19.8603 8.29289 19.4698C7.90237 19.0793 7.90237 18.4461 8.29289 18.0556L13.5858 12.7627L8.29289 7.46981C7.90237 7.07928 7.90237 6.44612 8.29289 6.05559Z" fill="#333333"/>
 </svg>;
+const getCountryFlagUrl = (country) => {
+  const isoCode = String(country.iso_code || country.code || '').trim().toLowerCase();
+  return isoCode ? `https://flagcdn.com/w160/${isoCode}.png` : null;
+};
+
+const adaptPublicV2Package = (pkg, country) => ({
+  ...pkg,
+  // Keep the current card and tracking interfaces working while Public v2
+  // names the purchasable identifier `package_id`.
+  variant_id: pkg.package_id,
+  product_id: pkg.package_id,
+  provider: pkg.provider_name,
+  type: pkg.package_type,
+  countries_array: [{
+    name: country.name,
+    title: country.name,
+    country_code: country.iso_code || country.code,
+    image: getCountryFlagUrl(country),
+  }],
+});
+
+const getRegionTypeForTab = (tab) => ({ national: 'COUNTRY', regional: 'REGION', global: 'GLOBAL' }[tab]);
+
+const fetchAllBssPackagePages = async (packageQuery) => {
+  const firstResponse = await axios.get(`/api/bss/packages?${packageQuery.toString()}`);
+  if (!firstResponse.data?.success || !Array.isArray(firstResponse.data.data?.items)) {
+    throw new Error(firstResponse.data?.message || 'Không thể tải danh sách gói eSIM.');
+  }
+
+  const firstPage = firstResponse.data.data;
+  const totalPages = Number(firstPage.total_pages || 1);
+  const remainingPages = totalPages > 1
+    ? await Promise.all(Array.from({ length: totalPages - 1 }, (_, index) => {
+      const pageQuery = new URLSearchParams(packageQuery);
+      pageQuery.set('page', String(index + 2));
+      return axios.get(`/api/bss/packages?${pageQuery.toString()}`);
+    }))
+    : [];
+
+  return [
+    ...firstPage.items,
+    ...remainingPages.flatMap((response) => response.data?.success && Array.isArray(response.data.data?.items)
+      ? response.data.data.items
+      : []),
+  ];
+};
 
 export default function CountryESimPlansPage() {
   const locale = useLocale();
@@ -35,12 +78,13 @@ export default function CountryESimPlansPage() {
   const regions = searchParams.get( 'regions' );
 
   const [countryDetails, setCountryDetails] = useState(null);
-  const [esimPackages, setEsimPackages] = useState([]);
   const [allCountries, setAllCountries] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [showFilterPopover, setShowFilterPopover] = useState(false);
+  const [dataOptions, setDataOptions] = useState([]);
+  const [validityDaysOptions, setValidityDaysOptions] = useState([]);
   const searchInputRef = useRef(null);
   const popoverRef = useRef(null);
 
@@ -52,7 +96,30 @@ export default function CountryESimPlansPage() {
   const tbaner = useTranslations('travelESimPage');
 
     const { showDevicesEsim } = useMyEsim();
-  const {addToCart, setSims}= useUserActions()
+
+  const filterPackagesBySelection = useCallback(async (dataKey, validityDays) => {
+    if (!countryDetails) return [];
+
+    const packageQuery = new URLSearchParams({
+      limit: '50',
+      page: '1',
+      package_type: 'NEW_ESIM',
+      min_validity_days: String(validityDays),
+      max_validity_days: String(validityDays),
+    });
+    packageQuery.set('region_id', String(countryDetails.id));
+
+    const numericData = String(dataKey).match(/^(\d+(?:\.\d+)?)-(GB|MB)$/i);
+    if (numericData) {
+      const [, amount, unit] = numericData;
+      packageQuery.set('min_data', amount);
+      packageQuery.set('max_data', amount);
+      packageQuery.set('data_unit', unit.toUpperCase());
+    }
+
+    const packageItems = await fetchAllBssPackagePages(packageQuery);
+    return packageItems.map((pkg) => adaptPublicV2Package(pkg, countryDetails));
+  }, [countryDetails]);
 
   useEffect(() => {
     trackPageView({ page_title: `eSIM ${countrySlug} - Chọn gói cước` });
@@ -66,14 +133,8 @@ export default function CountryESimPlansPage() {
   }, [typeParam]);
 
   useEffect(() => {
-    if (!countrySlug || activeTab !== 'national') {
-      // Only fetch if we have a slug and the national tab is active
-      // For regional/global, data comes from the main travel-esim page or another source
-      if (activeTab !== 'national') {
-        setEsimPackages([]); // Clear packages if not on national tab
-        setCountryDetails(null);
-        setIsLoading(false);
-      }
+    const regionType = getRegionTypeForTab(activeTab);
+    if (!countrySlug || !regionType) {
       return;
     }
 
@@ -81,20 +142,19 @@ export default function CountryESimPlansPage() {
       setIsLoading(true);
       setError(null);
       setCountryDetails(null);
-      setEsimPackages([]);
 
       try {
-        // 1. Fetch all countries to find the ID and details
-        const countriesApiUrl = `${process.env.NEXT_PUBLIC_API_BASE_URL}/app/get-regions-by-type/v2/${regions}`;
-        const countriesResponse = await axios.get( countriesApiUrl );
+        // 1. Fetch the selected country, region, or global destination through
+        // the BFF so the Public v2 JWT remains server-only.
+        const countriesResponse = await axios.get(`/api/bss/regions?type=${regionType}&channel=BSS`);
 
         let foundCountry = null;
-        if (countriesResponse.data && countriesResponse.data.code === 200 && Array.isArray(countriesResponse.data.result)) {
+        if (countriesResponse.data?.success && Array.isArray(countriesResponse.data.data)) {
           // Store all countries for search filter
-          setAllCountries(countriesResponse.data.result);
+          setAllCountries(countriesResponse.data.data);
 
-          foundCountry = countriesResponse.data.result.find(
-            (country) => country.code && country.code.toLowerCase() === countrySlug.toLowerCase()
+          foundCountry = countriesResponse.data.data.find((country) =>
+            String(country.code || country.id).toLowerCase() === countrySlug.toLowerCase(),
           );
         } else {
           throw new Error(countriesResponse.data.message || 'Không thể tải danh sách quốc gia hoặc định dạng không hợp lệ');
@@ -107,66 +167,37 @@ export default function CountryESimPlansPage() {
         }
         setCountryDetails(foundCountry);
 
-        // 2. Fetch eSIM packages for the found country ID
-        const packagesApiUrl = `${process.env.NEXT_PUBLIC_API_BASE_URL}/app/v2/get-esim-package-by-region/${foundCountry.id}`;
-        const packagesResponse = await axios.get(packagesApiUrl);
-
-        if (packagesResponse.data && packagesResponse.data.code === 200 && Array.isArray(packagesResponse.data.result)) {
-          const packages = packagesResponse.data.result;
-          setEsimPackages(packages);
-
-          trackProductListView({
-            item_list_name: `eSIM ${foundCountry.name}`,
-            item_count: packages.length,
-            filters: {
-              country_code: countrySlug,
-              country_name: foundCountry.name,
-              region_type: regions,
-            },
-          });
-
-          if (packages.length > 0) {
-            trackProductView({
-              product_id: packages[0].variant_id,
-              product_name: packages[0].name,
-              product_category: `eSIM/${foundCountry.name}`,
-              product_price: packages[0].selling_price,
-              currency: packages[0].currency || 'USD',
-            }, {
-              funnel_name: 'esim_purchase',
-              funnel_step: 1,
-              funnel_step_name: 'Product View',
-              event_params: {
-                country_code: countrySlug,
-                country_name: foundCountry.name,
-                total_packages: packages.length,
-              },
-            });
-          }
-        } else if (packagesResponse.data && packagesResponse.data.code !== 200) {
-           throw new Error(packagesResponse.data.message || `Lỗi khi tải gói: Mã ${packagesResponse.data.code}`);
-        } else {
-          console.warn('Không tìm thấy gói hoặc cấu trúc phản hồi API gói không mong đợi:', packagesResponse.data);
-          setEsimPackages([]);
-        }
+        const [dataOptionsResult, validityDaysResult] = await Promise.allSettled([
+          axios.get(`/api/bss/packages/data-options?region_id=${foundCountry.id}`),
+          axios.get(`/api/bss/packages/validity-days?region_id=${foundCountry.id}`),
+        ]);
+        const nextDataOptions =
+          dataOptionsResult.status === 'fulfilled' && Array.isArray(dataOptionsResult.value.data?.data)
+            ? dataOptionsResult.value.data.data
+            : [];
+        const nextValidityDaysOptions =
+          validityDaysResult.status === 'fulfilled' && Array.isArray(validityDaysResult.value.data?.data)
+            ? validityDaysResult.value.data.data
+            : [];
+        setDataOptions(nextDataOptions);
+        setValidityDaysOptions(nextValidityDaysOptions);
 
       } catch (err) {
         console.error("Lỗi khi tải dữ liệu eSIM quốc gia cho slug:", countrySlug, err);
         // Use tCommon for generic error messages
-        setError(err.message || tCommon('errorFetchingData'));
+        setError(err.response?.data?.message || err.message || tCommon('errorFetchingData'));
       } finally {
         setIsLoading(false);
       }
     };
 
     fetchCountryAndPackages();
-  // Depend on countrySlug and activeTab. Add tPage, tCommon if their instances change.
   }, [countrySlug, activeTab, locale, tPage, tCommon]);
 
   // Filter countries based on search term for popover
   const filteredCountries = allCountries.filter(country =>
     country.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
-    country.code.toLowerCase() !== countrySlug.toLowerCase() // Exclude current country
+    String(country.code || country.id).toLowerCase() !== countrySlug.toLowerCase() // Exclude current country
   );
 
   // Handle click outside popover to close it
@@ -236,7 +267,7 @@ export default function CountryESimPlansPage() {
         {countries.map(country => (
           <Link
             key={country.id}
-            href={`/esim/${country.code.toLowerCase()}?regions=${regions}&src=${viewSrc}`}
+          href={`/esim/${String(country.code || country.id).toLowerCase()}?type=${activeTab}&regions=${getRegionTypeForTab(activeTab)}&src=${viewSrc}`}
             className="block"
             onClick={() => handlePopoverItemClick(country)}
           >
@@ -244,7 +275,7 @@ export default function CountryESimPlansPage() {
               {country.code && (
                 <div className="w-[40px] h-[30.5px] relative flex-shrink-0">
                   <img
-                    src={country.icon ?? `/assets/flags/${country.code.toLowerCase()}.png`}
+                    src={getCountryFlagUrl(country) || `/assets/flags/${country.code.toLowerCase()}.png`}
                     alt={country.name}
                     className="rounded-[4px] border object-cover border-[#F1F1F1] w-full h-full"
                     onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -264,62 +295,21 @@ export default function CountryESimPlansPage() {
     );
   };
 
-  // countryName is now derived from countryDetails state
-  const countryName = countryDetails ? countryDetails.name : countrySlug; //
-
-  const onBuyNowClick = async ( plan, quantity, type ) => {
-    console.log(type)
-
-    const trackPayload = {
-      product_id: plan.variant_id,
-      product_name: plan.name,
-      product_category: `eSIM/${countryName}`,
-      product_price: plan.selling_price,
-      product_quantity: quantity,
-      currency: plan.currency || 'USD',
-    };
-
-    if ( type == 'cart' ) {
-      console.log("Thêm vào giỏ hàng:", plan, quantity);
-
-      trackAddToCart(trackPayload, {
-        event_params: {
-          country_code: countrySlug,
-          button_location: 'esim_plan_card',
-          added_from: 'add_to_cart_button',
-        },
-      });
-
-       const result = await addToCart( convertSimTravelToCart( plan, quantity ));
-          console.log('kết quả', result );
-          if ( result === 'MAX_QUANTITY' ) {
-            showModalMess( {
-                label: tCommon("notification"),
-                message: tCommon("maxQuantity",{quantity:50}),
-                type: 'error',
-            } );
-      }
-      return;
-    }
-
-    trackAddToCart(trackPayload, {
-      event_params: {
-        country_code: countrySlug,
-        button_location: 'esim_plan_card',
-        added_from: 'buy_now_button',
-      },
-    });
+  const onBuyNowClick = (plan, quantity) => {
     trackBeginCheckout({
       cart_total: plan.selling_price * quantity,
       currency: plan.currency || 'USD',
       items: [{ product_id: plan.variant_id, product_name: plan.name, quantity, price: plan.selling_price }],
     });
-
-    setSims( [ convertSimTravel( plan, quantity ) ] );
-    router.push( `/${locale}/checkout/payment?src=${viewSrc}` );
-    return;
-
-  }
+    window.sessionStorage.setItem('bssCheckoutItem', JSON.stringify({
+      package_id: plan.package_id,
+      quantity,
+      name: plan.name,
+      validity_days: plan.validity_days,
+      currency: plan.currency,
+    }));
+    router.push(`/${locale}/checkout/bss?packageId=${plan.package_id}&src=${viewSrc}`);
+  };
 
   return (
     <div className="flex flex-col min-h-screen bg-[#F5F5F5]">
@@ -429,9 +419,7 @@ export default function CountryESimPlansPage() {
               { id: 'regional', labelKey: 'travelESimPage.tabRegional' },
               { id: 'global', labelKey: 'travelESimPage.tabGlobal' },
             ].map( tab => {
-              const link = tab.id === "global"
-                  ? `/${locale}/esim/global?regions=GLOBAL&src=${viewSrc}`
-                  : `/${locale}/travel-esim/?type=${tab.id}&src=${viewSrc}`;
+              const link = `/${locale}/travel-esim/?type=${tab.id}&src=${viewSrc}`;
               return (
                 <Link
                   key={ tab.id }
@@ -472,8 +460,7 @@ export default function CountryESimPlansPage() {
                   </p>}
             <h2 className="font-inter font-semibold text-[24px] md:text-[28px] text-[#333]">
               {/* Display country name from state, fallback if still loading */}
-              {isLoading && activeTab === 'national' ? tCommon('loading') : (countryDetails ? (countryDetails?.name === 'Global'?t('travelESimPage.globalTitle'): countryDetails?.name): countrySlug) }
-              {activeTab !== 'national' && t(activeTab === 'regional' ? 'travelESimPage.tabRegional' : 'travelESimPage.tabGlobal')}
+              {isLoading ? tCommon('loading') : (countryDetails?.name || countrySlug)}
             </h2>
           </div>
 
@@ -488,37 +475,15 @@ export default function CountryESimPlansPage() {
             </div>
           )}
 
-          {!isLoading && !error && activeTab === 'national' && countryDetails && (
-            esimPackages.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-[24px]">
-                {esimPackages.map(plan => {
-                  let nameRegion = plan?.countries_array[0]?.title || countryName;
-                  let flagUrl = plan.countries_array[0]?.image || '/assets/flags/default.png';
-                  const adaptedPlan = {
-                    id: plan.variant_id,
-                    name: plan.name,
-                    data: `${plan.data_amount} ${plan.data_unit}${dailySuffix(plan, tCommon('perDay'))}`,
-                    validity: plan.validity_days,
-                    price: new Intl.NumberFormat(locale, { style: 'currency', currency: plan.currency || 'USD' }).format(plan.selling_price),
-                    currency: plan.currency || 'USD',
-                    detailsLink: `/${ locale }/checkout?planId=${ plan.variant_id }&src=${viewSrc}`,
-                    countryName: nameRegion,
-                    countryFlagUrl : flagUrl,
-                    provider : plan.provider,
-                    countries_array:plan.countries_array
-                  };
-                  return <PlanCard key={plan.variant_id} plan={adaptedPlan} locale={locale} tPage={tPage} onBuyNowClick={onBuyNowClick} sim={plan} />;
-                })}
-              </div>
-            ) : (
-              <p className='text-neutral-800'>{tPage('countryNotFound')}</p>
-            )
-          )}
-          {activeTab === 'regional' && !isLoading && (
-            <div className="text-center py-[40px] text-[#666]">{t('travelESimPage.regionalComingSoon')}</div>
-          )}
-          {activeTab === 'global' && !isLoading && (
-            <div className="text-center py-[40px] text-[#666]">{t('travelESimPage.globalComingSoon')}</div>
+          {!isLoading && !error && countryDetails && (
+            <BssPackageSelector
+              country={countryDetails}
+              dataOptions={dataOptions}
+              validityDaysOptions={validityDaysOptions}
+              locale={locale}
+              onBuyNow={onBuyNowClick}
+              onFilterPackages={filterPackagesBySelection}
+            />
           )}
         </div>
       </main>
