@@ -2,6 +2,7 @@
   "name": "skyfi-web",
   "version": "0.1.0",
   "private": true,
+  "comment_react_qr_reader": "Disabled temporarily: peer only React 16/17, conflicts with React 19 (ERESOLVE); unused in src — QR uses @yudiel/react-qr-scanner",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -28,7 +29,6 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.56.3",
-    "react-qr-reader": "^3.0.0-beta-1",
     "react-select": "^5.10.1",
     "react-signature-canvas": "^1.1.0-alpha.2",
     "react-slick": "^0.30.3",
